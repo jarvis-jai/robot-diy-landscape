@@ -1,10 +1,10 @@
 {
-  "last_focus": "learning",
+  "last_focus": "communities",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
-    "communities (探索 Robotics Stack Exchange)",
-    "chinese_ecosystem (探索更多繁中資源)"
+    "chinese_ecosystem (探索更多繁中資源)",
+    "gaps 深化 (補充更多佐證)"
   ],
   "focus_history": [
     {
@@ -237,6 +237,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 34: Added 8 advanced learning resources via awesome-robotics discovery - Underactuated Robotics (MIT), Intro to Autonomous Robots (MIT Press), Modern Robotics (Northwestern), Planning Algorithms (LaValle), UC Berkeley CS287, Modern Robotics Coursera, Awesome Robotics, Awesome ROS2. Learning now at 25/15."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "communities",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 35: Added 7 communities (Robotics Stack Exchange, RobotShop Community, ESP32 Forum, EEVblog Forum, All About Circuits, SparkFun Community, element14 Community) + 1 learning (Random Nerd Tutorials). Communities now at 25/15. Meta status update (every 5 rounds)."
     }
   ]
 }

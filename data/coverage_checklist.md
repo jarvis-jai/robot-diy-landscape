@@ -8,12 +8,12 @@
 
 | 類別 | 目標 | 目前 | 狀態 |
 |------|------|------|------|
-| communities.md | ≥15 | 18 | ✅ |
+| communities.md | ≥15 | 25 | ✅ |
 | platforms.md | ≥15 | 16 | ✅ |
 | toolchains.md | ≥10 | 25 | ✅ |
 | hardware.md | ≥15 | 19 | ✅ |
 | kits.md | ≥10 | 18 | ✅ |
-| learning.md | ≥15 | 25 | ✅ |
+| learning.md | ≥15 | 26 | ✅ |
 | commerce.md | ≥10 | 16 | ✅ |
 | creators.md | ≥10 | 12 | ✅ |
 | chinese_ecosystem.md | ≥10 | 11 | ✅ |

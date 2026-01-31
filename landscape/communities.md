@@ -386,4 +386,144 @@
 
 ---
 
-*條目數：18 / 目標：15*
+### Robotics Stack Exchange
+
+- **Name**：Robotics Stack Exchange
+- **Type**：Forum / Q&A
+- **Primary language**：English
+- **一句話定位**：Stack Exchange 旗下的機器人技術問答社區，專注於專業技術討論
+- **強項（≤3）**：
+  - 問答格式清晰，投票機制篩選高品質答案
+  - 熱門標籤涵蓋 ros/ros2、navigation、slam、gazebo、moveit 等核心主題
+  - 與 Stack Overflow 生態整合，可跨站搜尋相關程式問題
+- **弱項/缺口（≤3，可觀察）**：
+  - 門檻較高，需有一定技術背景才能有效提問
+  - 無中文內容
+  - 相較 r/robotics 社群氛圍較嚴肅
+- **活躍度訊號**：21,375+ ros 標籤問題，每日有新問答活動（2026-01），Chat 功能持續運作
+- **與我們的關聯（一句話）**：ROS/機器人技術問題的專業問答資源，適合進階開發者
+- **Link(s)**：https://robotics.stackexchange.com/
+
+---
+
+### RobotShop Community
+
+- **Name**：RobotShop Community
+- **Type**：Forum / Project Hub
+- **Primary language**：English
+- **一句話定位**：RobotShop 官方社區平台，整合論壇、教程、機器人展示與部落格
+- **強項（≤3）**：
+  - 大型社區：139,848 總會員、47,764 論壇帖子、3,453 機器人專案
+  - 多元內容：87 篇教程、2,152 篇部落格、排行榜與徽章系統
+  - 有 Slack Chat 提供即時交流，整合購物生態
+- **弱項/缺口（≤3，可觀察）**：
+  - 偏向 RobotShop 產品生態系
+  - 無中文介面
+  - 部分教程更新較慢（最近 trending 為 19-24 週前）
+- **活躍度訊號**：持續更新，有活躍的專案展示（2026-01 有 ROS2 機器人專案分享）
+- **與我們的關聯（一句話）**：購買機器人零件同時學習的一站式社區，適合中階 DIY 愛好者
+- **Link(s)**：https://community.robotshop.com/
+
+---
+
+### ESP32 Forum
+
+- **Name**：ESP32 Forum (Espressif Official)
+- **Type**：Forum
+- **Primary language**：English（有中文分區）
+- **一句話定位**：Espressif 官方 ESP32 論壇，涵蓋技術支援、專案分享與生態討論
+- **強項（≤3）**：
+  - 官方維護，權威性高，可獲得原廠回應
+  - 規模龐大：36,574 Topics、128,992 Posts（English Forum）
+  - 有中文分區（Chinese Forum），降低語言門檻
+- **弱項/缺口（≤3，可觀察）**：
+  - 專注於 ESP32 生態，非純機器人導向
+  - 介面較傳統（phpBB 風格）
+  - 需註冊才能發文
+- **活躍度訊號**：每日數十則新帖，官方工程師定期回應（2026-01）
+- **與我們的關聯（一句話）**：ESP32 是機器人無線通訊的主力晶片，這是官方技術支援入口
+- **Link(s)**：https://www.esp32.com/
+
+---
+
+### EEVblog Forum
+
+- **Name**：EEVblog Electronics Community Forum
+- **Type**：Forum
+- **Primary language**：English
+- **一句話定位**：電子愛好者與專業人士的開放論壇，涵蓋設計、測量與 DIY 專案
+- **強項（≤3）**：
+  - 規模巨大：Beginners 版 432,272 帖子 / 37,450 主題
+  - 自稱「Free & Open Forum For Electronics Enthusiasts & Professionals」
+  - 有完整的分類系統：Electronics、Test Equipment、General 等
+- **弱項/缺口（≤3，可觀察）**：
+  - 介面較傳統（SMF 論壇風格）
+  - 主要針對電子工程，機器人專題不明顯
+  - 無中文介面
+- **活躍度訊號**：每日活躍（Today 有新帖），持續運營多年
+- **與我們的關聯（一句話）**：電子電路設計與測量的深度資源，機器人 DIY 必備基礎
+- **Link(s)**：https://www.eevblog.com/forum/
+
+---
+
+### All About Circuits Forum
+
+- **Name**：All About Circuits Forum
+- **Type**：Forum
+- **Primary language**：English
+- **一句話定位**：EETech 旗下的電子工程論壇，整合文章、教程與社群討論
+- **強項（≤3）**：
+  - 整合 Maker.pro、Control.com 等姊妹站，資源豐富
+  - 有完整的 Education 資源（線上教材、模擬工具）
+  - 定期舉辦 Summit Series 活動與 Giveaways
+- **弱項/缺口（≤3，可觀察）**：
+  - 介面現代但有廣告干擾
+  - 機器人專題不如電子通用主題明顯
+  - 無中文介面
+- **活躍度訊號**：每日有新討論，定期活動（2026-01 有 Summit Series 預告）
+- **與我們的關聯（一句話）**：電子工程教育與社群的綜合平台，適合補強電路基礎
+- **Link(s)**：https://forum.allaboutcircuits.com/
+
+---
+
+### SparkFun Community
+
+- **Name**：SparkFun Community
+- **Type**：Forum
+- **Primary language**：English
+- **一句話定位**：SparkFun 官方社區論壇，涵蓋 GPS、開發板、感測器與機器人討論
+- **強項（≤3）**：
+  - 有專門的 Robotics 分類
+  - 完整的分類系統：GPS/GNSS、Development Boards、Sensors、Wireless & IoT、Qwiic System
+  - 整合 SparkFun 教程與產品生態
+- **弱項/缺口（≤3，可觀察）**：
+  - 偏向 SparkFun 產品生態
+  - 社群規模較 RobotShop Community 小
+  - 無中文介面
+- **活躍度訊號**：Discourse 平台，持續有新討論（2026-01）
+- **與我們的關聯（一句話）**：SparkFun 產品的技術支援社群，Qwiic 生態系使用者必備
+- **Link(s)**：https://community.sparkfun.com/
+
+---
+
+### element14 Community
+
+- **Name**：element14 Community
+- **Type**：Forum / Project Hub
+- **Primary language**：English
+- **一句話定位**：Avnet 旗下的電子工程社區，整合學習、挑戰賽與專案分享
+- **強項（≤3）**：
+  - 有 Challenges & Projects 區，定期舉辦設計挑戰（如 AMD Kria KR260 機器人套件推廣）
+  - 整合 Learning Center、Tech Connection 教育資源
+  - 有 element14 Presents 影片系列
+- **弱項/缺口（≤3，可觀察）**：
+  - 偏向 element14 產品採購生態
+  - 介面較複雜
+  - 無中文介面
+- **活躍度訊號**：持續活躍，2026-01 有新影片發布，定期維護公告
+- **與我們的關聯（一句話）**：電子元件採購商的官方社區，設計挑戰賽是進階專案的好起點
+- **Link(s)**：https://community.element14.com/
+
+---
+
+*條目數：25 / 目標：15 ✅*

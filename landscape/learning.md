@@ -529,4 +529,24 @@
 
 ---
 
-*條目數：25 / 目標：15 ✅*
+### Random Nerd Tutorials
+
+- **Name**：Random Nerd Tutorials
+- **Type**：Tutorial Platform / Blog
+- **Primary language**：English（部分教程有社群翻譯）
+- **一句話定位**：ESP32/ESP8266/Arduino/Raspberry Pi 的免費教程平台，專注於 IoT 與 Home Automation
+- **強項（≤3）**：
+  - 龐大的教程庫：600+ 免費教程，涵蓋 ESP32、ESP8266、Arduino、Raspberry Pi
+  - 步驟詳細，附完整程式碼與電路圖，適合初學者複製專案
+  - 有付費課程（Learn ESP32、Smart Home 等）提供系統化學習路徑
+- **弱項/缺口（≤3，可觀察）**：
+  - 偏向 IoT/Home Automation，純機器人專題較少
+  - 無中文介面或官方翻譯
+  - 部分進階課程需付費（$14-49）
+- **活躍度訊號**：持續更新（2013 年創立至今），每週有新教程，有活躍的 Newsletter
+- **與我們的關聯（一句話）**：ESP32/Arduino 入門的首選教程網站，IoT 機器人專案的實作參考
+- **Link(s)**：https://randomnerdtutorials.com/
+
+---
+
+*條目數：26 / 目標：15 ✅*
