@@ -13,9 +13,9 @@
 | toolchains.md | ≥10 | 39 | ✅ |
 | hardware.md | ≥15 | 26 | ✅ |
 | kits.md | ≥10 | 26 | ✅ |
-| learning.md | ≥15 | 29 | ✅ |
+| learning.md | ≥15 | 34 | ✅ |
 | commerce.md | ≥10 | 24 | ✅ |
-| creators.md | ≥10 | 28 | ✅ |
+| creators.md | ≥10 | 31 | ✅ |
 | chinese_ecosystem.md | ≥10 | 19 | ✅ |
 
 狀態圖例：
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 45 輪 communities_international — 新增 8 個非英語社群：Mikrocontroller.net (DE), Robot-Maker (FR), Framboise314 (FR), Qiita (JP), Zenn (JP), Raspberry Pi France (FR), Raspberryme (FR), Pololu Forum）*
+*最後更新：2026-01-31 （第 46 輪 learning_creators_2025 — 新增 5 learning + 3 creators：NVIDIA Robotics Learning Path, HuggingFace LeRobot Tutorial, roboticsjobs.co.uk guide, Embodied AI Workshop, NVIDIA Omniverse Sim-to-Real, Kevin Wood, Nikodem Bartnik, The Construct Jazzy 2025）*

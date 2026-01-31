@@ -584,4 +584,65 @@
 
 ---
 
-*條目數：28 / 目標：10 ✅*
+### Kevin Wood | Robotics & AI
+
+- **Name**：Kevin Wood | Robotics & AI
+- **Type**：YouTube + Website
+- **Primary language**：English
+- **一句話定位**：美國機器人工程師兼教育者，專注於 ROS 2、機器人致動器、電腦視覺與 AI 的系統化教學
+- **強項（≤3）**：
+  1. 課程體系完整：1026+ 部影片涵蓋 ROS 2、OpenCV、SolidWorks、Python、C++、電子學
+  2. 配套網站（kevinwoodrobotics.com）提供付費課程和免費資源
+  3. 實戰專案豐富：人形機器人手臂、行星齒輪致動器、BLDC 馬達控制
+- **弱項/缺口（≤3，可觀察）**：
+  1. 部分進階內容需付費會員
+  2. 更新頻率高但影片長度較短（多為 5-15 分鐘）
+  3. 偏向硬體與低層控制，系統整合較少
+- **活躍度訊號**：5.28 萬訂閱者、1026 部影片、1200+ 萬觀看次數、2020 年加入、2026-01 持續更新（數天前）
+- **與我們的關聯（一句話）**：ROS 2 和機器人致動器教學的新興高品質創作者，填補中階技術缺口
+- **Link(s)**：https://www.youtube.com/@kevinwoodrobotics / https://kevinwoodrobotics.com/
+
+---
+
+### Nikodem Bartnik
+
+- **Name**：Nikodem Bartnik
+- **Type**：YouTube
+- **Primary language**：English (波蘭裔)
+- **一句話定位**：波蘭機械工程師兼創客，專注於 CNC、機器人專案和 NVIDIA Isaac Sim 教學
+- **強項（≤3）**：
+  1. Isaac Sim 深度教程：「Isaac Sim & Isaac Lab: Full Guide」59 分鐘完整課程，9.8 萬觀看
+  2. 開源專案：IndyMill CNC、3D 列印機器人專案
+  3. 製作品質高：專業級影片製作、清晰的講解風格
+- **弱項/缺口（≤3，可觀察）**：
+  1. 更新頻率中等（專注深度內容）
+  2. 主要為英語內容，無中文字幕
+  3. 偏向模擬與製造，感測器整合較少
+- **活躍度訊號**：YouTube 持續活躍、Isaac Sim 教程熱門（9.8 萬觀看）、2025 年有新作品
+- **與我們的關聯（一句話）**：學習 NVIDIA Isaac Sim/Lab 的首選 YouTube 創作者，直接填補 Gap #9
+- **Link(s)**：https://www.youtube.com/watch?v=tQziqSx-F80 / https://www.youtube.com/@NikodemBartnik
+
+---
+
+### The Construct Robotics Institute
+
+- **Name**：The Construct Robotics Institute
+- **Type**：YouTube + Online Platform
+- **Primary language**：English（支援西班牙語）
+- **一句話定位**：ROS 官方培訓合作夥伴，提供最完整的 ROS 2 線上課程和雲端模擬環境
+- **強項（≤3）**：
+  1. ROS 官方認證：Open Robotics 官方培訓合作夥伴
+  2. 雲端模擬環境：無需本地安裝即可學習 ROS 2 和 Gazebo
+  3. 2025 年更新：「Learn ROS2 Jazzy Crash Course 2025」4 小時免費課程
+- **弱項/缺口（≤3，可觀察）**：
+  1. 完整課程需付費訂閱
+  2. 雲端環境可能有延遲
+  3. 中文支援有限
+- **活躍度訊號**：YouTube 持續更新、ROS2 Jazzy 課程 2025-03-13 發布、官方平台 10 萬+ 學員
+- **與我們的關聯（一句話）**：學習 ROS 2 的最權威管道，2025 Jazzy 課程直接填補學習資源缺口
+- **2026-01-31 補強**：新增 2025 年 ROS2 Jazzy Crash Course（4 小時免費課程）資訊
+- **Link(s)**：https://www.youtube.com/watch?v=Se5pvRlTX8s / https://www.theconstruct.ai/
+
+---
+
+*條目數：31 / 目標：10 ✅*

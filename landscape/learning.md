@@ -609,4 +609,104 @@
 
 ---
 
-*條目數：29 / 目標：15 ✅*
+### NVIDIA Robotics Fundamentals Learning Path
+
+- **Name**：NVIDIA Robotics Fundamentals Learning Path
+- **Type**：Self-Paced Course / Learning Path
+- **Primary language**：English
+- **一句話定位**：NVIDIA 官方免費機器人學習路徑，涵蓋 Isaac Sim、Isaac Lab、Isaac ROS 的完整入門系統
+- **強項（≤3）**：
+  - 官方免費課程：完全免費的自學路徑，由 NVIDIA 官方製作
+  - 系統化結構：Robotics Foundations → Isaac Sim → Isaac Lab → Isaac ROS → Healthcare 應用
+  - 即時更新：2025 年活躍更新，與最新 Isaac 生態系統同步
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 NVIDIA GPU（部分課程對硬體要求較高）
+  - 無中文版本
+  - 偏向 NVIDIA 生態系統，與開源工具整合較少
+- **活躍度訊號**：NVIDIA 官方持續更新，2025 年活躍發布新課程
+- **與我們的關聯（一句話）**：學習 NVIDIA Isaac 機器人模擬與 AI 開發的首選官方免費資源
+- **Link(s)**：https://www.nvidia.com/en-us/learn/learning-path/robotics/
+
+---
+
+### HuggingFace LeRobot Tutorial
+
+- **Name**：Robot Learning: A Tutorial (LeRobot)
+- **Type**：Interactive Tutorial / Hugging Face Space
+- **Primary language**：English
+- **一句話定位**：HuggingFace 官方 Robot Learning 教程，解釋機器學習如何革命性地改變機器人開發
+- **強項（≤3）**：
+  - 官方教程：LeRobot 團隊製作，與 LeRobot 框架直接整合
+  - 概念清晰：從數據驅動 vs 規則驅動、模仿學習到端到端訓練的完整解釋
+  - 互動式：基於 Hugging Face Spaces，可直接體驗
+- **弱項/缺口（≤3，可觀察）**：
+  - 偏向概念介紹，實操環節較少
+  - 無中文版本
+  - 需要對 ML 有基本理解
+- **活躍度訊號**：2025-10-15 發布，LeRobot 官方維護
+- **與我們的關聯（一句話）**：理解 Robot Learning 現代方法的官方入門教程，補充 Gap #3（AI 視覺整合）
+- **Link(s)**：https://huggingface.co/spaces/lerobot/robot-learning-tutorial
+
+---
+
+### roboticsjobs.co.uk Free Tools Guide 2025
+
+- **Name**：The Best Free Tools & Platforms to Practise Robotics Skills in 2025/26
+- **Type**：Resource Guide / Article
+- **Primary language**：English
+- **一句話定位**：針對英國/國際求職者的免費機器人工具綜合指南，涵蓋 10+ 開源工具與模擬器
+- **強項（≤3）**：
+  - 實用導向：從求職/技能發展角度介紹工具，貼近真實需求
+  - 覆蓋全面：Webots、ROS、Gazebo、Open-RMF、Isaac Sim、MoveIt、MRPT、AMBF、RoboGym、PyCub
+  - 2025 年更新：反映最新工具版本和生態系統狀態
+- **弱項/缺口（≤3，可觀察）**：
+  - 偏向英國市場，部分資訊可能不適用於其他地區
+  - 深度有限，每個工具僅概述
+  - 無中文版本
+- **活躍度訊號**：2025-09-11 發布，roboticsjobs.co.uk 維護
+- **與我們的關聯（一句話）**：快速了解 2025 年主流免費機器人開發工具的實用指南
+- **Link(s)**：https://roboticsjobs.co.uk/career-advice/the-best-free-tools-platforms-to-practise-robotics-skills-in-2025-26
+
+---
+
+### Embodied AI Workshop (CVPR)
+
+- **Name**：Embodied AI Workshop
+- **Type**：Academic Workshop / Conference
+- **Primary language**：English
+- **一句話定位**：CVPR 年度 Embodied AI 研討會，彙集頂尖學術研究與產業實踐
+- **強項（≤3）**：
+  - 學術前沿：CVPR 頂級會議子研討會，展示最新 Embodied AI 研究
+  - 挑戰賽平台：包含導航、操控、視覺問答等競賽，推動技術發展
+  - 社群聚集：學術界與產業界交流的重要平台
+- **弱項/缺口（≤3，可觀察）**：
+  - 學術導向，對工程實作者可能較難消化
+  - 會議式更新，非持續性資源
+  - 需要 CS/ML 研究背景才能充分理解
+- **活躍度訊號**：每年 CVPR 舉辦，2025 Nashville（6月12日）、2026 持續
+- **與我們的關聯（一句話）**：追蹤 Embodied AI 學術前沿的重要會議，了解未來技術方向
+- **Link(s)**：https://embodied-ai.org/
+
+---
+
+### NVIDIA Omniverse Sim-to-Real Tutorial
+
+- **Name**：Simulation to Real Robotics with Isaac Sim and Isaac Lab
+- **Type**：YouTube Tutorial / Video Course
+- **Primary language**：English
+- **一句話定位**：NVIDIA Omniverse 官方 Sim-to-Real 教程，展示從模擬到實機部署的完整工作流程
+- **強項（≤3）**：
+  - 官方權威：NVIDIA Omniverse 團隊製作，展示最佳實踐
+  - 1小時12分鐘深度：涵蓋 Domain Randomization、RL/IL 訓練工作流程
+  - 最新內容：2026-01-29 發布（2天前），反映最新技術棧
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 NVIDIA GPU 和 Isaac Sim 環境
+  - 偏向進階用戶，有一定學習門檻
+  - 無中文字幕
+- **活躍度訊號**：2026-01-29 發布，觀看次數 660+，NVIDIA Omniverse 官方頻道維護
+- **與我們的關聯（一句話）**：直接對應 Gap #9（Sim-to-Real 過渡教程缺乏）的官方解決方案
+- **Link(s)**：https://www.youtube.com/watch?v=sffNvv3GkRA
+
+---
+
+*條目數：34 / 目標：15 ✅*
