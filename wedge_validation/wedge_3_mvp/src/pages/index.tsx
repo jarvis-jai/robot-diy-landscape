@@ -38,7 +38,11 @@ type Locale = 'en' | 'zh-TW';
 // SEO 配置
 const SEO_CONFIG = {
   siteUrl: 'https://robotics-onramp.vercel.app',
-  defaultImage: '/og-image.png',
+  defaultImage: '/og-image.png',  // English default
+  ogImages: {
+    'en': '/og-image.png',
+    'zh-TW': '/og-image-zh.png'
+  },
   twitterHandle: '@roboticsonramp',
   locale: {
     'en': 'en_US',
@@ -72,6 +76,7 @@ export default function Home() {
   const seoDescription = t.seo?.description || t.common.tagline;
   const seoKeywords = t.seo?.keywords || 'robotics, DIY, robot, learning, beginner, Arduino, ROS';
   const ogLocale = SEO_CONFIG.locale[locale];
+  const ogImage = SEO_CONFIG.ogImages[locale] || SEO_CONFIG.defaultImage;
   
   // JSON-LD 結構化數據
   const jsonLd = {
@@ -166,7 +171,7 @@ export default function Home() {
         <meta property="og:url" content={SEO_CONFIG.siteUrl} />
         <meta property="og:title" content={seoTitle} />
         <meta property="og:description" content={seoDescription} />
-        <meta property="og:image" content={`${SEO_CONFIG.siteUrl}${SEO_CONFIG.defaultImage}`} />
+        <meta property="og:image" content={`${SEO_CONFIG.siteUrl}${ogImage}`} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Robotics DIY Onramp - Find your path" />
@@ -179,7 +184,7 @@ export default function Home() {
         <meta name="twitter:url" content={SEO_CONFIG.siteUrl} />
         <meta name="twitter:title" content={seoTitle} />
         <meta name="twitter:description" content={seoDescription} />
-        <meta name="twitter:image" content={`${SEO_CONFIG.siteUrl}${SEO_CONFIG.defaultImage}`} />
+        <meta name="twitter:image" content={`${SEO_CONFIG.siteUrl}${ogImage}`} />
         <meta name="twitter:image:alt" content="Robotics DIY Onramp - Find your path" />
         
         {/* JSON-LD Structured Data */}

@@ -1,0 +1,118 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c4a6e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#075985;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0369a1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981" />
+      <stop offset="33%" style="stop-color:#0ea5e9" />
+      <stop offset="66%" style="stop-color:#8B5CF6" />
+      <stop offset="100%" style="stop-color:#F59E0B" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative Grid Pattern -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Decorative Circuit Lines -->
+  <g stroke="rgba(255,255,255,0.1)" stroke-width="2" fill="none">
+    <path d="M 0 200 Q 200 180 400 220 T 800 200 T 1200 180"/>
+    <path d="M 0 400 Q 300 380 600 420 T 1200 400"/>
+    <path d="M 100 0 Q 120 150 140 300 T 180 630"/>
+    <path d="M 1100 0 Q 1080 200 1060 400 T 1020 630"/>
+  </g>
+  
+  <!-- Path Color Dots (decorative) -->
+  <g opacity="0.6">
+    <!-- Wheeled - Green -->
+    <circle cx="180" cy="520" r="12" fill="#10B981"/>
+    <circle cx="220" cy="540" r="8" fill="#10B981" opacity="0.6"/>
+    
+    <!-- Arm - Purple -->
+    <circle cx="400" cy="550" r="10" fill="#8B5CF6"/>
+    <circle cx="360" cy="530" r="6" fill="#8B5CF6" opacity="0.6"/>
+    
+    <!-- Drone - Orange -->
+    <circle cx="580" cy="520" r="11" fill="#F59E0B"/>
+    <circle cx="620" cy="545" r="7" fill="#F59E0B" opacity="0.6"/>
+    
+    <!-- General - Blue -->
+    <circle cx="1000" cy="100" r="16" fill="#0ea5e9" opacity="0.4"/>
+    <circle cx="1080" cy="140" r="10" fill="#38bdf8" opacity="0.3"/>
+    <circle cx="950" cy="150" r="8" fill="#7dd3fc" opacity="0.2"/>
+  </g>
+  
+  <!-- Robot Icon (simplified) -->
+  <g transform="translate(900, 240)">
+    <rect x="0" y="0" width="180" height="180" rx="24" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <!-- Robot Face -->
+    <circle cx="60" cy="70" r="16" fill="#10B981"/>
+    <circle cx="120" cy="70" r="16" fill="#8B5CF6"/>
+    <rect x="40" y="110" width="100" height="8" rx="4" fill="url(#accentGradient)"/>
+    <!-- Antenna -->
+    <line x1="90" y1="0" x2="90" y2="-30" stroke="rgba(255,255,255,0.5)" stroke-width="3"/>
+    <circle cx="90" cy="-38" r="10" fill="#F59E0B"/>
+  </g>
+  
+  <!-- Main Content (Traditional Chinese) -->
+  <g>
+    <!-- Top Badge -->
+    <rect x="80" y="100" width="180" height="36" rx="18" fill="rgba(255,255,255,0.15)"/>
+    <text x="170" y="125" font-family="Noto Sans TC, Inter, system-ui, sans-serif" font-size="16" font-weight="500" fill="white" text-anchor="middle">🤖 免費學習工具</text>
+    
+    <!-- Main Title -->
+    <text x="80" y="220" font-family="Noto Sans TC, Inter, system-ui, sans-serif" font-size="64" font-weight="700" fill="white" filter="url(#glow)">
+      <tspan>機器人 DIY</tspan>
+    </text>
+    <text x="80" y="295" font-family="Noto Sans TC, Inter, system-ui, sans-serif" font-size="64" font-weight="700" fill="url(#accentGradient)">
+      <tspan>新手導航</tspan>
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="80" y="360" font-family="Noto Sans TC, Inter, system-ui, sans-serif" font-size="28" font-weight="400" fill="rgba(255,255,255,0.9)">
+      5 分鐘找到你的學習路徑
+    </text>
+    
+    <!-- Tagline -->
+    <text x="80" y="410" font-family="Noto Sans TC, Inter, system-ui, sans-serif" font-size="20" font-weight="400" fill="rgba(255,255,255,0.65)">
+      回答 5 個問題 → 獲得個人化推薦
+    </text>
+    
+    <!-- Path Tags -->
+    <g transform="translate(80, 450)">
+      <rect x="0" y="0" width="130" height="40" rx="20" fill="#10B981"/>
+      <text x="65" y="27" font-family="Noto Sans TC, Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="white" text-anchor="middle">🚗 輪式機器人</text>
+      
+      <rect x="145" y="0" width="120" height="40" rx="20" fill="#8B5CF6"/>
+      <text x="205" y="27" font-family="Noto Sans TC, Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="white" text-anchor="middle">🦾 機械手臂</text>
+      
+      <rect x="280" y="0" width="100" height="40" rx="20" fill="#F59E0B"/>
+      <text x="330" y="27" font-family="Noto Sans TC, Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="white" text-anchor="middle">🚁 無人機</text>
+      
+      <rect x="395" y="0" width="100" height="40" rx="20" fill="#6B7280"/>
+      <text x="445" y="27" font-family="Noto Sans TC, Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="white" text-anchor="middle">🤔 探索中</text>
+    </g>
+  </g>
+  
+  <!-- Bottom Accent Line -->
+  <rect x="0" y="620" width="1200" height="10" fill="url(#accentGradient)"/>
+  
+  <!-- URL Watermark -->
+  <text x="1120" y="590" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="rgba(255,255,255,0.4)" text-anchor="end">robotics-onramp.vercel.app</text>
+</svg>

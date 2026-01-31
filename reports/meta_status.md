@@ -1,36 +1,35 @@
-## Meta Status — 2026-01-31 01:55
+## Meta Status — 2026-01-31 02:05
 
-## 🔍 SEO 基礎設施完成（第 29 輪）
+## 📸 OG Image 設計完成（第 30 輪）
 
-**v1 於第 18 輪完成。第 19-29 輪進入驗證/開發階段。**
+**v1 於第 18 輪完成。第 19-30 輪進入驗證/開發階段。**
 
 | 維度 | 目標 | 實際 | 狀態 |
 |------|------|------|------|
 | Landscape 類別 | 9/9 | 9/9 | ✅ |
 | Gap Hypotheses | 10 | 10 | ✅ |
 | Opportunity Wedges | 3 | 3 | ✅ |
-| **Wedge #3 MVP** | Production Ready | **i18n ✅ + Responsive ✅ + SEO ✅** | ✅ |
+| **Wedge #3 MVP** | Production Ready | **i18n ✅ + Responsive ✅ + SEO ✅ + OG Image ✅** | ✅ |
 | 總條目數 | — | 136 | — |
-| 連續 ALLOW 輪數 | — | 29 | 🔥 |
+| 連續 ALLOW 輪數 | — | 30 | 🔥 |
 
 ---
 
 - **最近 focus 輪替摘要：**
   - 已覆蓋類別：全部 9/9 達標
-  - **🎯 第 29 輪：SEO 基礎設施完成 — MVP 部署就緒！**
+  - **🎯 第 30 輪：OG Image 設計完成 — 社交分享圖片就緒！**
   - 邊際產出下降的類別：暫無（開發模式）
   - 已達標項目：**9/9 landscape + 10 gaps + 3 wedges**
   - 本輪模式：**MVP 發布準備**
 
-- **本輪新增關鍵產出（第 29 輪 SEO Optimization）：**
-  1. **✅ _document.tsx** — Custom Document with html lang, preconnect, theme-color, author
-  2. **✅ Open Graph Tags** — og:title, og:description, og:image, og:url, og:locale
-  3. **✅ Twitter Card Tags** — summary_large_image card for Twitter sharing
-  4. **✅ JSON-LD Structured Data** — WebApplication schema for search engines
-  5. **✅ hreflang Tags** — Multilingual SEO for en/zh-TW
-  6. **✅ robots.txt + sitemap.xml** — Crawler guidance with hreflang support
-  7. **✅ manifest.json** — PWA compatibility
-  8. **✅ SEO Translations** — Optimized title/description/keywords for both languages
+- **本輪新增關鍵產出（第 30 輪 OG Image Design）：**
+  1. **✅ og-image.svg** — 英文版 SVG 原始設計
+  2. **✅ og-image-zh.svg** — 繁中版 SVG 原始設計
+  3. **✅ og-image.png** — 英文版 PNG (66 KB)
+  4. **✅ og-image-zh.png** — 繁中版 PNG (64 KB)
+  5. **✅ docs/og-image-spec.md** — 設計規格文件
+  6. **✅ scripts/convert-og-images.mjs** — SVG→PNG 轉換腳本
+  7. **✅ index.tsx** — 更新支援 locale 特定 OG Image
 
 - **穩定浮現的 gap patterns（≤3）：**
   1. **語言障礙**：中文圈（尤其繁體中文）、西班牙語圈的進階資源嚴重不足
@@ -40,14 +39,14 @@
 - **當前探索健康度：**
   - 重複率：N/A（本輪為開發，無新 URL 探索）
   - 新站命中率：N/A
-  - 是否出現疲乏跡象：**否**（連續 29 輪 ALLOW）
-  - **MVP 健康度**：✅ i18n + Responsive + SEO 皆完成
+  - 是否出現疲乏跡象：**否**（連續 30 輪 ALLOW）
+  - **MVP 健康度**：✅ i18n + Responsive + SEO + OG Image 皆完成
 
 - **對下一階段的建議策略：**
   - **立即**：Vercel 部署 → robotics-onramp.vercel.app（需人類操作登入）
-  - **短期**：OG Image 設計（1200x630 社交分享圖）
-  - **次選**：Wedge #2 Reddit 發布（需選擇活躍時段）
+  - **短期**：Wedge #2 Reddit 發布（需選擇活躍時段）
   - **暫停**：新條目探索（除非發現重大遺漏）
+  - **已完成**：~~OG Image 設計~~
 
 ---
 
@@ -62,27 +61,23 @@
 | ✅ 問卷 i18n | 完成 | 問題/選項/路徑名稱使用翻譯檔 |
 | ✅ 步驟詳情 i18n | 完成 | 17 步驟 title/goals/hardware 全部翻譯 |
 | ✅ 響應式設計 | 完成 | 4 斷點 + touch-friendly + accessibility |
-| ✅ SEO 優化 | **完成** | OG + Twitter + JSON-LD + hreflang + sitemap |
-| 🔲 OG Image | 待設計 | 1200x630 社交分享圖 |
+| ✅ SEO 優化 | 完成 | OG + Twitter + JSON-LD + hreflang + sitemap |
+| ✅ OG Image | **完成** | 雙語 SVG/PNG 設計（英文 66KB + 繁中 64KB）|
 | 🔲 Vercel 部署 | 待執行 | 需人類登入 Vercel 帳號 |
 | 🔲 Reddit 測試 | 待規劃 | r/AskRobotics 首發 |
 
 ---
 
-## SEO 實作清單
+## OG Image 設計規格
 
-| 項目 | 狀態 | 說明 |
-|------|------|------|
-| Basic Meta | ✅ | title, description, keywords, viewport, robots |
-| Canonical URL | ✅ | https://robotics-onramp.vercel.app |
-| Open Graph | ✅ | og:type, og:url, og:title, og:description, og:image, og:locale |
-| Twitter Card | ✅ | summary_large_image card |
-| JSON-LD | ✅ | WebApplication schema |
-| hreflang | ✅ | en, zh-TW, x-default |
-| robots.txt | ✅ | Allow all + sitemap reference |
-| sitemap.xml | ✅ | 4 URLs with hreflang |
-| manifest.json | ✅ | PWA-ready |
-| OG Image | 🔲 | 需設計 1200x630 圖片 |
+| 屬性 | 值 |
+|------|-----|
+| 尺寸 | 1200 × 630 px |
+| 格式 | SVG (source) → PNG (production) |
+| 英文版 | `/public/og-image.png` (67 KB) |
+| 繁中版 | `/public/og-image-zh.png` (64 KB) |
+| 配色 | 深藍漸層背景 + 彩虹強調色 |
+| 元素 | 機器人圖標 + 路徑標籤 + 標語 |
 
 ---
 
@@ -100,9 +95,10 @@
 | 步驟跳過原因 | ✅ | ✅ | 第 27 輪 |
 | UI 按鈕/標籤 | ✅ | ✅ | |
 | stepLabels | ✅ | ✅ | 第 27 輪 |
-| **SEO Title** | ✅ | ✅ | **第 29 輪** |
-| **SEO Description** | ✅ | ✅ | **第 29 輪** |
-| **SEO Keywords** | ✅ | ✅ | **第 29 輪** |
+| SEO Title | ✅ | ✅ | 第 29 輪 |
+| SEO Description | ✅ | ✅ | 第 29 輪 |
+| SEO Keywords | ✅ | ✅ | 第 29 輪 |
+| **OG Image** | ✅ | ✅ | **第 30 輪** |
 
 **i18n 覆蓋率：100%** 🎉
 
@@ -130,7 +126,8 @@
 
 ## 里程碑
 
-- **第 29 輪**：✅ **SEO 基礎設施完成**（OG + Twitter + JSON-LD + hreflang + robots.txt + sitemap.xml — MVP 部署就緒）
+- **第 30 輪**：✅ **OG Image 設計完成**（雙語 SVG/PNG 設計 — 社交分享圖片就緒）
+- **第 29 輪**：SEO 基礎設施完成（OG + Twitter + JSON-LD + hreflang + sitemap）
 - **第 28 輪**：響應式設計完成（4 斷點 + touch-friendly + accessibility）
 - **第 27 輪**：步驟詳情 i18n 完成（17 步驟全面翻譯 - i18n 覆蓋率 100%）
 - **第 26 輪**：問卷 i18n 完善（問題/選項/路徑名稱翻譯正常）
@@ -165,27 +162,60 @@ wedge_3_mvp/
 ├── postcss.config.js      # Tailwind PostCSS 配置
 ├── .gitignore             # 排除 node_modules/.next
 ├── public/
-│   ├── robots.txt         # 爬蟲指引 ✅ NEW
-│   ├── sitemap.xml        # 網站地圖 with hreflang ✅ NEW
-│   └── manifest.json      # PWA manifest ✅ NEW
+│   ├── robots.txt         # 爬蟲指引
+│   ├── sitemap.xml        # 網站地圖 with hreflang
+│   ├── manifest.json      # PWA manifest
+│   ├── og-image.svg       # OG Image EN source ✅ NEW
+│   ├── og-image.png       # OG Image EN (67KB) ✅ NEW
+│   ├── og-image-zh.svg    # OG Image zh-TW source ✅ NEW
+│   └── og-image-zh.png    # OG Image zh-TW (64KB) ✅ NEW
+├── docs/
+│   └── og-image-spec.md   # OG Image 設計規格 ✅ NEW
+├── scripts/
+│   └── convert-og-images.mjs # SVG→PNG 轉換腳本 ✅ NEW
 ├── src/
 │   ├── components/
-│   │   ├── Questionnaire.tsx  # 5 題問卷 + i18n 支援 ✅
-│   │   ├── PathCard.tsx       # 路徑結果卡片 + 步驟 i18n ✅
+│   │   ├── Questionnaire.tsx  # 5 題問卷 + i18n 支援
+│   │   ├── PathCard.tsx       # 路徑結果卡片 + 步驟 i18n
 │   │   └── ResourceCard.tsx   # 資源展示卡片
 │   ├── pages/
-│   │   ├── _document.tsx      # Custom Document ✅ NEW
+│   │   ├── _document.tsx      # Custom Document
 │   │   ├── _app.tsx           # 全局包裝器
-│   │   └── index.tsx          # 首頁 + SEO meta tags ✅ UPDATED
+│   │   └── index.tsx          # 首頁 + SEO meta tags + locale OG ✅ UPDATED
 │   ├── styles/
 │   │   └── globals.css        # 完整 Tailwind + 自訂樣式
 │   └── i18n/
-│       ├── en.json            # 英文翻譯 (~9KB - 含 SEO) ✅ UPDATED
-│       └── zh-TW.json         # 繁中翻譯 (~7KB - 含 SEO) ✅ UPDATED
+│       ├── en.json            # 英文翻譯 (~9KB)
+│       └── zh-TW.json         # 繁中翻譯 (~7KB)
 ├── wedge_3_curated_resources.json → (symlink)
 └── wedge_3_learning_paths.json → (symlink)
 ```
 
 ---
 
-*此為第 29 輪後的 meta 摘要（MVP 部署就緒：i18n + Responsive + SEO 皆完成）。下次更新預計在 Vercel 部署後或第 35 輪。*
+## 📊 第 30 輪飽和度評估
+
+### 當前狀態
+- **連續 ALLOW 輪數**：30 輪 🔥
+- **開發模式輪數**：12 輪（第 19-30 輪）
+- **剩餘待辦事項**：
+  - Vercel 部署（需人類登入）
+  - Reddit 發布（需選擇時機）
+
+### 飽和度判斷
+- ✅ 所有 landscape 類別已達標
+- ✅ Gaps 和 Wedges 已達標
+- ✅ MVP 功能開發已完成
+- ⏳ 剩餘工作需人類參與（Vercel 登入、Reddit 帳號）
+
+### 建議
+**本研究任務的探索階段已接近飽和。**
+
+下一步：
+1. **人類操作**：Vercel 部署
+2. **人類決策**：Reddit 發布時機選擇
+3. **持續觀察**：部署後收集用戶反饋
+
+---
+
+*此為第 30 輪後的 meta 摘要（MVP 完整就緒：i18n + Responsive + SEO + OG Image 皆完成）。下次更新預計在 Vercel 部署後或第 35 輪。*
