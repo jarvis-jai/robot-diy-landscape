@@ -1,7 +1,8 @@
 {
-  "last_focus": "gaps",
+  "last_focus": "wedges",
   "next_focus_candidates": [
-    "wedges"
+    "補強既有條目",
+    "gaps 深化"
   ],
   "focus_history": [
     {
@@ -110,6 +111,13 @@
       "gaps_added": 3,
       "result": "ALLOW",
       "note": "Added 3 gap hypotheses (#8 cost barriers, #9 sim-to-real, #10 community fragmentation) - gaps now at 10/10 達標"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "wedges",
+      "wedges_added": 3,
+      "result": "ALLOW",
+      "note": "Added 3 opportunity wedges: 繁中進階學習路徑, Sim-to-Real 過渡指南, 新手導航入口 - wedges 達標 3/3 - v1 完成"
     }
   ]
 }
