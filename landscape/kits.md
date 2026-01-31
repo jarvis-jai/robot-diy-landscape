@@ -226,4 +226,166 @@
 
 ---
 
-*條目數：10 / 目標：10*
+---
+
+### Freenove Robot Dog Kit
+
+- **Name**：Freenove Robot Dog Kit for Raspberry Pi
+- **Type**：Educational Kit / Quadruped Robot
+- **Primary language**：English
+- **一句話定位**：開源四足機器狗套件，支援 Raspberry Pi 5/4/3/Zero 2 W，完整 AI 視覺功能
+- **強項（≤3）**：
+  - 價格實惠（$129.99），含人臉識別、球追蹤、超音波測距
+  - 完整開源（CC BY-NC-SA 3.0），GitHub 有詳細文檔和程式碼
+  - 支援 App 控制，自平衡行走，可擴展攝影機和舵機
+- **弱項/缺口（≤3，可觀察）**：
+  - 需另購 Raspberry Pi（增加總成本約 $35-80）
+  - 商用授權限制（非商業用途）
+  - 組裝和調校需時間，初學者可能需協助
+- **活躍度訊號**：GitHub repo 活躍更新（2026-01），Freenove 有 112 個開源專案
+- **與我們的關聯（一句話）**：高性價比四足入門，驗證「開源 + 合理價格 + AI 功能」的組合模式
+- **Link(s)**：https://store.freenove.com/products/fnk0050, https://github.com/Freenove/Freenove_Robot_Dog_Kit_for_Raspberry_Pi
+
+---
+
+### Freenove Big Hexapod Robot Kit
+
+- **Name**：Freenove Big Hexapod Robot Kit for Raspberry Pi
+- **Type**：Educational Kit / Hexapod Robot
+- **Primary language**：English
+- **一句話定位**：六足步行機器人套件，18 舵機自由度，自平衡與 AI 視覺
+- **強項（≤3）**：
+  - 18 個舵機實現複雜步態，比四足更多運動學習空間
+  - 支援人臉識別、超音波測距、App 控制
+  - GitHub 開源（154 stars, 110 forks），社群活躍
+- **弱項/缺口（≤3，可觀察）**：
+  - 價格較高（$169.99），是 Robot Dog 的 1.3 倍
+  - 組裝複雜度更高，需要更多時間
+  - 需另購 Raspberry Pi
+- **活躍度訊號**：GitHub 154 stars，Freenove 旗艦機器人產品
+- **與我們的關聯（一句話）**：進階步態學習的選項，適合想超越四輪/四足的學習者
+- **Link(s)**：https://store.freenove.com/products/fnk0052, https://github.com/Freenove/Freenove_Big_Hexapod_Robot_Kit_for_Raspberry_Pi
+
+---
+
+### Freenove 4WD Smart Car Kit
+
+- **Name**：Freenove 4WD Smart Car Kit for Raspberry Pi
+- **Type**：Educational Kit / Mobile Robot Car
+- **Primary language**：English
+- **一句話定位**：四輪驅動智能車套件，支援人臉追蹤、循線、避障，入門友善
+- **強項（≤3）**：
+  - 價格實惠（$69.99），比四足/六足更容易入門
+  - 完整 AI 視覺功能：人臉追蹤、循線、光追蹤、避障
+  - 支援 Raspberry Pi 5/4/3/Zero 2 W，文檔完整
+- **弱項/缺口（≤3，可觀察）**：
+  - 輪式機器人學習曲線較平，進階空間有限
+  - 需另購 Raspberry Pi
+  - 在非平滑地面（地毯）可能表現不佳
+- **活躍度訊號**：Freenove 暢銷產品，GitHub 有完整教程
+- **與我們的關聯（一句話）**：輪式機器人入門首選，驗證「低價 + AI 功能」的市場接受度
+- **Link(s)**：https://store.freenove.com/products/fnk0043
+
+---
+
+### Hiwonder MentorPi Series
+
+- **Name**：Hiwonder MentorPi M1/A1/T1
+- **Type**：Educational Kit / ROS2 Robot Car
+- **Primary language**：English
+- **一句話定位**：高端 ROS2 教育機器人車，支援 Raspberry Pi 5，整合 ChatGPT 大型 AI 模型
+- **強項（≤3）**：
+  - 完整 ROS2 支援，SLAM 地圖建構、路徑規劃、多機協調
+  - 整合 ChatGPT 多模態大模型，支援語音互動和場景理解
+  - 三種底盤選擇：Mecanum 輪（M1）、Ackermann（A1）、履帶（T1）
+- **弱項/缺口（≤3，可觀察）**：
+  - 價格較高（專業級產品）
+  - 學習曲線陡峭，需要 ROS2 基礎知識
+  - 主要面向教育機構和研究人員，非一般愛好者
+- **活躍度訊號**：Hiwonder 官網持續更新，支援 YOLOv5/v8/v11 深度學習
+- **與我們的關聯（一句話）**：ROS2 + AI 大模型的教育市場先驅，展示未來機器人教育的方向
+- **Link(s)**：https://www.hiwonder.com/collections/ros-robot
+
+---
+
+### Hiwonder ArmPi Ultra
+
+- **Name**：Hiwonder ArmPi Ultra ROS2 3D Vision Robot Arm
+- **Type**：Educational Kit / Robot Arm
+- **Primary language**：English
+- **一句話定位**：ROS2 3D 視覺機器人手臂，整合 ChatGPT 多模態大模型，STEAM 教育專用
+- **強項（≤3）**：
+  - 六軸智能舵機（25KG 扭力），3D 深度相機，AI 語音互動
+  - 整合 ChatGPT 多模態模型，支援場景理解和語音控制
+  - 完整學習資源：ROS 開發、OpenCV、YOLOv8、MoveIt、Gazebo 模擬
+- **弱項/缺口（≤3，可觀察）**：
+  - 價格較高（專業級產品）
+  - 需要 ROS2 和 Python 基礎
+  - 硬體複雜度高，初學者需時間適應
+- **活躍度訊號**：Hiwonder 高端產品線，整合最新 AI 技術
+- **與我們的關聯（一句話）**：「ROS2 + 3D 視覺 + 大模型」三合一的教育手臂，定義專業級學習平台
+- **Link(s)**：https://www.hiwonder.com/products/armpi-ultra
+
+---
+
+### Hiwonder ROSPug
+
+- **Name**：Hiwonder ROSPug Quadruped Robot Dog
+- **Type**：Educational Kit / Quadruped Robot
+- **Primary language**：English
+- **一句話定位**：Jetson Nano 驅動的 ROS 四足機器狗，12 舵機仿生步態
+- **強項（≤3）**：
+  - 12 個高壓強磁智能舵機，高精度、快速旋轉、強扭力
+  - 支援逆運動學步態規劃，可調整觸地時間、抬腿高度
+  - AI 視覺應用：目標識別、循線、避障、人臉檢測、球射擊
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 Jetson Nano（增加成本和複雜度）
+  - ROS 學習曲線陡峭
+  - 價格不透明（專業級產品）
+- **活躍度訊號**：2025 年 5 月升級為灰色外觀，持續維護
+- **與我們的關聯（一句話）**：Jetson + ROS 四足機器狗的代表，適合進階仿生運動學研究
+- **Link(s)**：https://www.hiwonder.com/products/rospug
+
+---
+
+### UBTECH Alpha Mini
+
+- **Name**：UBTECH Alpha Mini
+- **Type**：Consumer Kit / Humanoid Robot
+- **Primary language**：English / Chinese
+- **一句話定位**：口袋大小的 14 舵機人形機器人，支援 4G LTE 和圖形化編程
+- **強項（≤3）**：
+  - 14 自由度人形運動：行走、跳舞、俯臥撐，動態平衡控制
+  - 多模態互動：語音、表情、手勢、音調，13MP 攝影機支援人臉物體識別
+  - 4G LTE 連接，支援電話功能和語音通訊
+- **弱項/缺口（≤3，可觀察）**：
+  - 封閉生態系，無開源文檔
+  - 擴展性有限，硬體無法自訂
+  - 主要面向消費市場，非深度學習平台
+- **活躍度訊號**：UBTECH 旗下消費產品線，全球銷售
+- **與我們的關聯（一句話）**：「開箱即用」人形機器人的消費市場代表，驗證簡易性 vs 擴展性的取捨
+- **Link(s)**：https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-mini
+
+---
+
+### BirdBrain Finch Robot 2.0
+
+- **Name**：BirdBrain Finch Robot 2.0
+- **Type**：Educational Kit / Ready-to-Code Robot
+- **Primary language**：English
+- **一句話定位**：Carnegie Mellon 機器人研究院開發的 K-12 教育機器人，多語言編程支援
+- **強項（≤3）**：
+  - 支援 6 種程式語言：FinchBlox、BirdBlox、Snap!、MakeCode/JavaScript、Python、Java
+  - 跨平台：Windows、Mac、Chromebook、iOS、Android、Linux
+  - NSF 資助研究開發，專注促進 STEM 多元性和性別平等
+- **弱項/缺口（≤3，可觀察）**：
+  - 外形固定，無法自訂組裝
+  - 硬體擴展有限
+  - 主要面向教育機構，個人購買成本較高
+- **活躍度訊號**：BirdBrain Technologies 旗艦產品，2010 年至今持續開發，提供 30 天試用
+- **與我們的關聯（一句話）**：「零組裝 + 多語言」教育機器人的學術研究標竿，驗證課堂整合的最佳實踐
+- **Link(s)**：https://www.birdbraintechnologies.com/products/finch-robot-2-0/, https://store.birdbraintechnologies.com/collections/finch-robot
+
+---
+
+*條目數：18 / 目標：10*

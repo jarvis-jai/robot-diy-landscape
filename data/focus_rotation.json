@@ -1,8 +1,9 @@
 {
-  "last_focus": "toolchains",
+  "last_focus": "kits",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
+    "learning (ODrive docs, Jetson AI Lab)",
     "communities (探索 Robotics Stack Exchange)"
   ],
   "focus_history": [
@@ -222,6 +223,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 32: Added 8 major physics/simulation tools: MuJoCo (12K stars), Drake (MIT/TRI), PyBullet, Brax, CoppeliaSim, Gymnasium (11K stars), EasyEDA, CARLA (14K stars). Discovered via best-of-robot-simulators repo (170 projects ranked)."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "kits",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 33: Added 8 kits - Freenove (Robot Dog, Big Hexapod, 4WD Car), Hiwonder ROS2 (MentorPi, ArmPi Ultra, ROSPug), UBTECH Alpha Mini, BirdBrain Finch Robot 2.0. Kits now at 18/10."
     }
   ]
 }
