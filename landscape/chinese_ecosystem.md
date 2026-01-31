@@ -787,4 +787,174 @@
 
 ---
 
-*最後更新：2026-01-31（第 56 輪 chinese_ecosystem 2026 更新 — 新增 8 個高價值條目：Embodied-AI-Guide 11.6K stars、LeRobotTutorial-CN 111 stars、lerobot-zh 完整中文版、every-embodied Datawhale 教程 347 stars、同濟子豪兄 Mycobot 教程 145 stars、d2l-ros2 動手學 ROS2 883 stars、Roboto Origin 人形機器人 601 stars、FOC 輪腿機器人 1.5K stars。填補 Gap #1 中文進階教程缺乏、Gap #2 入門到進階過渡）*
+---
+
+### Lumina 具身智能社區
+
+- **Name**：Lumina Embodied AI Community / Lumina具身智能社区
+- **Type**：Community / Platform
+- **Region**：Mainland China
+- **Primary language**：简体中文
+- **一句話定位**：中國領先的具身智能學術與產業社區，提供 Talks、Workshops、教程及招聘資訊
+- **強項（≤3）**：
+  - 高品質學術分享：WholeBodyVLA、RynnVLA-002、清華 TEA Lab 等前沿研討
+  - Isaac Sim 一百講系列教程：從安裝到 Rigid/Collision 完整中文教學
+  - 立體化社區：微信群、飛書群、Bilibili、小紅書、公眾號全覆蓋
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要加入社群才能獲取最新資訊
+  - 內容偏向學術/研究，入門者需要一定基礎
+  - 部分 Talks 回放在 Bilibili，需要額外尋找
+- **活躍度訊號**：2025-04 創建官網，2025-12 持續舉辦 Talks，合作夥伴包括 Datawhale、知乎、松靈機器人、地平線
+- **與我們的關聯（一句話）**：中文具身智能學術交流的核心平台，掌握最新研究動態
+- **Link(s)**：https://lumina-embodied.ai | https://space.bilibili.com/3493117093218822
+
+---
+
+### Awesome-Embodied-AI-Job 具身智能招賢榜
+
+- **Name**：Awesome-Embodied-AI-Job / Lumina社区具身智能招贤榜
+- **Type**：Job Board / Resource List
+- **Region**：Mainland China (+ International)
+- **Primary language**：简体中文 / English
+- **一句話定位**：Lumina 社區維護的具身智能職位匯總，涵蓋 PhD/RA/實習/全職
+- **強項（≤3）**：
+  - 每日更新：2026-01-27 有 20+ 新職位發布
+  - 覆蓋廣泛：智元機器人、小米、大疆、字節跳動、阿里達摩院、NVIDIA、斯坦福等頂級團隊
+  - 有 Gitee 國內鏡像，便於國內訪問
+- **弱項/缺口（≤3，可觀察）**：
+  - 主要面向中國大陸市場，海外職位較少
+  - 部分連結指向微信公眾號文章，可能過期
+  - 格式不統一，需要自行整理
+- **活躍度訊號**：GitHub 持續更新，2026-01-27 最新更新，連結 Lumina 社區飛書群
+- **與我們的關聯（一句話）**：中文圈具身智能求職的首選資源，了解產業人才需求
+- **Link(s)**：https://github.com/StarCycle/Awesome-Embodied-AI-Job | https://gitee.com/lzhnssc/awesome-embodied-ai-job-mirror
+
+---
+
+### RoboBrain 2.5
+
+- **Name**：RoboBrain 2.5 / 北京智源 BAAI RoboBrain
+- **Type**：Open Source Model / Framework
+- **Region**：Mainland China
+- **Primary language**：简体中文 / English
+- **一句話定位**：北京智源人工智能研究院的具身智能大模型，支援 3D 空間推理和密集時序價值估計
+- **強項（≤3）**：
+  - 多尺寸模型：3B、7B、8B、32B 版本，滿足不同資源需求
+  - 2.5 版本升級：從 2D 到 3D 空間推理，從相對到絕對空間度量
+  - 完整生態：Robo-Dopamine（密集價值估計）、RoboTracer（3D 推理）、RoboOS（多機器人協調）
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要高端 GPU（推薦 A100 級別）
+  - 部分代碼和模型尚未完全開源
+  - 學習曲線較陡峭
+- **活躍度訊號**：2026-01-09 發布 2.5-8B，arXiv:2601.14352，CVPR 2025 Embodied AI Trends Commentary
+- **與我們的關聯（一句話）**：中國頂級 AI 實驗室的具身智能大模型，代表國內最前沿研究水平
+- **Link(s)**：https://github.com/FlagOpen/RoboBrain2.5 | https://superrobobrain.github.io/ | https://huggingface.co/collections/BAAI/robobrain25/
+
+---
+
+### RLinf 具身智能 RL 基礎設施
+
+- **Name**：RLinf / Reinforcement Learning Infrastructure for Embodied AI
+- **Type**：Framework / Infrastructure
+- **Region**：Mainland China
+- **Primary language**：简体中文 / English
+- **一句話定位**：可擴展的開源 RL 基礎設施，專為具身智能和 Agent AI 設計，支援多種模擬器和模型
+- **強項（≤3）**：
+  - 廣泛支援：ManiSkill、LIBERO、RoboTwin、IsaacLab、CALVIN、RoboCasa、Franka 等模擬器
+  - VLA 微調：π₀、π₀.₅、OpenVLA、GR00T 等 VLA 模型 RL 微調
+  - 中英文雙語文檔：完整的中文文檔和微信社群支援
+- **弱項/缺口（≤3，可觀察）**：
+  - 2025-08 才開源，生態較新
+  - 需要熟悉 RL 基礎知識
+  - 部分功能仍在快速迭代
+- **活躍度訊號**：2026-01 更新支援 OpenSora World Model 和 RoboTwin，v0.2-pre 發布，機器之心報導
+- **與我們的關聯（一句話）**：中文圈具身智能 RL 訓練的標準基礎設施，降低 VLA 微調門檻
+- **Link(s)**：https://github.com/RLinf/RLinf | https://rlinf.readthedocs.io/zh-cn/latest/
+
+---
+
+### InternNav 導航基礎模型
+
+- **Name**：InternNav / InternRobotics 導航基礎模型
+- **Type**：Open Source Model / Framework
+- **Region**：Mainland China
+- **Primary language**：简体中文 / English
+- **一句話定位**：上海人工智能實驗室 InternRobotics 的通用導航基礎模型開放平台
+- **強項（≤3）**：
+  - 上海 AI 實驗室背景：InternLM 團隊出品，學術實力強
+  - 導航專精：專注於建構通用化導航基礎模型
+  - 開源平台：提供模型和訓練代碼
+- **弱項/缺口（≤3，可觀察）**：
+  - 專注導航任務，非通用機器人操控
+  - 文檔相對簡單
+  - 生態較小
+- **活躍度訊號**：2026-01-22 更新，GitHub 活躍維護
+- **與我們的關聯（一句話）**：中國頂級 AI 實驗室的導航基礎模型，了解國內自主導航研究方向
+- **Link(s)**：https://github.com/InternRobotics/InternNav
+
+---
+
+### DeepThinkVLA
+
+- **Name**：DeepThinkVLA / OpenBMB 深度思考 VLA
+- **Type**：Open Source Model
+- **Region**：Mainland China
+- **Primary language**：English (清華背景)
+- **一句話定位**：OpenBMB（清華大學）開發的增強推理能力的 VLA 模型
+- **強項（≤3）**：
+  - 清華大學 OpenBMB 團隊：學術背景強，與 ChatGLM 同源
+  - 推理能力增強：專注於提升 VLA 模型的推理能力
+  - 開源代碼：GitHub 開源
+- **弱項/缺口（≤3，可觀察）**：
+  - 文檔相對簡單
+  - 2026-01 新發布，社群規模較小
+  - 需要理解 VLA 基礎
+- **活躍度訊號**：2026-01-19 更新，OpenBMB 團隊維護
+- **與我們的關聯（一句話）**：清華團隊的 VLA 推理增強研究，代表國內 VLM/VLA 融合方向
+- **Link(s)**：https://github.com/OpenBMB/DeepThinkVLA
+
+---
+
+### StarVLA
+
+- **Name**：StarVLA / 積木式 VLA 開發框架
+- **Type**：Framework / Codebase
+- **Region**：International (有華人貢獻者)
+- **Primary language**：English
+- **一句話定位**：像樂高一樣組裝的 VLA 模型開發框架，模組化設計便於快速實驗
+- **強項（≤3）**：
+  - 模組化設計：編碼器、backbone、動作頭可自由組合
+  - 支援多種 VLA：可快速實現 ACT、Diffusion Policy、VQ-BeT 等
+  - 活躍開發：2026-01-31 更新
+- **弱項/缺口（≤3，可觀察）**：
+  - 主要英文文檔
+  - 需要 PyTorch 和 VLA 基礎
+  - 生態較新
+- **活躍度訊號**：2026-01-31 更新，持續活躍開發
+- **與我們的關聯（一句話）**：快速原型驗證 VLA 想法的理想工具，模組化設計降低實驗成本
+- **Link(s)**：https://github.com/starVLA/starVLA
+
+---
+
+### Xbotics 具身智能社區
+
+- **Name**：Xbotics Embodied AI Community / Xbotics具身智能社区
+- **Type**：Community
+- **Region**：Mainland China
+- **Primary language**：简体中文
+- **一句話定位**：中國具身智能開源社區，與 Awesome-Embodied-AI-Job 合作推廣
+- **強項（≤3）**：
+  - 社區導向：聚集具身智能開發者和研究者
+  - 與 Lumina 社區互補：提供不同視角的社區資源
+  - 官方網站：xbotics-embodied.site
+- **弱項/缺口（≤3，可觀察）**：
+  - 相對較新的社區
+  - 資源量不如 Lumina 豐富
+  - 需要更多時間觀察活躍度
+- **活躍度訊號**：被 Awesome-Embodied-AI-Job 列為合作社區
+- **與我們的關聯（一句話）**：中文具身智能社區的補充選項，多元化學習資源
+- **Link(s)**：https://xbotics-embodied.site/
+
+---
+
+*最後更新：2026-01-31（第 62 輪 chinese_ecosystem — 新增 8 個具身智能前沿資源：Lumina 具身智能社區（中國領先 Talks + Isaac Sim 百講）、Awesome-Embodied-AI-Job（每日更新招聘）、RoboBrain 2.5（北京智源 3D 空間推理大模型）、RLinf（具身 RL 基礎設施）、InternNav（上海 AI 實驗室導航模型）、DeepThinkVLA（清華 OpenBMB VLA 推理）、StarVLA（模組化 VLA 框架）、Xbotics 社區。chinese_ecosystem 達 44 條目。）*

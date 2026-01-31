@@ -1,10 +1,10 @@
 {
-  "last_focus": "learning",
+  "last_focus": "chinese_ecosystem",
   "next_focus_candidates": [
-    "toolchains (new: RoboTwin 2.0, HoloMotion, TienKung-Lab, IHMC-ORS)",
-    "chinese_ecosystem (new: Lumina Awesome-Job)",
+    "toolchains (new: dora-rs, physical_ai_tools)",
     "gaps_deepening (pending: refine Gap #1 #2 #7)",
     "creators (international coverage)",
+    "communities (international)",
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布"
   ],
@@ -426,12 +426,20 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 61: Added 8 robot learning resources - robot-learning-tutorial (451⭐ LeRobot VLA arXiv:2510.12403), 蘑菇書 EasyRL (13.6K⭐ Datawhale 中文 RL), RoboVerse (1.6K⭐ RSS 2025 unified platform), LIBERO (1.4K⭐ lifelong learning), RoboCasa (1.1K⭐ RSS 2024 everyday tasks), Rofunc (696⭐ LfD), Awesome-Robotics-Manipulation (837⭐ survey), ReinFlow (241⭐ NeurIPS 2025 Flow RL). Learning now at 51/15. Addresses Gap #1 #3 #4."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "chinese_ecosystem",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 62: Added 8 frontier embodied AI resources - Lumina community, Awesome-Embodied-AI-Job, RoboBrain 2.5 (BAAI), RLinf (RL infrastructure), InternNav (Shanghai AI Lab), DeepThinkVLA (OpenBMB/Tsinghua), StarVLA, Xbotics community. chinese_ecosystem now at 44."
     }
   ],
   "saturation_notes": {
     "gaps_deepening": "Round 58 SKIP due to resource constraints (no web_search API, GitHub rate limit, browser disconnected). Gap #1 #2 #7 remain high confidence. d2l-ros2 v2 is strong counterevidence but already captured in Round 56.",
-    "chinese_ecosystem": "Round 59 SKIP: Found high-quality candidates but only 4 for this category. Backlog enriched with 8 new URLs. Recommend switching to hardware or learning for next round to process backlog.",
+    "chinese_ecosystem": "Round 62 ALLOW: 8 high-quality embodied AI resources added. Lumina is China's leading embodied AI community. RoboBrain 2.5 from BAAI represents frontier research. RLinf provides RL infrastructure with Chinese docs. Category now at 44 entries.",
     "hardware": "Round 60 ALLOW: Processed backlog candidates successfully. Humanoid platforms (zeroth-bot, HOPEJr, Poppy) represent emerging open-source alternatives to commercial systems.",
-    "learning": "Round 61 ALLOW: Rich discovery via GitHub topics robot-learning + imitation-learning. 蘑菇書 (13.6K⭐) is exceptional Chinese RL resource. RoboVerse/LIBERO/RoboCasa represent cutting-edge benchmarks. Learning highly saturated (51 entries)."
+    "learning": "Round 61 ALLOW: Rich discovery via GitHub topics robot-learning + imitation-learning. 蘑菇書 (13.6K⭐) is exceptional Chinese RL resource. RoboVerse/LIBERO/RoboCasa represent cutting-edge benchmarks. Learning highly saturated (51 entries).",
+    "toolchains": "Saturated at 55 entries (target 10). Round 62 skipped toolchains focus due to saturation. dora-rs and physical_ai_tools candidates remain for future rounds."
   }
 }

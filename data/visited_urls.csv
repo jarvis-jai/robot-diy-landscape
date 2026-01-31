@@ -364,3 +364,20 @@ https://github.com/robocasa/robocasa,RoboCasa,Simulation Framework,2026-01-31,20
 https://github.com/Skylark0924/Rofunc,Rofunc,Framework,2026-01-31,2026-01-31,active,696 stars - full process LfD package - IsaacGym
 https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation,Awesome Robotics Manipulation,Curated List,2026-01-31,2026-01-31,active,837 stars - robot manipulation survey - arXiv:2510.10903
 https://github.com/ReinFlow/ReinFlow,ReinFlow,Framework,2026-01-31,2026-01-31,active,241 stars - NeurIPS 2025 - Flow RL VLA fine-tuning
+https://robotwin-platform.github.io/,RoboTwin 2.0,Simulation Platform,2026-01-31,2026-01-31,active,CVPR 2025 Highlight - bimanual robot benchmark - 50 tasks 731 objects
+https://github.com/TianxingChen/RoboTwin,RoboTwin GitHub,Simulation Platform,2026-01-31,2026-01-31,active,CVPR 2025 Highlight dual-arm benchmark
+https://github.com/HorizonRobotics/HoloMotion,HoloMotion,Framework,2026-01-31,2026-01-31,active,Horizon Robotics whole-body humanoid control v1.1
+https://github.com/ihmcrobotics/ihmc-open-robotics-software,IHMC Open Robotics Software,Framework,2026-01-31,2026-01-31,active,Java humanoid control - Nadia Valkyrie Alex
+https://github.com/OpenMOSS/FRoM-W1,FRoM-W1,Framework,2026-01-31,2026-01-31,active,Language-driven humanoid whole-body control - arXiv:2601.12799
+https://github.com/hongsukchoi/VideoMimic,VideoMimic,Framework,2026-01-31,2026-01-31,active,CoRL 2025 Best Student Paper - visual imitation humanoid control
+https://github.com/Renforce-Dynamics/trackerLab,trackerLab,Framework,2026-01-31,2026-01-31,active,IsaacLab humanoid motion tracking framework - CN/EN docs
+https://github.com/ZhengyiLuo/PHC,PHC,Framework,2026-01-31,2026-01-31,active,ICCV 2023 perpetual humanoid control - 100% AMASS success
+https://github.com/LeCAR-Lab/HumanoidVerse,HumanoidVerse,Framework,2026-01-31,2026-01-31,active,Multi-simulator humanoid sim-to-real - IsaacGym Genesis IsaacLab
+https://lumina-embodied.ai,Lumina 具身智能社區,Community,2026-01-31,2026-01-31,active,中國領先具身智能社區 - Talks Workshops Isaac Sim 百講 - 微信飛書Bilibili
+https://github.com/StarCycle/Awesome-Embodied-AI-Job,Awesome-Embodied-AI-Job,Job Board,2026-01-31,2026-01-31,active,Lumina 社區具身智能招聘 - 每日更新 - 智元大疆字節小米 NVIDIA 斯坦福
+https://github.com/FlagOpen/RoboBrain2.5,RoboBrain 2.5,Open Source Model,2026-01-31,2026-01-31,active,北京智源 BAAI - 3D 空間推理 + 密集時序價值估計 - 3B/7B/8B/32B - CVPR 2025
+https://github.com/RLinf/RLinf,RLinf RL Infrastructure,Framework,2026-01-31,2026-01-31,active,具身智能 RL 基礎設施 - ManiSkill LIBERO IsaacLab - π₀ OpenVLA GR00T 微調 - 中英文文檔
+https://github.com/InternRobotics/InternNav,InternNav,Open Source Model,2026-01-31,2026-01-31,active,上海 AI 實驗室 InternRobotics - 通用導航基礎模型 - 2026-01-22 更新
+https://github.com/OpenBMB/DeepThinkVLA,DeepThinkVLA,Open Source Model,2026-01-31,2026-01-31,active,清華 OpenBMB - VLA 推理能力增強 - 2026-01-19 更新
+https://github.com/starVLA/starVLA,StarVLA,Framework,2026-01-31,2026-01-31,active,模組化 VLA 開發框架 - 樂高式組裝 - 2026-01-31 活躍更新
+https://xbotics-embodied.site/,Xbotics 具身智能社區,Community,2026-01-31,2026-01-31,active,中文具身智能開源社區 - 與 Lumina 互補

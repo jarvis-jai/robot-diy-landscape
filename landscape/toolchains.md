@@ -972,4 +972,166 @@
 
 ---
 
-*條目數：47 / 目標：10 ✅*
+---
+
+### RoboTwin 2.0
+
+- **Name**：RoboTwin 2.0
+- **Type**：Simulation Platform / Benchmark
+- **Primary language**：English / 中文
+- **一句話定位**：CVPR 2025 Highlight，可擴展的雙臂機器人資料生成與 benchmark 框架，支援 50 任務和 731 物件
+- **強項（≤3）**：
+  - 大規模物件資料集：RoboTwin-OD 147 類別 731 物件（含 SAPIEN PartNet-Mobility 關節物件）
+  - MLLM 自動任務生成：使用多模態語言模型自動合成任務程式
+  - 完整 Domain Randomization：雜亂物件、背景紋理、光照、桌高、語言指令五維隨機化
+- **弱項/缺口（≤3，可觀察）**：
+  - 專注雙臂操控，非通用機器人模擬
+  - 需要熟悉 SAPIEN 模擬環境
+  - 物件資料需從 HuggingFace 下載
+- **活躍度訊號**：CVPR 2025 Highlight 論文（arXiv:2504.13059）、ECCV 2024 Workshop Best Paper、第十九屆挑戰杯官方賽題
+- **與我們的關聯（一句話）**：雙臂機器人操控研究的前沿 benchmark，適合訓練泛化策略
+- **Link(s)**：https://robotwin-platform.github.io/ | https://github.com/TianxingChen/RoboTwin | https://huggingface.co/datasets/TianxingChen/RoboTwin2.0
+
+---
+
+### HoloMotion
+
+- **Name**：HoloMotion
+- **Type**：Framework
+- **Primary language**：English / 中文
+- **一句話定位**：Horizon Robotics 開發的人形機器人全身控制基礎模型，從資料策展到 ROS2 部署的端到端方案
+- **強項（≤3）**：
+  - 完整 Pipeline：資料策展 → 動作重定向 → 分散式訓練 → 評估 → ROS2 部署
+  - 模組化架構：可靈活適配不同機器人形態
+  - 清晰路線圖：v1.0 Any Pose → v2.0 Any Command → v3.0 Any Terrain → v4.0 Any Embodiment
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 NVIDIA GPU（IsaacLab 依賴）
+  - 動作資料需取得 AMASS 授權
+  - v1.1 剛發布，生態系統仍在建立
+- **活躍度訊號**：v1.1 於 2026-01-06 發布，Apache 2.0 授權，有微信用戶群，GitHub 活躍
+- **與我們的關聯（一句話）**：人形機器人全身控制的中國領先開源方案，從模仿到部署的完整框架
+- **Link(s)**：https://github.com/HorizonRobotics/HoloMotion
+
+---
+
+### IHMC Open Robotics Software
+
+- **Name**：IHMC Open Robotics Software
+- **Type**：Framework / Control Library
+- **Primary language**：English
+- **一句話定位**：IHMC 開發的 Java 機器人軟體，專注腿式運動演算法與基於動量的控制器，支援世界級人形機器人
+- **強項（≤3）**：
+  - 真實機器人驗證：驅動 NASA Valkyrie、Nadia、Boardwalk Alex 等人形機器人
+  - 完整生態系：Simulation Construction Set、Euclid、Mecano、EtherCAT Master、凸優化庫
+  - 軟即時支援：IHMC Realtime 庫使用 RT_PREEMPT 實現 Java 軟即時
+- **弱項/缺口（≤3，可觀察）**：
+  - Java 生態，非 Python/C++ 主流機器人語言
+  - 需要 JDK 17 和 IntelliJ 開發環境
+  - macOS 部分支援但不完整
+- **活躍度訊號**：持續更新至 2026-01-31，Apache 2.0 授權，有 Atlassian Confluence 公開文檔
+- **與我們的關聯（一句話）**：生產級人形機器人控制軟體，了解學術界與產業界如何部署真實人形
+- **Link(s)**：https://github.com/ihmcrobotics/ihmc-open-robotics-software | https://ihmcrobotics.atlassian.net/wiki/
+
+---
+
+### FRoM-W1
+
+- **Name**：FRoM-W1
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：OpenMOSS 開發的開源人形機器人全身控制框架，使用自然語言指令生成動作並部署到真實機器人
+- **強項（≤3）**：
+  - 語言驅動：H-GPT 模組使用 LLM + Chain-of-Thought 理解自然語言並生成動作
+  - Sim-to-Real 完整流程：H-ACT 模組進行動作重定向和 RL 微調，部署到 Unitree H1/G1
+  - 開源模型：提供 HuggingFace 預訓練模型和 RoboJuDo 部署框架
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 Llama-3.1 模型和 AMASS 資料授權
+  - 動作資料處理流程較複雜
+  - 2026 年新發布，社群規模較小
+- **活躍度訊號**：arXiv:2601.12799（2026-01），HuggingFace 模型已發布，GitHub 活躍更新
+- **與我們的關聯（一句話）**：語言驅動人形控制的前沿研究，展示 LLM 與機器人控制的整合路徑
+- **Link(s)**：https://github.com/OpenMOSS/FRoM-W1 | https://openmoss.github.io/FRoM-W1/
+
+---
+
+### VideoMimic
+
+- **Name**：VideoMimic
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：UC Berkeley 的視覺模仿人形控制框架，從單相機影片重建 3D 環境與人體動作並轉移到機器人
+- **強項（≤3）**：
+  - Real-to-Sim Pipeline：從影片提取世界座標人體姿態，重建環境為點雲/網格
+  - 多階段訓練：動作捕捉預訓練 → 場景條件追蹤 → 蒸餾 → RL 微調
+  - CoRL 2025 Best Student Paper：頂級機器人學習會議最佳學生論文獎
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要大量計算資源進行多階段訓練
+  - 影片資料集為 JPEG 序列（非 MP4）
+  - Sim-to-Real 部分為初步版本
+- **活躍度訊號**：CoRL 2025 Best Student Paper，2025-09-15 公開程式碼，持續更新
+- **與我們的關聯（一句話）**：視覺模仿學習的前沿研究，展示如何從網路影片學習機器人技能
+- **Link(s)**：https://github.com/hongsukchoi/VideoMimic | https://www.videomimic.net/
+
+---
+
+### trackerLab
+
+- **Name**：trackerLab
+- **Type**：Framework
+- **Primary language**：English / 中文
+- **一句話定位**：基於 IsaacLab 的模組化人形動作重定向、軌跡追蹤與技能控制框架，統一多種控制模式
+- **強項（≤3）**：
+  - IsaacLab 原生整合：使用 Manager-based 抽象層設計，易於擴展
+  - 多控制模式：支援 ex-body pose control、PHC 等多種控制範式
+  - FSM 技能圖：使用有限狀態機組合複雜動作行為，支援搖桿/規劃器/手動觸發
+- **弱項/缺口（≤3，可觀察）**：
+  - 文檔正在更新中（README 標注 not updated）
+  - 需要 IsaacLab 完整安裝環境
+  - 資產和檢查點需從外部 repo 下載
+- **活躍度訊號**：2025-12-31 更新，有完整中英文教程，有微信群支援
+- **與我們的關聯（一句話）**：IsaacLab 使用者的人形控制擴展，提供動作追蹤到技能組合的完整流程
+- **Link(s)**：https://github.com/Renforce-Dynamics/trackerLab
+
+---
+
+### PHC (Perpetual Humanoid Control)
+
+- **Name**：PHC (Perpetual Humanoid Control)
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：CMU/UC Berkeley 開發的物理人形控制器，實現高保真動作模仿和失敗狀態自動恢復
+- **強項（≤3）**：
+  - 100% 成功率：PHC+ 模型在 AMASS 11313 序列達到 100% 追蹤成功率
+  - 無外部力：不使用任何外部穩定力，純物理模擬
+  - 多形態支援：SMPL、SMPLX、Unitree H1/G1 人形機器人，可在 IsaacLab 推論
+- **弱項/缺口（≤3，可觀察）**：
+  - 座標系與 SMPL 原始不同（負 Z 為重力方向）
+  - 需要 Isaac Gym 環境（非 IsaacLab 原生）
+  - SMPLSim 需要 Python 3.8
+- **活躍度訊號**：ICCV 2023 論文，2025-08-21 更新 IsaacLab 支援，持續維護
+- **與我們的關聯（一句話）**：物理人形動作模仿的黃金標準，許多人形控制論文的基礎
+- **Link(s)**：https://github.com/ZhengyiLuo/PHC | https://zhengyiluo.github.io/PHC/
+
+---
+
+### HumanoidVerse
+
+- **Name**：HumanoidVerse
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：LeCAR Lab（CMU）開發的多模擬器人形機器人 sim-to-real 學習框架，支援 IsaacGym、IsaacSim、Genesis
+- **強項（≤3）**：
+  - 多模擬器支援：IsaacGym、IsaacSim、Genesis 一鍵切換，避免模擬器鎖定
+  - 模組化設計：模擬器、任務、演算法分離，易於擴展新組合
+  - 多形態支援：Unitree H1（10/19 DOF）、G1（12/23 DOF）
+- **弱項/缺口（≤3，可觀察）**：
+  - 2025-02-04 才公開發布，生態較新
+  - 每個模擬器需要獨立環境（避免依賴地獄）
+  - Genesis 模擬器部分功能不穩定（錄影）
+- **活躍度訊號**：2025-02-04 初次公開，LeCAR Lab 維護（同 ProtoMotions 團隊背景）
+- **與我們的關聯（一句話）**：多模擬器人形控制的統一框架，避免單一模擬器綁定的未來選擇
+- **Link(s)**：https://github.com/LeCAR-Lab/HumanoidVerse
+
+---
+
+*條目數：55 / 目標：10 ✅*

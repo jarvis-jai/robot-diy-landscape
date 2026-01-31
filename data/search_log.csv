@@ -219,3 +219,16 @@ GitHub topics diy-robot,web_fetch-github-topics,2026-01-31,na,Round 60: Found 6 
 GitHub topics robot-kit,web_fetch-github-topics,2026-01-31,na,Round 60: Found 4 repos - OpenCat OpenCatEsp32 RaspberryPi-4WD-Car coder-carsite
 GitHub topics robot-learning,web_fetch-github-topics,2026-01-31,na,Round 61: Found 158 repos - IsaacLab ManiSkill robosuite LIBERO awesome-isaac-gym RoboCasa UniVLA SimplerEnv go2_omniverse Rofunc RoboHive Dobb-E TidyBot++ robot-learning-tutorial ReinFlow
 GitHub topics imitation-learning,web_fetch-github-topics,2026-01-31,na,Round 61: Found 533 repos - easy-rl CARLA tianshou mobile-aloha DI-engine act-plus-plus openarm imitation RoboVerse transfuser LIBERO Awesome-CARLA diffusion-literature awesome-decision-transformer Diffusion-Planner Awesome-Robotics-Manipulation humanplus
+GitHub topics whole-body-control,web_fetch-github-topics,2026-01-31,na,Round 62: Found 25 repos - HoloMotion IHMC-ORS FRoM-W1 VideoMimic trackerLab
+GitHub topics humanoid-control,web_fetch-github-topics,2026-01-31,na,Round 62: Found 13 repos - PHC UHC Hector MoCapAct RFC KinPoly
+RoboTwin 2.0 platform exploration,web_fetch-direct,2026-01-31,na,Round 62: CVPR 2025 Highlight - 50 tasks 731 objects - bimanual benchmark
+HumanoidVerse multi-simulator,web_fetch-github,2026-01-31,na,Round 62: LeCAR Lab - IsaacGym Genesis IsaacLab unified framework
+GitHub topics bimanual-manipulation,web_fetch-github-topics,2026-01-31,na,Round 62: Found 10 repos - OakInk2 Tra-MoE VoxAct-B BiDexHD
+GitHub topics embodied-ai,web_fetch-github-topics,2026-01-31,na,Round 62: Found 282 repos - Embodied-AI-Guide dora-rs ManiSkill RLinf RoboTwin BEHAVIOR-1K SimplerEnv RoboBrain2.5 Awesome-World-Models
+GitHub topics lerobot,web_fetch-github-topics,2026-01-31,na,Round 62: Found 62 repos - PAROL6 any4lerobot physical_ai_tools dot_policy lerobot-ros circuitrobot
+GitHub topics vla,web_fetch-github-topics,2026-01-31,na,Round 62: Found 92 repos - SimpleVLA-RL StarVLA UniVLA DeepThinkVLA VLA-0 InternNav SpatialVLA FSDrive phosphobot
+Lumina Embodied AI Community,web_fetch-direct,2026-01-31,na,Round 62: China's leading embodied AI community - Talks Workshops Isaac Sim tutorials - WeChat Feishu Bilibili
+RoboBrain 2.5 BAAI,web_fetch-direct,2026-01-31,na,Round 62: Beijing AI Research Institute - 3D spatial reasoning + dense temporal value estimation - 3B/7B/8B/32B models
+RLinf RL Infrastructure,web_fetch-direct,2026-01-31,na,Round 62: ManiSkill LIBERO IsaacLab CALVIN RoboCasa Franka - π₀ OpenVLA GR00T VLA fine-tuning - Chinese docs
+dora-rs middleware,web_fetch-direct,2026-01-31,na,Round 62: Rust robotics middleware 10-17x faster than ROS2 - GSoC 2025 - Zenoh distributed dataflow (toolchains candidate)
+ROBOTIS physical_ai_tools,web_fetch-direct,2026-01-31,na,Round 62: LeRobot + ROS 2 integration - 107 stars 1118 commits - AI Worker platform (toolchains candidate)
