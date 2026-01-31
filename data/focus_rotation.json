@@ -1,11 +1,11 @@
 {
-  "last_focus": "kits",
+  "last_focus": "communities_international",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
     "gaps 深化 (補充更多佐證)",
-    "communities (非英語論壇)",
-    "learning (進階課程)"
+    "learning (進階課程)",
+    "toolchains (補強)"
   ],
   "focus_history": [
     {
@@ -308,6 +308,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 44: Added 8 educational robot kits: Ozobot EVO (25+ EdTech Awards), Wonder Workshop Dash (Virtual+Physical), Thymio II (EPFL open source), Edison V3 ($59 affordable), BBC micro:bit v2 (1M UK students), Arduino Alvik (€159), M5Stack StackChan (AI desktop robot), mBlock/CyberPi (Makeblock platform). Kits now at 26/10."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "communities_international",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 45: Added 8 non-English communities - Mikrocontroller.net (DE), Robot-Maker (FR), Framboise314 (FR), Qiita (JP), Zenn (JP), Raspberry Pi France (FR), Raspberryme (FR), Pololu Forum. Addresses Gap #7 language diversity."
     }
   ]
 }

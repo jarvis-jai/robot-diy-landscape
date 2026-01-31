@@ -123,3 +123,7 @@ ODRI open robot actuator hardware,web_fetch-direct,2026-01-31,na,Max Planck NYU 
 best educational robot kit STEM 2024 2025 Ozobot Edison Thymio Wonder Workshop,web_fetch-direct,2026-01-31,na,Round 44: found Ozobot EVO Wonder Workshop Dash Thymio II Edison V3
 BBC microbit Arduino Alvik M5Stack StackChan educational robot,web_fetch-direct,2026-01-31,na,Round 44: found micro:bit v2 Arduino Alvik M5Stack StackChan mBlock CyberPi
 educational robot kit international brands competition 2025,web_fetch-multi,2026-01-31,na,Round 44: expanded kits category with 8 new entries - Ozobot Dash Thymio Edison microbit Alvik StackChan mBlock
+German robotics DIY forum community Arduino maker,web_fetch-direct,2026-01-31,na,Round 45: discovered mikrocontroller.net - German largest MCU forum
+French robotique DIY forum communauté Arduino,web_fetch-direct,2026-01-31,na,Round 45: discovered robot-maker.com framboise314.fr raspberryme.com
+Japanese ロボット DIY 掲示板 ROS2,web_fetch-direct,2026-01-31,na,Round 45: discovered Qiita and Zenn ROS2 topics
+non-English robotics maker community forum international,web_fetch-multi,2026-01-31,na,Round 45: added 8 international communities - German French Japanese

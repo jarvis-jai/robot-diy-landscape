@@ -526,4 +526,164 @@
 
 ---
 
-*條目數：25 / 目標：15 ✅*
+### Mikrocontroller.net
+
+- **Name**：Mikrocontroller.net
+- **Type**：Forum
+- **Primary language**：German（有英文版 EmbDev.net）
+- **一句話定位**：德語圈最大的微控制器與電子工程論壇，涵蓋從入門到專業的所有技術討論
+- **強項（≤3）**：
+  - 規模龐大：20+ 專業分類，包含微控制器、類比電子、FPGA、DSP/ML、PCB 設計等
+  - 即時活躍：帖子更新間隔以秒計，社群討論極為活躍
+  - 有英文版 EmbDev.net，跨語言可達
+- **弱項/缺口（≤3，可觀察）**：
+  - 主介面為德文，非德語使用者需適應
+  - 無專門機器人分類，需在相關主題中搜尋
+  - 傳統論壇介面
+- **活躍度訊號**：每日數百帖更新，最新帖子間隔僅秒級（2026-01-31 觀察）
+- **與我們的關聯（一句話）**：德語圈電子/微控制器問題的權威資源，補充 Gap #7 語言多樣性
+- **Link(s)**：https://www.mikrocontroller.net/
+
+---
+
+### Robot-Maker.com
+
+- **Name**：Robot-Maker.com
+- **Type**：Forum
+- **Primary language**：French
+- **一句話定位**：法語圈專門的機器人 DIY 論壇，涵蓋各類機器人專案與教程
+- **強項（≤3）**：
+  - 專門的機器人社群：輪式、多足、機械臂、無人機、水下機器人、LEGO 機器人等完整分類
+  - 426+ 輪式機器人主題、321+ 多足機器人主題，深度專業
+  - 有 Vigibot 系統——透過網路控制機器人的獨特專案
+- **弱項/缺口（≤3，可觀察）**：
+  - 純法文介面，無英文版
+  - 部分分類活躍度較低（如水下機器人僅 9 主題）
+  - 需註冊才能發文
+- **活躍度訊號**：2026-01-29 有新帖（ROS2 robot 4WD 專案），持續活躍
+- **與我們的關聯（一句話）**：法語圈最專業的機器人 DIY 社群，補充 Gap #7 語言多樣性
+- **Link(s)**：https://www.robot-maker.com/forum/
+
+---
+
+### Framboise314
+
+- **Name**：Framboise314
+- **Type**：Blog / Tutorial
+- **Primary language**：French
+- **一句話定位**：法國 Raspberry Pi 參考網站，提供深度技術教程與機器人專案
+- **強項（≤3）**：
+  - 自稱「La référence du Raspberry Pi en France」，權威性高
+  - 高品質教程：AI HAT+2、YunoHost 伺服器、WS2812B LED 控制等進階主題
+  - 涵蓋機器人專題：Macé Robotics（MRPi1, MR-Pico）等
+- **弱項/缺口（≤3，可觀察）**：
+  - 純法文內容
+  - 主要是單向教程，社群互動有限
+  - 專注 Raspberry Pi，非純機器人網站
+- **活躍度訊號**：2026-01 持續更新，有機器人競賽活動公告
+- **與我們的關聯（一句話）**：法語圈 Raspberry Pi 權威資源，結合機器人教學
+- **Link(s)**：https://www.framboise314.fr/
+
+---
+
+### Qiita（機器人/ROS2 標籤）
+
+- **Name**：Qiita
+- **Type**：Tech Blog Platform
+- **Primary language**：Japanese
+- **一句話定位**：日本最大的開發者知識分享平台，ROS2 相關技術文章豐富
+- **強項（≤3）**：
+  - ROS2 標籤有 1,161 篇文章、278 位追蹤者（2026-01）
+  - 日本開發者社群核心平台，高品質技術內容
+  - 涵蓋機器人相關標籤：robotics、arduino、raspberry-pi、ros 等
+- **弱項/缺口（≤3，可觀察）**：
+  - 純日文平台
+  - 以文章為主，非論壇互動模式
+  - 需登入才能追蹤標籤
+- **活躍度訊號**：ROS2 標籤持續有新文章發布（2026-01）
+- **與我們的關聯（一句話）**：日語圈 ROS2/機器人技術文章的主要來源，補充 Gap #7
+- **Link(s)**：https://qiita.com/tags/ros2
+
+---
+
+### Zenn（機器人/ROS2 主題）
+
+- **Name**：Zenn
+- **Type**：Tech Blog Platform
+- **Primary language**：Japanese
+- **一句話定位**：日本新興的開發者內容平台，支援文章、書籍和討論，ROS2 內容豐富
+- **強項（≤3）**：
+  - ROS2 主題有 274 篇文章、4 本書、17 個討論串（2026-01）
+  - 現代化介面，支援 Markdown 寫作
+  - 比 Qiita 更偏向深度技術內容
+- **弱項/缺口（≤3，可觀察）**：
+  - 純日文平台
+  - 社群規模較 Qiita 小
+  - 機器人相關內容較集中於 ROS2
+- **活躍度訊號**：持續有新文章和書籍發布
+- **與我們的關聯（一句話）**：日語圈 ROS2 深度技術內容來源，與 Qiita 互補
+- **Link(s)**：https://zenn.dev/topics/ros2
+
+---
+
+### Raspberry Pi France
+
+- **Name**：Raspberry Pi France
+- **Type**：Blog / News
+- **Primary language**：French
+- **一句話定位**：法語 Raspberry Pi 新聞與教程網站，涵蓋智能家居、機器人與 AI 應用
+- **強項（≤3）**：
+  - 涵蓋 Raspberry Pi 5 16GB、作業系統選擇、NAS 配置等實用主題
+  - 有機器人相關內容：Neo 人形機器人、智能家居自動化
+  - 定期更新，緊跟新品發布
+- **弱項/缺口（≤3，可觀察）**：
+  - 純法文內容
+  - 部分內容偏向新聞而非深度教程
+  - 無論壇功能
+- **活躍度訊號**：2026-01 持續更新，有作業系統選擇指南等新文
+- **與我們的關聯（一句話）**：法語圈 Raspberry Pi 新聞入口，補充非英語資源
+- **Link(s)**：https://www.raspberrypi-france.fr/
+
+---
+
+### Raspberryme
+
+- **Name**：Raspberryme
+- **Type**：Blog / Tutorial
+- **Primary language**：French
+- **一句話定位**：法語 Raspberry Pi 與嵌入式開發教程網站，涵蓋 ESP32、MicroPython 與 AI 應用
+- **強項（≤3）**：
+  - 廣泛涵蓋：ESP32 教程、MicroPython、Arduino、RISC-V 開發板等
+  - 緊跟新技術：報導 ESP32-E22（Wi-Fi 6E）、Ariel OS（Rust RTOS）等最新發展
+  - 有機器人相關：RC 車 AI、智能家居、電子控制等
+- **弱項/缺口（≤3，可觀察）**：
+  - 純法文內容
+  - 部分內容翻譯自 CNX-Software
+  - 無論壇功能
+- **活躍度訊號**：2026-01 每日更新，涵蓋最新硬體新聞
+- **與我們的關聯（一句話）**：法語圈嵌入式開發綜合資源，ESP32/Arduino 教程豐富
+- **Link(s)**：https://www.raspberryme.com/
+
+---
+
+### Pololu Forum
+
+- **Name**：Pololu Forum
+- **Type**：Forum
+- **Primary language**：English（國際化）
+- **一句話定位**：Pololu 機器人零件製造商官方論壇，專注馬達控制器、感測器與機器人平台
+- **強項（≤3）**：
+  - 與 Pololu 產品深度整合：馬達驅動器、Zumo 機器人、3pi 等專門討論
+  - 官方工程師參與回答，技術支援品質高
+  - 涵蓋 A* 控制板、Maestro 舵機控制器等專業話題
+- **弱項/缺口（≤3，可觀察）**：
+  - 偏向 Pololu 產品生態
+  - 主要為英文，但有國際用戶參與
+  - 需註冊才能發文
+- **活躍度訊號**：官方維護，持續有技術問答
+- **與我們的關聯（一句話）**：機器人馬達控制與電子元件的專業技術支援資源
+- **Link(s)**：https://forum.pololu.com/
+
+---
+
+*條目數：33 / 目標：15 ✅*

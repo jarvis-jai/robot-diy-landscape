@@ -8,7 +8,7 @@
 
 | 類別 | 目標 | 目前 | 狀態 |
 |------|------|------|------|
-| communities.md | ≥15 | 25 | ✅ |
+| communities.md | ≥15 | 33 | ✅ |
 | platforms.md | ≥15 | 24 | ✅ |
 | toolchains.md | ≥10 | 39 | ✅ |
 | hardware.md | ≥15 | 26 | ✅ |
@@ -30,7 +30,7 @@
 - [x] 英文資源 ≥30 個
 - [x] 中文資源 ≥10 個
 
-目前：英文 115 / 中文 19 / 日語 2 / 西班牙語 5 / 多語 1 / 繁中 9
+目前：英文 116 / 中文 19 / 日語 4 / 西班牙語 5 / 德語 1 / 法語 4 / 多語 1 / 繁中 9
 
 ---
 
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 44 輪 kits — 新增 8 個教育機器人套件：Ozobot EVO, Wonder Workshop Dash, Thymio II, Edison V3, BBC micro:bit v2, Arduino Alvik, M5Stack StackChan, mBlock/CyberPi）*
+*最後更新：2026-01-31 （第 45 輪 communities_international — 新增 8 個非英語社群：Mikrocontroller.net (DE), Robot-Maker (FR), Framboise314 (FR), Qiita (JP), Zenn (JP), Raspberry Pi France (FR), Raspberryme (FR), Pololu Forum）*
