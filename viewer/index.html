@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot DIY Landscape Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <h1>🤖 Robot DIY Landscape</h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜尋條目..." autocomplete="off">
+                <span class="search-icon">🔍</span>
+            </div>
+        </header>
+
+        <!-- Main Layout -->
+        <div class="main-layout">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <nav class="nav">
+                    <!-- Stats -->
+                    <div class="nav-section">
+                        <div class="nav-header">📊 統計</div>
+                        <div id="stats" class="stats">Loading...</div>
+                    </div>
+
+                    <!-- Filters -->
+                    <div class="nav-section">
+                        <div class="nav-header">🏷️ 類型篩選</div>
+                        <select id="typeFilter" class="filter-select">
+                            <option value="">全部類型</option>
+                            <option value="Forum">Forum</option>
+                            <option value="Discord">Discord</option>
+                            <option value="Reddit">Reddit</option>
+                            <option value="Wiki">Wiki</option>
+                            <option value="Blog">Blog</option>
+                            <option value="Marketplace">Marketplace</option>
+                            <option value="Docs">Docs</option>
+                            <option value="Tool">Tool</option>
+                            <option value="Course">Course</option>
+                            <option value="Repo hub">Repo hub</option>
+                            <option value="Document">Document</option>
+                        </select>
+                    </div>
+
+                    <!-- Landscape Categories -->
+                    <div class="nav-section">
+                        <div class="nav-header">🗺️ Landscape</div>
+                        <ul class="nav-list" id="landscapeNav"></ul>
+                    </div>
+
+                    <!-- Gaps -->
+                    <div class="nav-section">
+                        <div class="nav-header">🔍 Gaps</div>
+                        <ul class="nav-list" id="gapsNav"></ul>
+                    </div>
+
+                    <!-- Reports -->
+                    <div class="nav-section">
+                        <div class="nav-header">📝 Reports</div>
+                        <ul class="nav-list" id="reportsNav"></ul>
+                    </div>
+
+                    <!-- Framework -->
+                    <div class="nav-section">
+                        <div class="nav-header">📜 Framework</div>
+                        <ul class="nav-list" id="frameworkNav"></ul>
+                    </div>
+                </nav>
+            </aside>
+
+            <!-- Content Area -->
+            <main class="content">
+                <!-- List View -->
+                <div id="listView" class="list-view">
+                    <div class="list-header">
+                        <h2 id="listTitle">所有條目</h2>
+                        <span id="listCount" class="count-badge">0</span>
+                    </div>
+                    <div id="itemList" class="item-list"></div>
+                </div>
+
+                <!-- Detail View -->
+                <div id="detailView" class="detail-view hidden">
+                    <button id="backBtn" class="back-btn">← 返回列表</button>
+                    <div id="detailContent" class="detail-content"></div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

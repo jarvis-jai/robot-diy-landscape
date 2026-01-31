@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-01-31T10:56:34.472263",
+  "categories": {
+    "landscape/chinese_ecosystem": {
+      "count": 44,
+      "last_updated": "2026-01-31T10:04:49.918197"
+    },
+    "landscape/commerce": {
+      "count": 32,
+      "last_updated": "2026-01-31T07:43:41.628587"
+    },
+    "landscape/communities": {
+      "count": 33,
+      "last_updated": "2026-01-31T05:47:08.750008"
+    },
+    "landscape/creators": {
+      "count": 39,
+      "last_updated": "2026-01-31T07:11:47.657260"
+    },
+    "landscape/hardware": {
+      "count": 50,
+      "last_updated": "2026-01-31T08:49:25.822365"
+    },
+    "landscape/kits": {
+      "count": 34,
+      "last_updated": "2026-01-31T07:00:29.915768"
+    },
+    "landscape/learning": {
+      "count": 51,
+      "last_updated": "2026-01-31T08:59:54.245082"
+    },
+    "landscape/platforms": {
+      "count": 32,
+      "last_updated": "2026-01-31T06:40:53.812114"
+    },
+    "landscape/toolchains": {
+      "count": 63,
+      "last_updated": "2026-01-31T10:14:24.218611"
+    },
+    "gaps/gaps_hypotheses": {
+      "count": 1,
+      "last_updated": "2026-01-31T06:49:57.161838"
+    },
+    "gaps/opportunity_wedges": {
+      "count": 1,
+      "last_updated": "2026-01-31T00:42:30.995011"
+    },
+    "reports/meta_status": {
+      "count": 1,
+      "last_updated": "2026-01-31T10:16:05.288154"
+    },
+    "reports/nightly_report_template": {
+      "count": 1,
+      "last_updated": "2026-01-30T20:18:23.602278"
+    },
+    "framework/README": {
+      "count": 1,
+      "last_updated": "2026-01-30T20:14:46.881115"
+    },
+    "framework/CONSTITUTION": {
+      "count": 1,
+      "last_updated": "2026-01-30T20:26:39.955176"
+    },
+    "framework/WORK_QUEUE": {
+      "count": 1,
+      "last_updated": "2026-01-30T20:31:46.136250"
+    },
+    "framework/COMMIT_POLICY": {
+      "count": 1,
+      "last_updated": "2026-01-30T20:26:39.957202"
+    },
+    "framework/SOURCES": {
+      "count": 1,
+      "last_updated": "2026-01-30T20:16:17.116784"
+    },
+    "framework/ROADMAP": {
+      "count": 1,
+      "last_updated": "2026-01-30T20:15:32.004187"
+    }
+  },
+  "total_entries": 378,
+  "total_docs": 10
+}
