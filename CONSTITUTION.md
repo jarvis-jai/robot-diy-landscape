@@ -47,23 +47,58 @@ grep "hackster.io" data/visited_urls.csv
 
 ## 規則 3：Evidence-First（事實優先）
 
-> Landscape 是事實盤點，Gaps 是推論
+> **`landscape/` 只能寫可觀察事實；`gaps/` 才能寫推論**
 
-### Landscape 檔案（`landscape/*.md`）
-- 只記錄**可觀察的事實**
-- 每個條目的「弱項/缺口」必須是可驗證的觀察（例：「沒有中文介面」「最後更新在 2022 年」）
+### Landscape 檔案（`landscape/*.md`）—— 純事實區
 
-### Gaps 檔案（`gaps/*.md`）
+只記錄**可觀察、可驗證的事實**：
+
+✅ 允許的寫法：
+- 「該站最後更新於 2024-12」（可查證）
+- 「沒有中文介面」（可觀察）
+- 「Discord 成員數 15,000」（可查證）
+- 「文件只覆蓋 Python，無 C++ 範例」（可觀察）
+
+❌ 禁止的寫法：
+- 「這個平台可能適合新手」（推論）
+- 「感覺社群不太活躍」（主觀）
+- 「應該是市場領導者」（推論）
+
+### Gaps 檔案（`gaps/*.md`）—— 推論區
+
 - 明確標記為**「推論」**
-- 每條推論必須列出 ≥2 個佐證來源
-- 格式範例：
-  ```markdown
-  ### Gap Hypothesis #1
-  - **推論**：目前沒有針對非工程師的 AI 機器人入門平台
-  - **佐證 1**：[來源 A] 說明...
-  - **佐證 2**：[來源 B] 說明...
-  - **信心度**：中
-  ```
+- **每條 gap hypothesis 必須引用 ≥2 個 landscape 條目作為佐證**
+- 佐證格式：`[條目名稱](landscape/xxx.md#條目錨點) - 說明`
+
+### Gap Hypothesis 格式（強制）
+
+```markdown
+### Gap Hypothesis #N：[簡短標題]
+
+- **推論**：[完整描述這個缺口]
+- **佐證 1**：[Name](landscape/xxx.md) - [該條目中哪個事實支持此推論]
+- **佐證 2**：[Name](landscape/yyy.md) - [該條目中哪個事實支持此推論]
+- **反證/風險**：[如有發現反面證據]
+- **信心度**：高 / 中 / 低
+```
+
+### 違反範例
+
+❌ 錯誤：Gap 沒有引用 landscape 條目
+```markdown
+### Gap Hypothesis #1：缺乏中文資源
+- **推論**：中文圈機器人資源不足
+- **佐證 1**：我搜尋了一下感覺不多  ← 這不是 landscape 引用
+```
+
+✅ 正確：Gap 引用具體 landscape 條目
+```markdown
+### Gap Hypothesis #1：缺乏中文資源
+- **推論**：主流機器人 DIY 平台缺乏中文支援
+- **佐證 1**：[Hackster.io](landscape/platforms.md#hackster-io) - 介面僅英文，無中文內容分類
+- **佐證 2**：[ROS Wiki](landscape/toolchains.md#ros-wiki) - 中文文件覆蓋率 <10%
+- **信心度**：高
+```
 
 ---
 

@@ -16,10 +16,10 @@
 
 ### Step 3：探索新來源
 - [ ] 從 `data/url_backlog.csv` 抽取 3–5 個該類別的候選 URL
-- [ ] 若 backlog 不足，用關鍵字搜尋補充（記錄搜尋來源）
+- [ ] 若 backlog 不足，用關鍵字搜尋補充（見下方「Backlog 補充規則」）
 - [ ] 對每個 URL：
   - 先查 `data/visited_urls.csv` 是否已存在
-  - 若已存在 → SKIP（或補強）
+  - 若已存在 → SKIP（或補強，需符合補強門檻）
   - 若不存在 → 調查並新增條目
 
 ### Step 4：更新紀錄
@@ -34,21 +34,97 @@
 - [ ] 計算該類別目前條目數
 - [ ] 更新 `data/coverage_checklist.md` 的狀態
 
-### Step 6：判斷本輪成果
-- 若新增 ≥1 個高品質條目 → ✅ 成功
-- 若探索了但無符合品質的新條目 → ⏭️ SKIP（這是成功，不是失敗）
-- 若完全沒探索就結束 → ❌ 需檢討
+### Step 6：判斷 ALLOW vs SKIP
+
+本輪是否達到 **內容門檻**？（見 `COMMIT_POLICY.md`）
+
+#### ✅ ALLOW（可以 commit）
+符合以下任一條件：
+- 新增 ≥8 個符合 schema 的新條目
+- 新增 ≥2 條有佐證的 gap hypothesis（每條 ≥2 個 landscape 條目引用）
+- 新增/重構分類結構（使地圖更清晰，需說明改動理由）
+- 明確補強 ≥3 個既有條目（每個需新增可驗證資訊）
+
+#### ⏭️ SKIP（不 commit）
+- 未達上述任一門檻
+- **SKIP 時不得改動 working tree**（git checkout 回復所有變更）
+- 記錄 SKIP 原因到本輪日誌（不 commit）
+
+### Step 7：產出與收尾
+
+#### 若 ALLOW：
+- [ ] 執行 commit（格式見下方）
+- [ ] Push 到遠端
+- [ ] **每 3 輪或有重大發現時**，更新 `reports/` 下的 nightly report
+  - 不需每輪都寫 report，避免 overhead
+  - 重大發現 = 新的 gap hypothesis / wedge / 覆蓋度跨越門檻
+
+#### 若 SKIP：
+- [ ] `git checkout .` 清除所有未 commit 的變更
+- [ ] 記錄 SKIP 原因（可寫在下次執行時參考，但不 commit）
+- [ ] 考慮下輪換 focus 或換 query 策略
 
 ---
 
-## SKIP 是成功
+## Backlog 補充規則
 
-**重要**：如果本輪探索後發現：
-- 候選 URL 都已在 visited 中
-- 候選 URL 品質不足（死站、內容稀薄、不相關）
-- 該類別暫時沒有新發現
+當 backlog 不足時，需用關鍵字搜尋補充。**但必須避免重複搜尋**：
 
-則記錄「SKIP」並說明原因，這**不是失敗**。空轉比假裝有進度更誠實。
+### 搜尋前檢查 `data/search_log.csv`
+```bash
+grep "robotics discord" data/search_log.csv
+```
+
+### 規則
+1. **同 query 在 24 小時內做過** → 必須換 query
+2. 換 query 策略：
+   - 加地區詞：`robotics discord taiwan`、`robotics forum japan`
+   - 加技術詞：`ROS2 community`、`Jetson projects`、`humanoid robot diy`
+   - 加類型詞：`home robot open-source`、`robot arm kit beginner`
+   - 換引擎：Google → DuckDuckGo → Reddit search → GitHub search
+
+### 搜尋後記錄
+每次搜尋都要更新 `data/search_log.csv`：
+- query, engine, date, top_results_hash, notes
+
+---
+
+## 常見失敗模式處理
+
+### 模式 1：Backlog 枯竭
+**症狀**：`url_backlog.csv` 該類別候選不足 3 個
+
+**處理**：
+1. 檢查 `search_log.csv`，找出尚未嘗試的 query 組合
+2. 嘗試不同搜尋引擎
+3. 從已知高品質來源的外連挖掘（link discovery）
+4. 若仍無法補充 → 換 focus 類別，本類別標記「暫時飽和」
+
+### 模式 2：遇到重複網站
+**症狀**：探索的 URL 都已在 `visited_urls.csv`
+
+**處理**：
+1. 確認是否有補強空間（原條目資訊過時或不完整）
+2. 若無補強空間 → 標記為 SKIP，不重複寫
+3. 更新 backlog 狀態為 `done` 或 `skipped`
+4. 從 backlog 抽下一批，或換 query 補充
+
+### 模式 3：卡在同類別
+**症狀**：`focus_rotation.json` 顯示連續 2+ 輪同類別
+
+**處理**：
+1. 強制換到覆蓋度最低的其他類別
+2. 若所有類別都接近飽和 → 轉向 gaps 階段（從事實萃取推論）
+3. 在 rotation 中標記「forced switch」
+
+### 模式 4：搜尋結果重複
+**症狀**：每次搜尋都找到同一批網站
+
+**處理**：
+1. 檢查 `search_log.csv`，確認是否 query 重複
+2. 使用 query 變形策略（見上方）
+3. 嘗試非搜尋管道：Reddit 討論串、Hacker News、Awesome Lists
+4. 記錄「query exhausted」，轉向其他類別
 
 ---
 
@@ -83,6 +159,7 @@
 1. 連續 3 輪 SKIP 同一類別
 2. `visited_urls.csv` 出現重複條目
 3. 任何 CONSTITUTION 違反
+4. 連續 5 輪全部 SKIP（跨類別）
 
 ---
 
