@@ -1,33 +1,36 @@
 ## Meta Status — 2026-01-31 01:55
 
-## 📱 響應式設計完成（第 28 輪）
+## 🔍 SEO 基礎設施完成（第 29 輪）
 
-**v1 於第 18 輪完成。第 19-28 輪進入驗證/開發階段。**
+**v1 於第 18 輪完成。第 19-29 輪進入驗證/開發階段。**
 
 | 維度 | 目標 | 實際 | 狀態 |
 |------|------|------|------|
 | Landscape 類別 | 9/9 | 9/9 | ✅ |
 | Gap Hypotheses | 10 | 10 | ✅ |
 | Opportunity Wedges | 3 | 3 | ✅ |
-| **Wedge #3 MVP** | Production Ready | **i18n ✅ + Responsive ✅** | ✅ |
+| **Wedge #3 MVP** | Production Ready | **i18n ✅ + Responsive ✅ + SEO ✅** | ✅ |
 | 總條目數 | — | 136 | — |
-| 連續 ALLOW 輪數 | — | 28 | 🔥 |
+| 連續 ALLOW 輪數 | — | 29 | 🔥 |
 
 ---
 
 - **最近 focus 輪替摘要：**
   - 已覆蓋類別：全部 9/9 達標
-  - **🎯 第 28 輪：響應式設計全面強化 — 手機/平板體驗大幅提升！**
+  - **🎯 第 29 輪：SEO 基礎設施完成 — MVP 部署就緒！**
   - 邊際產出下降的類別：暫無（開發模式）
   - 已達標項目：**9/9 landscape + 10 gaps + 3 wedges**
-  - 本輪模式：**MVP 發布前 Polish**
+  - 本輪模式：**MVP 發布準備**
 
-- **本輪新增關鍵產出（第 28 輪 Responsive Polish）：**
-  1. **✅ PathCard.tsx 結構修復** — 分離 .path-header-top，emoji/title 和 description 正確佈局
-  2. **✅ 4 個響應式斷點** — Tablet (768px), Mobile (640px), Small Mobile (480px), Touch devices
-  3. **✅ 手機堆疊佈局** — .path-summary, .path-actions, .step-card 在小屏幕自動堆疊
-  4. **✅ Accessibility 增強** — :focus-visible states, smooth scrolling, font smoothing
-  5. **✅ Touch-friendly** — 按鈕 min-height 48px, 連結 44px touch target
+- **本輪新增關鍵產出（第 29 輪 SEO Optimization）：**
+  1. **✅ _document.tsx** — Custom Document with html lang, preconnect, theme-color, author
+  2. **✅ Open Graph Tags** — og:title, og:description, og:image, og:url, og:locale
+  3. **✅ Twitter Card Tags** — summary_large_image card for Twitter sharing
+  4. **✅ JSON-LD Structured Data** — WebApplication schema for search engines
+  5. **✅ hreflang Tags** — Multilingual SEO for en/zh-TW
+  6. **✅ robots.txt + sitemap.xml** — Crawler guidance with hreflang support
+  7. **✅ manifest.json** — PWA compatibility
+  8. **✅ SEO Translations** — Optimized title/description/keywords for both languages
 
 - **穩定浮現的 gap patterns（≤3）：**
   1. **語言障礙**：中文圈（尤其繁體中文）、西班牙語圈的進階資源嚴重不足
@@ -37,12 +40,12 @@
 - **當前探索健康度：**
   - 重複率：N/A（本輪為開發，無新 URL 探索）
   - 新站命中率：N/A
-  - 是否出現疲乏跡象：**否**（連續 28 輪 ALLOW）
-  - **MVP 健康度**：✅ i18n + Responsive 皆完成
+  - 是否出現疲乏跡象：**否**（連續 29 輪 ALLOW）
+  - **MVP 健康度**：✅ i18n + Responsive + SEO 皆完成
 
 - **對下一階段的建議策略：**
   - **立即**：Vercel 部署 → robotics-onramp.vercel.app（需人類操作登入）
-  - **短期**：SEO 與 meta tags 優化 / Open Graph 設定
+  - **短期**：OG Image 設計（1200x630 社交分享圖）
   - **次選**：Wedge #2 Reddit 發布（需選擇活躍時段）
   - **暫停**：新條目探索（除非發現重大遺漏）
 
@@ -58,9 +61,28 @@
 | ✅ 本地測試 | 通過 | npm run dev 成功, HTML 正確渲染 |
 | ✅ 問卷 i18n | 完成 | 問題/選項/路徑名稱使用翻譯檔 |
 | ✅ 步驟詳情 i18n | 完成 | 17 步驟 title/goals/hardware 全部翻譯 |
-| ✅ 響應式設計 | **完成** | 4 斷點 + touch-friendly + accessibility |
+| ✅ 響應式設計 | 完成 | 4 斷點 + touch-friendly + accessibility |
+| ✅ SEO 優化 | **完成** | OG + Twitter + JSON-LD + hreflang + sitemap |
+| 🔲 OG Image | 待設計 | 1200x630 社交分享圖 |
 | 🔲 Vercel 部署 | 待執行 | 需人類登入 Vercel 帳號 |
 | 🔲 Reddit 測試 | 待規劃 | r/AskRobotics 首發 |
+
+---
+
+## SEO 實作清單
+
+| 項目 | 狀態 | 說明 |
+|------|------|------|
+| Basic Meta | ✅ | title, description, keywords, viewport, robots |
+| Canonical URL | ✅ | https://robotics-onramp.vercel.app |
+| Open Graph | ✅ | og:type, og:url, og:title, og:description, og:image, og:locale |
+| Twitter Card | ✅ | summary_large_image card |
+| JSON-LD | ✅ | WebApplication schema |
+| hreflang | ✅ | en, zh-TW, x-default |
+| robots.txt | ✅ | Allow all + sitemap reference |
+| sitemap.xml | ✅ | 4 URLs with hreflang |
+| manifest.json | ✅ | PWA-ready |
+| OG Image | 🔲 | 需設計 1200x630 圖片 |
 
 ---
 
@@ -72,12 +94,15 @@
 | 問卷問題文字 | ✅ | ✅ | 第 26 輪 |
 | 問卷選項標籤 | ✅ | ✅ | 第 26 輪 |
 | 路徑名稱/描述 | ✅ | ✅ | 第 26 輪 |
-| 步驟標題 | ✅ | ✅ | **第 27 輪** |
-| 步驟目標 | ✅ | ✅ | **第 27 輪** |
-| 步驟硬體 | ✅ | ✅ | **第 27 輪** |
-| 步驟跳過原因 | ✅ | ✅ | **第 27 輪** |
+| 步驟標題 | ✅ | ✅ | 第 27 輪 |
+| 步驟目標 | ✅ | ✅ | 第 27 輪 |
+| 步驟硬體 | ✅ | ✅ | 第 27 輪 |
+| 步驟跳過原因 | ✅ | ✅ | 第 27 輪 |
 | UI 按鈕/標籤 | ✅ | ✅ | |
-| stepLabels | ✅ | ✅ | **第 27 輪** |
+| stepLabels | ✅ | ✅ | 第 27 輪 |
+| **SEO Title** | ✅ | ✅ | **第 29 輪** |
+| **SEO Description** | ✅ | ✅ | **第 29 輪** |
+| **SEO Keywords** | ✅ | ✅ | **第 29 輪** |
 
 **i18n 覆蓋率：100%** 🎉
 
@@ -105,7 +130,8 @@
 
 ## 里程碑
 
-- **第 28 輪**：✅ **響應式設計完成**（4 斷點 + touch-friendly + accessibility - MVP 發布就緒）
+- **第 29 輪**：✅ **SEO 基礎設施完成**（OG + Twitter + JSON-LD + hreflang + robots.txt + sitemap.xml — MVP 部署就緒）
+- **第 28 輪**：響應式設計完成（4 斷點 + touch-friendly + accessibility）
 - **第 27 輪**：步驟詳情 i18n 完成（17 步驟全面翻譯 - i18n 覆蓋率 100%）
 - **第 26 輪**：問卷 i18n 完善（問題/選項/路徑名稱翻譯正常）
 - **第 25 輪**：MVP 本地測試通過（+4 files, npm run dev 成功）
@@ -123,7 +149,7 @@
 
 | Wedge | 優先級 | 驗證狀態 | 下一步 |
 |-------|--------|----------|--------|
-| #3 新手導航入口 | ⭐⭐⭐⭐⭐ | **MVP 發布就緒** | Vercel 部署（需人類登入） |
+| #3 新手導航入口 | ⭐⭐⭐⭐⭐ | **MVP 部署就緒** | Vercel 部署（需人類登入） |
 | #2 Sim-to-Real 指南 | ⭐⭐⭐⭐ | 社群發文準備完成 | 選擇活躍時段發布 |
 | #1 繁中進階學習路徑 | ⭐⭐⭐ | 構想中 | 待 #3 驗證後評估 |
 
@@ -138,23 +164,28 @@ wedge_3_mvp/
 ├── tailwind.config.js     # 自訂顏色主題
 ├── postcss.config.js      # Tailwind PostCSS 配置
 ├── .gitignore             # 排除 node_modules/.next
+├── public/
+│   ├── robots.txt         # 爬蟲指引 ✅ NEW
+│   ├── sitemap.xml        # 網站地圖 with hreflang ✅ NEW
+│   └── manifest.json      # PWA manifest ✅ NEW
 ├── src/
 │   ├── components/
 │   │   ├── Questionnaire.tsx  # 5 題問卷 + i18n 支援 ✅
 │   │   ├── PathCard.tsx       # 路徑結果卡片 + 步驟 i18n ✅
 │   │   └── ResourceCard.tsx   # 資源展示卡片
 │   ├── pages/
+│   │   ├── _document.tsx      # Custom Document ✅ NEW
 │   │   ├── _app.tsx           # 全局包裝器
-│   │   └── index.tsx          # 首頁 + 傳入翻譯物件
+│   │   └── index.tsx          # 首頁 + SEO meta tags ✅ UPDATED
 │   ├── styles/
 │   │   └── globals.css        # 完整 Tailwind + 自訂樣式
 │   └── i18n/
-│       ├── en.json            # 英文翻譯 (~8KB - 含 steps)
-│       └── zh-TW.json         # 繁中翻譯 (~6.5KB)
+│       ├── en.json            # 英文翻譯 (~9KB - 含 SEO) ✅ UPDATED
+│       └── zh-TW.json         # 繁中翻譯 (~7KB - 含 SEO) ✅ UPDATED
 ├── wedge_3_curated_resources.json → (symlink)
 └── wedge_3_learning_paths.json → (symlink)
 ```
 
 ---
 
-*此為第 28 輪後的 meta 摘要（MVP 發布就緒：i18n + Responsive 皆完成）。下次更新預計在 Vercel 部署後或第 30 輪。*
+*此為第 29 輪後的 meta 摘要（MVP 部署就緒：i18n + Responsive + SEO 皆完成）。下次更新預計在 Vercel 部署後或第 35 輪。*

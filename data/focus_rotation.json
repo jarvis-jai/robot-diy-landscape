@@ -1,9 +1,9 @@
 {
-  "last_focus": "responsive_polish",
+  "last_focus": "seo_optimization",
   "next_focus_candidates": [
     "Wedge #3 Vercel 部署",
     "Wedge #2 Reddit 發布",
-    "SEO 與 meta tags 優化"
+    "OG Image 設計"
   ],
   "focus_history": [
     {
@@ -191,6 +191,14 @@
       "files_modified": 2,
       "result": "ALLOW",
       "note": "Round 28: ✅ 響應式設計全面強化！(1) PathCard.tsx 修復 .path-header 結構; (2) globals.css 添加 4 個響應式斷點 (768px/640px/480px/touch) + accessibility focus states + smooth scrolling。Build 成功。手機/平板體驗大幅提升。"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "seo_optimization",
+      "files_added": 4,
+      "files_modified": 3,
+      "result": "ALLOW",
+      "note": "Round 29: ✅ SEO 基礎設施完成！(1) _document.tsx (html lang, preconnect, theme-color); (2) robots.txt + sitemap.xml (hreflang); (3) manifest.json (PWA); (4) index.tsx 添加 Open Graph / Twitter Card / JSON-LD / canonical / hreflang; (5) en.json + zh-TW.json 添加 SEO block (優化標題/描述/關鍵字)。Build 成功。MVP 現在 SEO 就緒。"
     }
   ]
 }
