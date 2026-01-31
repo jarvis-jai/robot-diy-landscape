@@ -388,4 +388,164 @@
 
 ---
 
-*條目數：18 / 目標：10*
+### Ozobot EVO
+
+- **Name**：Ozobot EVO
+- **Type**：Educational Kit / Pocket-Size Coding Robot
+- **Primary language**：English
+- **一句話定位**：得獎的口袋大小編程機器人，支援 Color Codes 無屏幕編程和 Blockly 圖形化編程
+- **強項（≤3）**：
+  - 雙模式編程：Color Codes（無屏幕）和 Blockly（有屏幕），K-5 全覆蓋
+  - 25+ EdTech 獎項，STEAM 課程標準對齊
+  - 完整教師專業發展課程和資助申請資源
+- **弱項/缺口（≤3，可觀察）**：
+  - 體積小，容易遺失
+  - Color Codes 需要精確的標記筆，學習曲線存在
+  - 主要面向教育機構，個人購買價格較高
+- **活躍度訊號**：持續更新 EVO App，STEM Kits 產品線活躍
+- **與我們的關聯（一句話）**：「無屏幕 → 有屏幕」雙模式的教育市場領導者，驗證低門檻入口策略
+- **Link(s)**：https://ozobot.com/
+
+---
+
+### Wonder Workshop Dash
+
+- **Name**：Wonder Workshop Dash
+- **Type**：Educational Kit / Ready-to-Code Robot
+- **Primary language**：English
+- **一句話定位**：適合 6-11 歲的即開即玩編程機器人，支援 Blockly 和 JavaScript 雙軌學習路徑
+- **強項（≤3）**：
+  - 虛擬 + 實體雙模式：Virtual Dash 減少硬體需求，1:1 學習體驗
+  - 完整課堂解決方案：35 個學生檔案追蹤、進度警報、現成課程計畫
+  - 年齡向上擴展：從積木編程過渡到 JavaScript，同一機器人陪伴成長
+- **弱項/缺口（≤3，可觀察）**：
+  - 封閉生態系，擴展性有限
+  - 需要專屬 App，離線能力有限
+  - 價格較高（專業教育產品）
+- **活躍度訊號**：Wonder League 機器人競賽年度舉辦，Make Wonder 平台持續維護
+- **與我們的關聯（一句話）**：「虛擬+實體」混合模式的標竿，展示減少硬體成本的教育策略
+- **Link(s)**：https://www.makewonder.com/
+
+---
+
+### Thymio II
+
+- **Name**：Thymio II
+- **Type**：Educational Kit / Open Source Robot
+- **Primary language**：Multilingual (EN/FR/DE/IT/ES)
+- **一句話定位**：瑞士 EPFL 研究團隊開發的開源教育機器人，非營利組織 Mobsya 生產
+- **強項（≤3）**：
+  - 完全開源：硬體、韌體、互動邏輯全部公開
+  - 多層次編程：VPL（視覺）→ Scratch → Blockly → Python（Thonny 整合）
+  - 豐富感測器：9 個紅外線感測器、加速度計、溫度計、麥克風
+- **弱項/缺口（≤3，可觀察）**：
+  - 外觀設計較舊，對年輕學生吸引力可能不如新產品
+  - 官網文檔組織較分散
+  - 全球分銷不如商業產品普及
+- **活躍度訊號**：Thymio Suite 2.4.0（2024 年），與 Vittascience 平台整合
+- **與我們的關聯（一句話）**：「大學研發 → 開源教育」的經典案例，EPFL 學術背書
+- **Link(s)**：https://www.thymio.org/
+
+---
+
+### Edison Robot
+
+- **Name**：Edison V3
+- **Type**：Educational Kit / Affordable STEM Robot
+- **Primary language**：English
+- **一句話定位**：專為課堂設計的高性價比編程機器人，$59 單價，無訂閱費
+- **強項（≤3）**：
+  - 價格友善：$59 單個，$1199 班級 30 組，所有軟體免費
+  - 四階段編程：Barcodes（無屏幕）→ EdBlocks → EdScratch → EdPy（Python）
+  - 課堂友善：堅固無散件、可充電、易收納
+- **弱項/缺口（≤3，可觀察）**：
+  - 外觀設計較功能導向，視覺吸引力中等
+  - 感測器較基本，進階專案空間有限
+  - LEGO 相容但非官方授權
+- **活躍度訊號**：持續更新教學資源，EdMazing Educators 社群活躍
+- **與我們的關聯（一句話）**：「一人一機」課堂可及性的標竿，驗證「低價 + 免訂閱」的商業模式
+- **Link(s)**：https://meetedison.com/
+
+---
+
+### BBC micro:bit
+
+- **Name**：BBC micro:bit v2
+- **Type**：Educational Kit / Pocket-Size Computer
+- **Primary language**：English（支援 30+ 語言）
+- **一句話定位**：BBC 開發的教育微控制器，全球最大規模的學校編程專案（英國 100 萬學生）
+- **強項（≤3）**：
+  - 開源硬體：ARM Cortex-M4、512KB Flash、128KB RAM、BLE、麥克風、喇叭
+  - 多語言編程：MakeCode Blocks → JavaScript → MicroPython
+  - 龐大生態系：Micro:bit Educational Foundation、30+ 合作夥伴
+- **弱項/缺口（≤3，可觀察）**：
+  - 本身不是機器人，需搭配擴展底盤（如 :MOVE mini、Bit:Bot）
+  - 單板功能有限，複雜專案需額外購買模組
+  - 25 LED 顯示器解析度有限
+- **活躍度訊號**：CreateAI 新功能（機器學習）、micro:bit Live Global 2026 會議
+- **與我們的關聯（一句話）**：「全球最大教育微控制器專案」，BBC 品牌背書的入門標準
+- **Link(s)**：https://www.microbit.org/
+
+---
+
+### Arduino Alvik
+
+- **Name**：Arduino Alvik
+- **Type**：Educational Kit / Arduino Robotics Platform
+- **Primary language**：English
+- **一句話定位**：Arduino 官方教育機器人，Nano ESP32 驅動，CSTA/NGSS 課程對齊
+- **強項（≤3）**：
+  - 多層次編程：Block-based（即將支援）→ MicroPython → Arduino C++
+  - 豐富感測器：ToF 距離、RGB 顏色、循線陣列、6 軸 IMU
+  - 可擴展：LEGO Technic、M3 螺絲、Servo、I2C Grove/Qwiic 連接器
+- **弱項/缺口（≤3，可觀察）**：
+  - 價格較高（€159），較其他入門套件貴
+  - Block-based 編程尚未正式支援
+  - 相對較新產品，社群資源仍在建構中
+- **活躍度訊號**：Arduino 官方產品線，2024 年發布，持續更新課程
+- **與我們的關聯（一句話）**：「Arduino 官方機器人」的品牌背書，展示 Arduino 進軍教育機器人市場
+- **Link(s)**：https://store.arduino.cc/products/alvik
+
+---
+
+### M5Stack StackChan
+
+- **Name**：M5Stack StackChan
+- **Type**：Educational Kit / Open Source AI Desktop Robot
+- **Primary language**：English / Japanese / Chinese
+- **一句話定位**：M5Stack 與社群共創的開源 AI 桌面機器人，ESP32-S3 驅動，完全可駭客化
+- **強項（≤3）**：
+  - 完全開源：硬體、韌體、互動邏輯全部公開（GitHub）
+  - 豐富功能：AI 語音助理、360° 旋轉、NFC、RGB LED、iOS App 遙控
+  - 活躍社群：2021 年起社群驅動開發，Kickstarter $65 早鳥價
+- **弱項/缺口（≤3，可觀察）**：
+  - 新產品，尚未大規模出貨
+  - 需要一定技術基礎進行自訂開發
+  - 主要面向創客和開發者，非傳統教育市場
+- **活躍度訊號**：2026 年 1 月 Kickstarter 發布，GitHub 持續更新
+- **與我們的關聯（一句話）**：「社群共創」開源機器人的新典範，ESP32 生態系的 AI 應用展示
+- **Link(s)**：https://m5stack.com/, https://github.com/m5stack/StackChan
+
+---
+
+### mBlock / CyberPi
+
+- **Name**：mBlock & CyberPi
+- **Type**：Educational Platform / Main Control Board
+- **Primary language**：English / Chinese
+- **一句話定位**：Makeblock 自主開發的編程平台和主控板，一站式 STEAM 編程解決方案
+- **強項（≤3）**：
+  - 統一平台：mBlock 支援 Scratch 積木、Python、Arduino 三種模式
+  - CyberPi 主控板：緊湊設計、內建感測器、Wi-Fi 支援 IoT 專案
+  - 教師數據：78% 教師認為視覺化編程最重要，48% 學生用 mBlock 做機器人專案
+- **弱項/缺口（≤3，可觀察）**：
+  - CyberPi 需另購擴展模組實現完整機器人功能
+  - 生態系綁定 Makeblock 產品線
+  - 進階用戶可能需要轉向純 Arduino/Python 環境
+- **活躍度訊號**：mBlock 5 持續更新，CyberPi 支援 mBlock-Python Editor
+- **與我們的關聯（一句話）**：「一站式編程平台」的整合策略，展示軟體驅動的教育產品設計
+- **Link(s)**：https://mblock.cc/
+
+---
+
+*條目數：26 / 目標：10*
