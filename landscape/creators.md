@@ -645,4 +645,164 @@
 
 ---
 
-*條目數：31 / 目標：10 ✅*
+### RootSaid - Robotics, Electronics & Technology
+
+- **Name**：RootSaid
+- **Type**：YouTube + Website
+- **Primary language**：English (印度)
+- **一句話定位**：印度機器人教育創作者，專注於 Arduino、Raspberry Pi 的系統化初學者機器人教程
+- **強項（≤3）**：
+  1. 系統化初學者課程：「Robotics for Beginners」完整播放清單，從零開始學機器人
+  2. 高觀看熱門影片：「Robotics for Kids」97 萬觀看、「Arduino Robot Tutorial」59 萬觀看
+  3. 配套網站（rootsaid.com）提供完整教程、電路圖和程式碼
+- **弱項/缺口（≤3，可觀察）**：
+  1. 主要為英語內容，無中文字幕
+  2. 進階 ROS 2 內容較少
+  3. Shorts 觀看次數相對低
+- **活躍度訊號**：9.86 萬訂閱者、327 部影片、熱門影片觀看次數達百萬級、2026-01 持續更新（5 天前）
+- **與我們的關聯（一句話）**：機器人初學者的優質入門資源，特別適合絕對新手（直接填補 Gap #2）
+- **Link(s)**：https://www.youtube.com/@RootSaid / https://rootsaid.com
+
+---
+
+### Arduino Brasil
+
+- **Name**：Arduino Brasil
+- **Type**：YouTube + Website + Shop
+- **Primary language**：Portuguese (巴西)
+- **一句話定位**：巴西葡萄牙語 Arduino 教育平台，提供完整從零開始的程式設計和機器人教程
+- **強項（≤3）**：
+  1. 完整教程系列：「PROGRAMANDO DO ZERO」從變數開始、「APRENDENDO DO ZERO」硬體入門
+  2. 巴西機器人奧林匹亞競賽（OBR）題解：涵蓋多個年份和級別的題目解析
+  3. 生態系統完整：配套商店（arduinobrasilshop.com.br）和培訓平台（prt.dev.br）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 僅葡萄牙語內容，無英文或中文字幕
+  2. 熱門影片觀看次數相對較低（最高 14 萬）
+  3. 社群貼文互動較少
+- **活躍度訊號**：2.84 萬訂閱者、1250 部影片、2026-01 持續更新（2 週前）、10 年運營
+- **與我們的關聯（一句話）**：拉丁美洲葡萄牙語圈機器人教育的主要資源，解決 Gap #7（語言/地區不平衡）
+- **Link(s)**：https://www.youtube.com/@arduinobrasil / https://www.arduinobrasil.cc
+
+---
+
+### Mundo C.N.C. con Arduino
+
+- **Name**：Mundo C.N.C. con Arduino
+- **Type**：YouTube
+- **Primary language**：Spanish (西班牙語)
+- **一句話定位**：西班牙語 CNC 與 Arduino 專家，專注於數控機床、3D 列印機和雷射切割機教程
+- **強項（≤3）**：
+  1. CNC 專業深度：涵蓋銑床、3D 列印機、雷射切割機等多種數控設備
+  2. 軟體和硬體兼顧：包含 GRBL、步進馬達驅動、軸控制等完整教程
+  3. 西班牙語圈重要資源：填補該語言圈 CNC 與 Arduino 整合內容缺口
+- **弱項/缺口（≤3，可觀察）**：
+  1. 僅西班牙語內容
+  2. 偏重 CNC 機床，機器人專案較少
+  3. 無配套網站或開源專案
+- **活躍度訊號**：5.47 萬訂閱者、2016 年起活躍、定期更新
+- **與我們的關聯（一句話）**：西班牙語圈 CNC 與數位製造的專業資源，解決 Gap #7（語言不平衡）
+- **Link(s)**：https://www.youtube.com/@MundoCNCconArduino
+
+---
+
+### Makerblog.at - Arduino & Co
+
+- **Name**：Makerblog.at
+- **Type**：YouTube + Website
+- **Primary language**：German (奧地利)
+- **一句話定位**：德語圈 Arduino、3D 列印和創客文化教程平台
+- **強項（≤3）**：
+  1. 德語高品質教程：涵蓋 Arduino、3D 列印和創客專案
+  2. 配套網站（makerblog.at）提供詳細文字教程
+  3. 中歐創客文化觀點：提供歐洲視角的創客資源
+- **弱項/缺口（≤3，可觀察）**：
+  1. 僅德語內容
+  2. 訂閱數相對較少（24.7K）
+  3. 更新頻率中等
+- **活躍度訊號**：2.47 萬訂閱者、Facebook 2.3K followers、2014 年起活躍
+- **與我們的關聯（一句話）**：德語圈創客入門的友好資源，解決 Gap #7（語言/地區不平衡）
+- **Link(s)**：https://www.youtube.com/@makerblogat / https://makerblog.at
+
+---
+
+### Ralph S Bacon
+
+- **Name**：Ralph S Bacon
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：Arduino 初學者友好頻道，以經驗豐富的愛好者視角分享 Arduino 學習歷程
+- **強項（≤3）**：
+  1. 初學者視角：以「一起學習」的態度分享 Arduino 經驗，降低入門門檻
+  2. 多種 Arduino 兼容板探索：ESP32、STM32、RP2040 等多平台內容
+  3. 長期穩定更新：2012 年起活躍，持續輸出超過 10 年
+- **弱項/缺口（≤3，可觀察）**：
+  1. 製作品質較傳統，非高產值製作
+  2. 無配套網站或開源專案
+  3. 進階 ROS 或專業機器人內容較少
+- **活躍度訊號**：4.78 萬訂閱者、2012 年起活躍、持續更新
+- **與我們的關聯（一句話）**：Arduino 初學者的友好伴學資源，特別適合零基礎入門（填補 Gap #2）
+- **Link(s)**：https://www.youtube.com/@RalphSBacon
+
+---
+
+### PRO ROBOTS
+
+- **Name**：PRO ROBOTS
+- **Type**：YouTube
+- **Primary language**：English / Russian
+- **一句話定位**：機器人產業新聞與評測頻道，報導最新的商業和研究機器人發展
+- **強項（≤3）**：
+  1. 全球機器人新聞覆蓋：Boston Dynamics、Tesla Bot、Figure、Unitree 等頂級機器人報導
+  2. 高觀看編輯內容：「Top Robots of 2024」達 1.3 萬觀看
+  3. 雙語內容：英語和俄語版本擴大覆蓋
+- **弱項/缺口（≤3，可觀察）**：
+  1. 偏新聞報導，無 DIY 教程內容
+  2. 無技術深度教學
+  3. 商業機器人為主，業餘愛好者相關性較低
+- **活躍度訊號**：YouTube 活躍、2026-01 持續更新（1 個月前）、定期發布長篇編輯影片
+- **與我們的關聯（一句話）**：追蹤機器人產業趨勢的新聞資源，了解商業機器人發展方向
+- **Link(s)**：https://www.youtube.com/@PRO-ROBOTS
+
+---
+
+### Rachel De Barros
+
+- **Name**：Rachel De Barros
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：女性工程師創客，專注於 Arduino 機器人專案教程，特別是自平衡機器人和電子專案
+- **強項（≤3）**：
+  1. 女性創作者視角：增加 STEM 教育的多元代表性
+  2. 完整專案教程：「Self-Balancing Robot with Arduino for Beginners」29 分鐘深度教學
+  3. 清晰講解風格：適合初學者跟隨
+- **弱項/缺口（≤3，可觀察）**：
+  1. 訂閱數相對較少
+  2. 更新頻率中等
+  3. 無配套網站
+- **活躍度訊號**：YouTube 活躍、2025-05 有新影片、持續產出
+- **與我們的關聯（一句話）**：增加 STEM 教育多元性的女性創作者代表，Arduino 專案教程品質高
+- **Link(s)**：https://www.youtube.com/@RachelDeBarros
+
+---
+
+### LeMaster Tech
+
+- **Name**：LeMaster Tech
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：Arduino 教程專家，專注於家庭自動化和機器人專案的完整教學系列
+- **強項（≤3）**：
+  1. 完整教程播放清單：「Arduino Tutorials for Home Automation and Robotics」系統化教學
+  2. 初學者友好：從第一個程式和電路開始的漸進式教學
+  3. 實用專案導向：智慧家庭和機器人實際應用
+- **弱項/缺口（≤3，可觀察）**：
+  1. 無配套網站
+  2. 主要為 Arduino 入門，進階 ROS 內容較少
+  3. 更新頻率中等
+- **活躍度訊號**：3.7 萬訂閱者、持續活躍、有完整教程系列
+- **與我們的關聯（一句話）**：Arduino 和家庭自動化入門的系統化教程資源（填補 Gap #2）
+- **Link(s)**：https://www.youtube.com/@LeMasterTech
+
+---
+
+*條目數：39 / 目標：10 ✅*

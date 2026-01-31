@@ -15,7 +15,7 @@
 | kits.md | ≥10 | 34 | ✅ |
 | learning.md | ≥15 | 34 | ✅ |
 | commerce.md | ≥10 | 24 | ✅ |
-| creators.md | ≥10 | 31 | ✅ |
+| creators.md | ≥10 | 39 | ✅ |
 | chinese_ecosystem.md | ≥10 | 28 | ✅ |
 
 狀態圖例：
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 51 輪 kits 國際資源補強 — 新增 8 個國際教育機器人套件：Yahboom ROSMASTER X3/DOGZILLA/DOFBOT、ELECFREAKS Cutebot Pro/XGO-Rider、Keyestudio Smart Car、Adeept RaspTank、OSOYOO Mecanum。發現 5 個深圳主要品牌，解決 Gap #7 語言/地區不平衡。Kits 達 34 條目）*
+*最後更新：2026-01-31 （第 52 輪 creators 非英語圈 — 新增 8 個國際/初學者友好創作者：RootSaid 印度 98.6K、Arduino Brasil 巴西 28.4K、Mundo CNC 西語 54.7K、Makerblog.at 德語 24.7K、Ralph S Bacon 英語 47.8K、PRO ROBOTS 俄英、Rachel De Barros 女性創作者、LeMaster Tech 37K。Creators 達 39 條目，解決 Gap #2 #7。連續 52 輪 ALLOW！）*

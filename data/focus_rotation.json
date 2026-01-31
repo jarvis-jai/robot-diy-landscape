@@ -1,12 +1,12 @@
 {
-  "last_focus": "kits",
+  "last_focus": "creators",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
     "commerce (國際資源補強)",
-    "creators (非英語圈)",
     "toolchains (補強)",
-    "learning (2026 更新)"
+    "learning (2026 更新)",
+    "hardware (補強)"
   ],
   "focus_history": [
     {
@@ -358,6 +358,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 51: Added 8 international kits - Yahboom ROSMASTER X3/DOGZILLA/DOFBOT, ELECFREAKS Cutebot Pro/XGO-Rider, Keyestudio Smart Car, Adeept RaspTank, OSOYOO Mecanum. Addresses Gap #7 (language/region diversity)."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "creators",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 52: Added 8 international/beginner-focused creators - RootSaid (India 98.6K), Arduino Brasil (Brazil 28.4K), Mundo CNC con Arduino (Spanish 54.7K), Makerblog.at (German 24.7K), Ralph S Bacon (English 47.8K), PRO ROBOTS (Russian/English), Rachel De Barros (female maker), LeMaster Tech (37K). Creators now at 39/10. Addresses Gap #2 #7."
     }
   ]
 }
