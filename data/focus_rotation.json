@@ -1,11 +1,11 @@
 {
-  "last_focus": "commerce_international",
+  "last_focus": "creators_international",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
     "gaps 深化 (補充更多佐證)",
-    "creators (非英語創作者)",
-    "toolchains (新增模擬器/框架)"
+    "toolchains (新增模擬器/框架)",
+    "hardware (傳感器補強)"
   ],
   "focus_history": [
     {
@@ -280,6 +280,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 40: Added 8 international retailers - Cytron (Malaysia), AG Electrónica (Mexico), Steren (LatAm), Robocraze (India), DeviceMart (Korea), Electromanía (Peru), Makerlab (Philippines), Tiendatec (Spain). Addresses Gap #7 #8 (language/region + cost barriers). Commerce now at 24/10. Meta status update (every 5 rounds)."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "creators_international",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 41: Added 8 international/non-English creators: ElectroBOOM (Iranian-Canadian 8.65M), Andreas Spiess (Swiss IoT), bitluni (German ESP32), HomoFaciens (German CNC), Electronoobs (Spanish Arduino), Akiyuki (Japanese LEGO), thang010146 (Vietnamese mechanics), Teaching Tech (Australian 3D printing). Creators now at 28/10. Addresses Gap #4 #7 language diversity."
     }
   ]
 }

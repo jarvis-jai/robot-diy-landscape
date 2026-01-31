@@ -424,4 +424,164 @@
 
 ---
 
-*條目數：20 / 目標：10 ✅*
+### ElectroBOOM (Mehdi Sadaghdar)
+
+- **Name**：Mehdi Sadaghdar (ElectroBOOM)
+- **Type**：YouTube + Website
+- **Primary language**：English (伊朗裔加拿大人)
+- **一句話定位**：伊朗裔加拿大電機工程師，以喜劇方式教授電學知識，故意觸電演示電學危險
+- **強項（≤3）**：
+  1. 獨特喜劇風格（故意觸電、爆炸效果），讓電學教育變得有趣
+  2. 專業工程背景（德黑蘭大學電子學學士、西門菲沙大學微電子碩士）
+  3. 高品質技術內容與娛樂結合（解釋 AC/DC、ESD、電容器危險）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 內容偏重電學基礎，機器人完整專案較少
+  2. 演示手法有安全爭議（不建議模仿）
+  3. 更新頻率中等
+- **活躍度訊號**：8.65M 訂閱者、1.3B 總觀看、自 2012 年活躍、TED 演講
+- **與我們的關聯（一句話）**：將電學教育變得有趣的標杆，適合引導新手理解電學危險
+- **Link(s)**：https://www.youtube.com/@ElectroBOOM / https://electroboom.com
+
+---
+
+### Andreas Spiess
+
+- **Name**：Andreas Spiess
+- **Type**：YouTube + GitHub
+- **Primary language**：English (瑞士)
+- **一句話定位**：瑞士 IoT 專家，專注於 ESP32、LoRa、Home Assistant 和低功耗傳感器專案
+- **強項（≤3）**：
+  1. IoT 和傳感器專案深度（SuperPower 低功耗電源專案 591 GitHub 星）
+  2. 技術深度高（Wi-Fi Sniffer、NTPtime、HTTPS for Makers 等開源專案）
+  3. 德國式嚴謹測試風格，數據驅動的評測
+- **弱項/缺口（≤3，可觀察）**：
+  1. 內容偏重 IoT 傳感器，機械機器人專案較少
+  2. 影片長度偏長
+  3. 無中文字幕
+- **活躍度訊號**：SensorsIot GitHub 組織活躍、多個開源專案持續維護
+- **與我們的關聯（一句話）**：ESP32/IoT 傳感器專案的專業參考，適合中階學習者
+- **Link(s)**：https://www.youtube.com/@AndreasSpiess / https://github.com/SensorsIot
+
+---
+
+### bitluni
+
+- **Name**：bitluni
+- **Type**：YouTube + Website + GitHub
+- **Primary language**：English (德國)
+- **一句話定位**：德國創客，專注於 ESP32 VGA 輸出、LED 矩陣和創意電子專案
+- **強項（≤3）**：
+  1. ESP32 底層開發專家（ESP32Lib 523 星、ESP32CompositeVideo 406 星）
+  2. 獨特的創意專案（乒乓球 LED 牆、10 人遊戲機、ESP32 VGA、磁鐵矩陣）
+  3. 完整的開源生態（87 個 GitHub 倉庫、1.7K followers）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 專案技術門檻高，需要一定 C/C++ 基礎
+  2. 教學節奏較快，細節需自行鑽研
+  3. 網站 bitluni.net 結構較舊
+- **活躍度訊號**：87 GitHub 倉庫、1.7K GitHub followers、網站持續更新（2026-01 最新 LED 矩陣教程）
+- **與我們的關聯（一句話）**：ESP32 底層開發和創意電子專案的靈感來源
+- **Link(s)**：https://www.youtube.com/@bitlunislab / https://bitluni.net / https://github.com/bitluni
+
+---
+
+### HomoFaciens
+
+- **Name**：HomoFaciens
+- **Type**：YouTube + Website
+- **Primary language**：German / English (德國)
+- **一句話定位**：德國創客，專注於從廢料和基礎材料製作 CNC、3D 列印機和機器人
+- **強項（≤3）**：
+  1. 極致 DIY 精神（從廢品製作 CNC、用步進馬達製作編碼器）
+  2. 詳細的雙語教程（德語/英語網站完整分開）
+  3. 獨特的「RoboSpatium」機器人空間站專案
+- **弱項/缺口（≤3，可觀察）**：
+  1. 網站設計較舊（傳統 HTML 風格）
+  2. 專案偏重 CNC/3D 列印，較少軟體教程
+  3. 更新頻率中等
+- **活躍度訊號**：網站持續更新（2026-01-21 最新 Granule Extruder V6.2）、YouTube 活躍
+- **與我們的關聯（一句話）**：展示如何從基礎材料製作精密設備的極致 DIY 典範
+- **Link(s)**：https://www.youtube.com/@HomoFaciens / https://homofaciens.de/index_en.htm
+
+---
+
+### Electronoobs
+
+- **Name**：Electronoobs
+- **Type**：YouTube + Website
+- **Primary language**：English / Spanish (西班牙)
+- **一句話定位**：西班牙創客，專注於 Arduino/ESP32 專案，提供完整配套網站和 PCB 設計
+- **強項（≤3）**：
+  1. 完整的網站配套（electronoobs.com 提供教程、電路圖、PCB 設計）
+  2. 實用創意專案（ESP32 WiFi 對講機、DIY 雷射功率計、MSLA 3D 列印機）
+  3. 深度技術內容（FOC 控制、三相整流器、等離子環形發生器）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 部分內容為西班牙語，英語字幕可能不完整
+  2. 專案複雜度較高
+  3. 社群互動相對較少
+- **活躍度訊號**：網站持續更新、YouTube 活躍、多個進行中的創意專案
+- **與我們的關聯（一句話）**：Arduino/ESP32 進階專案的優質參考，PCB 設計教程豐富
+- **Link(s)**：https://www.youtube.com/@Electronoobs / https://electronoobs.com
+
+---
+
+### Akiyuki Brick Channel
+
+- **Name**：Akiyuki
+- **Type**：YouTube
+- **Primary language**：Japanese (minimal narration)
+- **一句話定位**：日本創客，專精於 LEGO/積木機械藝術，創作令人驚嘆的自動化機械球道
+- **強項（≤3）**：
+  1. 極致機械美學（GBC Great Ball Contraption 機械球道設計）
+  2. 精密的積木機械設計（複雜的連動機構、自動化系統）
+  3. 視覺治癒系內容，無需語言即可欣賞
+- **弱項/缺口（≤3，可觀察）**：
+  1. 無教學內容，純展示型影片
+  2. 專注於 LEGO/積木，非傳統機器人
+  3. 製作成本高（大量 LEGO 零件）
+- **活躍度訊號**：YouTube 持續更新、LEGO 社群知名創作者
+- **與我們的關聯（一句話）**：展示機械設計美學的極致，激發創作靈感
+- **Link(s)**：https://www.youtube.com/@akiyuky
+
+---
+
+### thang010146
+
+- **Name**：thang010146
+- **Type**：YouTube
+- **Primary language**：Vietnamese (minimal narration)
+- **一句話定位**：越南機械工程師，專精於 3D 機械動畫展示各種機構原理
+- **強項（≤3）**：
+  1. 高品質 3D 機械動畫（展示齒輪、連桿、凸輪等機構）
+  2. 教育價值高（視覺化展示複雜機械原理）
+  3. 無語言障礙（純動畫展示）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 無實際製作教程
+  2. 純動畫展示，無實物製作
+  3. 頻道較專注單一內容類型
+- **活躍度訊號**：YouTube 持續更新、機械工程社群廣泛引用
+- **與我們的關聯（一句話）**：理解機械機構原理的絕佳視覺資源
+- **Link(s)**：https://www.youtube.com/@thang010146
+
+---
+
+### Teaching Tech
+
+- **Name**：Teaching Tech
+- **Type**：YouTube + Website
+- **Primary language**：English (澳洲)
+- **一句話定位**：澳洲工業設計師兼教師，專注於 3D 列印、CNC、雷射切割和機器人教程
+- **強項（≤3）**：
+  1. 專業教育背景（工業設計師 + 中小學教師資格）
+  2. 完整配套網站（teachingtechyt.github.io 提供互動工具和詳細教程）
+  3. 預算友好內容（強調低成本入門方案）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 主要專注 3D 列印，機器人專案相對較少
+  2. 內容以評測和調校為主，完整專案較少
+  3. 更新頻率中等
+- **活躍度訊號**：YouTube 活躍、GitHub Pages 網站持續維護、3D 列印社群知名
+- **與我們的關聯（一句話）**：3D 列印新手入門的最佳指南，配套工具實用
+- **Link(s)**：https://www.youtube.com/@TeachingTechYT / https://teachingtechyt.github.io
+
+---
+
+*條目數：28 / 目標：10 ✅*

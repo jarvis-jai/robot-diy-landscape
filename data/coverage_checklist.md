@@ -15,7 +15,7 @@
 | kits.md | ≥10 | 18 | ✅ |
 | learning.md | ≥15 | 29 | ✅ |
 | commerce.md | ≥10 | 24 | ✅ |
-| creators.md | ≥10 | 20 | ✅ |
+| creators.md | ≥10 | 28 | ✅ |
 | chinese_ecosystem.md | ≥10 | 19 | ✅ |
 
 狀態圖例：
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 40 輪 commerce_international — 新增 8 個國際零售商：馬來西亞1 墨西哥2 印度1 韓國1 秘魯1 菲律賓1 西班牙1）*
+*最後更新：2026-01-31 （第 41 輪 creators_international — 新增 8 個國際創作者：伊朗裔加拿大1 瑞士1 德國2 西班牙1 日本1 越南1 澳洲1）*
