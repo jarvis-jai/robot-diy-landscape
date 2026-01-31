@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-31T10:56:34.472263",
+  "generated_at": "2026-01-31T15:16:50.854416",
   "categories": {
     "landscape/chinese_ecosystem": {
       "count": 44,
@@ -53,6 +53,10 @@
       "count": 1,
       "last_updated": "2026-01-30T20:18:23.602278"
     },
+    "reports/raijax_wedge_candidates": {
+      "count": 1,
+      "last_updated": "2026-01-31T14:04:33.758936"
+    },
     "framework/README": {
       "count": 1,
       "last_updated": "2026-01-30T20:14:46.881115"
@@ -76,8 +80,24 @@
     "framework/ROADMAP": {
       "count": 1,
       "last_updated": "2026-01-30T20:15:32.004187"
+    },
+    "raijax-entry/home_decision_flow": {
+      "count": 1,
+      "last_updated": "2026-01-31T15:03:15.250384"
+    },
+    "raijax-entry/learning_paths": {
+      "count": 1,
+      "last_updated": "2026-01-31T15:04:49.944660"
+    },
+    "raijax-entry/non_goals": {
+      "count": 1,
+      "last_updated": "2026-01-31T15:05:23.149107"
+    },
+    "raijax-entry/sitemap": {
+      "count": 1,
+      "last_updated": "2026-01-31T15:03:58.016073"
     }
   },
   "total_entries": 378,
-  "total_docs": 10
+  "total_docs": 15
 }

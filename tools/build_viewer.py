@@ -231,6 +231,20 @@ def build_viewer_data():
             }
             manifest['total_docs'] += 1
     
+    # Parse raijax-entry documents (IA blueprints)
+    raijax_entry_dir = REPO_ROOT / "raijax-entry"
+    if raijax_entry_dir.exists():
+        for md_file in sorted(raijax_entry_dir.glob("*.md")):
+            doc = parse_document(md_file, 'doc', 'raijax-entry')
+            doc['id'] = f"doc:raijax-entry:{md_file.stem}"
+            doc['tags'] = ['raijax', 'entry', 'ia']
+            items.append(doc)
+            manifest['categories'][f'raijax-entry/{md_file.stem}'] = {
+                'count': 1,
+                'last_updated': get_file_mtime(md_file)
+            }
+            manifest['total_docs'] += 1
+    
     # Convert markdown to HTML for all items
     for item in items:
         if 'content_md' in item:

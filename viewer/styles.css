@@ -445,3 +445,24 @@ body {
         padding: 1rem;
     }
 }
+
+
+/* Demo Link */
+.demo-link {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.6rem 0.8rem;
+    background: linear-gradient(135deg, var(--accent), #ff6b6b);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.demo-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(233, 69, 96, 0.4);
+}

@@ -1,0 +1,91 @@
+{
+  "paths": {
+    "maker-start": {
+      "name": "Maker 起步路線",
+      "description": "從零開始，用 2-4 週做出第一個機器人",
+      "suitable": "完全新手、有基礎 DIY 經驗但沒碰過機器人"
+    },
+    "software-to-hardware": {
+      "name": "軟體轉硬體路線",
+      "description": "從熟悉的程式世界切入硬體，3-6 週整合 AI + 機器人",
+      "suitable": "會寫程式但沒碰過硬體的軟體開發者"
+    },
+    "ros-advanced": {
+      "name": "ROS 進階路線",
+      "description": "深入系統整合，2-3 個月做出完整自主機器人",
+      "suitable": "已經接觸過 ROS、想深入 SLAM、導航、運動控制"
+    },
+    "academic-project": {
+      "name": "學術專案路線",
+      "description": "快速上手標準框架，產出可複製的專案成果",
+      "suitable": "學生、研究者、需要做畢業專案或實驗"
+    },
+    "explore": {
+      "name": "探索路線",
+      "description": "先看看有什麼可能，1-2 週找到你的方向",
+      "suitable": "對機器人有興趣但還不確定要做什麼"
+    }
+  },
+  "routing": {
+    "beginner|*|level-0": "maker-start",
+    "beginner|*|level-1": "maker-start",
+    "maker|*|level-0": "maker-start",
+    "maker|*|level-1": "maker-start",
+    "dev|*|level-0": "software-to-hardware",
+    "dev|*|level-1": "software-to-hardware",
+    "dev|*|level-2": "software-to-hardware",
+    "dev|*|level-3": "ros-advanced",
+    "dev|*|level-4": "ros-advanced",
+    "academic|*|*": "academic-project",
+    "engineer|*|level-3": "ros-advanced",
+    "engineer|*|level-4": "ros-advanced",
+    "*|explore|*": "explore",
+    "*|*|level-3": "ros-advanced",
+    "*|*|level-4": "ros-advanced"
+  },
+  "resources": {
+    "maker-start": [
+      {"name": "Arduino Starter Kit", "type": "Kit", "emoji": "📦", "link": "https://store.arduino.cc/products/arduino-starter-kit-multi-language"},
+      {"name": "Elegoo Smart Robot Car", "type": "Kit", "emoji": "🚗", "link": "https://www.elegoo.com/products/elegoo-smart-robot-car-kit-v4"},
+      {"name": "Arduino Project Hub", "type": "Learning", "emoji": "📚", "link": "https://projecthub.arduino.cc/"},
+      {"name": "r/robotics", "type": "Community", "emoji": "👥", "link": "https://reddit.com/r/robotics"},
+      {"name": "SunFounder PiSloth", "type": "Kit", "emoji": "🦥", "link": "https://www.sunfounder.com/products/pisloth"}
+    ],
+    "software-to-hardware": [
+      {"name": "Raspberry Pi", "type": "Hardware", "emoji": "🍓", "link": "https://www.raspberrypi.com/"},
+      {"name": "LeRobot", "type": "Tool", "emoji": "🤖", "link": "https://github.com/huggingface/lerobot"},
+      {"name": "SunFounder PiCar-X", "type": "Kit", "emoji": "🚗", "link": "https://www.sunfounder.com/products/picar-x"},
+      {"name": "OpenCV", "type": "Tool", "emoji": "👁️", "link": "https://opencv.org/"},
+      {"name": "Hiwonder xArm", "type": "Kit", "emoji": "🦾", "link": "https://www.hiwonder.com/collections/robotic-arm"}
+    ],
+    "ros-advanced": [
+      {"name": "ROS 2 Documentation", "type": "Docs", "emoji": "📖", "link": "https://docs.ros.org/en/jazzy/"},
+      {"name": "Nav2", "type": "Tool", "emoji": "🧭", "link": "https://navigation.ros.org/"},
+      {"name": "Gazebo", "type": "Tool", "emoji": "🎮", "link": "https://gazebosim.org/"},
+      {"name": "NVIDIA Isaac Sim", "type": "Tool", "emoji": "🎯", "link": "https://developer.nvidia.com/isaac-sim"},
+      {"name": "Articulated Robotics", "type": "Creator", "emoji": "🎬", "link": "https://articulatedrobotics.xyz/"},
+      {"name": "SLAMTEC RPLIDAR", "type": "Hardware", "emoji": "📡", "link": "https://www.slamtec.com/en/Lidar/A1"}
+    ],
+    "academic-project": [
+      {"name": "TurtleBot 4", "type": "Kit", "emoji": "🐢", "link": "https://clearpathrobotics.com/turtlebot-4/"},
+      {"name": "Papers with Code", "type": "Platform", "emoji": "📄", "link": "https://paperswithcode.com/"},
+      {"name": "RoboSuite", "type": "Tool", "emoji": "🔬", "link": "https://robosuite.ai/"},
+      {"name": "ROS Discourse", "type": "Community", "emoji": "💬", "link": "https://discourse.ros.org/"},
+      {"name": "LIBERO Benchmark", "type": "Tool", "emoji": "📊", "link": "https://libero-project.github.io/"}
+    ],
+    "explore": [
+      {"name": "Hackster.io Robotics", "type": "Platform", "emoji": "🌐", "link": "https://www.hackster.io/robotics"},
+      {"name": "Stuff Made Here", "type": "Creator", "emoji": "🎬", "link": "https://www.youtube.com/@StuffMadeHere"},
+      {"name": "James Bruton", "type": "Creator", "emoji": "🎬", "link": "https://www.youtube.com/@jamesbruton"},
+      {"name": "Petoi Bittle", "type": "Kit", "emoji": "🐕", "link": "https://www.petoi.com/products/bittle"},
+      {"name": "InMoov", "type": "Project", "emoji": "🧍", "link": "https://inmoov.fr/"}
+    ]
+  },
+  "warnings": {
+    "maker-start": "程式編譯錯誤時，先在 Arduino Forum 搜尋錯誤訊息，大部分常見問題都有解答。",
+    "software-to-hardware": "硬體接線搞不懂時，先看 LeRobot 的完整範例專案，再回頭理解細節。",
+    "ros-advanced": "模擬與實機行為不一致是正常的，Domain Randomization 和 System Identification 是關鍵。",
+    "academic-project": "論文程式碼跑不起來很常見，優先選有 Docker 或 Conda 環境的專案。",
+    "explore": "選擇太多不知道怎麼決定時，先設定預算上限，用預算篩選掉大部分選項。"
+  }
+}

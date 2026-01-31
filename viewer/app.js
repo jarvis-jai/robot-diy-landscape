@@ -42,7 +42,11 @@ const categoryNames = {
     'framework/WORK_QUEUE': '📋 WORK_QUEUE',
     'framework/COMMIT_POLICY': '📝 COMMIT_POLICY',
     'framework/SOURCES': '📚 SOURCES',
-    'framework/ROADMAP': '🗺️ ROADMAP'
+    'framework/ROADMAP': '🗺️ ROADMAP',
+    'raijax-entry/home_decision_flow': '🏠 首頁決策流程',
+    'raijax-entry/sitemap': '🗺️ Sitemap',
+    'raijax-entry/learning_paths': '🛤️ 學習路線',
+    'raijax-entry/non_goals': '🚫 不做什麼'
 };
 
 // Initialize app
@@ -94,12 +98,14 @@ function buildNavigation() {
     const gapsNav = document.getElementById('gapsNav');
     const reportsNav = document.getElementById('reportsNav');
     const frameworkNav = document.getElementById('frameworkNav');
+    const raijaxEntryNav = document.getElementById('raijaxEntryNav');
     
     // Clear existing
     landscapeNav.innerHTML = '';
     gapsNav.innerHTML = '';
     reportsNav.innerHTML = '';
     frameworkNav.innerHTML = '';
+    if (raijaxEntryNav) raijaxEntryNav.innerHTML = '';
     
     // Group items by category
     const categories = {};
@@ -143,6 +149,13 @@ function buildNavigation() {
     if (categories.framework) {
         for (const cat of categories.framework) {
             frameworkNav.innerHTML += createNavItem(cat, 1, true);
+        }
+    }
+    
+    // Build raijax-entry nav
+    if (categories['raijax-entry'] && raijaxEntryNav) {
+        for (const cat of categories['raijax-entry']) {
+            raijaxEntryNav.innerHTML += createNavItem(cat, 1, true);
         }
     }
 }
