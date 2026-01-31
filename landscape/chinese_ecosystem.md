@@ -615,4 +615,176 @@
 
 ---
 
-*最後更新：2026-01-31（第 48 輪 chinese_ecosystem 補強 — 新增 9 個條目：香港 4 個（MakerBay、蒲窩仝匠、MakerSpace.hk、Inno Space）+ 台灣 ROS2 培訓 2 個（中華行動數位、艾鍗學院）+ 繁中 YouTube 創作者 3 個（黃信惠、旭豐老師、佑來認真教））*
+---
+
+### Embodied-AI-Guide 具身智能技術指南
+
+- **Name**：Embodied-AI-Guide / 具身智能技术指南
+- **Type**：Open Source Tutorial / Knowledge Base
+- **Region**：Mainland China
+- **Primary language**：简体中文
+- **一句話定位**：國內最熱門的具身智能技術指南，偏「百科全書」定位的具身智能中文知識庫與資料索引
+- **強項（≤3）**：
+  - GitHub 11.6K+ stars，具身智能中文資源最高星數
+  - 完整的「動手學習」教程：RoboTwin 2.0 平台實作，一週內走通策略生命周期
+  - 涵蓋算法篇、軟件基礎設施篇、控制篇、硬件篇，有系統化的學習路徑
+- **弱項/缺口（≤3，可觀察）**：
+  - 非商業授權，商業使用需聯繫作者
+  - 偏向研究人員和進階學習者，入門門檻較高
+  - 需要 16GB 以上顯存的 GPU 才能完成動手教程
+- **活躍度訊號**：2026-01-15 重組完成，2025-12-18 突破 10,000 stars，Lumina 社區支持
+- **與我們的關聯（一句話）**：中文圈具身智能的權威知識庫，填補 Gap #1（中文進階教程缺乏）
+- **Link(s)**：https://github.com/TianxingChen/Embodied-AI-Guide | https://lumina-embodied.ai
+
+---
+
+### LeRobotTutorial-CN
+
+- **Name**：LeRobotTutorial-CN / LeRobot 入門實踐教程
+- **Type**：Open Source Tutorial
+- **Region**：Mainland China
+- **Primary language**：简体中文
+- **一句話定位**：幫助新手通過 LeRobot 專案入門具身智能的中文教程
+- **強項（≤3）**：
+  - 完整覆蓋 LeRobot 使用全流程：環境配置、數據集、訓練、測試、真機實驗
+  - 以 ACT 和 Diffusion Policy 為例，有具體的復現腳本
+  - 整合 WandB 監控、Hydra 配置、HuggingFace Hub 工作流
+- **弱項/缺口（≤3，可觀察）**：
+  - 專注 LeRobot，不涵蓋其他框架
+  - 需要 GPU（12GB 以上訓練 ACT）
+  - 更新至 2025-01-17，可能與最新 LeRobot 版本有差異
+- **活躍度訊號**：GitHub 111 stars，2025-01 更新
+- **與我們的關聯（一句話）**：LeRobot 中文入門的最佳起點，直接解決 Gap #1
+- **Link(s)**：https://github.com/CSCSX/LeRobotTutorial-CN
+
+---
+
+### lerobot-zh
+
+- **Name**：lerobot-zh / LeRobot 中文版
+- **Type**：Open Source Framework (Chinese Translation)
+- **Region**：Mainland China
+- **Primary language**：简体中文
+- **一句話定位**：HuggingFace LeRobot 的完整中文版，包含 35 篇完整翻譯的技術文檔
+- **強項（≤3）**：
+  - 與官方完全相同的代碼（233 個 Python 文件），所有功能可用
+  - 35 篇完整翻譯文檔：安裝指南、數據集使用、模型訓練、SO-101/LeKiwi/HopeJR 教程
+  - 定期與官方同步更新，中英文文檔可對照學習
+- **弱項/缺口（≤3，可觀察）**：
+  - 翻譯可能滯後於官方最新版本
+  - 社群翻譯品質參差不齊
+  - 某些專有名詞翻譯可能不統一
+- **活躍度訊號**：2025-11 更新，有中文機器人學習社群支持
+- **與我們的關聯（一句話）**：消除 LeRobot 語言障礙的完整解決方案，填補 Gap #1
+- **Link(s)**：https://github.com/dctx-team/lerobot-zh
+
+---
+
+### every-embodied / 零基礎入門具身智能
+
+- **Name**：every-embodied / 零基础入门具身智能
+- **Type**：Open Source Tutorial
+- **Region**：Mainland China
+- **Primary language**：简体中文
+- **一句話定位**：Datawhale 開源教程，一站式學習具身智能的系統化課程庫
+- **強項（≤3）**：
+  - 14 個章節完整覆蓋：具身概述、機器人基礎、硬件選型、計算機視覺、深度/強化學習、仿真環境等
+  - Datawhale 社群支持，有飛書文檔學習指南，持續更新
+  - 包含地瓜 RDK-X5 + LeRobot SO-101 連接教程、智元機器人多任務實作
+- **弱項/缺口（≤3，可觀察）**：
+  - 部分章節標記 (todo)，內容仍在完善中
+  - 需要一定的 Python 和深度學習基礎
+  - 無專門的繁體中文版本
+- **活躍度訊號**：GitHub 347 stars，139 commits，2025-2026 年持續更新，Apache 2.0 授權
+- **與我們的關聯（一句話）**：中文圈具身智能系統化入門課程，適合初學者
+- **Link(s)**：https://github.com/datawhalechina/every-embodied | https://datawhaler.feishu.cn/wiki/ANwTwcmK1iydqZkBrpRcia3nnlf
+
+---
+
+### 同濟子豪兄 Mycobot 教程
+
+- **Name**：TommyZihao/Mycobot_Tutorials / 同济子豪兄大象机械臂教程
+- **Type**：Open Source Tutorial
+- **Region**：Mainland China
+- **Primary language**：简体中文
+- **一句話定位**：同濟子豪兄的 Mycobot 280 Pi 機械臂教程，涵蓋運動學、逆運動學、Python 控制、ROS、具身智能
+- **強項（≤3）**：
+  - 完整的機械臂入門：從運動學基礎到具身智能應用
+  - 同濟子豪兄知名度高，配套 Bilibili 視頻教學
+  - Elephant Robotics Mycobot 為低成本入門選擇（相對專業設備）
+- **弱項/缺口（≤3，可觀察）**：
+  - 專注 Mycobot 280 Pi，對其他機械臂參考價值有限
+  - 最後更新 2024-05，可能與最新版本有差異
+  - 需要購買 Mycobot 硬體才能完整學習
+- **活躍度訊號**：GitHub 145 stars，同濟子豪兄持續活躍於具身智能領域
+- **與我們的關聯（一句話）**：低成本機械臂入門的完整中文教程，適合預算有限的學習者
+- **Link(s)**：https://github.com/TommyZihao/Mycobot_Tutorials
+
+---
+
+---
+
+### 動手學 ROS2 / d2l-ros2
+
+- **Name**：d2l-ros2 / 动手学 ROS2
+- **Type**：Open Source Tutorial
+- **Region**：Mainland China
+- **Primary language**：简体中文
+- **一句話定位**：魚香 ROS 出品的 ROS2 Humble 完整課程教程，從入門到實體機器人製作
+- **強項（≤3）**：
+  - 21 章完整課程：基礎、機器人學、建模仿真、Nav2 導航、ROS2 Control、實體機器人、MoveIt2
+  - ROS2 Humble LTS 版本，內容包含 MicroROS、ros2_control 進階主題
+  - 魚香 ROS 公眾號社群支持，有 QQ/微信技術交流群
+- **弱項/缺口（≤3，可觀察）**：
+  - 版權保護，非完全開源
+  - 部分章節尚未完善
+  - 需要 Linux 環境學習
+- **活躍度訊號**：GitHub 883 stars，2024-12 更新，魚香 ROS 持續運營
+- **與我們的關聯（一句話）**：中文圈最完整的 ROS2 實戰教程，從基礎到實體機器人
+- **Link(s)**：https://github.com/fishros/d2l-ros2 | https://fishros.com
+
+---
+
+### Roboto Origin 蘿博頭人形機器人
+
+- **Name**：Roboto_origin / 萝博头原型机
+- **Type**：Open Source Robot Hardware
+- **Region**：Mainland China
+- **Primary language**：简体中文 / English
+- **一句話定位**：RoboParty 出品的全開源 DIY 人形機器人，可行走跑跳，純淘寶+嘉立創 DIY 組裝
+- **強項（≤3）**：
+  - 完全開源：結構設計、電子設計、RL 訓練、ROS2 部署代碼
+  - 技術棧現代：Isaac Lab 訓練、MuJoCo Sim2Sim、ROS2 Humble
+  - 可真正 DIY 組裝：所有物料可從淘寶/嘉立創採購，有完整 BOM
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 NVIDIA GPU 進行訓練
+  - GPLv3 授權，商業使用受限
+  - 組裝需要一定動手能力
+- **活躍度訊號**：GitHub 601 stars，昨天更新，2025-02 創立，4 個月完成原型
+- **與我們的關聯（一句話）**：中文圈最易入手的開源人形機器人，填補 Gap #2 入門到進階過渡
+- **Link(s)**：https://github.com/Roboparty/roboto_origin | https://roboparty.com/roboto_origin/doc
+
+---
+
+### FOC 輪腿機器人
+
+- **Name**：foc-wheel-legged-robot / FOC 輪腿機器人
+- **Type**：Open Source Robot Hardware
+- **Region**：Mainland China
+- **Primary language**：简体中文 / English
+- **一句話定位**：完整的輪腿機器人開源專案，涵蓋機械+電子+算法+軟件，成本約 550 元人民幣
+- **強項（≤3）**：
+  - 完整設計：SolidWorks 機械、MATLAB/Simulink 仿真、STM32 FOC 驅動、ESP32 控制
+  - 低成本：不含圖傳約 550 元，含圖傳約 720 元，可 3D 列印
+  - 有 Bilibili 演示視頻和詳細文檔
+- **弱項/缺口（≤3，可觀察）**：
+  - 非 ROS 系統，使用自研嵌入式方案
+  - 需要多學科知識（機械+電子+控制）
+  - 最後更新 2023-11，較久未更新
+- **活躍度訊號**：GitHub 1.5K stars，245 forks，GPLv3 授權
+- **與我們的關聯（一句話）**：低成本完整機器人開源專案，適合學習嵌入式+控制+機械整合
+- **Link(s)**：https://github.com/Skythinker616/foc-wheel-legged-robot | https://www.bilibili.com/video/BV1bP411k75b/
+
+---
+
+*最後更新：2026-01-31（第 56 輪 chinese_ecosystem 2026 更新 — 新增 8 個高價值條目：Embodied-AI-Guide 11.6K stars、LeRobotTutorial-CN 111 stars、lerobot-zh 完整中文版、every-embodied Datawhale 教程 347 stars、同濟子豪兄 Mycobot 教程 145 stars、d2l-ros2 動手學 ROS2 883 stars、Roboto Origin 人形機器人 601 stars、FOC 輪腿機器人 1.5K stars。填補 Gap #1 中文進階教程缺乏、Gap #2 入門到進階過渡）*

@@ -16,7 +16,7 @@
 | learning.md | ≥15 | 43 | ✅ |
 | commerce.md | ≥10 | 32 | ✅ |
 | creators.md | ≥10 | 39 | ✅ |
-| chinese_ecosystem.md | ≥10 | 28 | ✅ |
+| chinese_ecosystem.md | ≥10 | 36 | ✅ |
 
 狀態圖例：
 - ⬜ 未開始
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 55 輪 commerce 國際擴展 — 新增 8 個國際零售商：BerryBase (德國 Maker 20K+ 產品)、EXP-Tech (德國 IoT)、Conrad Electronic (德國 10M+ 產品)、AZ-Delivery (德國微電子)、Antratek (德國嵌入式)、Robotistan (土耳其)、秋月電子 (日本)、千石電商 (日本)。Commerce 達 32 條目。連續 55 輪 ALLOW！）*
+*最後更新：2026-01-31 （第 56 輪 chinese_ecosystem 2026 更新 — 新增 8 個高價值中文資源：Embodied-AI-Guide (11.6K stars)、LeRobotTutorial-CN (111 stars)、lerobot-zh (35 docs)、every-embodied (347 stars Datawhale)、Mycobot教程 (145 stars)、d2l-ros2 (883 stars 魚香ROS)、Roboto Origin (601 stars 人形機器人)、FOC輪腿 (1.5K stars)。chinese_ecosystem 達 36 條目。填補 Gap #1 #2。連續 56 輪 ALLOW！🔥）*
