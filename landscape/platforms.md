@@ -184,4 +184,165 @@
 
 ---
 
-*條目數：8 / 目標：15*
+### Electromaker.io
+
+- **Name**：Electromaker.io
+- **Type**：Project Hub / Shop
+- **Primary language**：English
+- **一句話定位**：結合專案分享與零件商店的 Maker 社群平台，提供教程、評測與元件銷售
+- **強項（≤3）**：
+  - 整合多品牌商店（Arduino、Adafruit、M5Stack、Seeed Studio、Raspberry Pi、DFRobot 等）
+  - 有高品質的「Behind the Tech」系列影片評測（Jetson 系列比較、IoT 開發板比較等）
+  - Electromaker Educator 專欄提供完整教學專案（如 Arduino Mini Arcade）
+- **弱項/缺口（≤3，可觀察）**：
+  - 專案數量較 Hackster.io 少
+  - 無中文介面
+  - 商業導向較重，內容常與產品銷售綁定
+- **活躍度訊號**：2026-01 持續有新內容（Arduino Uno Q 評測、Particle Tachyon 介紹等）；有活躍的 YouTube 頻道
+- **與我們的關聯（一句話）**：結合採購與學習的一站式平台，適合需要邊學邊買零件的 Maker
+- **Link(s)**：https://www.electromaker.io/
+
+---
+
+### Maker Pro
+
+- **Name**：Maker Pro
+- **Type**：Project Hub
+- **Primary language**：English
+- **一句話定位**：EETech/All About Circuits 旗下的電子與機器人專案平台，提供教程、專案與技術文章
+- **強項（≤3）**：
+  - 豐富的分類系統（30+ 類別包含 Robotics、IoT、Motor Control、Machine Learning 等）
+  - 依平台分類（Arduino、ESP8266、Raspberry Pi、ROS、Nvidia Jetson 等 60+ 平台）
+  - 有 Blog、Education、Projects 三種內容類型，內容層次分明
+- **弱項/缺口（≤3，可觀察）**：
+  - 部分專案內容較舊（有 2016-2020 年的過時內容）
+  - 介面較傳統，載入速度較慢
+  - 無中文介面
+- **活躍度訊號**：2024-2025 年持續有新專案（Robot Face、Maze-Solving Robot、Fire Fighting Robot 等）
+- **與我們的關聯（一句話）**：技術深度較佳的專案平台，適合需要電路圖與詳細說明的進階 Maker
+- **Link(s)**：https://maker.pro/
+
+---
+
+### DigiKey Maker.io
+
+- **Name**：DigiKey Maker.io
+- **Type**：Project Hub
+- **Primary language**：English
+- **一句話定位**：電子元件巨頭 DigiKey 運營的 Maker 專案與教育平台
+- **強項（≤3）**：
+  - 直接連結 DigiKey 零件庫，專案 BOM 可一鍵購買
+  - 「Maker Update」系列影片定期介紹最新專案與趨勢
+  - 有 Projects、Blogs、Inspiration 多種內容類型
+- **弱項/缺口（≤3，可觀察）**：
+  - 內容較偏向商業推廣，獨立專案較少
+  - 需透過 Cloudflare 驗證才能訪問
+  - 無中文介面
+- **活躍度訊號**：2026-01 有「Favorite Projects of 2025」等年度回顧內容
+- **與我們的關聯（一句話）**：需要直接採購零件的 Maker 可用來發現專案並一站式購買
+- **Link(s)**：https://www.digikey.com/en/maker
+
+---
+
+### MakerWorld
+
+- **Name**：MakerWorld
+- **Type**：3D Model Repository
+- **Primary language**：English / Chinese
+- **一句話定位**：Bambu Lab 運營的 3D 打印模型平台，深度整合 Bambu 打印機生態
+- **強項（≤3）**：
+  - 現代化的使用者介面，專為 Bambu Lab 打印機優化
+  - 有 MakerLab 工具支援自訂模型生成
+  - Crowdfunding 功能讓設計師可以發起專案募資
+  - 定期舉辦設計競賽（如 Year of the Horse Design Contest）
+- **弱項/缺口（≤3，可觀察）**：
+  - 主要針對 Bambu Lab 用戶，其他品牌打印機相容性次之
+  - 平台較新（2023 年上線），模型總量仍在累積
+  - 專注於打印模型，機器人專案比例較低
+- **活躍度訊號**：2026-01 有活躍的競賽與 Crowdfunding 專案（Skele8 RC Chassis、CaseStudio 等）
+- **與我們的關聯（一句話）**：使用 Bambu Lab 打印機的 Maker 可在此找到優化的機器人零件模型
+- **Link(s)**：https://makerworld.com/
+
+---
+
+### ROS Index
+
+- **Name**：ROS Index
+- **Type**：Package Registry
+- **Primary language**：English
+- **一句話定位**：ROS 套件的官方索引與搜尋平台，涵蓋所有 ROS 發行版的套件資訊
+- **強項（≤3）**：
+  - 涵蓋所有 ROS 版本（從 Hydro 到最新的 Kilted，共 15+ 發行版）
+  - 提供套件的依賴關係、維護狀態與文件連結
+  - 官方維護，與 ROS 社群同步更新
+- **弱項/缺口（≤3，可觀察）**：
+  - 純技術性索引，沒有教學或專案內容
+  - 介面較為簡單，搜尋功能有限
+  - 無中文介面
+- **活躍度訊號**：隨 ROS 發行版更新持續維護（Rolling、Kilted、Jazzy 等）
+- **與我們的關聯（一句話）**：開發 ROS 機器人時查找套件的必備資源
+- **Link(s)**：https://index.ros.org/
+
+---
+
+### OSHWA Certified Projects
+
+- **Name**：OSHWA Certified Projects
+- **Type**：Certification Registry
+- **Primary language**：English
+- **一句話定位**：Open Source Hardware Association 認證的開源硬體專案清單
+- **強項（≤3）**：
+  - 官方認證，確保專案符合開源硬體定義
+  - 涵蓋多類型專案（Electronics、3D Printing、Sound、Tool、Science 等）
+  - 標註每個專案的硬體/軟體/文件授權（CERN、GPL、CC BY-SA 等）
+- **弱項/缺口（≤3，可觀察）**：
+  - 主要為清單格式，沒有詳細專案說明
+  - 需另外連結到專案原始頁面才能獲取完整資訊
+  - 認證數量有限（數百個認證專案），非所有開源專案都會申請認證
+- **活躍度訊號**：持續有新專案加入認證清單（SparkFun、Adafruit、LulzBot 等知名品牌皆有認證產品）
+- **與我們的關聯（一句話）**：尋找經認證的高品質開源硬體專案的權威來源
+- **Link(s)**：https://certification.oshwa.org/list.html
+
+---
+
+### Adafruit IO
+
+- **Name**：Adafruit IO
+- **Type**：IoT Cloud Platform
+- **Primary language**：English
+- **一句話定位**：Adafruit 的雲端 IoT 平台，提供無程式碼設備連接與數據視覺化
+- **強項（≤3）**：
+  - WipperSnapper 韌體實現無程式碼 IoT 開發，載入韌體後設備自動註冊
+  - 支援 Blockly 動作系統，可視化設定觸發器（溫度警報、天氣通知等）
+  - 整合多種 Web 服務（Slack、Discord、Mastodon、RSS、天氣服務）
+- **弱項/缺口（≤3，可觀察）**：
+  - 免費版限制較多（30 data points/分鐘、30 天儲存、10 feeds）
+  - 主要針對 Adafruit 硬體優化，第三方設備支援次之
+  - 無中文介面
+- **活躍度訊號**：持續更新（2026-01 有 Qualia S3 iOS Photo Display 等新教程）；與 Adafruit Learn 深度整合
+- **與我們的關聯（一句話）**：使用 Adafruit 硬體的機器人專案可用來實現遠端監控與控制
+- **Link(s)**：https://io.adafruit.com/
+
+---
+
+### Cults3D
+
+- **Name**：Cults3D
+- **Type**：3D Model Marketplace
+- **Primary language**：English / French / Spanish / German / Portuguese / Russian / Chinese
+- **一句話定位**：結合免費與付費模型的 3D 打印市場平台，支援設計師販售作品
+- **強項（≤3）**：
+  - 多語言支援（7 種語言，包含中文）
+  - 有專門的 Robots 和 Electronics 分類
+  - 設計師可販售作品，有商業激勵機制
+- **弱項/缺口（≤3，可觀察）**：
+  - 付費模型比例高，免費資源較 Thingiverse/Printables 少
+  - 模型品質參差不齊，需仔細篩選
+  - 側重裝飾性模型，功能性機器人零件較少
+- **活躍度訊號**：持續有新模型上架（2026-01 有 Animatronic Head Robot、SCARA Robot Arm 等）；定期舉辦 Contests
+- **與我們的關聯（一句話）**：可找到有設計師支援的付費機器人模型，適合需要客製化設計的專案
+- **Link(s)**：https://cults3d.com/
+
+---
+
+*條目數：16 / 目標：15 ✅*
