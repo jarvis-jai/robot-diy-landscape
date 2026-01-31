@@ -50,6 +50,25 @@
 - **SKIP 時不得改動 working tree**（git checkout 回復所有變更）
 - 記錄 SKIP 原因到本輪日誌（不 commit）
 
+#### 🔖 探索里程碑 Commit（例外規則）
+
+若連續 **3 輪全部 SKIP**（跨類別），允許做一次小型 commit 作為「節點保存」。
+
+**允許內容（僅限）：**
+- `data/url_backlog.csv`：新增一批候選（≥15 筆）
+- `data/search_log.csv`：記錄 query exhaustion 狀態與下一步 query 計畫
+
+**Commit 格式：**
+```
+[milestone] exploration checkpoint after 3 skips
+
+- Backlog: +{n} new candidates
+- Search exhaustion: {categories exhausted}
+- Next query plan: {brief description}
+```
+
+**注意**：這種 commit 不算內容成果，僅為避免整晚工作無痕。不可濫用。
+
 ### Step 7：產出與收尾
 
 #### 若 ALLOW：
