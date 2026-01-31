@@ -1,10 +1,11 @@
 {
-  "last_focus": "learning_toolchains",
+  "last_focus": "platforms_i18n",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
     "gaps 深化 (補充更多佐證)",
-    "platforms (補強繁中平台資訊)"
+    "creators (非英語創作者)",
+    "commerce (拉美/亞洲零售商)"
   ],
   "focus_history": [
     {
@@ -265,6 +266,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 38: Added 3 learning (Physical AI Textbook, Foundations Robotics Labs, Robotics Toolbox Python) + 5 toolchains (ManiSkill 3, Unity Robotics Hub, SimplerEnv, IR-SIM, OpenCat). Discovered via GitHub topics robotics-education/robotics-simulation. Learning 29/15, Toolchains 30/10."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "platforms_i18n",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 39: Added 8 international platforms: Fablab Taipei (繁中), Prometec (西語), Luis Llamas (西語), Switch Science (日語), Device Plus (日語), Elektor Magazine (歐洲多語), Naylamp Mechatronics (秘魯/拉美), Hardware Libre (西語). Addresses Gap #4 #7 (語言/地區不平衡). Platforms now at 24/15."
     }
   ]
 }

@@ -345,4 +345,164 @@
 
 ---
 
-*條目數：16 / 目標：15 ✅*
+### Fablab Taipei 台北自造實驗室
+
+- **Name**：Fablab Taipei
+- **Type**：Makerspace / Community
+- **Primary language**：Traditional Chinese / English
+- **一句話定位**：MIT CBA 認可的台北自造實驗室，提供數位製造設備與 Fab Academy 課程
+- **強項（≤3）**：
+  - 免費使用雷射切割機、CNC、3D 列印機（Bambu Lab X1E、Creality Ender-3 等）
+  - 提供 Fab Academy 遠端課程（MIT Neil Gershenfeld 授課）
+  - 開源創新理念，鼓勵知識共享與跨時空協作
+- **弱項/缺口（≤3，可觀察）**：
+  - 實體空間，需親自前往
+  - 使用者需自備材料及耗材
+  - 網站內容較簡略，缺乏線上教程
+- **活躍度訊號**：持續運營中（2026-01 網站有效），全球 Fablab 網絡成員
+- **與我們的關聯（一句話）**：台灣 Maker 可實體使用的數位製造資源，適合製作機器人零件
+- **Link(s)**：https://fablabtaipei.org/
+
+---
+
+### Prometec.net
+
+- **Name**：Prometec
+- **Type**：Tutorial Platform / Shop
+- **Primary language**：Spanish
+- **一句話定位**：西班牙語 Arduino 教程與電子商店，提供完整的從入門到進階課程
+- **強項（≤3）**：
+  - 完整的 Arduino 教程索引（入門課程、通訊、電子學、馬達與機器人、音樂、進階工具）
+  - 涵蓋 OOP 程式設計、TCPIP、藍牙、M5Stack 等進階主題
+  - 附屬商店可直接購買課程所需零件
+- **弱項/缺口（≤3，可觀察）**：
+  - 僅西班牙語，無英文或其他語言版本
+  - 介面較傳統
+  - 主要聚焦 Arduino，ROS/進階機器人內容較少
+- **活躍度訊號**：2026-01 持續有新文章發布（Python 環境、Arduino 程式組織等）
+- **與我們的關聯（一句話）**：西班牙語圈學習 Arduino 機器人的首選資源
+- **Link(s)**：https://www.prometec.net/
+
+---
+
+### Luis Llamas
+
+- **Name**：Luis Llamas
+- **Type**：Personal Blog / Tutorial Platform
+- **Primary language**：Spanish
+- **一句話定位**：西班牙語工程技術博客，涵蓋 Arduino、ESP32、Raspberry Pi、程式設計與 3D 列印
+- **強項（≤3）**：
+  - 多元課程涵蓋：Arduino、ESP8266/ESP32、Raspberry Pi、Python、C++、Node.js、TypeScript
+  - 互動式 Playground 學習體驗
+  - 提供 Roadmaps、CheatSheets、Quizs 等學習工具
+- **弱項/缺口（≤3，可觀察）**：
+  - 個人維護，更新頻率依賴作者
+  - 僅西班牙語
+  - 機器人專題相對較少，偏向通用程式與電子學
+- **活躍度訊號**：有活躍的 Discord 社群；持續更新課程內容
+- **與我們的關聯（一句話）**：西班牙語圈高品質的 Arduino/ESP32 學習資源
+- **Link(s)**：https://www.luisllamas.es/
+
+---
+
+### Switch Science スイッチサイエンス
+
+- **Name**：Switch Science
+- **Type**：Shop / Tutorial Platform
+- **Primary language**：Japanese
+- **一句話定位**：日本創客電子商店，代理 M5Stack、Raspberry Pi、SparkFun 等品牌，並提供技術博客
+- **強項（≤3）**：
+  - 代理多國品牌：M5Stack、Raspberry Pi、SparkFun、Luxonis、Elephant Robotics、NVIDIA Jetson
+  - 技術博客提供 Arduino、STM32、IoT 教程
+  - 提供 IoT 受託開發服務，支援企業專案
+- **弱項/缺口（≤3，可觀察）**：
+  - 僅日語介面
+  - 以商品銷售為主，教程內容相對商品頁面較少
+  - 部分產品價格較海外直購高
+- **活躍度訊號**：2026-01 有 M5Stack Japan Tour 2026 Spring 活動預告；定期發布技術文章
+- **與我們的關聯（一句話）**：日本 Maker 購買機器人零件與學習的首選平台
+- **Link(s)**：https://www.switch-science.com/
+
+---
+
+### Device Plus
+
+- **Name**：Device Plus
+- **Type**：Tutorial Platform
+- **Primary language**：Japanese
+- **一句話定位**：羅姆半導體（ROHM）贊助的日本創客教程平台，提供電子與 Raspberry Pi 專案
+- **強項（≤3）**：
+  - 企業贊助，內容品質穩定
+  - 提供實用專案教程（如 AI 數位看板）
+  - 可下載完整專案資料
+- **弱項/缺口（≤3，可觀察）**：
+  - 僅日語
+  - 內容較偏向產品推廣
+  - 更新頻率較低
+- **活躍度訊號**：持續有新專案發布；2026-01 有 Raspberry Pi 數位看板教程
+- **與我們的關聯（一句話）**：日語圈 Raspberry Pi AI 專案的參考資源
+- **Link(s)**：https://deviceplus.jp/
+
+---
+
+### Elektor Magazine
+
+- **Name**：Elektor Magazine
+- **Type**：Community / Magazine
+- **Primary language**：English / German / Dutch / French
+- **一句話定位**：自 1960 年代以來的國際電子社群與雜誌，服務工程師、創客與新創
+- **強項（≤3）**：
+  - 超過 60 年歷史，專業且深度的電子內容
+  - 會員可獲得專案存取、商店折扣、與頂尖創新者合作機會
+  - 涵蓋應用電子設計、製作與商業化
+- **弱項/缺口（≤3，可觀察）**：
+  - 完整內容需付費訂閱
+  - 無中文或日語版本
+  - 偏向專業工程師，入門者較難上手
+- **活躍度訊號**：持續出版（2026-01 有新內容）；全球社群活躍
+- **與我們的關聯（一句話）**：歐洲電子與機器人專案的權威資源
+- **Link(s)**：https://www.elektormagazine.com/
+
+---
+
+### Naylamp Mechatronics
+
+- **Name**：Naylamp Mechatronics
+- **Type**：Shop / Tutorial Platform
+- **Primary language**：Spanish
+- **一句話定位**：秘魯電子機電商店，9+ 年歷史，提供 Arduino 教程與拉丁美洲在地服務
+- **強項（≤3）**：
+  - 拉丁美洲本地化服務，解決國際運費問題
+  - 有教程與專案區（Tutoriales y Proyectos）
+  - 涵蓋 Arduino、Raspberry Pi、機器人、3D 列印
+- **弱項/缺口（≤3，可觀察）**：
+  - 僅西班牙語
+  - 部分教程內容較舊
+  - 商品庫存可能有限
+- **活躍度訊號**：9+ 年持續運營；2026-01 網站有效
+- **與我們的關聯（一句話）**：拉丁美洲 Maker 購買零件與學習機器人的本地化選擇
+- **Link(s)**：https://naylampmechatronics.com/
+
+---
+
+### Hardware Libre
+
+- **Name**：Hardware Libre
+- **Type**：News / Blog
+- **Primary language**：Spanish
+- **一句話定位**：西班牙語開源硬體新聞與技術博客，涵蓋機器人、3D 列印、Raspberry Pi
+- **強項（≤3）**：
+  - 定期報導開源硬體新聞（Tesla Optimus、Da Vinci 手術機器人等）
+  - 有實用教程（KVM、3D 列印材料指南）
+  - 涵蓋 AI、物聯網、家庭自動化
+- **弱項/缺口（≤3，可觀察）**：
+  - 僅西班牙語
+  - 偏向新聞報導，深度技術教程較少
+  - 無社群論壇功能
+- **活躍度訊號**：2026-01 持續有新文章（Tesla Optimus、Raspberry Pi AI HAT 等）
+- **與我們的關聯（一句話）**：西班牙語圈追蹤開源硬體與機器人新聞的資源
+- **Link(s)**：https://www.hwlibre.com/
+
+---
+
+*條目數：24 / 目標：15 ✅*
