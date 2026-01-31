@@ -2,8 +2,15 @@
   "meta": {
     "language": "en",
     "name": "English",
-    "version": "1.0",
-    "created": "2026-01-31"
+    "version": "1.1",
+    "created": "2026-01-31",
+    "updated": "2026-01-31"
+  },
+  
+  "seo": {
+    "title": "Robotics DIY Onramp — Find Your Learning Path in 5 Minutes",
+    "description": "Confused about starting robotics? Answer 5 questions and get a personalized step-by-step learning path. Free tool with curated resources for beginners to experts.",
+    "keywords": "robotics DIY, robot learning path, beginner robotics, Arduino tutorial, ROS learning, robot arm project, wheeled robot, drone DIY, maker education, STEM learning"
   },
   
   "common": {

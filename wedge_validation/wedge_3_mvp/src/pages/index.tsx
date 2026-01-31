@@ -11,9 +11,16 @@
  * - selectedPath: string - 推薦的路徑 ID
  * - answers: Answers - 用戶的回答
  * - budgetTier: number - 預算等級
+ * 
+ * SEO 優化（第 29 輪）：
+ * - Open Graph tags for social sharing
+ * - Twitter Card tags
+ * - JSON-LD structured data
+ * - Canonical URL
+ * - hreflang for multilingual
  */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Questionnaire from '../components/Questionnaire';
 import PathCard from '../components/PathCard';
@@ -27,6 +34,17 @@ import enTranslations from '../i18n/en.json';
 import zhTWTranslations from '../i18n/zh-TW.json';
 
 type Locale = 'en' | 'zh-TW';
+
+// SEO 配置
+const SEO_CONFIG = {
+  siteUrl: 'https://robotics-onramp.vercel.app',
+  defaultImage: '/og-image.png',
+  twitterHandle: '@roboticsonramp',
+  locale: {
+    'en': 'en_US',
+    'zh-TW': 'zh_TW'
+  }
+};
 
 interface Answers {
   experience: string;
@@ -43,6 +61,46 @@ export default function Home() {
   const [answers, setAnswers] = useState<Answers | null>(null);
   
   const t = locale === 'zh-TW' ? zhTWTranslations : enTranslations;
+  
+  // 更新 html lang attribute 當 locale 變化
+  useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
+  
+  // SEO 數據
+  const seoTitle = t.seo?.title || t.common.siteName;
+  const seoDescription = t.seo?.description || t.common.tagline;
+  const seoKeywords = t.seo?.keywords || 'robotics, DIY, robot, learning, beginner, Arduino, ROS';
+  const ogLocale = SEO_CONFIG.locale[locale];
+  
+  // JSON-LD 結構化數據
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    'name': t.common.siteName,
+    'description': seoDescription,
+    'url': SEO_CONFIG.siteUrl,
+    'applicationCategory': 'EducationalApplication',
+    'operatingSystem': 'Any',
+    'offers': {
+      '@type': 'Offer',
+      'price': '0',
+      'priceCurrency': 'USD'
+    },
+    'author': {
+      '@type': 'Organization',
+      'name': 'Robot DIY Landscape Project',
+      'url': 'https://github.com/robot-diy-landscape'
+    },
+    'inLanguage': [locale],
+    'isAccessibleForFree': true,
+    'educationalUse': ['Self-study', 'Guided learning'],
+    'learningResourceType': 'Learning pathway',
+    'audience': {
+      '@type': 'Audience',
+      'audienceType': 'Hobbyist, Maker, Student'
+    }
+  };
   
   // 根據預算答案計算 budgetTier
   const getBudgetTier = (budget: string): number => {
@@ -88,10 +146,47 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{t.common.siteName}</title>
-        <meta name="description" content={t.common.tagline} />
+        {/* 基本 Meta */}
+        <title>{seoTitle}</title>
+        <meta name="description" content={seoDescription} />
+        <meta name="keywords" content={seoKeywords} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="robots" content="index, follow" />
+        
+        {/* Canonical URL */}
+        <link rel="canonical" href={SEO_CONFIG.siteUrl} />
+        
+        {/* hreflang for multilingual SEO */}
+        <link rel="alternate" hrefLang="en" href={`${SEO_CONFIG.siteUrl}?lang=en`} />
+        <link rel="alternate" hrefLang="zh-TW" href={`${SEO_CONFIG.siteUrl}?lang=zh-TW`} />
+        <link rel="alternate" hrefLang="x-default" href={SEO_CONFIG.siteUrl} />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={SEO_CONFIG.siteUrl} />
+        <meta property="og:title" content={seoTitle} />
+        <meta property="og:description" content={seoDescription} />
+        <meta property="og:image" content={`${SEO_CONFIG.siteUrl}${SEO_CONFIG.defaultImage}`} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Robotics DIY Onramp - Find your path" />
+        <meta property="og:locale" content={ogLocale} />
+        <meta property="og:locale:alternate" content={locale === 'en' ? 'zh_TW' : 'en_US'} />
+        <meta property="og:site_name" content={t.common.siteName} />
+        
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content={SEO_CONFIG.siteUrl} />
+        <meta name="twitter:title" content={seoTitle} />
+        <meta name="twitter:description" content={seoDescription} />
+        <meta name="twitter:image" content={`${SEO_CONFIG.siteUrl}${SEO_CONFIG.defaultImage}`} />
+        <meta name="twitter:image:alt" content="Robotics DIY Onramp - Find your path" />
+        
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </Head>
       
       <main className="container">

@@ -1,0 +1,14 @@
+# Robotics DIY Onramp - robots.txt
+# Allow all crawlers
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://robotics-onramp.vercel.app/sitemap.xml
+
+# Disallow API routes (if any in future)
+Disallow: /api/
+
+# Crawl-delay for politeness
+Crawl-delay: 1

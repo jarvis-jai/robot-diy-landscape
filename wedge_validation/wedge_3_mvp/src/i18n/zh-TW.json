@@ -2,8 +2,15 @@
   "meta": {
     "language": "zh-TW",
     "name": "繁體中文",
-    "version": "1.0",
-    "created": "2026-01-31"
+    "version": "1.1",
+    "created": "2026-01-31",
+    "updated": "2026-01-31"
+  },
+  
+  "seo": {
+    "title": "機器人 DIY 入門導航 — 5 分鐘找到你的學習路徑",
+    "description": "不知道從哪開始學機器人？回答 5 個問題，獲得個人化的步驟式學習路徑。免費工具，精選從入門到進階的優質資源。",
+    "keywords": "機器人 DIY, 機器人學習路徑, 入門機器人, Arduino 教學, ROS 學習, 機械手臂專案, 輪式機器人, 無人機 DIY, 創客教育, STEM 學習"
   },
   
   "common": {
