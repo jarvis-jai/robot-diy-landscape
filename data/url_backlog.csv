@@ -13,14 +13,24 @@ https://www.ros.org/,discovered,toolchains,high,2026-01-30,,pending,ROS official
 https://gazebosim.org/,discovered,toolchains,high,2026-01-30,,pending,Robot simulation platform
 https://www.wokwi.com/,discovered,toolchains,medium,2026-01-30,,pending,Arduino online simulator
 https://create.arduino.cc/,discovered,platforms,medium,2026-01-30,2026-01-30,done,Redirects to app.arduino.cc - Added to platforms.md
-https://wiki.ros.org/,discovered,learning,high,2026-01-30,,pending,ROS Wiki - tutorials and docs
-https://docs.ros.org/,discovered,learning,high,2026-01-30,,pending,ROS 2 documentation
-https://www.arduino.cc/reference/,discovered,learning,high,2026-01-30,,pending,Arduino language reference
-https://learn.adafruit.com/,discovered,learning,high,2026-01-30,,pending,Adafruit learning system
-https://learn.sparkfun.com/,discovered,learning,high,2026-01-30,,pending,SparkFun tutorials
-https://www.raspberrypi.com/documentation/,discovered,learning,high,2026-01-30,,pending,Raspberry Pi official docs
+https://wiki.ros.org/,discovered,learning,high,2026-01-30,2026-01-30,done,Added to learning.md
+https://docs.ros.org/,discovered,learning,high,2026-01-30,2026-01-30,done,Added to learning.md
+https://www.arduino.cc/reference/,discovered,learning,high,2026-01-30,2026-01-30,skipped,Redirects to docs.arduino.cc - covered there
+https://learn.adafruit.com/,discovered,learning,high,2026-01-30,2026-01-30,done,Added to learning.md
+https://learn.sparkfun.com/,discovered,learning,high,2026-01-30,2026-01-30,done,Added to learning.md
+https://www.raspberrypi.com/documentation/,discovered,learning,high,2026-01-30,2026-01-30,done,Added to learning.md
 https://projecthub.arduino.cc/,discovered,platforms,high,2026-01-30,2026-01-30,done,Added to platforms.md
 https://www.thingiverse.com/,discovered,platforms,high,2026-01-30,2026-01-30,done,Added to platforms.md
 https://www.printables.com/,discovered,platforms,high,2026-01-30,2026-01-30,done,Added to platforms.md
 https://grabcad.com/library,discovered,platforms,high,2026-01-30,2026-01-30,done,Added to platforms.md
 https://hackaday.io/,discovered,platforms,high,2026-01-30,2026-01-30,done,Added to platforms.md
+https://docs.arduino.cc/,discovered,learning,high,2026-01-30,2026-01-30,done,Added to learning.md
+https://www.raspberrypi.org/courses/electronics-and-robotics,discovered,learning,high,2026-01-30,2026-01-30,done,Added to learning.md - RPi Foundation free courses
+https://www.coursera.org/courses?query=robotics,discovered,learning,high,2026-01-30,2026-01-30,done,Added to learning.md - MOOC platform
+https://www.classcentral.com/report/robotics-free-online-courses/,google-search,learning,high,2026-01-30,,pending,300 free robotics courses directory
+https://www.sciencebuddies.org/blog/robotics-lessons,google-search,learning,medium,2026-01-30,,pending,25+ robotics projects for education
+https://www.udemy.com/topic/robotics/free/,google-search,learning,medium,2026-01-30,,pending,Udemy free robotics courses
+https://www.edx.org/learn/robotics,google-search,learning,high,2026-01-30,,pending,edX robotics courses
+https://www.youtube.com/@dronebot-workshop,google-search,creators,high,2026-01-30,,pending,DroneBot Workshop - electronics tutorials
+https://www.youtube.com/c/PaulMcWhorter,google-search,creators,high,2026-01-30,,pending,Paul McWhorter - robotics tutorials 425K+ subs
+https://www.therobotstudio.com/,google-search,creators,medium,2026-01-30,,pending,Robot Studio - robotics content
