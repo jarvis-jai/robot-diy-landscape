@@ -241,3 +241,9 @@ LG cloisim Unity3D multi-robot simulator,web_fetch-direct,2026-01-31,na,Round 63
 ros2_controllers official ros-controls,web_fetch-direct,2026-01-31,na,Round 63: Found ros2_controllers - 20+ controllers 664 stars
 aruco_ros marker tracking PAL Robotics,web_fetch-direct,2026-01-31,na,Round 63: Found aruco_ros - 566 stars visual servoing
 rsl_rl ETH NVIDIA robot learning,web_fetch-direct,2026-01-31,na,Round 63: Found RSL-RL - Isaac Lab default RL backend - arXiv:2509.10771
+ROS2 中文教程 2025 2026 SLAM 导航 进阶,web_search-failed,2026-01-31,na,Brave API unavailable - gaps_deepening Round 64
+beginner robotics intermediate kit 2025 transition,web_search-failed,2026-01-31,na,Brave API unavailable - gaps_deepening Round 64
+topic:ros2-tutorial stars:>30,web_fetch-github,2026-01-31,0_results,GitHub search returned 0 results
+topic:robotics-education stars:>50,web_fetch-github,2026-01-31,2_results,Found OpenCatEsp32 (already captured) and OpenCat (already captured)
+ROS2 SLAM navigation tutorial stars:>100,web_fetch-github,2026-01-31,0_results,GitHub search returned 0 results
+机器人 入门 教程 stars:>30,web_fetch-github,2026-01-31,11_results,Results mostly unrelated (politics repo spam) - no new robotics resources
