@@ -532,4 +532,104 @@
 
 ---
 
-*條目數：25 / 目標：10 ✅*
+### ManiSkill 3
+
+- **Name**：ManiSkill 3 (SAPIEN Manipulation Skill Framework)
+- **Type**：Simulation Platform / Benchmark
+- **Primary language**：English
+- **一句話定位**：GPU 並行機器人模擬器與 benchmark，專注於操控技能訓練，30,000+ FPS 數據收集
+- **強項（≤3）**：
+  - GPU 並行模擬：單 4090 可達 30,000+ FPS RGBD + Segmentation 數據收集
+  - 異構並行：每個環境可有完全不同的場景/物件
+  - 完整 baseline 整合：PPO、SAC、TD-MPC2、Diffusion Policy、Octo、RDT-1B
+- **弱項/缺口（≤3，可觀察）**：
+  - Beta 版本，部分功能仍在開發
+  - 需要 Vulkan 配置，Windows/macOS 支援有限
+  - 需要 NVIDIA GPU 才能發揮 GPU sim 性能
+- **活躍度訊號**：RSS 2025 論文，GitHub 持續活躍，Discord 社群活躍
+- **與我們的關聯（一句話）**：大規模機器人操控訓練的前沿模擬平台，適合 RL/IL 研究
+- **Link(s)**：https://github.com/haosulab/ManiSkill | https://maniskill.readthedocs.io/
+
+---
+
+### Unity Robotics Hub
+
+- **Name**：Unity Robotics Hub
+- **Type**：Simulation Platform / Integration Hub
+- **Primary language**：English
+- **一句話定位**：Unity 官方機器人模擬中心，提供 ROS 1/2 整合、URDF 導入、Nav2 SLAM 範例
+- **強項（≤3）**：
+  - ROS 1 (Noetic/Melodic) + ROS 2 (Foxy) 雙向通訊整合
+  - URDF Importer：可導入現有機器人模型
+  - 完整教程：Pick-and-Place、Object Pose Estimation、Nav2 SLAM
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 Unity 2020.2+ 版本
+  - 學習曲線較高（需同時了解 Unity 和 ROS）
+  - 物理引擎不如專業機器人模擬器精確
+- **活躍度訊號**：Unity Technologies 官方維護，有活躍論壇和 newsletter
+- **與我們的關聯（一句話）**：遊戲引擎做機器人模擬的官方方案，適合需要高視覺真實度的應用
+- **Link(s)**：https://github.com/Unity-Technologies/Unity-Robotics-Hub
+
+---
+
+### SimplerEnv
+
+- **Name**：SimplerEnv (Simulated Manipulation Policy Evaluation)
+- **Type**：Evaluation Framework / Sim-to-Real
+- **Primary language**：English
+- **一句話定位**：用模擬評估真實世界機器人策略（RT-1、Octo 等）的框架，CoRL 2024 論文
+- **強項（≤3）**：
+  - 支援 Google Robot、WidowX+Bridge 等常見機器人設置
+  - 兩種評估模式：Visual Matching（真實圖像疊加）、Variant Aggregation（變體平均）
+  - ManiSkill3 整合可獲得 10-15x 速度提升
+- **弱項/缺口（≤3，可觀察）**：
+  - 專注於策略評估，非通用模擬器
+  - CUDA 11.8+ 需求
+  - 需要額外安裝 RT-1/Octo 模型進行完整測試
+- **活躍度訊號**：CoRL 2024 論文，GitHub 活躍，有 Colab notebook
+- **與我們的關聯（一句話）**：Real-to-Sim 策略評估的標準方法，適合驗證模仿學習策略
+- **Link(s)**：https://github.com/simpler-env/SimplerEnv | https://simpler-env.github.io/
+
+---
+
+### IR-SIM
+
+- **Name**：IR-SIM (Intelligent Robot Simulator)
+- **Type**：Simulation Platform
+- **Primary language**：English / 中文
+- **一句話定位**：輕量級 Python 機器人模擬器，專注於導航、控制與強化學習
+- **強項（≤3）**：
+  - 輕量級設計：YAML 配置，matplotlib 視覺化，pip install 即用
+  - 支援多代理碰撞避免（RVO/ORCA），適合多機器人研究
+  - 有完整的中英文雙語文檔
+- **弱項/缺口（≤3，可觀察）**：
+  - 2D 模擬為主（部分 3D 功能透過 habitat 整合）
+  - 視覺化較簡單（非 3D 渲染）
+  - 生態較小，套件成熟度不及 Gazebo
+- **活躍度訊號**：GitHub 2026-01 持續更新，PyPI 定期發布
+- **與我們的關聯（一句話）**：2D 導航和多機器人 RL 研究的快速原型工具，有中文文檔
+- **Link(s)**：https://github.com/hanruihua/ir-sim | https://ir-sim.readthedocs.io/
+
+---
+
+### OpenCat
+
+- **Name**：OpenCat (Petoi Framework)
+- **Type**：Framework / Open Source Robot Platform
+- **Primary language**：English / 中文
+- **一句話定位**：Petoi 開源四足機器人框架，支援 Bittle 和 Nybble 機器人的 STEM 教育和 AI 研究
+- **強項（≤3）**：
+  - 完整開源框架：Arduino 核心 + Raspberry Pi 擴展，支援 Block/C++/Python 編程
+  - NVIDIA Isaac 整合範例、ROS SLAM 範例、機器學習應用
+  - 有專門的 STEM 課程資源和機器人競賽支援
+- **弱項/缺口（≤3，可觀察）**：
+  - 主要針對 Petoi 硬體（Bittle/Nybble），移植其他硬體需改造
+  - 部分進階功能需購買 Petoi 配件
+  - 文檔分散在多個來源（GitHub、docs.petoi.com、petoi.camp）
+- **活躍度訊號**：GitHub 活躍（2025-11 更新），ESP32 版本持續開發，有活躍社群論壇
+- **與我們的關聯（一句話）**：負擔得起的四足機器人學習平台，從入門到 AI 研究的完整路徑
+- **Link(s)**：https://github.com/PetoiCamp/OpenCat-Quadruped-Robot | https://docs.petoi.com/
+
+---
+
+*條目數：30 / 目標：10 ✅*

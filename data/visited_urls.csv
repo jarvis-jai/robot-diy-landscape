@@ -185,3 +185,11 @@ https://www.icshop.com.tw/,iCShop,Commerce,2026-01-31,2026-01-31,active,Taiwan e
 https://www.flag.com.tw/,旗標科技,Publisher,2026-01-31,2026-01-31,active,Taiwan tech publisher - Maker books section
 https://shop.playrobot.com/,飆機器人,Commerce,2026-01-31,2026-01-31,active,Taiwan robot kit store
 https://ithelp.ithome.com.tw/,iT邦幫忙,Community,2026-01-31,2026-01-31,active,Taiwan IT Q&A - Arduino 72q/32a ESP32 tags
+https://github.com/ZohaibCodez/physical-ai-humanoid-robotics-textbook,Physical AI & Humanoid Robotics Textbook,Open Textbook,2026-01-31,2026-01-31,active,87 lessons ROS2 Isaac Sim - MIT License - Docusaurus site
+https://github.com/CollaborativeRoboticsLab/foundations-of-robotics-labs,Foundations of Robotics Labs,University Course,2026-01-31,2026-01-31,active,Jupyter notebooks - ETS Montreal + U Canberra - ROS1 Gazebo Kinova Sphero
+https://github.com/petercorke/robotics-toolbox-python,Robotics Toolbox for Python,Educational Library,2026-01-31,2026-01-31,active,Peter Corke - ICRA 2021 - 30+ robot models - kinematics dynamics Swift viz
+https://github.com/haosulab/ManiSkill,ManiSkill 3,Simulation Platform,2026-01-31,2026-01-31,active,GPU parallel robotics sim - SAPIEN - 30K+ FPS - RSS 2025 - manipulation benchmark
+https://github.com/Unity-Technologies/Unity-Robotics-Hub,Unity Robotics Hub,Simulation Platform,2026-01-31,2026-01-31,active,Unity official - ROS 1/2 integration - URDF importer - Nav2 SLAM
+https://github.com/simpler-env/SimplerEnv,SimplerEnv,Evaluation Framework,2026-01-31,2026-01-31,active,Real-to-sim policy evaluation - RT-1 Octo - CoRL 2024 - Google Robot WidowX
+https://github.com/hanruihua/ir-sim,IR-SIM,Simulation Platform,2026-01-31,2026-01-31,active,Lightweight Python robot sim - navigation control RL - multi-agent RVO - Chinese docs
+https://github.com/PetoiCamp/OpenCat-Quadruped-Robot,OpenCat,Open Source Framework,2026-01-31,2026-01-31,active,Petoi quadruped framework - Arduino RPi - STEM education - Isaac SLAM ROS support

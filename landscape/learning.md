@@ -549,4 +549,64 @@
 
 ---
 
-*條目數：26 / 目標：15 ✅*
+### Physical AI & Humanoid Robotics Textbook
+
+- **Name**：Physical AI & Humanoid Robotics Textbook
+- **Type**：Open Textbook / Interactive Course
+- **Primary language**：English
+- **一句話定位**：完整的 Physical AI 與人形機器人開源教科書，87 課互動課程涵蓋 ROS 2 到 NVIDIA Isaac Sim
+- **強項（≤3）**：
+  - 完整結構：7 Parts × 22 Chapters × 87 Lessons，13 週課程設計
+  - 技術棧全面：ROS 2、Gazebo、Unity、NVIDIA Isaac Sim、人形機器人 IK/控制
+  - 內建 AI 聊天機器人，可針對課程內容問答；Docusaurus 製作，可互動
+- **弱項/缺口（≤3，可觀察）**：
+  - 目前進度 1/87 課完成（1.2%），結構完整但內容尚在建設中
+  - MIT License，社群主導，品質可能不穩定
+  - 無中文翻譯
+- **活躍度訊號**：GitHub 活躍（2025-12 更新），有持續的課程生成計畫
+- **與我們的關聯（一句話）**：前沿的人形機器人 + Physical AI 開源教育資源，適合追蹤發展
+- **Link(s)**：https://github.com/ZohaibCodez/physical-ai-humanoid-robotics-textbook, https://zohaibcodez.github.io/physical-ai-humanoid-robotics-textbook/
+
+---
+
+### Foundations of Robotics Labs (Jupyter Notebooks)
+
+- **Name**：Foundations of Robotics Labs
+- **Type**：University Course / Jupyter Notebooks
+- **Primary language**：English
+- **一句話定位**：大學機器人實驗室 Jupyter Notebooks，涵蓋 ROS、Gazebo 模擬到實體部署
+- **強項（≤3）**：
+  - 完整的實驗室課程體系：Primers → Sense-Think-Act → Navigation → Kinematics → Algorithms
+  - 支援 Binder/Colab/VS Code 一鍵開啟，可直接運行無需本地安裝
+  - 真實機器人平台整合：Sphero RVR、Kinova Gen3 lite
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要大學實驗室環境進行完整體驗（實體機器人部署）
+  - 使用 ROS 1 (Noetic)，ROS 2 支援需額外移植
+  - 無中文版本
+- **活躍度訊號**：GitHub 2026-01 持續更新，由 Collaborative Robotics Lab (ETS Montreal + U Canberra) 維護
+- **與我們的關聯（一句話）**：大學級機器人實驗室的開源課程模板，適合參考教學結構
+- **Link(s)**：https://github.com/CollaborativeRoboticsLab/foundations-of-robotics-labs
+
+---
+
+### Robotics Toolbox for Python
+
+- **Name**：Robotics Toolbox for Python
+- **Type**：Educational Library / Tutorial
+- **Primary language**：English
+- **一句話定位**：Peter Corke 教授的經典 Robotics Toolbox Python 版本，用於機器人運動學與動力學教學和研究
+- **強項（≤3）**：
+  - 機器人學經典工具：30+ 內建機器人模型（Panda、KUKA、Universal Robots 等）
+  - 教學導向設計：程式碼可讀、易於學習；內建 MATLAB 相容性
+  - 快速運動學計算：正運動學 <1µs，逆運動學 <4µs；有 Swift 3D 視覺化
+- **弱項/缺口（≤3，可觀察）**：
+  - Python 3.6+ 要求，較舊環境需升級
+  - 主要針對教學與原型開發，非生產級應用
+  - ICRA 2021 發布，部分進階功能仍在擴展
+- **活躍度訊號**：GitHub 活躍（7.8K stars），PyPI 定期發布，有 ICRA 2021 論文引用
+- **與我們的關聯（一句話）**：機器人運動學/動力學學習與研究的 Python 參考工具
+- **Link(s)**：https://github.com/petercorke/robotics-toolbox-python, https://petercorke.github.io/robotics-toolbox-python/
+
+---
+
+*條目數：29 / 目標：15 ✅*

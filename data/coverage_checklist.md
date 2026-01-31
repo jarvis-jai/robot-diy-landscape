@@ -10,10 +10,10 @@
 |------|------|------|------|
 | communities.md | ≥15 | 25 | ✅ |
 | platforms.md | ≥15 | 16 | ✅ |
-| toolchains.md | ≥10 | 25 | ✅ |
+| toolchains.md | ≥10 | 30 | ✅ |
 | hardware.md | ≥15 | 19 | ✅ |
 | kits.md | ≥10 | 18 | ✅ |
-| learning.md | ≥15 | 26 | ✅ |
+| learning.md | ≥15 | 29 | ✅ |
 | commerce.md | ≥10 | 16 | ✅ |
 | creators.md | ≥10 | 20 | ✅ |
 | chinese_ecosystem.md | ≥10 | 19 | ✅ |
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 37 輪 chinese_ecosystem 繁中補強 — 新增 8 個台灣資源）*
+*最後更新：2026-01-31 （第 38 輪 learning + toolchains — 新增 8 個條目 via GitHub topics discovery）*
