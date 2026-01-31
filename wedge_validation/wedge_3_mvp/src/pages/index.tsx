@@ -25,9 +25,9 @@ import Head from 'next/head';
 import Questionnaire from '../components/Questionnaire';
 import PathCard from '../components/PathCard';
 
-// 靜態數據導入
-import curatedResources from '../../wedge_3_curated_resources.json';
-import learningPaths from '../../wedge_3_learning_paths.json';
+// 靜態數據導入（從 data/ 目錄導入，確保 Vercel 部署正常）
+import curatedResources from '../../data/curated_resources.json';
+import learningPaths from '../../data/learning_paths.json';
 
 // 翻譯導入
 import enTranslations from '../i18n/en.json';

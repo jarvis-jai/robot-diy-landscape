@@ -1,7 +1,7 @@
 {
-  "last_focus": "og_image_design",
+  "last_focus": "vercel_deploy_prep",
   "next_focus_candidates": [
-    "Wedge #3 Vercel 部署",
+    "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布"
   ],
   "focus_history": [
@@ -206,6 +206,14 @@
       "files_modified": 1,
       "result": "ALLOW",
       "note": "Round 30: ✅ OG Image 設計完成！(1) og-image.svg + og-image-zh.svg (雙語 SVG 原始檔); (2) og-image.png + og-image-zh.png (66KB + 64KB 自動轉換); (3) docs/og-image-spec.md (設計規格文件); (4) scripts/convert-og-images.mjs (sharp 轉換腳本); (5) index.tsx 更新支援 locale 特定圖片。Build 成功。社交分享圖片就緒。"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "vercel_deploy_prep",
+      "files_added": 4,
+      "files_modified": 1,
+      "result": "ALLOW",
+      "note": "Round 31: ✅ Vercel 部署準備！(1) 修復 symlinks 問題：創建 data/ 目錄，複製 curated_resources.json + learning_paths.json (29KB); (2) 更新 index.tsx import 路徑; (3) 創建 docs/DEPLOY_GUIDE.md (2KB); (4) 創建 vercel.json (1KB, 含安全頭和緩存策略); (5) Build 驗證成功。MVP 現在可以直接部署到 Vercel。"
     }
   ]
 }
