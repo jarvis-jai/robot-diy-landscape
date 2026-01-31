@@ -504,6 +504,166 @@
 
 ---
 
-*條目數：24 / 目標：10* ✅
+### BerryBase
 
-*最後更新：2026-01-31（第 40 輪 commerce 拉美/亞洲擴展 — 新增 8 個國際零售商：Cytron 馬來西亞、AG Electrónica 墨西哥、Steren 拉美、Robocraze 印度、DeviceMart 韓國、Electromanía 秘魯、Makerlab 菲律賓、Tiendatec 西班牙）*
+- **Name**：BerryBase
+- **Type**：Marketplace / Retailer
+- **Primary language**：German
+- **一句話定位**：德國最大的 Raspberry Pi 專門 Maker 商店，自 2015 年服務德語區 DIY 社群，柏林實體店與 Makerspace
+- **強項（≤3）**：
+  1. 超過 20,000 種產品：官方 Raspberry Pi 和 Arduino 經銷商
+  2. 品牌齊全：代理 Adafruit、SparkFun、Pimoroni、Waveshare、Seeed Studio、DFRobot、M5Stack、Teensy 等
+  3. 自有品牌 BerryBase：高品質高性價比；有實體 Makerspace 可測試產品
+- **弱項/缺口（≤3，可觀察）**：
+  1. 純德語介面
+  2. €99 以上免運費（門檻較高）
+  3. 主要服務德語區市場
+- **活躍度訊號**：客戶滿意度 4.96/5 星；活躍部落格（Retro Gaming、Home Assistant 教程）；13:00 前訂單當天發貨
+- **與我們的關聯（一句話）**：德語區市場一站式 Maker 商店，產品覆蓋最全
+- **Link(s)**：https://www.berrybase.de/
+
+---
+
+### EXP-Tech
+
+- **Name**：EXP-Tech (EXP GmbH)
+- **Type**：Marketplace / Distributor
+- **Primary language**：German
+- **一句話定位**：德國專業電子批發商，14+ 年歷史，服務研究機構與工業客戶，專注 IoT 和嵌入式系統
+- **強項（≤3）**：
+  1. IoT 與嵌入式專精：LoRaWAN 模組、HMI 顯示器、LiDAR 感測器、NVIDIA Jetson
+  2. 頂級客戶群：DLR 德國航太中心、Dresden/Saarland/Giessen 大學、Scewo 輪椅機器人
+  3. 24 小時內發貨；配送至 33 個國家
+- **弱項/缺口（≤3，可觀察）**：
+  1. 偏向 B2B（非純消費者導向）
+  2. 網站較工業風格
+  3. 部分高端產品價格較高
+- **活躍度訊號**：持續發布 IoT 解決方案；2010 年成立持續營運；有完整技術諮詢服務
+- **與我們的關聯（一句話）**：德國專業級 IoT 與機器人感測器的優質來源
+- **Link(s)**：https://exp-tech.de/
+
+---
+
+### Conrad Electronic
+
+- **Name**：Conrad Electronic
+- **Type**：Marketplace / Retailer
+- **Primary language**：German
+- **一句話定位**：德國最大的技術與電子商店之一，超過 1000 萬種產品，6000+ 品牌，B2B 與零售並重
+- **強項（≤3）**：
+  1. 產品最齊全：超過 1000 萬種產品、6000+ 品牌
+  2. Profistores 實體店：提供專業諮詢、測試、取貨服務
+  3. B2B 服務完善：E-Procurement 解決方案、定期訂單、專業採購優化
+- **弱項/缺口（≤3，可觀察）**：
+  1. 商品種類太多，導航較複雜
+  2. 主要服務德國市場
+  3. 部分專業產品需註冊查看價格
+- **活躍度訊號**：持續營運數十年；德國電子零售龍頭；有完整的 B2C 與 B2B 服務體系
+- **與我們的關聯（一句話）**：德國市場找什麼都有的電子巨頭，適合大批量採購
+- **Link(s)**：https://www.conrad.de/
+
+---
+
+### AZ-Delivery
+
+- **Name**：AZ-Delivery
+- **Type**：Marketplace / Retailer
+- **Primary language**：German
+- **一句話定位**：德國微電子專家，專注 Arduino、ESP8266/ESP32、顯示器模組，全歐盟 €25 免運
+- **強項（≤3）**：
+  1. 微控制器模組專精：ESP8266、ESP32、Arduino 相容板、各類顯示器（LCD/OLED/TFT）
+  2. 價格實惠：Deal of the Day 優惠；€25 以上全歐盟免運費
+  3. 滿意度保證：不滿意可退款；免費客服支援
+- **弱項/缺口（≤3，可觀察）**：
+  1. 產品以模組為主（非完整機器人套件）
+  2. 純德語介面
+  3. 主要服務歐盟市場
+- **活躍度訊號**：持續更新產品與優惠；有 Newsletter 訂閱 15% 折扣；活躍銷售中
+- **與我們的關聯（一句話）**：歐盟市場高性價比微控制器與顯示器模組來源
+- **Link(s)**：https://www.az-delivery.de/
+
+---
+
+### Antratek Electronics
+
+- **Name**：Antratek Electronics
+- **Type**：Marketplace / Distributor
+- **Primary language**：German / English
+- **一句話定位**：德國嵌入式電子與工業自動化專家，25+ 年歷史，專注 LiDAR、NVIDIA Jetson、LoRaWAN
+- **強項（≤3）**：
+  1. 25+ 年經驗：創新產品與卓越服務的口碑
+  2. 專業產品線：LiDAR 感測器、NVIDIA Jetson 模組、LoRaWAN/NB-IoT、邏輯分析儀
+  3. 服務多元客戶：工程師、企業、教育機構、電子愛好者
+- **弱項/缺口（≤3，可觀察）**：
+  1. 偏向專業市場（非入門級）
+  2. 產品種類較窄（專注嵌入式）
+  3. 主要服務德語區
+- **活躍度訊號**：持續營運 25+ 年；專業產品持續更新；有技術諮詢服務
+- **與我們的關聯（一句話）**：德國專業 LiDAR 與 NVIDIA Jetson 的可靠來源
+- **Link(s)**：https://www.antratek.de/
+
+---
+
+### Robotistan
+
+- **Name**：Robotistan
+- **Type**：Marketplace / Retailer
+- **Primary language**：Turkish
+- **一句話定位**：土耳其最大的 Maker 市場，自 2010 年服務電子愛好者，快速配送與多元付款
+- **強項（≤3）**：
+  1. 土耳其 Maker 市場領導者：數千種電子零件與套件庫存
+  2. 快速配送：15:00 前下單當天發貨；多種物流選擇
+  3. 付款彈性：信用卡分期、BKM Express、Chippin、貨到付款
+- **弱項/缺口（≤3，可觀察）**：
+  1. 純土耳其語介面
+  2. 主要服務土耳其市場
+  3. 國際配送資訊不明確
+- **活躍度訊號**：2010-2026 持續營運 16 年；Robotistan Elektronik Ticaret AŞ 註冊商標
+- **與我們的關聯（一句話）**：土耳其市場的 Maker 與機器人零件首選電商
+- **Link(s)**：https://www.robotistan.com/
+
+---
+
+### 秋月電子通商 (Akizuki Denshi)
+
+- **Name**：秋月電子通商 (Akizuki Denshi Tsusho)
+- **Type**：Marketplace / Retailer
+- **Primary language**：Japanese
+- **一句話定位**：日本秋葉原知名電子零件商，2002 年成立，服務日本電子愛好者與專業人士
+- **強項（≤3）**：
+  1. 秋葉原老店：日本電子零件採購的經典選擇
+  2. 價格實惠：以低價著稱的日本電子零件商
+  3. 產品齊全：從基礎元件到開發板一應俱全
+- **弱項/缺口（≤3，可觀察）**：
+  1. 純日語介面
+  2. 主要服務日本市場（國際配送有限）
+  3. 網站設計較傳統
+- **活躍度訊號**：2002-2024 持續營運 22+ 年；有實體店面於秋葉原；持續更新新商品
+- **與我們的關聯（一句話）**：日本市場電子零件的平價經典選擇
+- **Link(s)**：https://akizukidenshi.com/
+
+---
+
+### 千石電商 (Sengoku)
+
+- **Name**：千石電商 (Sengoku)
+- **Type**：Marketplace / Retailer
+- **Primary language**：Japanese
+- **一句話定位**：日本電子零件與 Maker 商店，秋葉原等地有多間實體門市
+- **強項（≤3）**：
+  1. 多門市：秋葉原等地有實體店面
+  2. 線上線下整合：10:30-17:00 網購服務、實體店另有營業時間
+  3. 快速出貨：13:00 前下單當天發貨
+- **弱項/缺口（≤3，可觀察）**：
+  1. 純日語介面
+  2. 主要服務日本市場
+  3. 網站內容較簡略
+- **活躍度訊號**：持續營運；週一至週六營業（祝日除外）；有完整網購系統
+- **與我們的關聯（一句話）**：日本市場的電子零件實體店選擇
+- **Link(s)**：https://www.sengoku.co.jp/
+
+---
+
+*條目數：32 / 目標：10* ✅
+
+*最後更新：2026-01-31（第 55 輪 commerce 德國/日本/土耳其擴展 — 新增 8 個國際零售商：BerryBase 德國、EXP-Tech 德國、Conrad Electronic 德國、AZ-Delivery 德國、Antratek 德國、Robotistan 土耳其、秋月電子 日本、千石電商 日本）*

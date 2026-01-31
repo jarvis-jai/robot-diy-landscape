@@ -14,7 +14,7 @@
 | hardware.md | ≥15 | 42 | ✅ |
 | kits.md | ≥10 | 34 | ✅ |
 | learning.md | ≥15 | 43 | ✅ |
-| commerce.md | ≥10 | 24 | ✅ |
+| commerce.md | ≥10 | 32 | ✅ |
 | creators.md | ≥10 | 39 | ✅ |
 | chinese_ecosystem.md | ≥10 | 28 | ✅ |
 
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 54 輪 learning 2026 更新 — 新增 9 個前沿學習資源：robosuite (Stanford/UT/NVIDIA 基準)、XLeRobot (Mac 友好)、awesome-isaac-gym、RoboManipBaselines (AIST)、VITA (ICLR 2026)、Isaac Lab + GR00T 雲端指南 (中英)、AirGym (四旋翼 RL)、EmbodiChain (ICLR 2026)、重慶大學 ROS 2 課程 (中文)。Learning 達 43 條目。連續 54 輪 ALLOW！）*
+*最後更新：2026-01-31 （第 55 輪 commerce 國際擴展 — 新增 8 個國際零售商：BerryBase (德國 Maker 20K+ 產品)、EXP-Tech (德國 IoT)、Conrad Electronic (德國 10M+ 產品)、AZ-Delivery (德國微電子)、Antratek (德國嵌入式)、Robotistan (土耳其)、秋月電子 (日本)、千石電商 (日本)。Commerce 達 32 條目。連續 55 輪 ALLOW！）*
