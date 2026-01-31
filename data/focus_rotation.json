@@ -1,8 +1,8 @@
 {
-  "last_focus": "wedge_2_community_prep",
+  "last_focus": "wedge_3_mvp_data",
   "next_focus_candidates": [
-    "Wedge #3 MVP 開發",
     "Wedge #2 Reddit 發布",
+    "Wedge #3 前端開發",
     "條目補強"
   ],
   "focus_history": [
@@ -149,6 +149,13 @@
       "entries_updated": 3,
       "result": "ALLOW",
       "note": "Round 22: (1) Created community launch kit with Reddit/HN/Discourse post drafts; (2) Created GitHub README draft; (3) Fixed critical ROS 1 EOL date error (2026→2025 in ROS Wiki + ROS entries); (4) Added Gazebo Ionic/Kura versions."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "wedge_3_mvp_data",
+      "files_added": 2,
+      "result": "ALLOW",
+      "note": "Round 23: Created Wedge #3 MVP core data files: (1) wedge_3_curated_resources.json (30 curated resources across 5 categories: learning 8, commerce 6, tools 6, communities 5, kits 5); (2) wedge_3_learning_paths.json (4 complete learning paths: wheeled, arm, drone, unsure - with 5 questions logic and step-by-step recommendations)."
     }
   ]
 }

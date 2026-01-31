@@ -1,0 +1,396 @@
+{
+  "version": "1.0",
+  "created": "2026-01-31",
+  "description": "30 curated resources for Robotics DIY Onramp MVP",
+  
+  "learning": [
+    {
+      "id": "paul-mcwhorter",
+      "name": "Paul McWhorter",
+      "type": "YouTube",
+      "url": "https://www.youtube.com/@paulmcwhorter",
+      "description": "系統化 Arduino 和 Raspberry Pi 入門課程，真正的絕對初學者友好",
+      "language": "en",
+      "price": "free",
+      "beginnerFriendly": 3,
+      "topics": ["arduino", "raspberry-pi", "basics"],
+      "strengths": ["系統化課程", "step-by-step", "持續更新"],
+      "weaknesses": ["娛樂性較低", "進階內容較少"]
+    },
+    {
+      "id": "adafruit-learn",
+      "name": "Adafruit Learning System",
+      "type": "Tutorial Platform",
+      "url": "https://learn.adafruit.com/",
+      "description": "3300+ 免費電子與機器人教程，CircuitPython 為主",
+      "language": "en",
+      "price": "free",
+      "beginnerFriendly": 3,
+      "topics": ["circuitpython", "sensors", "motors", "electronics"],
+      "strengths": ["龐大教程庫", "難度分級", "持續更新"],
+      "weaknesses": ["偏 Adafruit 產品"]
+    },
+    {
+      "id": "automatic-addison",
+      "name": "Automatic Addison",
+      "type": "Tutorial Blog",
+      "url": "https://automaticaddison.com/tutorials/",
+      "description": "最完整的免費 ROS 2 文字教程，從 Linux 基礎到進階導航",
+      "language": "en",
+      "price": "free",
+      "beginnerFriendly": 2,
+      "topics": ["ros2", "navigation", "urdf", "gazebo"],
+      "strengths": ["ROS 2 完整覆蓋", "skill level 分級", "持續更新"],
+      "weaknesses": ["無中文", "影片較少"]
+    },
+    {
+      "id": "the-construct",
+      "name": "The Construct",
+      "type": "Learning Platform",
+      "url": "https://www.theconstruct.ai/",
+      "description": "ROS 官方培訓夥伴，100K+ 學習者，有真實機器人遠端存取",
+      "language": "multi",
+      "price": "freemium",
+      "beginnerFriendly": 2,
+      "topics": ["ros", "ros2", "gazebo", "certification"],
+      "strengths": ["官方認證", "遠端機器人", "多語言"],
+      "weaknesses": ["完整課程付費"]
+    },
+    {
+      "id": "qut-robot-academy",
+      "name": "QUT Robot Academy",
+      "type": "MOOC",
+      "url": "https://robotacademy.net.au/",
+      "description": "澳洲昆士蘭科技大學免費機器人課程，200+ 大學級別影片",
+      "language": "en",
+      "price": "free",
+      "beginnerFriendly": 2,
+      "topics": ["theory", "vision", "kinematics"],
+      "strengths": ["大學級內容", "免費", "Peter Corke 教授"],
+      "weaknesses": ["內容較舊", "MATLAB 為主"]
+    },
+    {
+      "id": "dronebot-workshop",
+      "name": "DroneBot Workshop",
+      "type": "YouTube + Website",
+      "url": "https://www.youtube.com/@Dronebotworkshop",
+      "description": "電子元件與馬達控制的詳盡教學，配套網站有文字教程",
+      "language": "en",
+      "price": "free",
+      "beginnerFriendly": 3,
+      "topics": ["arduino", "esp32", "motors", "sensors"],
+      "strengths": ["詳盡深入", "配套網站", "社群評價高"],
+      "weaknesses": ["更新較慢", "影片較長"]
+    },
+    {
+      "id": "how-to-mechatronics",
+      "name": "How To Mechatronics",
+      "type": "YouTube + Website",
+      "url": "https://howtomechatronics.com",
+      "description": "Arduino 機器人專案教學，影片搭配完整網站文章與電路圖",
+      "language": "en",
+      "price": "free",
+      "beginnerFriendly": 2,
+      "topics": ["arduino", "3d-printing", "projects"],
+      "strengths": ["影片+網站配套", "電路圖完整", "專案導向"],
+      "weaknesses": ["更新頻率中等"]
+    },
+    {
+      "id": "articulated-robotics",
+      "name": "Articulated Robotics",
+      "type": "YouTube + Website",
+      "url": "https://articulatedrobotics.xyz/",
+      "description": "Josh Newans 的 ROS 教學，有配套 Discourse 社群討論區",
+      "language": "en",
+      "price": "free",
+      "beginnerFriendly": 2,
+      "topics": ["ros2", "urdf", "simulation"],
+      "strengths": ["影片+文檔雙管道", "社群支援"],
+      "weaknesses": ["內容量相對較少"]
+    }
+  ],
+
+  "commerce": [
+    {
+      "id": "adafruit",
+      "name": "Adafruit Industries",
+      "type": "Retailer",
+      "url": "https://www.adafruit.com/",
+      "region": "north-america",
+      "description": "紐約開源硬體電商，4.9/5 評價，配套教學豐富",
+      "language": "en",
+      "shipping": "global",
+      "strengths": ["教學生態完整", "客戶評價極高", "CircuitPython 生態"],
+      "weaknesses": ["國際運費較高"]
+    },
+    {
+      "id": "sparkfun",
+      "name": "SparkFun Electronics",
+      "type": "Retailer",
+      "url": "https://www.sparkfun.com/",
+      "region": "north-america",
+      "description": "科羅拉多州開源電子商，Qwiic 快接系統",
+      "language": "en",
+      "shipping": "global",
+      "strengths": ["Qwiic 生態系統", "$100+ 免運費"],
+      "weaknesses": ["機器人套件較少"]
+    },
+    {
+      "id": "the-pi-hut",
+      "name": "The Pi Hut",
+      "type": "Retailer",
+      "url": "https://thepihut.com/",
+      "region": "europe",
+      "description": "英國最大 Raspberry Pi 專門店，20+ 品牌代理",
+      "language": "en",
+      "shipping": "global",
+      "strengths": ["品牌齊全", "客服 5 星", "當日出貨"],
+      "weaknesses": ["英國發貨"]
+    },
+    {
+      "id": "pimoroni",
+      "name": "Pimoroni",
+      "type": "Manufacturer/Retailer",
+      "url": "https://shop.pimoroni.com/",
+      "region": "europe",
+      "description": "英國 Maker 商店，MicroPython 專精，自有產品線",
+      "language": "en",
+      "shipping": "global",
+      "strengths": ["MicroPython 專家", "自有創新產品"],
+      "weaknesses": ["GBP 計價"]
+    },
+    {
+      "id": "seeed-studio",
+      "name": "Seeed Studio",
+      "type": "Manufacturer",
+      "url": "https://www.seeedstudio.com/",
+      "region": "asia",
+      "description": "深圳開源硬體先驅，XIAO 和 Grove 生態系統",
+      "language": "en",
+      "shipping": "global",
+      "strengths": ["供應鏈優勢", "快速原型服務", "Edge AI 產品線"],
+      "weaknesses": ["農曆新年延遲"]
+    },
+    {
+      "id": "dfrobot",
+      "name": "DFRobot",
+      "type": "Manufacturer",
+      "url": "https://www.dfrobot.com/",
+      "region": "asia",
+      "description": "上海 STEM 教育公司，服務 100 萬+ 全球用戶",
+      "language": "en",
+      "shipping": "global",
+      "strengths": ["STEM 教育強項", "完整 Wiki 生態", "有 US Site"],
+      "weaknesses": ["文檔更新參差"]
+    }
+  ],
+
+  "tools": [
+    {
+      "id": "arduino-docs",
+      "name": "Arduino Documentation",
+      "type": "Docs",
+      "url": "https://docs.arduino.cc/",
+      "description": "Arduino 官方文件平台，從新手設定到進階開發",
+      "language": "en",
+      "price": "free",
+      "beginnerFriendly": 3,
+      "topics": ["arduino", "hardware", "software"],
+      "strengths": ["官方維護", "互動式教程", "新硬體同步更新"]
+    },
+    {
+      "id": "platformio",
+      "name": "PlatformIO",
+      "type": "IDE",
+      "url": "https://platformio.org/",
+      "description": "現代化嵌入式開發環境，VS Code 原生整合，支援 1000+ 開發板",
+      "language": "en",
+      "price": "freemium",
+      "beginnerFriendly": 2,
+      "topics": ["embedded", "arduino", "esp32", "ide"],
+      "strengths": ["VS Code 整合", "套件管理", "跨平台"]
+    },
+    {
+      "id": "wokwi",
+      "name": "Wokwi",
+      "type": "Online Simulator",
+      "url": "https://wokwi.com/",
+      "description": "瀏覽器中運行的 ESP32/Arduino 模擬器，零硬體成本學習",
+      "language": "en",
+      "price": "freemium",
+      "beginnerFriendly": 3,
+      "topics": ["simulation", "arduino", "esp32"],
+      "strengths": ["零安裝", "即時模擬", "教育採用廣"]
+    },
+    {
+      "id": "gazebo",
+      "name": "Gazebo",
+      "type": "Simulation Platform",
+      "url": "https://gazebosim.org/",
+      "description": "開源機器人模擬器，與 ROS 深度整合，業界標準",
+      "language": "en",
+      "price": "free",
+      "beginnerFriendly": 1,
+      "topics": ["simulation", "ros", "physics"],
+      "strengths": ["ROS 原生整合", "完整感測器模擬", "LTS 版本"],
+      "weaknesses": ["學習曲線陡峭", "硬體要求高"]
+    },
+    {
+      "id": "ros2",
+      "name": "ROS 2",
+      "type": "Framework",
+      "url": "https://docs.ros.org/",
+      "description": "機器人軟體開發的事實標準框架，產業與學術界共同語言",
+      "language": "en",
+      "price": "free",
+      "beginnerFriendly": 1,
+      "topics": ["robotics", "middleware", "navigation"],
+      "strengths": ["業界標準", "龐大生態", "活躍社群"],
+      "weaknesses": ["配置複雜", "學習曲線陡峭"]
+    },
+    {
+      "id": "freecad",
+      "name": "FreeCAD",
+      "type": "CAD Software",
+      "url": "https://www.freecad.org/",
+      "description": "開源參數化 3D CAD，設計機器人零件與外殼",
+      "language": "en",
+      "price": "free",
+      "beginnerFriendly": 2,
+      "topics": ["cad", "3d-design", "mechanical"],
+      "strengths": ["v1.0 穩定版", "FEA 分析", "跨平台"]
+    }
+  ],
+
+  "communities": [
+    {
+      "id": "r-askrobotics",
+      "name": "r/AskRobotics",
+      "type": "Reddit",
+      "url": "https://reddit.com/r/AskRobotics",
+      "description": "專門回答機器人初學者問題的 Q&A 社群",
+      "language": "en",
+      "members": "10K+",
+      "beginnerFriendly": 3,
+      "strengths": ["新手友善", "專為問答設計"],
+      "warnings": []
+    },
+    {
+      "id": "r-arduino",
+      "name": "r/arduino",
+      "type": "Reddit",
+      "url": "https://reddit.com/r/arduino",
+      "description": "Arduino 專案與問題討論，745K 成員",
+      "language": "en",
+      "members": "745K+",
+      "beginnerFriendly": 3,
+      "strengths": ["規模龐大", "Live Chat", "資源整理豐富"],
+      "warnings": ["禁止「幫我做專案」請求"]
+    },
+    {
+      "id": "open-robotics-discord",
+      "name": "Open Robotics Discord",
+      "type": "Discord",
+      "url": "https://discord.gg/open-robotics",
+      "description": "ROS、Gazebo、Open-RMF 官方 Discord 伺服器",
+      "language": "en",
+      "members": "5K+",
+      "beginnerFriendly": 2,
+      "strengths": ["官方維護", "即時問答"],
+      "warnings": ["需 ROS 基礎"]
+    },
+    {
+      "id": "arduino-forum",
+      "name": "Arduino Forum",
+      "type": "Forum",
+      "url": "https://forum.arduino.cc/",
+      "description": "Arduino 官方論壇，歷史悠久的問答資源庫",
+      "language": "en",
+      "members": "N/A",
+      "beginnerFriendly": 3,
+      "strengths": ["官方維護", "歷史資源豐富"],
+      "warnings": ["介面較舊"]
+    },
+    {
+      "id": "chief-delphi",
+      "name": "Chief Delphi",
+      "type": "Forum",
+      "url": "https://www.chiefdelphi.com/",
+      "description": "FIRST Robotics Competition 社群論壇，Build Thread 文化豐富",
+      "language": "en",
+      "members": "N/A",
+      "beginnerFriendly": 2,
+      "strengths": ["設計靈感寶庫", "極高活躍度"],
+      "warnings": ["偏競賽導向"]
+    }
+  ],
+
+  "kits": [
+    {
+      "id": "elegoo-car",
+      "name": "Elegoo Smart Robot Car V3.0",
+      "type": "Arduino Kit",
+      "url": "https://www.elegoo.com/",
+      "price": 70,
+      "currency": "USD",
+      "targetAudience": "12+, 想動手做的學習者",
+      "description": "高性價比 Arduino 四驅智能車，含超音波/紅外線/循線感測器",
+      "strengths": ["價格實惠", "四驅可走地毯", "Arduino 兼容"],
+      "weaknesses": ["說明不夠清晰", "需自備工具"],
+      "robotType": "wheeled"
+    },
+    {
+      "id": "petoi-bittle",
+      "name": "Petoi Bittle",
+      "type": "Quadruped Kit",
+      "url": "https://www.petoi.com/products/petoi-bittle-robot-dog",
+      "price": 269,
+      "currency": "USD",
+      "targetAudience": "進階愛好者",
+      "description": "開源四足機器狗，支援 Arduino/Python/Mind+ 編程",
+      "strengths": ["真正四足運動", "開源硬軟體", "可擴展 AI"],
+      "weaknesses": ["價格較高", "需調校經驗"],
+      "robotType": "quadruped"
+    },
+    {
+      "id": "sunfounder-picar",
+      "name": "SunFounder PiCar-X",
+      "type": "Raspberry Pi Kit",
+      "url": "https://www.sunfounder.com/products/picar-x",
+      "price": 120,
+      "currency": "USD",
+      "targetAudience": "想學 AI 視覺的進階者",
+      "description": "Raspberry Pi AI 機器人車，支援 OpenCV 人臉識別和物體追蹤",
+      "strengths": ["AI 視覺功能", "完整文檔", "Python/EzBlock 雙模式"],
+      "weaknesses": ["需另購 Pi", "體積較大"],
+      "robotType": "wheeled",
+      "requiresAdditionalHardware": ["Raspberry Pi 4/5"]
+    },
+    {
+      "id": "makeblock-mbot",
+      "name": "Makeblock mBot",
+      "type": "Educational Kit",
+      "url": "https://www.makeblock.com/products/buy-mbot",
+      "price": 90,
+      "currency": "USD",
+      "targetAudience": "兒童 (8+) 和教育",
+      "description": "15 分鐘組裝的金屬框架套件，Scratch 到 Arduino 進階",
+      "strengths": ["快速組裝", "100+ 模組擴充", "Scratch 友善"],
+      "weaknesses": ["基本功能有限", "非平滑地面困難"],
+      "robotType": "wheeled"
+    },
+    {
+      "id": "turtlebot4",
+      "name": "TurtleBot 4",
+      "type": "ROS Platform",
+      "url": "https://www.turtlebot.com/",
+      "price": 2000,
+      "currency": "USD",
+      "targetAudience": "研究人員和 ROS 學習者",
+      "description": "官方 ROS 學習平台，完整 ROS 2 支援，3D 視覺導航",
+      "strengths": ["官方標準", "完整 ROS 2", "專業功能"],
+      "weaknesses": ["價格高", "學習曲線陡峭"],
+      "robotType": "wheeled"
+    }
+  ]
+}

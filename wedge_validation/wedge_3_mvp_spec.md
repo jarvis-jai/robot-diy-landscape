@@ -204,10 +204,25 @@ MVP 內容直接基於本 repo 的 landscape 條目：
 
 ## 📋 下一步行動
 
-1. [ ] 確認 4 條典型學習路徑（輪式/機械臂/無人機/不確定）
-2. [ ] 從 landscape 精選 30 個 curated 資源
+1. [x] ✅ 確認 4 條典型學習路徑（輪式/機械臂/無人機/探索）→ `wedge_3_learning_paths.json`
+2. [x] ✅ 從 landscape 精選 30 個 curated 資源 → `wedge_3_curated_resources.json`
 3. [ ] 設計問卷 UI 原型（Figma 或直接 code）
 4. [ ] 建立 Next.js 專案骨架
+
+### 資料檔案完成（2026-01-31 Round 23）
+
+**wedge_3_curated_resources.json** (12KB)
+- 🎓 Learning: 8 resources (Paul McWhorter, Adafruit, Automatic Addison, The Construct, QUT, DroneBot, HowToMechatronics, Articulated Robotics)
+- 🛒 Commerce: 6 retailers by region (Adafruit, SparkFun, Pi Hut, Pimoroni, Seeed, DFRobot)
+- 🧰 Tools: 6 tools (Arduino Docs, PlatformIO, Wokwi, Gazebo, ROS 2, FreeCAD)
+- 💬 Communities: 5 communities (r/AskRobotics, r/arduino, OSRF Discord, Arduino Forum, Chief Delphi)
+- 📦 Kits: 5 kits (Elegoo Car, Petoi Bittle, PiCar-X, mBot, TurtleBot4)
+
+**wedge_3_learning_paths.json** (13KB)
+- 5 questions with weighted scoring
+- 4 complete paths: wheeled (5 steps), arm (5 steps), drone (4 steps), unsure (3 steps)
+- Budget tiers: <$100 / $100-300 / $300-500 / $500+
+- Community guidance with newbie warnings
 
 ---
 

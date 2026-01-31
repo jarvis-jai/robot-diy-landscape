@@ -217,6 +217,10 @@
   - 發現：r/robotics wiki 最後更新 **2021-01-29**（5 年前）
   - 發現：r/AskRobotics 熱門問題驗證導航需求（53+ upvotes）
 - [x] ✅ Wedge #2 的 Sim-to-Real Checklist 初版草稿 → `wedge_validation/wedge_2_sim_to_real_checklist_v1.md`
+- [x] ✅ Wedge #3 核心資料準備 → `wedge_validation/wedge_3_curated_resources.json` + `wedge_3_learning_paths.json`
+  - 30 個精選資源（學習 8 / 商店 6 / 工具 6 / 社群 5 / 套件 5）
+  - 4 條完整學習路徑（輪式 / 機械臂 / 無人機 / 探索）
+  - 5 題問卷邏輯 + 預算分層推薦
 
 ### 中期（1 個月）
 - [ ] Wedge #3 MVP 上線（單頁 app + 路徑推薦器）

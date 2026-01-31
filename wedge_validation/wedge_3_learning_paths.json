@@ -1,0 +1,357 @@
+{
+  "version": "1.0",
+  "created": "2026-01-31",
+  "description": "Learning path definitions for Robotics DIY Onramp",
+
+  "questions": [
+    {
+      "id": "experience",
+      "text": "你的程式經驗？",
+      "options": [
+        { "value": "none", "label": "無", "weight": { "wheeled": 1, "arm": 0.5, "drone": 0.5, "unsure": 1 } },
+        { "value": "basic", "label": "基礎（學過 Python）", "weight": { "wheeled": 1, "arm": 1, "drone": 0.8, "unsure": 1 } },
+        { "value": "intermediate", "label": "中等（寫過專案）", "weight": { "wheeled": 1, "arm": 1, "drone": 1, "unsure": 1 } },
+        { "value": "professional", "label": "專業", "weight": { "wheeled": 1, "arm": 1, "drone": 1, "unsure": 1 } }
+      ]
+    },
+    {
+      "id": "goal",
+      "text": "你的目標？",
+      "options": [
+        { "value": "hobby", "label": "純興趣", "weight": { "wheeled": 1.2, "arm": 1, "drone": 1.1, "unsure": 1 } },
+        { "value": "skills", "label": "學習技能", "weight": { "wheeled": 1, "arm": 1.1, "drone": 0.9, "unsure": 1 } },
+        { "value": "career", "label": "職涯轉換", "weight": { "wheeled": 0.8, "arm": 1.2, "drone": 0.7, "unsure": 0.9 } },
+        { "value": "research", "label": "學術研究", "weight": { "wheeled": 0.9, "arm": 1.1, "drone": 0.8, "unsure": 0.8 } }
+      ]
+    },
+    {
+      "id": "type",
+      "text": "想做什麼類型的機器人？",
+      "options": [
+        { "value": "wheeled", "label": "輪式移動", "weight": { "wheeled": 2, "arm": 0, "drone": 0, "unsure": 0.5 } },
+        { "value": "arm", "label": "機械臂", "weight": { "wheeled": 0, "arm": 2, "drone": 0, "unsure": 0.5 } },
+        { "value": "drone", "label": "無人機", "weight": { "wheeled": 0, "arm": 0, "drone": 2, "unsure": 0.5 } },
+        { "value": "unsure", "label": "不確定", "weight": { "wheeled": 1, "arm": 0.8, "drone": 0.5, "unsure": 1.5 } }
+      ]
+    },
+    {
+      "id": "budget",
+      "text": "你的預算範圍？",
+      "options": [
+        { "value": "low", "label": "<$100", "budgetTier": 1 },
+        { "value": "medium", "label": "$100-300", "budgetTier": 2 },
+        { "value": "high", "label": "$300-500", "budgetTier": 3 },
+        { "value": "pro", "label": "$500+", "budgetTier": 4 }
+      ]
+    },
+    {
+      "id": "style",
+      "text": "你偏好的學習方式？",
+      "options": [
+        { "value": "video", "label": "影片", "resourceType": "youtube" },
+        { "value": "text", "label": "文字教程", "resourceType": "tutorial" },
+        { "value": "project", "label": "實作專案", "resourceType": "project" },
+        { "value": "course", "label": "線上課程", "resourceType": "mooc" }
+      ]
+    }
+  ],
+
+  "paths": {
+    "wheeled": {
+      "id": "wheeled",
+      "name": "輪式移動機器人",
+      "emoji": "🚗",
+      "description": "從簡單智能車到自主導航機器人",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Arduino 基礎",
+          "duration": "2 週",
+          "budget": {
+            "tier1": { "hardware": "Arduino Uno 套件", "cost": 30, "id": "elegoo-car" },
+            "tier2": { "hardware": "Elegoo Smart Car V3", "cost": 70, "id": "elegoo-car" },
+            "tier3": { "hardware": "Elegoo Smart Car V3 + 感測器擴充", "cost": 100, "id": "elegoo-car" },
+            "tier4": { "hardware": "Arduino + 自選零件", "cost": 150, "id": null }
+          },
+          "resources": ["paul-mcwhorter", "adafruit-learn", "arduino-docs"],
+          "goals": ["LED 和按鈕控制", "馬達基礎驅動", "感測器讀取"],
+          "communities": ["r-arduino", "arduino-forum"]
+        },
+        {
+          "step": 2,
+          "title": "智能車專案",
+          "duration": "2 週",
+          "budget": {
+            "tier1": { "hardware": "（使用 Step 1 硬體）", "cost": 0 },
+            "tier2": { "hardware": "超音波 + 紅外線模組", "cost": 20 },
+            "tier3": { "hardware": "超音波 + 紅外線 + 藍牙模組", "cost": 40 },
+            "tier4": { "hardware": "完整感測器套件", "cost": 80 }
+          },
+          "resources": ["dronebot-workshop", "how-to-mechatronics"],
+          "goals": ["避障行為", "循線功能", "遙控操作"],
+          "communities": ["r-arduino"]
+        },
+        {
+          "step": 3,
+          "title": "Raspberry Pi 進階",
+          "duration": "2 週",
+          "budget": {
+            "tier1": { "skip": true, "reason": "預算限制，可先停在 Step 2" },
+            "tier2": { "hardware": "Raspberry Pi Zero 2 W", "cost": 35 },
+            "tier3": { "hardware": "Raspberry Pi 4 2GB + 相機", "cost": 100 },
+            "tier4": { "hardware": "Raspberry Pi 5 + AI HAT", "cost": 200 }
+          },
+          "resources": ["paul-mcwhorter", "adafruit-learn"],
+          "goals": ["Linux 基礎", "Python 控制", "基礎電腦視覺"],
+          "communities": []
+        },
+        {
+          "step": 4,
+          "title": "ROS 2 入門",
+          "duration": "3-4 週",
+          "budget": {
+            "tier1": { "skip": true },
+            "tier2": { "skip": true, "reason": "需要更多硬體投資" },
+            "tier3": { "hardware": "（使用 Step 3 硬體 + Gazebo 模擬）", "cost": 0 },
+            "tier4": { "hardware": "TurtleBot3 或自製 ROS 車", "cost": 500 }
+          },
+          "resources": ["articulated-robotics", "automatic-addison", "the-construct"],
+          "goals": ["ROS 2 概念", "Gazebo 模擬", "基礎 SLAM"],
+          "communities": ["open-robotics-discord", "r-askrobotics"]
+        },
+        {
+          "step": 5,
+          "title": "自主導航專案",
+          "duration": "4+ 週",
+          "budget": {
+            "tier1": { "skip": true },
+            "tier2": { "skip": true },
+            "tier3": { "skip": true, "reason": "需要 LiDAR 等感測器" },
+            "tier4": { "hardware": "LiDAR + 深度相機", "cost": 300 }
+          },
+          "resources": ["automatic-addison", "qut-robot-academy"],
+          "goals": ["Nav2 導航", "路徑規劃", "實機部署"],
+          "communities": ["open-robotics-discord", "chief-delphi"]
+        }
+      ]
+    },
+
+    "arm": {
+      "id": "arm",
+      "name": "機械臂",
+      "emoji": "🦾",
+      "description": "從簡單舵機手臂到工業級開源機械臂",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Arduino 與舵機基礎",
+          "duration": "2 週",
+          "budget": {
+            "tier1": { "hardware": "Arduino + SG90 舵機", "cost": 25 },
+            "tier2": { "hardware": "Arduino + MG996R 舵機組", "cost": 60 },
+            "tier3": { "hardware": "Arduino + 金屬舵機組", "cost": 100 },
+            "tier4": { "hardware": "專業開發板 + 高扭力舵機", "cost": 200 }
+          },
+          "resources": ["paul-mcwhorter", "dronebot-workshop", "how-to-mechatronics"],
+          "goals": ["舵機控制原理", "PWM 訊號", "單軸運動"],
+          "communities": ["r-arduino", "arduino-forum"]
+        },
+        {
+          "step": 2,
+          "title": "3-4 軸手臂專案",
+          "duration": "2-3 週",
+          "budget": {
+            "tier1": { "hardware": "3D 列印或木製手臂", "cost": 30 },
+            "tier2": { "hardware": "Acrylic 4-DOF 手臂套件", "cost": 80 },
+            "tier3": { "hardware": "DFRobot 5-DOF 手臂", "cost": 150 },
+            "tier4": { "hardware": "DFRobot 6-DOF 25kg 手臂", "cost": 260 }
+          },
+          "resources": ["how-to-mechatronics", "adafruit-learn"],
+          "goals": ["多軸協調控制", "逆向運動學基礎", "位置記憶播放"],
+          "communities": ["r-arduino"]
+        },
+        {
+          "step": 3,
+          "title": "進階控制與 Python",
+          "duration": "2-3 週",
+          "budget": {
+            "tier1": { "skip": true },
+            "tier2": { "hardware": "Raspberry Pi Zero 2 W", "cost": 35 },
+            "tier3": { "hardware": "Raspberry Pi 4", "cost": 80 },
+            "tier4": { "hardware": "Raspberry Pi 5 + 相機", "cost": 150 }
+          },
+          "resources": ["paul-mcwhorter", "automatic-addison"],
+          "goals": ["Python 控制介面", "基礎電腦視覺", "GUI 控制"],
+          "communities": []
+        },
+        {
+          "step": 4,
+          "title": "MoveIt 與 ROS 2",
+          "duration": "4+ 週",
+          "budget": {
+            "tier1": { "skip": true },
+            "tier2": { "skip": true },
+            "tier3": { "hardware": "（模擬為主）", "cost": 0 },
+            "tier4": { "hardware": "Thor 或 SO-ARM100 開源手臂", "cost": 400 }
+          },
+          "resources": ["automatic-addison", "the-construct"],
+          "goals": ["URDF 建模", "MoveIt 配置", "運動規劃"],
+          "communities": ["open-robotics-discord"]
+        },
+        {
+          "step": 5,
+          "title": "開源工業級手臂",
+          "duration": "8+ 週",
+          "budget": {
+            "tier1": { "skip": true },
+            "tier2": { "skip": true },
+            "tier3": { "skip": true },
+            "tier4": { "hardware": "AR4 MK4 零件", "cost": 1500 }
+          },
+          "resources": ["automatic-addison"],
+          "goals": ["AR4 組裝", "ROS 2 整合", "視覺抓取"],
+          "communities": ["open-robotics-discord"],
+          "creatorReference": "Chris Annin (anninrobotics)"
+        }
+      ]
+    },
+
+    "drone": {
+      "id": "drone",
+      "name": "無人機",
+      "emoji": "🚁",
+      "description": "從入門四軸到自主飛行",
+      "steps": [
+        {
+          "step": 1,
+          "title": "飛行原理與模擬",
+          "duration": "1 週",
+          "budget": {
+            "tier1": { "hardware": "僅使用模擬器", "cost": 0 },
+            "tier2": { "hardware": "模擬器 + 遙控器", "cost": 30 },
+            "tier3": { "hardware": "模擬器 + 專業遙控器", "cost": 80 },
+            "tier4": { "hardware": "模擬器 + 專業設備", "cost": 150 }
+          },
+          "resources": ["qut-robot-academy"],
+          "goals": ["四軸飛行原理", "模擬器練習", "遙控技巧"],
+          "communities": []
+        },
+        {
+          "step": 2,
+          "title": "入門套件飛行",
+          "duration": "2 週",
+          "budget": {
+            "tier1": { "hardware": "Tiny Whoop 類微型機", "cost": 50 },
+            "tier2": { "hardware": "CrazyFlie Nano", "cost": 200 },
+            "tier3": { "hardware": "5 吋穿越機套件", "cost": 300 },
+            "tier4": { "hardware": "專業穿越機", "cost": 450 }
+          },
+          "resources": ["dronebot-workshop"],
+          "goals": ["基本飛行", "電池管理", "維護保養"],
+          "communities": [],
+          "reddit": "r/diydrones"
+        },
+        {
+          "step": 3,
+          "title": "DIY 組裝",
+          "duration": "2-3 週",
+          "budget": {
+            "tier1": { "skip": true },
+            "tier2": { "hardware": "基礎 DIY 零件", "cost": 150 },
+            "tier3": { "hardware": "中階 DIY 套件", "cost": 250 },
+            "tier4": { "hardware": "高端零件", "cost": 400 }
+          },
+          "resources": ["how-to-mechatronics"],
+          "goals": ["框架組裝", "電調設定", "飛控刷機"],
+          "communities": [],
+          "reddit": "r/diydrones"
+        },
+        {
+          "step": 4,
+          "title": "自主飛行入門",
+          "duration": "4+ 週",
+          "budget": {
+            "tier1": { "skip": true },
+            "tier2": { "skip": true },
+            "tier3": { "hardware": "ArduPilot 相容飛控", "cost": 100 },
+            "tier4": { "hardware": "Pixhawk 6C + GPS", "cost": 300 }
+          },
+          "resources": ["automatic-addison", "qut-robot-academy"],
+          "goals": ["ArduPilot 基礎", "GPS 導航", "任務規劃"],
+          "communities": ["open-robotics-discord"]
+        }
+      ],
+      "note": "無人機需遵守當地法規，戶外飛行前請確認許可要求"
+    },
+
+    "unsure": {
+      "id": "unsure",
+      "name": "探索路徑",
+      "emoji": "🧭",
+      "description": "不確定想做什麼？這條路徑幫你探索各種可能",
+      "steps": [
+        {
+          "step": 1,
+          "title": "電子基礎與 Arduino",
+          "duration": "2 週",
+          "budget": {
+            "tier1": { "hardware": "Arduino 入門套件", "cost": 30 },
+            "tier2": { "hardware": "完整 Arduino 套件", "cost": 60 },
+            "tier3": { "hardware": "Arduino + ESP32 雙套件", "cost": 100 },
+            "tier4": { "hardware": "全面電子套件", "cost": 150 }
+          },
+          "resources": ["paul-mcwhorter", "adafruit-learn", "arduino-docs"],
+          "goals": ["基礎電路", "程式設計入門", "感測器體驗"],
+          "communities": ["r-arduino", "arduino-forum"]
+        },
+        {
+          "step": 2,
+          "title": "三選一體驗",
+          "duration": "2 週",
+          "budget": {
+            "tier1": { "hardware": "選擇一個方向的入門硬體", "cost": 50 },
+            "tier2": { "hardware": "選擇一個方向", "cost": 100 },
+            "tier3": { "hardware": "可嘗試兩個方向", "cost": 200 },
+            "tier4": { "hardware": "全部嘗試", "cost": 400 }
+          },
+          "options": [
+            { "type": "wheeled", "description": "輪式：循線車專案", "kit": "elegoo-car" },
+            { "type": "arm", "description": "機械臂：3-DOF 手臂", "kit": null },
+            { "type": "drone", "description": "無人機：模擬器體驗", "kit": null }
+          ],
+          "resources": ["how-to-mechatronics", "dronebot-workshop"],
+          "goals": ["完成一個完整專案", "確認興趣方向"],
+          "communities": ["r-askrobotics"]
+        },
+        {
+          "step": 3,
+          "title": "選擇專精方向",
+          "duration": "—",
+          "description": "根據 Step 2 的體驗，選擇一條專精路徑繼續深入",
+          "redirect": {
+            "wheeled": "wheeled.step3",
+            "arm": "arm.step3",
+            "drone": "drone.step3"
+          }
+        }
+      ]
+    }
+  },
+
+  "communityGuidance": {
+    "newbieRules": [
+      {
+        "community": "r/robotics",
+        "warning": "禁止初學者問題，請轉至 r/AskRobotics",
+        "severity": "high"
+      },
+      {
+        "community": "r/arduino",
+        "warning": "禁止「幫我做專案」類請求",
+        "severity": "medium"
+      }
+    ],
+    "recommendedFirst": ["r-askrobotics", "arduino-forum"],
+    "advancedOnly": ["open-robotics-discord", "chief-delphi"]
+  }
+}
