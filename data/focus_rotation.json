@@ -1,16 +1,22 @@
 {
-  "last_focus": "communities",
+  "last_focus": "platforms",
   "next_focus_candidates": [
-    "platforms",
     "hardware",
     "learning",
-    "toolchains"
+    "toolchains",
+    "commerce"
   ],
   "focus_history": [
     {
       "date": "2026-01-30",
       "focus": "communities",
       "entries_added": 10,
+      "result": "ALLOW"
+    },
+    {
+      "date": "2026-01-30",
+      "focus": "platforms",
+      "entries_added": 8,
       "result": "ALLOW"
     }
   ]

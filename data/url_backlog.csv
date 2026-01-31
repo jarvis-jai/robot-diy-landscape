@@ -1,6 +1,6 @@
 url_or_keyword,source,category_suspected,priority,added_date,last_attempt_date,status,notes
-https://www.hackster.io/,discovered,platforms,high,2026-01-30,,pending,Hardware project platform - Avnet owned
-https://www.instructables.com/,discovered,platforms,high,2026-01-30,,pending,DIY project sharing platform - Autodesk owned
+https://www.hackster.io/,discovered,platforms,high,2026-01-30,2026-01-30,done,Added to platforms.md
+https://www.instructables.com/,discovered,platforms,high,2026-01-30,2026-01-30,done,Added to platforms.md
 https://robotics.stackexchange.com/,discovered,communities,high,2026-01-30,,pending,Q&A site for robotics - linked from r/ROS
 https://www.reddit.com/r/3dprinting/,discovered,communities,medium,2026-01-30,,pending,3D printing community - relevant for robot parts
 https://www.reddit.com/r/functionalprint/,discovered,communities,medium,2026-01-30,,pending,Functional 3D prints - relevant for robot parts
@@ -12,10 +12,15 @@ https://www.seeedstudio.com/,discovered,commerce,high,2026-01-30,,pending,Roboti
 https://www.ros.org/,discovered,toolchains,high,2026-01-30,,pending,ROS official site
 https://gazebosim.org/,discovered,toolchains,high,2026-01-30,,pending,Robot simulation platform
 https://www.wokwi.com/,discovered,toolchains,medium,2026-01-30,,pending,Arduino online simulator
-https://create.arduino.cc/,discovered,platforms,medium,2026-01-30,,pending,Arduino Cloud platform
+https://create.arduino.cc/,discovered,platforms,medium,2026-01-30,2026-01-30,done,Redirects to app.arduino.cc - Added to platforms.md
 https://wiki.ros.org/,discovered,learning,high,2026-01-30,,pending,ROS Wiki - tutorials and docs
 https://docs.ros.org/,discovered,learning,high,2026-01-30,,pending,ROS 2 documentation
 https://www.arduino.cc/reference/,discovered,learning,high,2026-01-30,,pending,Arduino language reference
 https://learn.adafruit.com/,discovered,learning,high,2026-01-30,,pending,Adafruit learning system
 https://learn.sparkfun.com/,discovered,learning,high,2026-01-30,,pending,SparkFun tutorials
 https://www.raspberrypi.com/documentation/,discovered,learning,high,2026-01-30,,pending,Raspberry Pi official docs
+https://projecthub.arduino.cc/,discovered,platforms,high,2026-01-30,2026-01-30,done,Added to platforms.md
+https://www.thingiverse.com/,discovered,platforms,high,2026-01-30,2026-01-30,done,Added to platforms.md
+https://www.printables.com/,discovered,platforms,high,2026-01-30,2026-01-30,done,Added to platforms.md
+https://grabcad.com/library,discovered,platforms,high,2026-01-30,2026-01-30,done,Added to platforms.md
+https://hackaday.io/,discovered,platforms,high,2026-01-30,2026-01-30,done,Added to platforms.md
