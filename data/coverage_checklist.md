@@ -9,7 +9,7 @@
 | 類別 | 目標 | 目前 | 狀態 |
 |------|------|------|------|
 | communities.md | ≥15 | 33 | ✅ |
-| platforms.md | ≥15 | 24 | ✅ |
+| platforms.md | ≥15 | 32 | ✅ |
 | toolchains.md | ≥10 | 39 | ✅ |
 | hardware.md | ≥15 | 34 | ✅ |
 | kits.md | ≥10 | 26 | ✅ |
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 48 輪 chinese_ecosystem — 新增 9 個條目：香港 4 個（MakerBay、蒲窩仝匠、MakerSpace.hk、Inno Space）+ 台灣 ROS2 培訓 2 個（中華行動數位、艾鍗學院）+ 繁中 YouTube 創作者 3 個（黃信惠、旭豐老師、佑來認真教））*
+*最後更新：2026-01-31 （第 49 輪 platforms — 新增 8 個專案分享平台：Kitspace、OpenHardware.io、CADLAB.io、WikiFactory、Tindie、Circuit Digest、PCBWay Community、Crowd Supply。Platforms 達 32 條目）*

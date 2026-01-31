@@ -505,4 +505,164 @@
 
 ---
 
-*條目數：24 / 目標：15 ✅*
+### Kitspace
+
+- **Name**：Kitspace
+- **Type**：Project Hub / Parts Automation
+- **Primary language**：English
+- **一句話定位**：電子專案分享平台，自動化零件購買流程，讓複製專案變得簡單
+- **強項（≤3）**：
+  - 自動化 BOM 購買：上傳專案後自動生成零件購買連結
+  - 開源且社群維護（GitHub: kitspace/kitspace）
+  - 支援從 GitHub repo 直接同步專案（Gerber + BOM）
+- **弱項/缺口（≤3，可觀察）**：
+  - 專案數量較少（相較 Hackster.io）
+  - 無中文介面
+  - 主要聚焦 PCB 專案，純機器人內容有限
+- **活躍度訊號**：GitHub 持續維護；有 NASA JPL Open Source Rover 等知名專案
+- **與我們的關聯（一句話）**：適合分享和複製 PCB 設計專案，降低零件採購門檻
+- **Link(s)**：https://kitspace.org
+
+---
+
+### OpenHardware.io
+
+- **Name**：OpenHardware.io
+- **Type**：Project Hub / Registry
+- **Primary language**：English
+- **一句話定位**：開源硬體專案追蹤平台，支援 PCB 訂購和專案分享
+- **強項（≤3）**：
+  - 517 個專案，11,677 用戶（2026-01 數據）
+  - 整合 PCB 訂購功能（已訂購 11,182 片 PCB）
+  - 2025-01 被 Code Garage 收購，承諾持續維護
+- **弱項/缺口（≤3，可觀察）**：
+  - 規模較小，社群活躍度有限
+  - 無中文介面
+  - 專案類別以 IoT/智慧家居為主，機器人較少
+- **活躍度訊號**：2025-01 完成收購；論壇（forum.mysensors.org）持續活躍
+- **與我們的關聯（一句話）**：發現和分享開源硬體專案的備選平台
+- **Link(s)**：https://www.openhardware.io/
+
+---
+
+### CADLAB.io
+
+- **Name**：CADLAB.io
+- **Type**：Collaboration Platform
+- **Primary language**：English
+- **一句話定位**：Git-based 的 PCB 設計視覺化協作平台，讓電路板設計版本控制變得直觀
+- **強項（≤3）**：
+  - 視覺化 diff：可查看電路圖和 PCB 佈局的變更歷史
+  - 支援多種 EDA 工具（KiCad、Eagle、Altium）
+  - 與現有 Git 工作流程整合（GitHub、GitLab、Bitbucket）
+- **弱項/缺口（≤3，可觀察）**：
+  - 需付費使用完整功能
+  - 不支援 OrCAD 等部分 EDA 工具（需投票請求）
+  - 無中文介面
+- **活躍度訊號**：持續開發中；有 Benchmark Space Systems 等專業用戶背書
+- **與我們的關聯（一句話）**：適合團隊協作 PCB 設計的版本控制工具
+- **Link(s)**：https://cadlab.io
+
+---
+
+### WikiFactory
+
+- **Name**：WikiFactory
+- **Type**：Collaboration Platform / PDM
+- **Primary language**：English
+- **一句話定位**：產品開發專案托管平台，結合雲端 PDM、CAD 檢視器和製造服務
+- **強項（≤3）**：
+  - 雲端 PDM：產品數據管理和版本控制
+  - 內建 CAD 檢視器，支援協作審查
+  - 連接製造服務，支援從設計到生產
+- **弱項/缺口（≤3，可觀察）**：
+  - 偏向產品開發而非純 DIY 專案
+  - 免費功能有限，需訂閱解鎖完整功能
+  - 無中文介面
+- **活躍度訊號**：持續運營中；有研究論文和部落格資源
+- **與我們的關聯（一句話）**：適合從原型到生產的硬體專案管理平台
+- **Link(s)**：https://wikifactory.com
+
+---
+
+### Tindie
+
+- **Name**：Tindie
+- **Type**：Marketplace
+- **Primary language**：English
+- **一句話定位**：電子創客市集，讓獨立硬體製作者銷售自己設計的產品
+- **強項（≤3）**：
+  - 486,000+ 訂單已發貨，19,900+ 產品，覆蓋 180+ 國家
+  - 專門支援小量生產的獨立製造者
+  - 有明確分類（DIY Electronics、Robots & Drones、IoT & Smart Home 等）
+- **弱項/缺口（≤3，可觀察）**：
+  - 是市集而非專案分享平台，專案文檔較少
+  - 產品價格可能較高（小批量）
+  - 無中文介面
+- **活躍度訊號**：被 PopSci、Wired、TechCrunch、Forbes 等報導；持續有新產品上架
+- **與我們的關聯（一句話）**：購買獨特的開源硬體模組和套件的好去處
+- **Link(s)**：https://www.tindie.com
+
+---
+
+### Circuit Digest
+
+- **Name**：Circuit Digest
+- **Type**：Tutorial Platform / News
+- **Primary language**：English
+- **一句話定位**：電子工程新聞、產品評測、教程和專案分享平台
+- **強項（≤3）**：
+  - 有明確的 Microcontroller Projects 類別，涵蓋 Arduino、ESP32、Raspberry Pi
+  - 提供電子計算器工具（PCB 走線寬度、電阻色碼等）
+  - 有活躍的論壇和影片區
+- **弱項/缺口（≤3，可觀察）**：
+  - 無中文介面
+  - 部分教程廣告較多
+  - 機器人專案比例較低，偏向通用電子
+- **活躍度訊號**：2026-01 持續有新聞和專案更新（DIY 機器人手臂、ESP32 AI 等）
+- **與我們的關聯（一句話）**：學習電子基礎和找尋 Arduino/ESP32 專案靈感的資源
+- **Link(s)**：https://circuitdigest.com
+
+---
+
+### PCBWay Community
+
+- **Name**：PCBWay Community
+- **Type**：Project Hub / Community
+- **Primary language**：English
+- **一句話定位**：PCBWay 旗下的電子工程社群，支援專案分享、討論和 PCB 一鍵訂購
+- **強項（≤3）**：
+  - 與 PCBWay PCB 製造服務深度整合，可直接訂購專案板
+  - 有活躍的評論和推薦系統
+  - 涵蓋復古電腦、IoT、電源等多種專案類型
+- **弱項/缺口（≤3，可觀察）**：
+  - 專案品質參差不齊
+  - 偏向 PCB 專案，純軟體或機械專案較少
+  - 無中文介面（雖然 PCBWay 是中國公司）
+- **活躍度訊號**：2026-01 持續有新專案和評論；社群互動活躍
+- **與我們的關聯（一句話）**：發現可直接製造的 PCB 專案並快速複製
+- **Link(s)**：https://www.pcbway.com/project/
+
+---
+
+### Crowd Supply
+
+- **Name**：Crowd Supply
+- **Type**：Crowdfunding Platform
+- **Primary language**：English
+- **一句話定位**：專注於開源硬體的眾籌平台，幫助工程師推出和銷售硬體產品
+- **強項（≤3）**：
+  - 專注開源硬體，品質把關嚴格
+  - 支援專案更新和社群互動
+  - 成功案例眾多（Diptyx E-Reader、多種 FPGA 板等）
+- **弱項/缺口（≤3，可觀察）**：
+  - 是眾籌平台而非專案教程平台
+  - 產品需等待募資完成才能發貨
+  - 無中文介面
+- **活躍度訊號**：2025-12/2026-01 持續有專案更新；有完整的 Update 系統
+- **與我們的關聯（一句話）**：發現和支持創新開源硬體專案的眾籌平台
+- **Link(s)**：https://www.crowdsupply.com
+
+---
+
+*條目數：32 / 目標：15 ✅*
