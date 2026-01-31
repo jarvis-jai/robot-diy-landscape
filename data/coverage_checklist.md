@@ -36,11 +36,11 @@
 
 ## Gaps 與 Wedges
 
-- [ ] gaps_hypotheses.md：至少 10 條假說
-- [ ] 每條假說 ≥2 個佐證來源
+- [x] gaps_hypotheses.md：至少 10 條假說 → **目前 5 條（50%）**
+- [x] 每條假說 ≥2 個佐證來源 → **✅ 全部達標（每條 3-4 個佐證）**
 - [ ] opportunity_wedges.md：至少 3 個 wedge 提案
 
-目前：假說 0 條 / wedge 0 個
+目前：假說 5 條 / wedge 0 個
 
 ---
 
@@ -68,4 +68,4 @@
 
 ---
 
-*最後更新：2026-01-31 22:55 (第13輪 hardware)*
+*最後更新：2026-01-31 23:15 (第14輪 gaps - 首批 5 條 gap hypotheses)*
