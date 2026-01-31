@@ -65,7 +65,8 @@
   - Automatic Addison 提供高品質 ROS 2 教程，包含感測器整合
   - Josh Newans (Articulated Robotics) 也有相關內容
   - **[LeRobot](../landscape/toolchains.md#lerobot) 正在縮小這個缺口**——提供端到端的機器人學習框架，包含視覺策略訓練，有中文教程（同濟子豪兄）
-- **信心度**：中（反證增強，缺口正在被填補）
+  - **[2026-01-31 更新] LeRobot v0.4.3 新增 X-VLA 視覺策略**——支援多模態視覺-語言-動作模型，大幅降低視覺整合複雜度
+- **信心度**：中 → 低（2026-01-31 更新：X-VLA 等視覺策略的加入進一步填補缺口）
 - **相關 landscape 條目**：hardware.md#luxonis-oak, hardware.md#nvidia-jetson, learning.md#nvidia-dli, kits.md#sunfounder-picar-x, toolchains.md#lerobot
 
 ---
@@ -96,7 +97,9 @@
   - Automatic Addison 和 Articulated Robotics 有持續更新的 ROS 2 感測器教程
   - **[Nav2](../landscape/toolchains.md#nav2-navigation-2) 是官方導航堆棧**——生產級品質，被 100+ 企業採用，支援各類機器人底盤，但仍以工具為主，「教程」層面可改進
   - Nav2 文檔持續更新，支援 Jazzy/Kilted LTS
-- **信心度**：中（Nav2 改善了工具支援，但 DIY 導向的教程仍有缺口）
+  - **[2026-01-31 更新] Nav2 1.0.0 文檔**——官方首頁明確聲明「production-grade autonomy framework」，由 Open Navigation LLC 維護，提供 Behavior Trees 設計、多模態感測整合（2D/3D LiDAR, depth cameras, sonars）、auto-docking 和 waypoint execution
+  - **[2026-01-31 更新] ros2_control Kilted 支援**——control.ros.org 持續更新，Resource Manager 提供感測器抽象層
+- **信心度**：中 → 低（2026-01-31 更新：工具層面持續改進，Nav2 和 ros2_control 提供生產級感測整合，但 DIY 入門教程仍有缺口）
 - **相關 landscape 條目**：hardware.md#slamtec-rplidar, hardware.md#intel-realsense-d400, hardware.md#hiwonder-im10a, learning.md#robotis-e-manual, toolchains.md#nav2-navigation-2
 
 ---
@@ -160,7 +163,10 @@
   - **[Isaac Lab](../landscape/toolchains.md#isaac-lab) 專為 sim-to-real 設計**——GPU 加速模擬，30+ 現成環境，支援主流 RL 框架，有 arXiv 論文說明方法論
   - **[LeRobot](../landscape/toolchains.md#lerobot) 提供端到端的 sim-to-real 流程**——從數據集收集、策略訓練到實機部署，支援多種硬體（SO-100、Koch 等）
   - **[Newton Physics](../landscape/toolchains.md#newton-physics) 正在縮小物理模擬與現實的差距**——Linux Foundation 專案，由 Disney Research 和 Google DeepMind 共同開發
-- **信心度**：中 → 低（反證增強：工具層面的 sim-to-real gap 正在被填補，但「教程」層面仍有缺口）
+  - **[2026-01-31 更新] LeRobot v0.4.3 大幅擴展硬體支援**——新增 Unitree G1 人形機器人、Earth Rover Mini Plus、OMX robot、SARM 等，形成更完整的 sim-to-real 生態
+  - **[2026-01-31 更新] Isaac Lab 機器人陣容擴展**——支援 Unitree G1/H1 人形、Go1/Go2/A1 四足、Franka/UR10 機械臂、Shadow Hand 靈巧手，提供 ready-to-learn 環境
+  - **[2026-01-31 更新] X-VLA 視覺-語言-動作模型整合**——LeRobot 支援多模態策略，自然語言指令到動作的端到端學習
+- **信心度**：低（2026-01-31 更新：工具生態快速成熟，LeRobot + Isaac Lab 形成完整 sim-to-real pipeline，缺口大幅縮小。但 DIY 愛好者層面的入門教程仍可改進）
 - **相關 landscape 條目**：toolchains.md#gazebo, toolchains.md#nvidia-isaac-sim, hardware.md#slamtec-rplidar, hardware.md#intel-realsense-d400, hardware.md#hiwonder-im10a, toolchains.md#isaac-lab, toolchains.md#lerobot, toolchains.md#newton-physics
 
 ---
@@ -198,4 +204,4 @@
 ---
 
 *假說數：10 / 目標：10 ✅*
-*最後更新：2026-01-31（第 19 輪 gaps 深化 — 為 #3, #5, #6, #9 補充佐證/反證）*
+*最後更新：2026-01-31（第 50 輪 gaps 深化 — 為 #3, #5, #9 補充新反證：LeRobot v0.4.3 X-VLA、Nav2 1.0.0、Isaac Lab 擴展。#3 #5 #9 信心度均下調）*

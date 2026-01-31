@@ -152,3 +152,8 @@ GitHub topics open-hardware robotics-projects,web_fetch-github,2026-01-31,na,Rou
 awesome-open-hardware delftopenhardware,web_fetch-raw,2026-01-31,na,Round 49: curated list of open hardware resources - Kitspace Hackaday WikiFactory Tindie
 awesome-electronics kitspace,web_fetch-raw,2026-01-31,na,Round 49: comprehensive electronics resources list - PCB services project platforms
 project sharing platform electronics maker 2025,web_fetch-multi,2026-01-31,na,Round 49: discovered Kitspace OpenHardware.io CADLAB WikiFactory Tindie Circuit Digest PCBWay Crowd Supply
+LeRobot v0.4.3 releases check,web_fetch-github,2026-01-31,na,Round 50: Found Unitree G1 X-VLA Earth Rover Mini Plus OMX robot SARM support
+Isaac Lab main documentation,web_fetch-direct,2026-01-31,na,Round 50: Expanded robot support - G1 H1 Go1 Go2 A1 Franka UR10 Shadow Hand
+Nav2 1.0.0 documentation,web_fetch-direct,2026-01-31,na,Round 50: Production-grade autonomy framework by Open Navigation LLC
+ROS 2 Rolling documentation,web_fetch-direct,2026-01-31,na,Round 50: Kilted is now latest released version
+ros2_control Jazzy getting started,web_fetch-direct,2026-01-31,na,Round 50: Resource Manager sensor abstraction for Kilted/Jazzy
