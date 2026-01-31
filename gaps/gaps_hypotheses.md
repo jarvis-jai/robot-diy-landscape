@@ -30,9 +30,12 @@
 - **佐證 2**：[太極創客](../landscape/chinese_ecosystem.md#太極創客) - 中文圈最完整的入門平台，但明確指出「偏向入門級別，缺乏進階機器人項目（如 ROS）」
 - **佐證 3**：[micro-ROS](../landscape/toolchains.md#micro-ros) - 將 ROS 2 帶到微控制器的關鍵橋接技術，但「中文資源極少」
 - **佐證 4**：[MoveIt](../landscape/toolchains.md#moveit) - 機器人運動規劃事實標準，文件「以研究人員為主要對象」，無中文版本
-- **反證/風險**：The Construct 有日文、西班牙文 ROS 教程，未來可能擴展至中文；稚暉君的開源專案有中文文檔但屬個人貢獻
-- **信心度**：高
-- **相關 landscape 條目**：learning.md#ros-2-documentation, chinese_ecosystem.md#太極創客, toolchains.md#micro-ros, toolchains.md#moveit, toolchains.md#gazebo
+- **反證/風險**：
+  - The Construct 有日文、西班牙文 ROS 教程，未來可能擴展至中文
+  - 稚暉君的開源專案有中文文檔但屬個人貢獻
+  - **[LeRobot](../landscape/toolchains.md#lerobot) 有中文教程**——同濟子豪兄的「LeRobot+SO-ARM101中文教程」在飛書，但屬於社群貢獻，非官方維護
+- **信心度**：高（反證存在但仍屬少數個人/社群貢獻，非系統性解決方案）
+- **相關 landscape 條目**：learning.md#ros-2-documentation, chinese_ecosystem.md#太極創客, toolchains.md#micro-ros, toolchains.md#moveit, toolchains.md#gazebo, toolchains.md#lerobot
 
 ---
 
@@ -58,9 +61,12 @@
 - **佐證 2**：[NVIDIA Jetson](../landscape/hardware.md#nvidia-jetson) - 強大的 AI 平台，但「學習曲線較陡（需熟悉 Linux、CUDA）」、「入門價格較高」
 - **佐證 3**：[NVIDIA DLI](../landscape/learning.md#nvidia-deep-learning-institute) - 官方培訓資源，但「完整課程和認證需付費（$125-$400）」、「無中文課程」
 - **佐證 4**：[SunFounder PiCar-X](../landscape/kits.md#sunfounder-picar-x) - 包含 AI 功能的套件，但「AI 功能需要較高學習曲線」、「需另購 Raspberry Pi（增加總成本）」
-- **反證/風險**：Automatic Addison 提供高品質 ROS 2 教程，包含感測器整合；Josh Newans (Articulated Robotics) 也有相關內容
-- **信心度**：中
-- **相關 landscape 條目**：hardware.md#luxonis-oak, hardware.md#nvidia-jetson, learning.md#nvidia-dli, kits.md#sunfounder-picar-x
+- **反證/風險**：
+  - Automatic Addison 提供高品質 ROS 2 教程，包含感測器整合
+  - Josh Newans (Articulated Robotics) 也有相關內容
+  - **[LeRobot](../landscape/toolchains.md#lerobot) 正在縮小這個缺口**——提供端到端的機器人學習框架，包含視覺策略訓練，有中文教程（同濟子豪兄）
+- **信心度**：中（反證增強，缺口正在被填補）
+- **相關 landscape 條目**：hardware.md#luxonis-oak, hardware.md#nvidia-jetson, learning.md#nvidia-dli, kits.md#sunfounder-picar-x, toolchains.md#lerobot
 
 ---
 
@@ -86,9 +92,12 @@
 - **佐證 2**：[Intel RealSense D400](../landscape/hardware.md#intel-realsense-d400-series) - 主流深度相機，「成熟的 SDK（librealsense）」，但「LiDAR 和 Tracking 產品線已於 2024 年 5 月停產」，生態系正在變動
 - **佐證 3**：[Hiwonder IM10A IMU](../landscape/hardware.md#hiwonder-im10a-imu-module) - 專為 ROS 設計的 IMU，「提供 ROS1/ROS2 package」，但「文檔主要透過 Google Drive 分享，不夠系統化」
 - **佐證 4**：[ROBOTIS e-Manual](../landscape/learning.md#robotis-e-manual) - TurtleBot3 官方文檔，「ROS 2 Humble/Jazzy 支援計畫（2025 Q1-Q2）」——說明即使官方文檔也在追趕最新版本
-- **反證/風險**：Automatic Addison 和 Articulated Robotics 有持續更新的 ROS 2 感測器教程；Nav2 官方文檔也在改善
-- **信心度**：中
-- **相關 landscape 條目**：hardware.md#slamtec-rplidar, hardware.md#intel-realsense-d400, hardware.md#hiwonder-im10a, learning.md#robotis-e-manual
+- **反證/風險**：
+  - Automatic Addison 和 Articulated Robotics 有持續更新的 ROS 2 感測器教程
+  - **[Nav2](../landscape/toolchains.md#nav2-navigation-2) 是官方導航堆棧**——生產級品質，被 100+ 企業採用，支援各類機器人底盤，但仍以工具為主，「教程」層面可改進
+  - Nav2 文檔持續更新，支援 Jazzy/Kilted LTS
+- **信心度**：中（Nav2 改善了工具支援，但 DIY 導向的教程仍有缺口）
+- **相關 landscape 條目**：hardware.md#slamtec-rplidar, hardware.md#intel-realsense-d400, hardware.md#hiwonder-im10a, learning.md#robotis-e-manual, toolchains.md#nav2-navigation-2
 
 ---
 
@@ -99,9 +108,13 @@
 - **佐證 1**：[BCN3D Moveo](../landscape/hardware.md#bcn3d-moveo) - 經典開源機器人手臂，但「2016 年發布後無重大更新」、「GitHub 最後更新 2018 年」、「無商業支援，需自行維護」
 - **佐證 2**：[ARCTOS Robotics](../landscape/hardware.md#arctos-robotics) - 現代替代方案但「需要 200×200mm 以上的 3D 列印機」、「精度受限於 3D 列印結構」，且需要購買套件（$231+）才有商業支援
 - **佐證 3**：[Chris Annin - AR4](../landscape/creators.md#chris-annin-anninrobotics) - 高品質開源專案但依賴個人維護者，「頻道訂閱數相對較少（37.3K）」，社群支持有限
-- **反證/風險**：ARCTOS 和 AR4 都有活躍的 Discord 社群和持續更新；商業套件模式正在填補支援缺口
-- **信心度**：中
-- **相關 landscape 條目**：hardware.md#bcn3d-moveo, hardware.md#arctos-robotics, creators.md#chris-annin
+- **反證/風險**：
+  - ARCTOS 和 AR4 都有活躍的 Discord 社群和持續更新
+  - 商業套件模式正在填補支援缺口
+  - **[Thor Robot Arm](../landscape/hardware.md#thor-robot-arm) 是活躍維護的成功案例**——GitHub 1.4K+ stars，v2.1 於 2023-09 發布，有獨立網站和 Discord 社群，支援 ROS 2/MoveIt 2
+  - **[SO-ARM100/SO-101](../landscape/hardware.md#so-arm100so-101) 展示了新的可持續模式**——與 Hugging Face LeRobot 整合，有多家全球供應商（Seeed Studio、淘寶等），形成商業 + 開源的良性循環
+- **信心度**：中 → 低（重大反證：新興專案展示了可持續的維護模式）
+- **相關 landscape 條目**：hardware.md#bcn3d-moveo, hardware.md#arctos-robotics, creators.md#chris-annin, hardware.md#thor-robot-arm, hardware.md#so-arm100so-101
 
 ---
 
@@ -141,9 +154,14 @@
 - **佐證 2**：[SLAMTEC RPLIDAR](../landscape/hardware.md#slamtec-rplidar) - 有「完整 SDK 支援 ROS/ROS2」，但實際整合教程分散於不同來源
 - **佐證 3**：[Intel RealSense D400](../landscape/hardware.md#intel-realsense-d400-series) - 主流深度相機，但「LiDAR 和 Tracking 產品線已於 2024 年 5 月停產」——生態系變動增加整合難度
 - **佐證 4**：[Hiwonder IM10A IMU](../landscape/hardware.md#hiwonder-im10a-imu-module) - 有 ROS 支援但「文檔主要透過 Google Drive 分享，不夠系統化」
-- **反證/風險**：NVIDIA Isaac Sim 有 Domain Randomization 功能縮小 sim-to-real gap；Automatic Addison 和 Articulated Robotics 有部分實機整合教程
-- **信心度**：中
-- **相關 landscape 條目**：toolchains.md#gazebo, toolchains.md#nvidia-isaac-sim, hardware.md#slamtec-rplidar, hardware.md#intel-realsense-d400, hardware.md#hiwonder-im10a
+- **反證/風險**：
+  - NVIDIA Isaac Sim 有 Domain Randomization 功能縮小 sim-to-real gap
+  - Automatic Addison 和 Articulated Robotics 有部分實機整合教程
+  - **[Isaac Lab](../landscape/toolchains.md#isaac-lab) 專為 sim-to-real 設計**——GPU 加速模擬，30+ 現成環境，支援主流 RL 框架，有 arXiv 論文說明方法論
+  - **[LeRobot](../landscape/toolchains.md#lerobot) 提供端到端的 sim-to-real 流程**——從數據集收集、策略訓練到實機部署，支援多種硬體（SO-100、Koch 等）
+  - **[Newton Physics](../landscape/toolchains.md#newton-physics) 正在縮小物理模擬與現實的差距**——Linux Foundation 專案，由 Disney Research 和 Google DeepMind 共同開發
+- **信心度**：中 → 低（反證增強：工具層面的 sim-to-real gap 正在被填補，但「教程」層面仍有缺口）
+- **相關 landscape 條目**：toolchains.md#gazebo, toolchains.md#nvidia-isaac-sim, hardware.md#slamtec-rplidar, hardware.md#intel-realsense-d400, hardware.md#hiwonder-im10a, toolchains.md#isaac-lab, toolchains.md#lerobot, toolchains.md#newton-physics
 
 ---
 
@@ -180,4 +198,4 @@
 ---
 
 *假說數：10 / 目標：10 ✅*
-*最後更新：2026-01-31（第 17 輪 gaps）*
+*最後更新：2026-01-31（第 19 輪 gaps 深化 — 為 #3, #5, #6, #9 補充佐證/反證）*

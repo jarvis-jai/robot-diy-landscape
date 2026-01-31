@@ -366,4 +366,46 @@
 
 ---
 
-*條目數：17 / 目標：15 ✅*
+---
+
+### Thor Robot Arm
+
+- **Name**：Thor
+- **Type**：Open Source Project
+- **Primary language**：English / Spanish
+- **一句話定位**：活躍維護的開源 3D 列印六軸機器人手臂，設計用於教育和愛好者
+- **強項（≤3）**：
+  - 完全開源（FreeCAD、KiCAD 源文件），CC-BY-SA-4.0 授權
+  - 低成本（<€350 硬體成本），高度 625mm，負載 750g
+  - 支援 ROS 2 / MoveIt 2，有活躍的 Discord 社群
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 3D 列印機和基本機電經驗
+  - 精度受限於 3D 列印結構
+  - 主要為個人維護者專案（AngelLM）
+- **活躍度訊號**：GitHub 1.4K+ stars，v2.1 版本於 2023-09 發布，Discord 社群活躍
+- **與我們的關聯（一句話）**：BCN3D Moveo 的現代替代方案，展示開源機器人手臂可以持續維護
+- **Link(s)**：https://github.com/AngelLM/Thor | http://thor.angel-lm.com/
+
+---
+
+### SO-ARM100/SO-101
+
+- **Name**：SO-ARM100 / SO-101
+- **Type**：Open Source Project / Kit
+- **Primary language**：English / Chinese
+- **一句話定位**：The Robot Studio 與 Hugging Face 合作設計的標準開放機器人手臂，專為 LeRobot 整合
+- **強項（≤3）**：
+  - 設計用於 LeRobot 整合，支援模仿學習和 VLA 模型訓練
+  - 全球多家供應商（Seeed Studio、淘寶、Alibaba），價格約 $230
+  - 完整的組裝指南和 HuggingFace 教程
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 3D 列印（或購買套件）
+  - 主要為遙操作和學習用途，非工業精度
+  - 較新的設計，社群仍在成長中
+- **活躍度訊號**：SO-101 為最新版本，與 LeRobot 同步更新，Discord 社群活躍
+- **與我們的關聯（一句話）**：AI 驅動機器人學習的入門硬體，展示開源硬體與 AI 框架的整合
+- **Link(s)**：https://github.com/TheRobotStudio/SO-ARM100 | https://huggingface.co/docs/lerobot/so101
+
+---
+
+*條目數：19 / 目標：15 ✅*

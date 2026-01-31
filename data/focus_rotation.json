@@ -1,8 +1,8 @@
 {
-  "last_focus": "wedges",
+  "last_focus": "gaps_deepening",
   "next_focus_candidates": [
     "補強既有條目",
-    "gaps 深化"
+    "Wedge 驗證準備"
   ],
   "focus_history": [
     {
@@ -118,6 +118,14 @@
       "wedges_added": 3,
       "result": "ALLOW",
       "note": "Added 3 opportunity wedges: 繁中進階學習路徑, Sim-to-Real 過渡指南, 新手導航入口 - wedges 達標 3/3 - v1 完成"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "gaps_deepening",
+      "entries_added": 6,
+      "gaps_updated": 4,
+      "result": "ALLOW",
+      "note": "Added 6 new landscape entries (Nav2, LeRobot, Isaac Lab, Newton Physics, Thor, SO-ARM100). Updated gaps #3, #5, #6, #9 with new evidence/counterevidence. Gap #6 信心度 中→低, Gap #9 信心度 中→低."
     }
   ]
 }

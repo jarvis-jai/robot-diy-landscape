@@ -284,4 +284,86 @@
 
 ---
 
-*條目數：13 / 目標：10 ✅*
+---
+
+### Nav2 (Navigation 2)
+
+- **Name**：Nav2
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：ROS 2 的官方導航堆棧，提供路徑規劃、控制、定位、行為樹等完整導航功能
+- **強項（≤3）**：
+  - 生產級品質，被 100+ 企業採用
+  - 支援各類機器人底盤（全向輪、差速、Ackermann、腿式）
+  - 完整的行為樹整合，可高度客製化導航行為
+- **弱項/缺口（≤3，可觀察）**：
+  - 配置複雜，需理解多個 ROS 2 概念（TF、Costmap、BT）
+  - 無中文文檔
+  - 對硬體要求較高（需要 LiDAR 或深度相機）
+- **活躍度訊號**：Jazzy/Kilted LTS 支援，Open Navigation LLC 商業支援
+- **與我們的關聯（一句話）**：自主移動機器人的導航核心，從 SLAM 到路徑規劃的完整方案
+- **Link(s)**：https://docs.nav2.org/
+
+---
+
+### LeRobot
+
+- **Name**：LeRobot
+- **Type**：Framework / Dataset Platform
+- **Primary language**：English (有中文教程)
+- **一句話定位**：Hugging Face 的開源機器人學習框架，提供模型、數據集和工具，降低機器人學習門檻
+- **強項（≤3）**：
+  - 統一的 LeRobotDataset 格式（Parquet + MP4），與 HuggingFace Hub 整合
+  - 支援多種硬體（SO-100、Koch、OMX、Unitree G1 等）
+  - 實現最先進策略（ACT、Diffusion、VQ-BeT、VLA 模型）
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要一定的 Python 和深度學習基礎
+  - 硬體整合仍在快速迭代中
+  - 中文教程為社群貢獻，非官方維護
+- **活躍度訊號**：GitHub 活躍開發，Discord 社群活躍，有同濟子豪兄的中文教程
+- **與我們的關聯（一句話）**：機器人模仿學習和強化學習的民主化工具，降低 AI 機器人門檻
+- **Link(s)**：https://github.com/huggingface/lerobot | https://huggingface.co/docs/lerobot/
+
+---
+
+### Isaac Lab
+
+- **Name**：Isaac Lab
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：基於 NVIDIA Isaac Sim 的 GPU 加速機器人學習框架，專注 sim-to-real 轉移
+- **強項（≤3）**：
+  - GPU 加速模擬，支援大規模並行訓練
+  - 30+ 現成環境（操控、移動、人形）
+  - 支援主流 RL 框架（RSL RL、SKRL、RL Games、Stable Baselines）
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 NVIDIA GPU（RTX 系列）
+  - 依賴 Isaac Sim，安裝配置複雜
+  - 主要面向研究和進階使用者
+- **活躍度訊號**：BSD-3 授權，有 arXiv 論文，GitHub 活躍開發
+- **與我們的關聯（一句話）**：機器人學習的高性能訓練平台，專為 sim-to-real 設計
+- **Link(s)**：https://github.com/isaac-sim/IsaacLab | https://isaac-sim.github.io/IsaacLab/
+
+---
+
+### Newton Physics
+
+- **Name**：Newton Physics
+- **Type**：Simulation Engine
+- **Primary language**：English
+- **一句話定位**：下一代開源 GPU 加速物理引擎，由 Disney Research、Google DeepMind、NVIDIA 共同開發
+- **強項（≤3）**：
+  - Linux Foundation 專案，Apache 2.0 授權
+  - 基於 NVIDIA Warp，與 OpenUSD 整合
+  - 兼容 MuJoCo Playground 和 Isaac Lab
+- **弱項/缺口（≤3，可觀察）**：
+  - 仍在 Beta 階段，API 可能變動
+  - 需要一定的物理模擬背景
+  - 文檔尚不完整
+- **活躍度訊號**：2025 年初發布 Beta，Google DeepMind 和 Disney Research 持續貢獻
+- **與我們的關聯（一句話）**：開源物理模擬的未來方向，可能成為機器人學習的新標準
+- **Link(s)**：https://github.com/newton-physics | https://newton-physics.github.io/newton/
+
+---
+
+*條目數：17 / 目標：10 ✅*
