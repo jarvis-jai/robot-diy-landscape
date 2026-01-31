@@ -3,18 +3,30 @@
 > 為 Raijax.com 萃取的可行切入點，每個 wedge 引用 ≥5 個 landscape 條目佐證
 
 **產出日期**：2026-01-31
+**最後更新**：2026-01-31（Round 65 壓縮判斷 — 補充最新 landscape 佐證）
 **資料來源**：robot-diy-landscape repo（gaps_hypotheses.md + opportunity_wedges.md + landscape/）
+
+---
+
+## 執行摘要
+
+經過 64 輪 landscape 探索，現有 4 個 wedge 候選已覆蓋主要痛點。最新發現：
+- **中文資源爆發**：d2l-ros2（21 章）、Embodied-AI-Guide（11.6K ⭐）等填補部分缺口
+- **工具層面成熟**：LeRobot + Isaac Lab 形成完整 sim-to-real pipeline
+- **DIY 教程仍缺**：工具存在但「如何使用」的系統化指南仍稀缺
+
+**結論**：W2（入門導航）優先級最高，市場最廣；W1（繁中進階）需避開 d2l-ros2 競爭
 
 ---
 
 ## 候選總覽
 
-| # | Wedge 名稱 | 主要 Gaps | 目標市場 | 商業潛力 | 執行難度 |
-|---|-----------|----------|----------|----------|----------|
-| W1 | 繁中機器人進階教程平台 | #1, #4, #7 | 台港澳中文圈 | 中高 | 中高 |
-| W2 | 機器人 DIY 入門導航 | #10, #2, #7 | 全球 + 繁中 | 中 | 中 |
-| W3 | Sim-to-Real 實戰指南 | #9, #5, #3 | 全球（英文優先）| 中 | 中低 |
-| W4 | 開源機器人專案選型指南 | #6, #2 | 全球 DIY 社群 | 低→中 | 低 |
+| # | Wedge 名稱 | 主要 Gaps | 目標市場 | 商業潛力 | 執行難度 | 優先級 |
+|---|-----------|----------|----------|----------|----------|--------|
+| W2 | 機器人 DIY 入門導航 | #10, #2, #7 | 全球 + 繁中 | 中 | 中 | ⭐⭐⭐⭐⭐ |
+| W3 | Sim-to-Real 實戰指南 | #9, #5, #3 | 全球（英文優先）| 中 | 中低 | ⭐⭐⭐⭐ |
+| W1 | 繁中機器人進階教程平台 | #1, #4, #7 | 台港澳中文圈 | 中高 | 中高 | ⭐⭐⭐ |
+| W4 | 開源機器人專案選型指南 | #6, #2 | 全球 DIY 社群 | 低→中 | 低 | ⭐⭐ |
 
 ---
 
@@ -34,6 +46,8 @@
 | 4 | **MoveIt** | [toolchains.md](../landscape/toolchains.md#moveit) | 機器人運動規劃事實標準，「文件以研究人員為主要對象」，無中文版 |
 | 5 | **Arduino.Taipei** | [chinese_ecosystem.md](../landscape/chinese_ecosystem.md#arduinotaipei) | 台灣最大 Arduino 社群（4.7 萬成員），但「Facebook 平台限制，歷史帖文不易搜尋」、「無獨立論壇或網站」 |
 | 6 | **MakerPRO** | [chinese_ecosystem.md](../landscape/chinese_ecosystem.md#makerpro) | 台灣創客媒體，但「近年更新頻率下降」、「實作教程深度有限」 |
+| 7 | **d2l-ros2（動手學 ROS2）** | [chinese_ecosystem.md](../landscape/chinese_ecosystem.md#動手學-ros2--d2l-ros2) | 簡體中文 21 章完整 ROS2 教程（883⭐），證明市場需求存在，但「需要 Linux 環境」、「版權保護非完全開源」 |
+| 8 | **CAVEDU 教育團隊** | [chinese_ecosystem.md](../landscape/chinese_ecosystem.md#cavedu教育團隊機器人王國) | 台灣機器人教育領導者，但偏向 K-12 教育市場，「課程較偏入門/教育導向」 |
 
 ### 缺口分析
 - **系統化**：繁中資源偏向新聞報導（MakerPRO、vMaker），非結構化課程
@@ -41,10 +55,23 @@
 - **平台限制**：Arduino.Taipei 依賴 Facebook，內容不可積累、不可搜尋
 - **可發現性**：繁中創作者（如夜市小霸王）訂閱數少，SEO 弱
 
-### 切角
+### ⚠️ 競爭者分析（2026-01-31 更新）
+
+| 競爭者 | 優勢 | 弱點 | 對 W1 的影響 |
+|--------|------|------|-------------|
+| **d2l-ros2（魚香 ROS）** | 21 章完整 ROS2 教程、883⭐、社群支持 | 簡體中文、版權保護、需 Linux | 簡中市場已有競爭者，繁中仍空缺 |
+| **同濟子豪兄 LeRobot 教程** | 飛書文檔、完整 sim-to-real | 專注 SO-ARM101、簡體中文 | 機械臂領域有競爭 |
+| **Embodied-AI-Guide** | 11.6K⭐、全面 | 簡體中文、偏向研究者 | 進階市場有重疊 |
+
+**結論**：W1 需聚焦「繁體中文 + 入門到中階過渡」，避開 d2l-ros2 的簡中進階市場
+
+### 切角（調整後）
 - **內容三位一體**：文字教程 + 影片演示 + 實作專案
-- **語言策略**：繁體中文為主，同步提供簡體版本擴大受眾
-- **差異化**：專注「Arduino/ESP32 → micro-ROS → ROS 2 → 實體機器人」的完整階梯
+- **語言策略**：**繁體中文優先**（避開 d2l-ros2 競爭），簡體版視需求後續
+- **差異化**：
+  - 專注「Arduino/ESP32 → micro-ROS → ROS 2」的銜接層（d2l-ros2 假設有 Linux 基礎）
+  - 強調「Windows/Mac 友善」（d2l-ros2 需 Linux）
+  - 配合低成本硬體（FOC 輪腿機器人 550 元、Roboto Origin）
 
 ### 驗證方式
 - **MVP**：5 集系列「從 ESP32 到 micro-ROS：讓你的機器人說 ROS 2 語言」
@@ -121,6 +148,21 @@
 - **使用者群體**：在 Gazebo/Webots/Isaac Sim 完成專案的 DIY 愛好者，想部署到實體機器人
 - **問題**：模擬器中完美的程式碼到實機就崩潰——感測器噪音、機械公差、延遲、電源問題沒有系統化教程
 
+### ⚠️ 市場動態（2026-01-31 更新）
+
+**工具層面已大幅成熟**：
+- LeRobot v0.4.3 支援 Unitree G1、X-VLA 視覺策略
+- Isaac Lab 擴展至人形/四足/機械臂全覆蓋
+- Genesis 達 43M FPS 物理模擬
+- dora-rs 比 ROS2 快 10-17x
+
+**但 DIY 教程仍缺**：
+- 這些工具的「如何從零開始」教程稀缺
+- 針對自製機器人（非官方套件）的指南幾乎沒有
+- 「失敗模式」和「Debug 指南」仍分散
+
+**結論**：Wedge #3 定位從「介紹工具」轉向「實戰 Debug 指南」
+
 ### 佐證（Landscape 條目引用）
 
 | # | 條目名稱 | 來源 | 佐證內容 |
@@ -131,11 +173,13 @@
 | 4 | **Isaac Lab** | [toolchains.md](../landscape/toolchains.md#isaac-lab) | GPU 加速模擬，30+ 現成環境，但「需高端 GPU」、「學習曲線陡」 |
 | 5 | **LeRobot** | [toolchains.md](../landscape/toolchains.md#lerobot) | 端到端 sim-to-real 框架，支援多種硬體，有中文教程（同濟子豪兄） |
 | 6 | **Hiwonder IM10A IMU** | [hardware.md](../landscape/hardware.md#hiwonder-im10a-imu-module) | 專為 ROS 設計的 IMU，但「文檔主要透過 Google Drive 分享，不夠系統化」 |
+| 7 | **Genesis** | [toolchains.md](../landscape/toolchains.md#genesis) | 43M FPS 物理引擎，多語言文檔，但「專為研究設計，DIY 友善度待驗證」 |
+| 8 | **dora-rs** | [toolchains.md](../landscape/toolchains.md#dora-rs) | 比 ROS2 快 10-17x 的 Rust 中介軟體，但「生態系較新，教程少」 |
 
-### 缺口分析
-- **系統化**：沒有「從模擬到實機」的完整 checklist 和流程指南
+### 缺口分析（調整後）
+- **教程層面**：工具存在但「如何用於自製機器人」的指南稀缺
 - **問題導向**：現有教程教「如何用模擬器」，不教「為什麼實機會失敗」
-- **硬體無關**：多數教程假設特定硬體（如 TurtleBot）
+- **硬體無關**：多數教程假設特定硬體（TurtleBot、SO-ARM100）
 - **常見陷阱**：感測器校準、座標轉換、控制頻率、通訊延遲——解法分散各處
 
 ### 切角
@@ -182,6 +226,8 @@
 | 4 | **SO-ARM100/SO-101** | [hardware.md](../landscape/hardware.md#so-arm100so-101) | 與 Hugging Face LeRobot 整合，有多家全球供應商（Seeed Studio、淘寶） |
 | 5 | **Chris Annin - AR4** | [creators.md](../landscape/creators.md#chris-annin-anninrobotics) | 高品質開源專案，但依賴個人維護者，「頻道訂閱數相對較少（37.3K）」 |
 | 6 | **Petoi Bittle** | [kits.md](../landscape/kits.md#petoi-bittle) | 開源四足，但「價格較高（$269 起）」、「組裝和調校需要一定技術基礎」 |
+| 7 | **Roboto Origin** | [chinese_ecosystem.md](../landscape/chinese_ecosystem.md#roboto-origin-蘿博頭人形機器人) | 完整開源人形機器人（601⭐），純淘寶+嘉立創 DIY，證明「可持續開源模式」可行 |
+| 8 | **FOC 輪腿機器人** | [chinese_ecosystem.md](../landscape/chinese_ecosystem.md#foc-輪腿機器人) | 550 元低成本完整專案（1.5K⭐），完整設計+BOM+Bilibili 演示，但「最後更新 2023-11」 |
 
 ### 缺口分析
 - **評估困難**：新手難以判斷專案的活躍度、可複製性、維護狀態
@@ -216,47 +262,58 @@
 
 ## 綜合分析
 
-### Wedge 優先排序
+### Wedge 優先排序（2026-01-31 更新）
 
 | 優先級 | Wedge | 理由 |
 |--------|-------|------|
-| ⭐⭐⭐⭐⭐ | **W2 入門導航** | 最廣泛影響面、最低持續成本、可作為其他 Wedge 入口 |
-| ⭐⭐⭐⭐ | **W3 Sim-to-Real** | 全球市場、可模組化推進、內容壁壘高 |
-| ⭐⭐⭐ | **W1 繁中進階教程** | 市場較小但競爭少、需持續投入 |
-| ⭐⭐ | **W4 專案選型指南** | 低門檻啟動、但商業化路徑不明確 |
+| ⭐⭐⭐⭐⭐ | **W2 入門導航** | 最廣泛影響面、最低持續成本、可作為其他 Wedge 入口；MVP 已完成（wedge_validation/） |
+| ⭐⭐⭐⭐ | **W3 Sim-to-Real** | 全球市場、工具成熟但教程缺口仍存；定位調整為「實戰 Debug 指南」 |
+| ⭐⭐⭐ | **W1 繁中進階教程** | **需避開 d2l-ros2 競爭**：聚焦繁中 + 入門到中階銜接 + Windows/Mac 友善 |
+| ⭐⭐ | **W4 專案選型指南** | 低門檻啟動；可整合進 W2 作為子功能 |
 
-### 建議執行策略
+### 競爭風險評估
 
-**Phase 1（0-4 週）**：同時啟動 W2 和 W3
-- W2：MVP 網站（路徑推薦器 + 資源地圖）
-- W3：Sim-to-Real Checklist v1.0 + 3 篇文章
+| Wedge | 競爭強度 | 主要競爭者 | 差異化策略 |
+|-------|----------|-----------|-----------|
+| W2 | 低 | r/robotics Wiki（2021 停更）、Awesome Lists（純清單） | 互動式 + 多語言 + 路徑推薦 |
+| W3 | 中 | Automatic Addison、Articulated Robotics | 聚焦「失敗模式」而非「成功路徑」 |
+| W1 | **中高** | d2l-ros2（簡中）、同濟子豪兄（飛書） | 繁中 + Windows/Mac + 低成本硬體 |
+| W4 | 低 | 無直接競爭 | 可整合進 W2 |
 
-**Phase 2（4-8 週）**：根據數據決定
-- W2 繁中流量 > 30% → 啟動 W1 繁中教程
-- W3 GitHub stars > 100 → 擴展 Checklist 為系列
+### 建議執行策略（調整後）
 
-**Phase 3（8+ 週）**：整合與深化
-- 將 W4 專案選型整合進 W2 導航入口
-- W1 + W3 形成「入門 → 進階 → 實戰」完整路徑
+**Phase 1（0-4 週）**：驗證 W2 並探測 W3
+- W2：部署 MVP 到 Vercel，收集流量數據（已有 wedge_validation/ 完整代碼）
+- W3：在 Reddit/HN 發布 Sim-to-Real Checklist，測試反應
 
-### Raijax 品牌定位建議
+**Phase 2（4-8 週）**：根據數據決定 W1 方向
+- W2 繁中流量 > 30% → 確認繁中市場存在
+- W2 + W3 反饋中出現「想學 ROS2 但不會 Linux」→ W1 定位確認
+- 如 d2l-ros2 類似反饋少 → W1 可能非必要
 
-基於四個 Wedge 的共同主題，Raijax.com 可定位為：
+**Phase 3（8+ 週）**：整合與擴展
+- W4 → 整合進 W2（「專案選型」成為導航子功能）
+- W1 → 根據 Phase 2 數據決定是否啟動
+- 考慮與 d2l-ros2 / 魚香 ROS 合作而非競爭
 
-> **「機器人 DIY 的中文導航員」**
+### Raijax 品牌定位建議（更新）
+
+基於競爭分析，Raijax.com 建議定位為：
+
+> **「機器人 DIY 的多語言導航員」**
 > 
-> - 幫助新手找到入口（W2）
-> - 提供進階中文教程（W1）
-> - 解決實戰痛點（W3）
-> - 評估開源專案（W4）
+> - **核心**：幫助新手找到入口（W2）——這是競爭最少的領域
+> - **擴展**：解決實戰痛點（W3）——全球英文市場
+> - **謹慎**：進階中文教程（W1）——僅在驗證需求後啟動
+> - **整合**：專案選型（W4）→ W2 子功能
 
-這個定位：
-1. 填補繁中市場空白（Gap #4, #7）
-2. 解決社群碎片化（Gap #10）
-3. 建立從入門到進階的完整路徑（Gap #2）
-4. 可持續擴展至英文市場
+**關鍵決策點**：
+- W1 的必要性取決於「繁中使用者是否願意用簡中資源」
+- 如 d2l-ros2 + 簡繁轉換 = 夠用 → W1 可能低優先
+- 如繁中使用者明確偏好繁中原生內容 → W1 仍有價值
 
 ---
 
-*Wedge 候選數：4*
-*最後更新：2026-01-31*
+*Wedge 候選數：4（符合 3-5 範圍）*
+*每個 Wedge 佐證數：8 / 6 / 8 / 8（全部 ≥5）*
+*最後更新：2026-01-31（Round 65 壓縮判斷）*

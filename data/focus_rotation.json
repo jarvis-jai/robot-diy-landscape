@@ -1,13 +1,13 @@
 {
-  "last_focus": "toolchains",
+  "last_focus": "raijax_wedge_analysis",
   "next_focus_candidates": [
+    "人類操作：Vercel 部署 W2 MVP",
+    "W3 Sim-to-Real Checklist Reddit/HN 發布",
     "creators (international coverage)",
     "communities (international)",
     "learning (backlog: classcentral, sciencebuddies)",
     "commerce (international)",
     "kits (VEX, Botley if accessible)",
-    "人類操作：Vercel 部署執行",
-    "Wedge #2 Reddit 發布",
     "gaps_deepening (暫時飽和 - 待新工具發布或非 GitHub 來源)"
   ],
   "focus_history": [
@@ -448,9 +448,17 @@
       "focus": "gaps_deepening",
       "result": "SKIP",
       "note": "Round 64: Attempted to find new evidence for Gap #1 #2 #7 (all high confidence). Resource limitations: (1) Brave Search API unavailable; (2) GitHub search results limited/empty; (3) OpenCat and existing resources already in visited_urls. Gap #1 #2 #7 remain high confidence but no new evidence found. Consecutive SKIP streak: 1 (after 59-輪 ALLOW streak)."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "raijax_wedge_analysis",
+      "wedges_updated": 3,
+      "result": "ALLOW",
+      "note": "Round 65: Cron-triggered wedge analysis for Raijax.com. Updated raijax_wedge_candidates.md: (1) W1 繁中進階教程 +2 佐證 + 競爭者分析（d2l-ros2、CAVEDU）; (2) W3 Sim-to-Real +2 佐證 + 市場動態更新（Genesis、dora-rs）; (3) W4 專案選型 +2 佐證（Roboto Origin、FOC 輪腿機器人）. 調整優先排序：W2 > W3 > W1 > W4. 關鍵結論：W1 需避開 d2l-ros2 競爭，聚焦繁中+Windows/Mac 友善。"
     }
   ],
   "saturation_notes": {
+    "raijax_wedge": "Round 65 ALLOW: Wedge analysis complete. 4 wedge candidates with ≥5 evidence each. Key insight: W1 faces d2l-ros2 competition in 簡中 market, should focus on 繁中 + Windows/Mac + beginner-friendly. W2 MVP ready in wedge_validation/. W3 repositioned to 'Debug Guide' as tool layer matured. W4 can be integrated into W2 as sub-feature.",
     "gaps_deepening": "Round 64 SKIP: Gap #1 #2 #7 remain high confidence. Resource constraints persist (Brave API unavailable, GitHub search limited). All major Chinese/繁中 resources already captured in prior rounds. Consider alternative strategies: (1) wait for new tool releases (LeRobot v0.5, Isaac Lab updates); (2) explore non-GitHub sources; (3) focus on other categories or wedge execution.",
     "chinese_ecosystem": "Round 62 ALLOW: 8 high-quality embodied AI resources added. Lumina is China's leading embodied AI community. RoboBrain 2.5 from BAAI represents frontier research. RLinf provides RL infrastructure with Chinese docs. Category now at 44 entries.",
     "hardware": "Round 60 ALLOW: Processed backlog candidates successfully. Humanoid platforms (zeroth-bot, HOPEJr, Poppy) represent emerging open-source alternatives to commercial systems.",
