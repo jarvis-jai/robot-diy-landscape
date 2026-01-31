@@ -232,3 +232,12 @@ RoboBrain 2.5 BAAI,web_fetch-direct,2026-01-31,na,Round 62: Beijing AI Research 
 RLinf RL Infrastructure,web_fetch-direct,2026-01-31,na,Round 62: ManiSkill LIBERO IsaacLab CALVIN RoboCasa Franka - π₀ OpenVLA GR00T VLA fine-tuning - Chinese docs
 dora-rs middleware,web_fetch-direct,2026-01-31,na,Round 62: Rust robotics middleware 10-17x faster than ROS2 - GSoC 2025 - Zenoh distributed dataflow (toolchains candidate)
 ROBOTIS physical_ai_tools,web_fetch-direct,2026-01-31,na,Round 62: LeRobot + ROS 2 integration - 107 stars 1118 commits - AI Worker platform (toolchains candidate)
+dora-rs middleware rust robotics,web_fetch-direct,2026-01-31,na,Round 63: Found dora-rs - Rust middleware 10-17x faster than ROS2 - GSoC 2025
+ROBOTIS physical_ai_tools LeRobot ROS2,web_fetch-direct,2026-01-31,na,Round 63: Found physical_ai_tools - LeRobot + ROS 2 integration - AI Worker
+Genesis physics engine robotics simulation,web_fetch-direct,2026-01-31,na,Round 63: Found Genesis - 43M FPS physics engine - multi-language docs
+GitHub topics robot-simulation,web_fetch-github-topics,2026-01-31,na,Round 63: Found gz_ros2_control CLOiSim ros2_controllers
+ros-controls gz_ros2_control Gazebo bridge,web_fetch-direct,2026-01-31,na,Round 63: Found gz_ros2_control - official Gazebo + ros2_control bridge
+LG cloisim Unity3D multi-robot simulator,web_fetch-direct,2026-01-31,na,Round 63: Found CLOiSim - SDF-based Unity multi-robot sim
+ros2_controllers official ros-controls,web_fetch-direct,2026-01-31,na,Round 63: Found ros2_controllers - 20+ controllers 664 stars
+aruco_ros marker tracking PAL Robotics,web_fetch-direct,2026-01-31,na,Round 63: Found aruco_ros - 566 stars visual servoing
+rsl_rl ETH NVIDIA robot learning,web_fetch-direct,2026-01-31,na,Round 63: Found RSL-RL - Isaac Lab default RL backend - arXiv:2509.10771

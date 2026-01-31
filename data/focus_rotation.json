@@ -1,10 +1,10 @@
 {
-  "last_focus": "chinese_ecosystem",
+  "last_focus": "toolchains",
   "next_focus_candidates": [
-    "toolchains (new: dora-rs, physical_ai_tools)",
     "gaps_deepening (pending: refine Gap #1 #2 #7)",
     "creators (international coverage)",
     "communities (international)",
+    "learning (robot-learning-tutorial candidates)",
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布"
   ],
@@ -433,6 +433,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 62: Added 8 frontier embodied AI resources - Lumina community, Awesome-Embodied-AI-Job, RoboBrain 2.5 (BAAI), RLinf (RL infrastructure), InternNav (Shanghai AI Lab), DeepThinkVLA (OpenBMB/Tsinghua), StarVLA, Xbotics community. chinese_ecosystem now at 44."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "toolchains",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 63: Added 8 toolchains - dora-rs (10-17x faster than ROS2), Genesis (43M FPS physics), physical_ai_tools (LeRobot+ROS2), gz_ros2_control, CLOiSim, ros2_controllers, aruco_ros, RSL-RL. Toolchains now at 63."
     }
   ],
   "saturation_notes": {
@@ -440,6 +447,6 @@
     "chinese_ecosystem": "Round 62 ALLOW: 8 high-quality embodied AI resources added. Lumina is China's leading embodied AI community. RoboBrain 2.5 from BAAI represents frontier research. RLinf provides RL infrastructure with Chinese docs. Category now at 44 entries.",
     "hardware": "Round 60 ALLOW: Processed backlog candidates successfully. Humanoid platforms (zeroth-bot, HOPEJr, Poppy) represent emerging open-source alternatives to commercial systems.",
     "learning": "Round 61 ALLOW: Rich discovery via GitHub topics robot-learning + imitation-learning. 蘑菇書 (13.6K⭐) is exceptional Chinese RL resource. RoboVerse/LIBERO/RoboCasa represent cutting-edge benchmarks. Learning highly saturated (51 entries).",
-    "toolchains": "Saturated at 55 entries (target 10). Round 62 skipped toolchains focus due to saturation. dora-rs and physical_ai_tools candidates remain for future rounds."
+    "toolchains": "Round 63 ALLOW: 8 high-quality entries added. dora-rs is a major discovery (10-17x faster than ROS2). Genesis is emerging competitor to MuJoCo/Isaac (43M FPS). RSL-RL is Isaac Lab's default RL backend. Category now at 63 entries - highly saturated but core ecosystem tools still discoverable."
   }
 }

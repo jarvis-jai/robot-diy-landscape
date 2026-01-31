@@ -381,3 +381,11 @@ https://github.com/InternRobotics/InternNav,InternNav,Open Source Model,2026-01-
 https://github.com/OpenBMB/DeepThinkVLA,DeepThinkVLA,Open Source Model,2026-01-31,2026-01-31,active,清華 OpenBMB - VLA 推理能力增強 - 2026-01-19 更新
 https://github.com/starVLA/starVLA,StarVLA,Framework,2026-01-31,2026-01-31,active,模組化 VLA 開發框架 - 樂高式組裝 - 2026-01-31 活躍更新
 https://xbotics-embodied.site/,Xbotics 具身智能社區,Community,2026-01-31,2026-01-31,active,中文具身智能開源社區 - 與 Lumina 互補
+https://github.com/dora-rs/dora,dora-rs,Middleware/Framework,2026-01-31,2026-01-31,active,10-17x faster than ROS2 - Rust - GSoC 2025 - Zenoh distributed - Apache 2.0
+https://github.com/ROBOTIS-GIT/physical_ai_tools,ROBOTIS Physical AI Tools,Integration Framework,2026-01-31,2026-01-31,active,LeRobot + ROS2 integration - AI Worker platform - 107 stars
+https://github.com/Genesis-Embodied-AI/Genesis,Genesis,Physics Engine,2026-01-31,2026-01-31,active,43M FPS - cross-platform - multi-physics (rigid MPM SPH FEM PBD) - CN/JP/KR docs
+https://github.com/ros-controls/gz_ros2_control,gz_ros2_control,Integration Plugin,2026-01-31,2026-01-31,active,Gazebo + ros2_control bridge - official - 226 stars - Rolling/Kilted/Jazzy/Humble
+https://github.com/lge-ros2/cloisim,CLOiSim,Simulation Platform,2026-01-31,2026-01-31,active,LG Unity3D multi-robot sim - SDF 1.6/1.7 - ROS2 Humble via cloisim_ros
+https://github.com/ros-controls/ros2_controllers,ros2_controllers,Controller Library,2026-01-31,2026-01-31,active,Official ros2_control controllers - 20+ controllers - 664 stars
+https://github.com/pal-robotics/aruco_ros,aruco_ros,Perception Package,2026-01-31,2026-01-31,active,ArUco marker tracking ROS wrapper - 566 stars - PAL Robotics - MIT
+https://github.com/leggedrobotics/rsl_rl,RSL-RL,RL Library,2026-01-31,2026-01-31,active,ETH/NVIDIA robot RL - Isaac Lab default - PPO + RND + Symmetry - arXiv:2509.10771

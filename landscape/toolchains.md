@@ -1134,4 +1134,164 @@
 
 ---
 
-*條目數：55 / 目標：10 ✅*
+### dora-rs
+
+- **Name**：dora-rs (Dataflow-Oriented Robotic Architecture)
+- **Type**：Middleware / Framework
+- **Primary language**：English（有中文 README）
+- **一句話定位**：100% Rust 實現的機器人中介軟體，比 ROS 2 快 10-17 倍，專為即時多 AI 多硬體應用設計
+- **強項（≤3）**：
+  - 極致性能：純 Rust 實現，[benchmark 顯示](https://github.com/dora-rs/dora-benchmark)比 ROS 2 快 10-17 倍
+  - 跨平台支援：Linux (ARM32/64, x64), macOS (ARM64), Windows, WSL
+  - 豐富生態：支援 Python/Rust/C/C++，ROS 2 橋接，Zenoh 分散式通訊，Node Hub 預打包節點
+- **弱項/缺口（≤3，可觀察）**：
+  - ROS 2 橋接標記為不穩定（unstable）
+  - Windows/WSL 為 Best Effort Support
+  - 相比 ROS 2 生態較小
+- **活躍度訊號**：GSoC 2025 被接受，v0.3.0 2025-08 發布，Zenoh 分散式支援 2025-03，Discord 社群活躍
+- **與我們的關聯（一句話）**：ROS 2 的高性能替代方案，適合追求極致效能的機器人應用
+- **Link(s)**：https://github.com/dora-rs/dora | https://www.dora-rs.ai/
+
+---
+
+### ROBOTIS Physical AI Tools
+
+- **Name**：ROBOTIS Physical AI Tools
+- **Type**：Integration Framework
+- **Primary language**：English
+- **一句話定位**：ROBOTIS 開發的 LeRobot + ROS 2 整合工具，為 AI Worker 平台提供物理 AI 開發介面
+- **強項（≤3）**：
+  - LeRobot 原生整合：直接對接 HuggingFace LeRobot 框架
+  - 完整生態：AI Worker ROS 2 套件、MuJoCo 模型、HuggingFace 資料集/預訓練模型
+  - 行為樹支援：physical_ai_bt 節點，可組合複雜行為
+- **弱項/缺口（≤3，可觀察）**：
+  - 主要針對 ROBOTIS AI Worker 硬體
+  - 需要 ROS 2 Jazzy 環境
+  - 文檔分散在多個 repo
+- **活躍度訊號**：107 stars，1118 commits，2026-01-31 持續更新，Apache 2.0 授權
+- **與我們的關聯（一句話）**：LeRobot 與 ROS 2 整合的官方參考實現，展示具身 AI 工具的商業化路徑
+- **Link(s)**：https://github.com/ROBOTIS-GIT/physical_ai_tools | https://ai.robotis.com/
+
+---
+
+### Genesis
+
+- **Name**：Genesis
+- **Type**：Physics Engine / Simulation Platform
+- **Primary language**：English（有中文、日文、韓文、法文文檔）
+- **一句話定位**：通用機器人與具身 AI 學習平台，從零重建的統一物理引擎，達 4300 萬 FPS（比實時快 43 萬倍）
+- **強項（≤3）**：
+  - 極致性能：單 RTX 4090 模擬 Franka 可達 43M FPS，比實時快 43 萬倍
+  - 跨平台：Linux/macOS/Windows，支援 CPU/NVIDIA/AMD GPU/Apple Metal
+  - 多物理整合：剛體、MPM、SPH、FEM、PBD、Stable Fluid，支援液體/氣體/軟體/薄殼
+- **弱項/缺口（≤3，可觀察）**：
+  - 生成式框架尚未完全開源（逐步釋出）
+  - 可微分模擬目前僅 MPM/Tool Solver 支援
+  - 需要 Python 3.10-3.13
+- **活躍度訊號**：v0.3.0 2025-08 發布，Genesis AI 公司正式支援開發，Discord/微信群活躍，多語言文檔
+- **與我們的關聯（一句話）**：下一代通用機器人模擬器，有潛力成為 MuJoCo/Isaac 的競爭者
+- **Link(s)**：https://github.com/Genesis-Embodied-AI/Genesis | https://genesis-embodied-ai.github.io/
+
+---
+
+### gz_ros2_control
+
+- **Name**：gz_ros2_control
+- **Type**：Integration Plugin
+- **Primary language**：English
+- **一句話定位**：連接最新版 Gazebo 與 ros2_control 的官方橋接插件，實現模擬中的硬體抽象
+- **強項（≤3）**：
+  - 官方支援：ros-controls 官方維護，與 ros2_control 同步更新
+  - 完整版本覆蓋：Rolling (Jetty), Kilted (Ionic), Jazzy (Harmonic), Humble (Fortress)
+  - 無縫整合：使用與實機相同的 ros2_control 配置，從模擬到實機零修改
+- **弱項/缺口（≤3，可觀察）**：
+  - Humble + Harmonic 組合需從源碼編譯
+  - 需要理解 ros2_control 和 Gazebo 兩套系統
+  - 無中文文檔
+- **活躍度訊號**：226 stars，141 forks，2026-01-26 更新，Apache 2.0 授權，ROS build farm 全綠
+- **與我們的關聯（一句話）**：Gazebo 模擬到實機的關鍵橋樑，ros2_control 生態的必要組件
+- **Link(s)**：https://github.com/ros-controls/gz_ros2_control | https://control.ros.org/
+
+---
+
+### CLOiSim
+
+- **Name**：CLOiSim (Cloud-based multi-robot Simulator)
+- **Type**：Simulation Platform
+- **Primary language**：English
+- **一句話定位**：LG 開發的 Unity3D 多機器人模擬器，使用 SDF 檔案描述世界與機器人，專注多機器人性能
+- **強項（≤3）**：
+  - SDF 相容：支援 SDF 1.6/1.7 規範，可從 Gazebo 無縫遷移
+  - 多機器人優化：針對多機器人場景優化性能，解決 Gazebo 載入多機器人的性能問題
+  - 完整感測器：2D/3D LiDAR、深度相機、RealSense、語義分割、IMU、GPS、Sonar
+- **弱項/缺口（≤3，可觀察）**：
+  - 僅支援 ROS 2 Humble（需透過 cloisim_ros 連接）
+  - <pose> 在 <joint> 中的問題（articulation body 限制）
+  - 需要 Unity 2022.3.70f1 LTS
+- **活躍度訊號**：2026-01-30 更新，LG 官方維護，有 Wiki 文檔，支援 headless 模式
+- **與我們的關聯（一句話）**：Gazebo 在多機器人場景的 Unity 替代方案，適合需要高性能多機器人模擬的應用
+- **Link(s)**：https://github.com/lge-ros2/cloisim | https://github.com/lge-ros2/cloisim_ros
+
+---
+
+### ros2_controllers
+
+- **Name**：ros2_controllers
+- **Type**：Controller Library
+- **Primary language**：English
+- **一句話定位**：ros2_control 的官方控制器庫，提供 20+ 現成控制器涵蓋常見機器人類型
+- **強項（≤3）**：
+  - 豐富控制器：diff_drive, ackermann, mecanum, tricycle, omni, 手臂軌跡, 夾爪, PID 等
+  - 感測器廣播：joint_state, imu, gps, force_torque, range, pose 等狀態廣播器
+  - 官方品質：ros-controls 維護，完整 CI，Humble/Jazzy/Kilted/Rolling 全版本支援
+- **弱項/缺口（≤3，可觀察）**：
+  - 配置參數眾多，初學者需時間掌握
+  - 需要理解 ros2_control 框架概念
+  - 無中文文檔
+- **活躍度訊號**：664 stars，450 forks，995 commits，Apache 2.0 授權，持續活躍開發
+- **與我們的關聯（一句話）**：ros2_control 生態的控制器標準庫，機器人移動/操控控制的首選
+- **Link(s)**：https://github.com/ros-controls/ros2_controllers | https://control.ros.org/
+
+---
+
+### aruco_ros
+
+- **Name**：aruco_ros
+- **Type**：Perception Package
+- **Primary language**：English
+- **一句話定位**：ArUco 增強現實標記檢測庫的 ROS 封裝，提供高幀率標記追蹤和姿態估計
+- **強項（≤3）**：
+  - 高幀率追蹤：支援單標記和標記板追蹤，適用於視覺伺服
+  - ROS 2 支援：humble-devel 分支支援 ROS 2 Humble
+  - 豐富應用：物體姿態估計、視覺伺服、標記生成（最小感知歧義）
+- **弱項/缺口（≤3，可觀察）**：
+  - Kinetic 版本後坐標系有變更（需注意 X 紅 Y 綠 Z 藍）
+  - 需要 calibrated 相機
+  - 無中文文檔
+- **活躍度訊號**：566 stars，336 forks，196 commits，PAL Robotics 維護，MIT 授權
+- **與我們的關聯（一句話）**：機器人視覺定位的經典方案，低成本高精度的姿態估計工具
+- **Link(s)**：https://github.com/pal-robotics/aruco_ros
+
+---
+
+### RSL-RL
+
+- **Name**：RSL-RL
+- **Type**：RL Library
+- **Primary language**：English
+- **一句話定位**：ETH Zurich RSL 與 NVIDIA 聯合開發的機器人強化學習庫，被 Isaac Lab、Legged Gym、MuJoCo Playground 採用
+- **強項（≤3）**：
+  - 廣泛採用：Isaac Lab、Legged Gym、MuJoCo Playground、mjlab 的默認 RL 後端
+  - 研究功能：PPO、Student-Teacher 蒸餾、RND 探索、對稱增強
+  - 簡潔設計：快速簡單的 API，pip install rsl-rl-lib 即可使用
+- **弱項/缺口（≤3，可觀察）**：
+  - 專注 PPO 系演算法，非通用 RL 庫
+  - 主要面向 legged/humanoid 機器人場景
+  - 無中文文檔
+- **活躍度訊號**：arXiv:2509.10771 論文，2025 年持續更新，Mayank Mittal & Clemens Schwarke 維護
+- **與我們的關聯（一句話）**：機器人 RL 訓練的事實標準庫，Isaac Lab 生態系統的核心組件
+- **Link(s)**：https://github.com/leggedrobotics/rsl_rl
+
+---
+
+*條目數：63 / 目標：10 ✅*

@@ -10,7 +10,7 @@
 |------|------|------|------|
 | communities.md | ≥15 | 33 | ✅ |
 | platforms.md | ≥15 | 32 | ✅ |
-| toolchains.md | ≥10 | 47 | ✅ |
+| toolchains.md | ≥10 | 63 | ✅ |
 | hardware.md | ≥15 | 50 | ✅ |
 | kits.md | ≥10 | 34 | ✅ |
 | learning.md | ≥15 | 51 | ✅ |
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 62 輪 chinese_ecosystem — 新增 8 個具身智能前沿資源：Lumina 具身智能社區（中國領先 Talks + Isaac Sim 百講）、Awesome-Embodied-AI-Job（每日更新招聘）、RoboBrain 2.5（北京智源 3D 空間推理大模型）、RLinf（具身 RL 基礎設施）、InternNav（上海 AI 實驗室導航）、DeepThinkVLA（清華 OpenBMB）、StarVLA（模組化 VLA）、Xbotics 社區。chinese_ecosystem 達 44 條目。）*
+*最後更新：2026-01-31 （第 63 輪 toolchains — 新增 8 個工具鏈條目：dora-rs（Rust 中介軟體，比 ROS2 快 10-17x）、Genesis（43M FPS 物理引擎，多語言文檔）、ROBOTIS Physical AI Tools（LeRobot+ROS2 整合）、gz_ros2_control（Gazebo+ros2_control 橋接）、CLOiSim（LG Unity 多機器人模擬）、ros2_controllers（官方控制器庫）、aruco_ros（ArUco 標記追蹤）、RSL-RL（ETH/NVIDIA RL 庫）。toolchains 達 63 條目。）*
