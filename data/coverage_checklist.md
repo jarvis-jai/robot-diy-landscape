@@ -13,7 +13,7 @@
 | toolchains.md | ≥10 | 25 | ✅ |
 | hardware.md | ≥15 | 19 | ✅ |
 | kits.md | ≥10 | 18 | ✅ |
-| learning.md | ≥15 | 17 | ✅ |
+| learning.md | ≥15 | 25 | ✅ |
 | commerce.md | ≥10 | 16 | ✅ |
 | creators.md | ≥10 | 12 | ✅ |
 | chinese_ecosystem.md | ≥10 | 11 | ✅ |

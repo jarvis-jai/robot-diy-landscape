@@ -367,4 +367,166 @@
 
 ---
 
-*條目數：17 / 目標：15 ✅*
+---
+
+### Underactuated Robotics (MIT CSAIL)
+
+- **Name**：Underactuated Robotics
+- **Type**：University Course / Online Textbook
+- **Primary language**：English
+- **一句話定位**：MIT Russ Tedrake 教授的進階機器人動力學與控制課程，涵蓋欠驅動系統的分析與控制
+- **強項（≤3）**：
+  - 完整的線上 HTML 教科書（可搜尋、有互動元素）+ PDF 版本
+  - YouTube 影片課程（Spring 2024 更新）
+  - 深入涵蓋 pendulum、acrobot、walking/running、humanoids、stochastic systems、DP、LQR、Lyapunov、motion planning、RL
+- **弱項/缺口（≤3，可觀察）**：
+  - 內容進階，假設已有紮實的數學與控制理論背景
+  - 無中文版本
+  - 需要 Drake 軟體進行練習
+- **活躍度訊號**：持續更新，Spring 2024 課程筆記活躍維護
+- **與我們的關聯（一句話）**：進階機器人控制理論的頂級免費資源，適合有基礎後深入學習
+- **Link(s)**：https://underactuated.csail.mit.edu/
+
+---
+
+### Introduction to Autonomous Robots (MIT Press)
+
+- **Name**：Introduction to Autonomous Robots
+- **Type**：Open Textbook
+- **Primary language**：English
+- **一句話定位**：科羅拉多大學團隊編寫的開源自主機器人教科書，涵蓋機構、感測器、演算法
+- **強項（≤3）**：
+  - MIT Press 出版的教科書品質 + 開源 LaTeX 原始碼（CC-BY-NC-ND 授權）
+  - 涵蓋完整技術棧：mechanisms、sensors、actuators、algorithms
+  - 可自行編譯 PDF（透過 Overleaf 或本地 LaTeX）
+- **弱項/缺口（≤3，可觀察）**：
+  - 因版權限制，無法直接下載 PDF（需自行編譯）
+  - 無中文翻譯
+  - 2022 年出版，部分內容可能需更新
+- **活躍度訊號**：GitHub repo 活躍，持續接受貢獻
+- **與我們的關聯（一句話）**：大學級別自主機器人入門教科書，適合系統性學習理論基礎
+- **Link(s)**：https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots, https://www.amazon.com/Introduction-Autonomous-Robots-Mechanisms-Algorithms/dp/0262047551
+
+---
+
+### Modern Robotics (Northwestern)
+
+- **Name**：Modern Robotics: Mechanics, Planning, and Control
+- **Type**：Textbook + MOOC
+- **Primary language**：English（有中文和韓文翻譯版）
+- **一句話定位**：Lynch & Park 的現代機器人學教科書，使用 Lie 群理論的現代數學框架
+- **強項（≤3）**：
+  - Cambridge University Press 出版 + 免費 PDF 預印本線上可取
+  - 有完整 YouTube 影片課程（Northwestern Lightboard 製作）+ Coursera 專項課程（6 門）
+  - 有中文版（京東）和韓文版，附大量練習題和考試題（含解答）
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要紮實的線性代數基礎（有附錄但仍有門檻）
+  - 內容以理論為主，實作整合需額外資源
+  - 2017 年出版，部分軟體工具有更新
+- **活躍度訊號**：Northwestern Wiki 持續維護，Coursera 課程活躍
+- **與我們的關聯（一句話）**：機器人學理論的現代經典教科書，適合系統性學習運動學與動力學
+- **Link(s)**：https://hades.mech.northwestern.edu/index.php/Modern_Robotics, http://modernrobotics.northwestern.edu
+
+---
+
+### Planning Algorithms (Steven LaValle)
+
+- **Name**：Planning Algorithms
+- **Type**：Open Textbook
+- **Primary language**：English
+- **一句話定位**：Steven LaValle 的運動規劃演算法經典教科書，免費線上版
+- **強項（≤3）**：
+  - 完整教科書免費線上提供（PDF 各章下載）
+  - 涵蓋全面：discrete planning、motion planning（sampling/combinatorial）、decision-theoretic planning、differential constraints
+  - RRT（快速探索隨機樹）發明者撰寫，權威性高
+- **弱項/缺口（≤3，可觀察）**：
+  - 出版於 2006 年，部分進階方法有更新
+  - 無中文翻譯
+  - 理論性強，實作範例較少
+- **活躍度訊號**：穩定存檔資源，作為經典教科書持續被引用
+- **與我們的關聯（一句話）**：運動規劃演算法的權威教科書，RRT/PRM 等核心演算法的原始資料
+- **Link(s)**：https://lavalle.pl/planning/
+
+---
+
+### UC Berkeley CS287 Advanced Robotics
+
+- **Name**：CS287 Advanced Robotics (UC Berkeley)
+- **Type**：University Course
+- **Primary language**：English
+- **一句話定位**：Pieter Abbeel 教授的進階機器人課程，涵蓋 RL、運動規劃、狀態估計
+- **強項（≤3）**：
+  - 完整的 YouTube 課程影片 + 講義 slides 公開（Fall 2019）
+  - 涵蓋現代主題：MDP、LQR、運動規劃、卡爾曼/粒子濾波、POMDP、imitation learning、policy gradients、model-based RL、sim-to-real
+  - 有業界嘉賓講座（Waymo、Skydio、Ike）
+- **弱項/缺口（≤3，可觀察）**：
+  - Fall 2019 版本，部分 RL 方法已有更新
+  - 無中文字幕或翻譯
+  - 進階程度，需要 ML 與控制基礎
+- **活躍度訊號**：作為存檔課程，內容穩定；Pieter Abbeel 目前專注 Covariant AI
+- **與我們的關聯（一句話）**：進階機器人 + RL 整合的頂級大學課程，適合深度學習機器人研究方向
+- **Link(s)**：https://people.eecs.berkeley.edu/~pabbeel/cs287-fa19/
+
+---
+
+### Modern Robotics Specialization (Coursera)
+
+- **Name**：Modern Robotics Specialization
+- **Type**：MOOC Specialization
+- **Primary language**：English
+- **一句話定位**：Northwestern 的 6 門 Coursera 專項課程，配合 Modern Robotics 教科書
+- **強項（≤3）**：
+  - 6 門結構化課程：Foundation、Kinematics、Dynamics、Motion Planning、Control、Capstone
+  - 有 Capstone 專案（mobile manipulation on KUKA youBot + V-REP 模擬）
+  - 可免費旁聽，付費取得證書
+- **弱項/缺口（≤3，可觀察）**：
+  - 完整證書需付費
+  - 使用 MATLAB 為主，Python 支援較少
+  - 理論密集，需搭配教科書學習
+- **活躍度訊號**：Coursera 平台持續提供，有定期開課
+- **與我們的關聯（一句話）**：系統性學習機器人理論的線上專項課程，適合配合 Modern Robotics 教科書使用
+- **Link(s)**：https://www.coursera.org/specializations/modernrobotics
+
+---
+
+### Awesome Robotics (GitHub)
+
+- **Name**：Awesome Robotics
+- **Type**：Curated List
+- **Primary language**：English
+- **一句話定位**：機器人學資源的綜合彙整清單，涵蓋課程、書籍、軟體、會議、公司
+- **強項（≤3）**：
+  - 綜合性極高：30+ 課程、20+ 書籍、40+ 軟體/框架、15+ 會議、10+ 期刊、15+ 競賽
+  - 定期更新，社群維護
+  - 按類別清晰組織，適合快速查找資源
+- **弱項/缺口（≤3，可觀察）**：
+  - 部分連結可能過時（需定期檢查）
+  - 偏向英文資源，中文資源覆蓋少
+  - 深度不及專門教程（以連結彙整為主）
+- **活躍度訊號**：GitHub 活躍，持續接受 PR 更新
+- **與我們的關聯（一句話）**：機器人學習資源的「元索引」，適合發現新資源和交叉參考
+- **Link(s)**：https://github.com/kiloreux/awesome-robotics
+
+---
+
+### Awesome ROS2 (GitHub)
+
+- **Name**：Awesome ROS2
+- **Type**：Curated List
+- **Primary language**：English
+- **一句話定位**：ROS 2 專門的資源彙整清單，涵蓋 packages、文檔、課程、書籍
+- **強項（≤3）**：
+  - ROS 2 專門：packages（data collection, networking, middleware）、作業系統支援、文檔
+  - 有課程和書籍區（包括 The Construct、Udemy 課程、A Concise Introduction to Robot Programming with ROS2）
+  - 涵蓋社群、公司、工作組等生態資訊
+- **弱項/缺口（≤3，可觀察）**：
+  - 正在移交給 Open Robotics，可能有過渡期更新延遲
+  - 部分資源連結需定期檢查
+  - 以英文為主
+- **活躍度訊號**：GitHub 維護中，正移交 Open Robotics 官方維護
+- **與我們的關聯（一句話）**：ROS 2 學習資源的「元索引」，適合 ROS 2 開發者快速查找工具和教程
+- **Link(s)**：https://github.com/fkromer/awesome-ros2
+
+---
+
+*條目數：25 / 目標：15 ✅*

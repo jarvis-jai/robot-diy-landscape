@@ -151,3 +151,11 @@ https://www.hiwonder.com/products/armpi-ultra,Hiwonder ArmPi Ultra,Kits/Robot Ar
 https://www.hiwonder.com/products/rospug,Hiwonder ROSPug,Kits/Quadruped,2026-01-31,2026-01-31,active,Jetson Nano quadruped dog - 12 servos - ROS1 - inverse kinematics
 https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-mini,UBTECH Alpha Mini,Kits/Humanoid,2026-01-31,2026-01-31,active,14-DOF humanoid robot - 4G LTE - graphical coding - consumer market
 https://www.birdbraintechnologies.com/,BirdBrain Technologies,Kits/Education,2026-01-31,2026-01-31,active,CMU Robotics Institute - Finch Hummingbird Owlet - NSF funded K-12 education
+https://underactuated.csail.mit.edu/,Underactuated Robotics,Course/Textbook,2026-01-31,2026-01-31,active,MIT CSAIL Russ Tedrake - advanced robotics control - YouTube + online textbook
+https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots,Introduction to Autonomous Robots,Open Textbook,2026-01-31,2026-01-31,active,MIT Press 2022 - CC-BY-NC-ND - mechanisms sensors actuators algorithms
+https://hades.mech.northwestern.edu/index.php/Modern_Robotics,Modern Robotics (Northwestern),Textbook/MOOC,2026-01-31,2026-01-31,active,Lynch & Park - Cambridge UP 2017 - free PDF + Coursera + Chinese/Korean versions
+https://lavalle.pl/planning/,Planning Algorithms (LaValle),Open Textbook,2026-01-31,2026-01-31,active,RRT inventor - motion planning algorithms - free PDF online
+https://people.eecs.berkeley.edu/~pabbeel/cs287-fa19/,UC Berkeley CS287 Advanced Robotics,University Course,2026-01-31,2026-01-31,active,Pieter Abbeel Fall 2019 - MDP LQR motion planning RL - YouTube + slides
+https://www.coursera.org/specializations/modernrobotics,Modern Robotics Specialization,MOOC,2026-01-31,2026-01-31,active,Northwestern 6-course specialization - capstone with KUKA youBot
+https://github.com/kiloreux/awesome-robotics,Awesome Robotics,Curated List,2026-01-31,2026-01-31,active,30+ courses 20+ books 40+ software - community maintained
+https://github.com/fkromer/awesome-ros2,Awesome ROS2,Curated List,2026-01-31,2026-01-31,active,ROS 2 packages docs courses - being handed to Open Robotics
