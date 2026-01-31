@@ -712,4 +712,164 @@
 
 ---
 
-*條目數：34 / 目標：15 ✅*
+### linorobot2
+
+- **Name**：linorobot2
+- **Type**：Open Source Project / DIY Platform
+- **Primary language**：English
+- **一句話定位**：完整的 ROS2 DIY 移動機器人平台，支援 2WD、4WD、Mecanum 驅動，包含硬體設計和軟體堆疊
+- **強項（≤3）**：
+  - 完整生態系：linorobot2（ROS2 軟體）+ linorobot2_hardware（ESP32/Pico 韌體）
+  - 支援多種感測器：RPlidar A1-S3、Intel RealSense、ZED 相機、OAK-D
+  - 硬體高度可參數化：支援多種馬達驅動器（BTS7960、L298、ESC）、IMU（GY85、MPU6050/9150/9250）
+- **弱項/缺口（≤3，可觀察）**：
+  - Teensy 系列已標記為過時，建議使用 ESP32/Pico
+  - micro-ROS WiFi 模式未官方支援（需參考 hippo5329 fork）
+  - 文檔主要聚焦已過時的 Teensy，ESP32/Pico 文檔較分散
+- **活躍度訊號**：2025-12 更新 Jazzy 分支，GitHub 活躍，支援最新 ROS2 版本
+- **與我們的關聯（一句話）**：DIY ROS2 移動機器人的首選參考設計，從軟體到硬體一應俱全
+- **Link(s)**：https://github.com/linorobot/linorobot2 | https://github.com/linorobot/linorobot2_hardware
+
+---
+
+### Papaya Pathfinder
+
+- **Name**：Papaya Pathfinder
+- **Type**：Open Source Project / DIY Kit
+- **Primary language**：English
+- **一句話定位**：開源 ESP32 遙控探測車，全 3D 可列印，支援 WiFi 和 ExpressLRS 控制
+- **強項（≤3）**：
+  - 完整雙版本設計：標準版（GA25 馬達 + BTS7960 驅動）和 Mini 版（N20 馬達 + ESP32-CAM）
+  - Rocker-bogie 懸架系統，靈感來自火星探測器
+  - 多控制方式：WiFi HTTP API、ExpressLRS（ELRS）、Android App、Python 桌面控制器
+- **弱項/缺口（≤3，可觀察）**：
+  - 無 ROS 支援，適合遙控而非自主導航
+  - 需要 3D 列印 TPU 輪胎，對列印設備有要求
+  - 專案較新（2026-01），社群尚在建立中
+- **活躍度訊號**：2026-01-30 更新，Printables 上有完整 STL，YouTube 有展示影片
+- **與我們的關聯（一句話）**：ESP32 入門級探測車的優秀參考設計，Rocker-bogie 懸架讓它能應對複雜地形
+- **Link(s)**：https://github.com/tronxi/papaya-pathfinder | https://www.printables.com/model/1564819
+
+---
+
+### MeArm
+
+- **Name**：MeArm
+- **Type**：Open Source Project / Kit
+- **Primary language**：English
+- **一句話定位**：口袋大小的開源機器人手臂，激光切割組裝，STEAM 教育入門首選
+- **強項（≤3）**：
+  - 低成本入門：4 個伺服馬達，3mm 雷射切割壓克力
+  - 多版本演進：V0.1（概念驗證）到 V3.0（免彈性帶，30-40 分鐘組裝）
+  - 開源授權：CC BY-SA 3.0（硬體），多種控制方式（Arduino、micro:bit、Raspberry Pi）
+- **弱項/缺口（≤3，可觀察）**：
+  - V3.0 需要搭配 PCB 基板（可購買或自製）
+  - 扭矩和精度有限，適合教學而非實際應用
+  - 官方 GitHub 已多年未更新，主要靠 Thingiverse 和官網維護
+- **活躍度訊號**：官網 shop.mearm.com 持續銷售，Thingiverse 有多版本設計
+- **與我們的關聯（一句話）**：最低門檻的機器人手臂教學平台，適合初次接觸機器人學的學習者
+- **Link(s)**：https://shop.mearm.com | https://github.com/MeArm/MeArm | https://www.thingiverse.com/thing:993759
+
+---
+
+### NURO Arm
+
+- **Name**：NURO Arm
+- **Type**：Open Source Project / Educational Platform
+- **Primary language**：English
+- **一句話定位**：$250 低成本教育機器人手臂平台，內建模擬器，適合學習機器人操作概念
+- **強項（≤3）**：
+  - 完整教育設計：詳細文檔、PyBullet 模擬器、跨平台 API（Windows/Mac/Linux）
+  - 基於 Hiwonder xArm 硬體，支援正/逆運動學、碰撞檢測、軌跡規劃
+  - 多樣專案示範：疊方塊、井字遊戲、物件追蹤、觸覺感測
+- **弱項/缺口（≤3，可觀察）**：
+  - 專案較舊（2022 年），未更新至最新依賴
+  - 需 3D 列印相機支架，無預製選項
+  - 僅支援 Hiwonder xArm，無其他硬體選項
+- **活躍度訊號**：ReadTheDocs 文檔完整，GitHub 112 stars，適合教育用途
+- **與我們的關聯（一句話）**：想要教授機器人操作概念的教育者的預算友好選擇
+- **Link(s)**：https://github.com/dmklee/nuro-arm | https://nuro-arm.readthedocs.io | https://dmklee.github.io/nuro-arm
+
+---
+
+### SPIN Servo Drive
+
+- **Name**：SPIN Servo Drive
+- **Type**：Open Source Hardware / Motor Controller
+- **Primary language**：English
+- **一句話定位**：$30 開源 BLDC 伺服驅動器，使用 atopile 電子設計語言開發，讓伺服馬達平民化
+- **強項（≤3）**：
+  - 極低成本：$30 vs 數百美元商業方案
+  - 現代設計工具：使用 atopile 電子描述語言，易於分叉和貢獻
+  - 完整規格：0.25Nm 連續扭矩（0.75Nm 峰值），CAN 通訊，XT30 電源
+- **弱項/缺口（≤3，可觀察）**：
+  - 專案較新，尚在積極開發中
+  - 需自行組裝 PCB（可 DIY 或外包製造）
+  - 文檔尚不完整，需參考 atopile 生態系
+- **活躍度訊號**：2025-04 更新，atopile 社群支持，PlatformIO 韌體
+- **與我們的關聯（一句話）**：讓 BLDC 伺服馬達價格親民的開源方案，適合 3D 列印機、CNC 和機器人
+- **Link(s)**：https://github.com/atopile/spin-servo-drive | https://atopile.io
+
+---
+
+### STMBL
+
+- **Name**：STMBL
+- **Type**：Open Source Hardware / Servo Driver
+- **Primary language**：English
+- **一句話定位**：開源 AC/DC 伺服驅動器，專為 CNC 機床和機器人改裝設計，支援高達 320V 2kW
+- **強項（≤3）**：
+  - 高性能規格：320V、2kW、支援同步/異步 AC 伺服、DC 伺服、主軸馬達
+  - 廣泛回授系統支援：解析器、增量編碼器、sin/cos 編碼器、絕對編碼器（三菱/山洋/安川）
+  - 實際應用驗證：Bosch Turboscara、Manutec 機器人、Haas VF0、Weeke VMC
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要電氣工程經驗，涉及高壓危險
+  - 專案維護較慢（2023 年最後主要更新）
+  - 文檔分散，入門門檻較高
+- **活躍度訊號**：IRC #stmbl 社群活躍，Wiki 有詳細引腳圖和 PCB 資訊
+- **與我們的關聯（一句話）**：工業伺服馬達改裝的開源解決方案，將舊 CNC 和機器人帶入數位時代
+- **Link(s)**：https://github.com/rene-dev/stmbl | https://github.com/rene-dev/stmbl/wiki
+
+---
+
+### SMARTmBOT
+
+- **Name**：SMARTmBOT
+- **Type**：Open Source Project / Educational Platform
+- **Primary language**：English
+- **一句話定位**：Purdue 大學開發的開源 ROS2 移動機器人平台，專為移動機器人和群體機器人教學設計
+- **強項（≤3）**：
+  - 完整教學資源：詳細手冊（PDF）、Wiki 教程、示範影片
+  - ROS2 原生支援：Raspberry Pi 4 + ROS2，支援多機器人協作（群體機器人）
+  - NSF 資助專案：學術背景，適合大學課程和研究
+- **弱項/缺口（≤3，可觀察）**：
+  - 專案較舊（2022 年），可能需更新至最新 ROS2 版本
+  - 主要面向學術環境，社群較小
+  - 硬體零件需自行採購，無預製套件
+- **活躍度訊號**：Wiki 教程完整，YouTube 有完整示範，GitHub 開放討論
+- **與我們的關聯（一句話）**：大學移動機器人課程的優秀教學平台，NSF 背書的開源設計
+- **Link(s)**：https://github.com/SMARTlab-Purdue/SMARTmBOT | https://www.smart-laboratory.org
+
+---
+
+### Mars Rover (jakkra)
+
+- **Name**：Mars Rover (jakkra)
+- **Type**：Open Source Project / Hobby Build
+- **Primary language**：English
+- **一句話定位**：3D 列印的 Curiosity/Perseverance 風格火星探測器，6 輪驅動 + 6-DOF 機械臂
+- **強項（≤3）**：
+  - 完整 Fusion 360 CAD 模型，包含兩種輪胎設計（一體式和 TPU 柔性版）
+  - 多控制方式：LoRa 長距離遙控、WebSocket、標準 RC 發射器
+  - 功能豐富：Rocker-bogie 懸架、4 輪轉向、6-DOF 機械臂、可旋轉天線
+- **弱項/缺口（≤3，可觀察）**：
+  - 硬體成本較高：12 個伺服馬達、6 個 DC 馬達、ESP32、3S 電池
+  - 無組裝手冊，需參考 CAD 模型自行推斷
+  - 專案維護較慢（2022 年最後更新）
+- **活躍度訊號**：GitHub 500+ stars，Issues 有社群討論，完整 CAD 模型可用
+- **與我們的關聯（一句話）**：想要構建複雜 6 輪探測器的進階愛好者參考設計
+- **Link(s)**：https://github.com/jakkra/Mars-Rover | https://github.com/jakkra/RoverController
+
+---
+
+*條目數：42 / 目標：15 ✅*

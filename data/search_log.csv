@@ -167,3 +167,7 @@ Brazil Brasil robotica Arduino maker YouTube 2024,browser-google,2026-01-31,na,R
 French robotique Arduino YouTube tutoriel maker,browser-google,2026-01-31,na,Round 52: Found Robot Maker (small) LeMaster Tech Rachel De Barros - French/English resources
 Russian robotics Arduino maker YouTube 2024,browser-google,2026-01-31,na,Round 52: Found PRO ROBOTS - Russian/English news channel
 FeedSpot Arduino YouTube channels,web_fetch-direct,2026-01-31,na,Round 52: Found 15 Arduino YouTubers list - Mundo CNC Makerblog Ralph Bacon
+GitHub topics robot-hardware diy-robot mobile-robot robot-arm,web_fetch-github,2026-01-31,na,Round 53: discovered linorobot2 SMARTmBOT Mars-Rover and more via GitHub topics exploration
+open source robot hardware ESP32 2025 2026,web_fetch-github,2026-01-31,na,Round 53: found Papaya Pathfinder - ESP32 rocker-bogie rover - Updated Jan 2026
+low-cost robot arm educational DIY 2024 2025,web_fetch-github,2026-01-31,na,Round 53: found NURO Arm ($250) MeArm - educational platforms
+servo motor BLDC controller open source,web_fetch-github,2026-01-31,na,Round 53: found SPIN Servo Drive ($30 atopile) STMBL (320V 2kW AC servo)

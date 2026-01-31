@@ -11,7 +11,7 @@
 | communities.md | ≥15 | 33 | ✅ |
 | platforms.md | ≥15 | 32 | ✅ |
 | toolchains.md | ≥10 | 39 | ✅ |
-| hardware.md | ≥15 | 34 | ✅ |
+| hardware.md | ≥15 | 42 | ✅ |
 | kits.md | ≥10 | 34 | ✅ |
 | learning.md | ≥15 | 34 | ✅ |
 | commerce.md | ≥10 | 24 | ✅ |
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 52 輪 creators 非英語圈 — 新增 8 個國際/初學者友好創作者：RootSaid 印度 98.6K、Arduino Brasil 巴西 28.4K、Mundo CNC 西語 54.7K、Makerblog.at 德語 24.7K、Ralph S Bacon 英語 47.8K、PRO ROBOTS 俄英、Rachel De Barros 女性創作者、LeMaster Tech 37K。Creators 達 39 條目，解決 Gap #2 #7。連續 52 輪 ALLOW！）*
+*最後更新：2026-01-31 （第 53 輪 hardware 補強 — 新增 8 個 DIY 機器人硬體條目：linorobot2 ROS2 移動機器人、Papaya Pathfinder ESP32 探測車、MeArm 激光切割手臂、NURO Arm $250 教育平台、SPIN Servo $30 BLDC 驅動、STMBL 320V AC 伺服、SMARTmBOT Purdue ROS2、Mars Rover 6WD 3D 列印。Hardware 達 42 條目。連續 53 輪 ALLOW！）*
