@@ -49,3 +49,5 @@ robotics maker youtuber beginner arduino education tutorial,browser-google,2026-
 sim-to-real robotics tutorial guide 2025,web_fetch,2026-01-31,na,browser unavailable - used web_fetch to explore known resources
 AI vision robotics integration tutorial OpenCV ROS 2025,web_fetch,2026-01-31,na,found LeRobot with vision policies
 open source robot arm project maintained 2024 2025,web_fetch,2026-01-31,na,found Thor SO-ARM100 Isaac Lab Newton
+r/robotics wiki index get_started,reddit-api-json,2026-01-31,na,wiki last updated 2021-01-29 (5 years stale) - validates Wedge #3 market gap
+r/AskRobotics top posts year,reddit-api-json,2026-01-31,na,top posts: "How popular is ROS2" (59up) "What skills for robotics" (53up) "SW engineer→robotics" (52up) - validates navigation demand

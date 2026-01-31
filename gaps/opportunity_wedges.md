@@ -212,16 +212,18 @@
 ## 後續驗證計畫
 
 ### 短期（1-2 週）
-- [ ] Wedge #3 MVP 規格定義
-- [ ] 調查 r/robotics 和 Arduino.Taipei 對「新手導航」需求的既有討論
-- [ ] Wedge #2 的 Sim-to-Real Checklist 初版草稿
+- [x] ✅ Wedge #3 MVP 規格定義 → `wedge_validation/wedge_3_mvp_spec.md`
+- [x] ✅ 調查 r/robotics 和 r/AskRobotics 對「新手導航」需求的既有討論
+  - 發現：r/robotics wiki 最後更新 **2021-01-29**（5 年前）
+  - 發現：r/AskRobotics 熱門問題驗證導航需求（53+ upvotes）
+- [x] ✅ Wedge #2 的 Sim-to-Real Checklist 初版草稿 → `wedge_validation/wedge_2_sim_to_real_checklist_v1.md`
 
 ### 中期（1 個月）
 - [ ] Wedge #3 MVP 上線（單頁 app + 路徑推薦器）
-- [ ] Wedge #2 首篇文章發布並在 Reddit 測試反應
+- [ ] Wedge #2 Checklist 在 Reddit 發布測試反應
 - [ ] 評估 Wedge #1 是否值得投入（基於 #3 的繁中流量數據）
 
 ---
 
 *Wedge 數：3 / 目標：3 ✅*
-*最後更新：2026-01-31（第 18 輪 wedges）*
+*最後更新：2026-01-31（第 21 輪 wedge_validation — MVP 規格 + Checklist 初版）*

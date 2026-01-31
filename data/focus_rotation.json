@@ -1,8 +1,9 @@
 {
-  "last_focus": "補強既有條目",
+  "last_focus": "wedge_validation",
   "next_focus_candidates": [
-    "Wedge 驗證準備",
-    "新類別探索"
+    "Wedge #3 MVP 開發",
+    "Wedge #2 Checklist 社群測試",
+    "條目補強"
   ],
   "focus_history": [
     {
@@ -133,6 +134,13 @@
       "entries_updated": 3,
       "result": "ALLOW",
       "note": "Reinforced 3 entries: (1) NVIDIA Jetson - added Jetson Thor Series (Blackwell arch, 2070 TFLOPS); (2) LeRobot - updated to v0.4.3, added Unitree G1, X-VLA, Earth Rover Mini Plus; (3) LEGO SPIKE Prime - updated EOL details, successor products info. Round 20 = meta_status update."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "wedge_validation",
+      "files_added": 2,
+      "result": "ALLOW",
+      "note": "Created wedge_validation/ directory. Added Wedge #3 MVP spec (3.8KB) and Wedge #2 Sim-to-Real Checklist v1.0 (4KB). Validated market need via Reddit API: r/robotics wiki last updated 2021-01 (5 years stale), r/AskRobotics top posts confirm navigation demand."
     }
   ]
 }
