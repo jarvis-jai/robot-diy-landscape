@@ -130,3 +130,18 @@ non-English robotics maker community forum international,web_fetch-multi,2026-01
 robotics course 2025 beginner intermediate ROS 2 tutorial online free,browser-google,2026-01-31,na,Round 46: Found Kevin Wood ROS2 course The Construct Jazzy 2025 NVIDIA Learning Path
 embodied AI robotics course 2025 LeRobot manipulation,browser-google,2026-01-31,na,Round 46: Found Embodied AI Workshop HuggingFace LeRobot Tutorial Stanford Seminar CMU REAL
 free robotics online course 2025 simulation Gazebo Isaac Sim navigation,browser-google,2026-01-31,na,Round 46: Found NVIDIA Isaac Learning Path roboticsjobs.co.uk guide Nikodem Bartnik tutorial
+robot-hardware GitHub topic,web_fetch-github,2026-01-31,na,8 repos found - mostly small projects - nova34 micromouse
+actuator GitHub topic,web_fetch-github,2026-01-31,na,365 repos - many Spring Actuator (not robot) - found Capstan-Drive OpenQDD-V1 Janus-Controller
+bldc-motor-controller GitHub topic,web_fetch-github,2026-01-31,na,57 repos - SimpleFOC ESCape32 Janus-Controller Cheap-FOCer OpenESC O32controller
+quadruped-robot GitHub topic,web_fetch-github,2026-01-31,na,100 repos - rex-gym spot_mini_mini Awesome_Quadrupedal_Robots Quadruped-PyMPC HyperDog
+humanoid-robot GitHub topic,web_fetch-github,2026-01-31,na,194 repos - humanoid-gym OpenArm PHC RoboCasa TienKung-Lab Asimov-v0
+Awesome_Quadrupedal_Robots README,web_fetch-raw,2026-01-31,na,Comprehensive list - 20+ platforms - 100+ papers 2023-2025 - Solo Pupper SpotMicro Unitree
+mangdang.store Mini Pupper,web_fetch-direct,2026-01-31,na,Stanford Pupper inspired - ROS OpenCV Generative AI - RPi based
+minipupperdocs.readthedocs.io,web_fetch-direct,2026-01-31,na,Mini Pupper 2.0 docs - ROS2 SLAM RL GenAI - multilingual (EN/JP)
+enactic/openarm GitHub,web_fetch-direct,2026-01-31,na,7DOF humanoid arm - $6500 bimanual - CERN-OHL-S-2.0 - Isaac Lab ROS2 teleop
+asimovinc/asimov-v0 GitHub,web_fetch-direct,2026-01-31,na,12DOF bipedal legs - MJF 3D print - Encos motors - RSU ankle
+haraduka/mevius GitHub,web_fetch-direct,2026-01-31,na,E-commerce sheet metal quadruped - CubeMars AK70-10 - IEEE Humanoids 2024 paper
+stanfordroboticsclub/StanfordQuadruped GitHub,web_fetch-direct,2026-01-31,na,Pupper v1 EOL - v3 in development - $1000 BOM - 400W GIM4305 motors
+spotmicroai.readthedocs.io,web_fetch-direct,2026-01-31,na,SpotMicroAI community docs - PyBullet ROS simulation - GitLab repos
+mike4192/spotMicro GitHub,web_fetch-direct,2026-01-31,na,SpotMicro ROS implementation - RPi 3B - PDI-HV5523MG servos - SLAM
+roboterax/humanoid-gym GitHub,web_fetch-direct,2026-01-31,na,Isaac Gym humanoid RL - XBot-S/L sim2real - RSS 2024 DWL paper
