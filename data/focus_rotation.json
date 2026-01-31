@@ -1,10 +1,10 @@
 {
-  "last_focus": "learning",
+  "last_focus": "hardware",
   "next_focus_candidates": [
-    "hardware",
     "toolchains",
     "commerce",
-    "kits"
+    "kits",
+    "creators"
   ],
   "focus_history": [
     {
@@ -23,6 +23,12 @@
       "date": "2026-01-30",
       "focus": "learning",
       "entries_added": 8,
+      "result": "ALLOW"
+    },
+    {
+      "date": "2026-01-30",
+      "focus": "hardware",
+      "entries_added": 9,
       "result": "ALLOW"
     }
   ]
