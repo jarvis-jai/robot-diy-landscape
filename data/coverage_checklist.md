@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 20 輪補強既有條目 — Jetson Thor / LeRobot v0.4.3 / SPIKE EOL 細節）*
+*最後更新：2026-01-31 （第 22 輪 Wedge #2 社群發文準備 — Community Launch Kit / README 草稿 / ROS EOL 日期修正）*

@@ -51,3 +51,4 @@ AI vision robotics integration tutorial OpenCV ROS 2025,web_fetch,2026-01-31,na,
 open source robot arm project maintained 2024 2025,web_fetch,2026-01-31,na,found Thor SO-ARM100 Isaac Lab Newton
 r/robotics wiki index get_started,reddit-api-json,2026-01-31,na,wiki last updated 2021-01-29 (5 years stale) - validates Wedge #3 market gap
 r/AskRobotics top posts year,reddit-api-json,2026-01-31,na,top posts: "How popular is ROS2" (59up) "What skills for robotics" (53up) "SW engineer→robotics" (52up) - validates navigation demand
+r/robotics r/ROS subreddit rules posting guidelines,web_fetch-reddit-api,2026-01-31,na,obtained rules JSON for both subreddits - r/robotics prohibits beginner questions; r/ROS allows valuable content links

@@ -1,8 +1,8 @@
 {
-  "last_focus": "wedge_validation",
+  "last_focus": "wedge_2_community_prep",
   "next_focus_candidates": [
     "Wedge #3 MVP 開發",
-    "Wedge #2 Checklist 社群測試",
+    "Wedge #2 Reddit 發布",
     "條目補強"
   ],
   "focus_history": [
@@ -141,6 +141,14 @@
       "files_added": 2,
       "result": "ALLOW",
       "note": "Created wedge_validation/ directory. Added Wedge #3 MVP spec (3.8KB) and Wedge #2 Sim-to-Real Checklist v1.0 (4KB). Validated market need via Reddit API: r/robotics wiki last updated 2021-01 (5 years stale), r/AskRobotics top posts confirm navigation demand."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "wedge_2_community_prep",
+      "files_added": 2,
+      "entries_updated": 3,
+      "result": "ALLOW",
+      "note": "Round 22: (1) Created community launch kit with Reddit/HN/Discourse post drafts; (2) Created GitHub README draft; (3) Fixed critical ROS 1 EOL date error (2026→2025 in ROS Wiki + ROS entries); (4) Added Gazebo Ionic/Kura versions."
     }
   ]
 }

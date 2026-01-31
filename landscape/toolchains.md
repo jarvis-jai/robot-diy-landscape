@@ -33,12 +33,13 @@
 - **強項（≤3）**：
   - 與 ROS 2 原生整合，支援 Jazzy LTS 版本
   - 提供完整的感測器模擬（相機、光達、IMU 等）
-  - LTS 版本 Jetty 支援至 2030 年 9 月
+  - 多版本選擇：Ionic (2024-09 ~ 2026-09)、Jetty LTS (2025-09 ~ 2030-09)、Harmonic LTS (2023-09 ~ 2028-09)
 - **弱項/缺口（≤3，可觀察）**：
   - 學習曲線陡峭，需要 SDF/URDF 知識
   - 無中文文件
   - 對硬體要求較高（GPU 加速）
-- **活躍度訊號**：Gazebo Jetty LTS (2025-09 ~ 2030-09)，Open Robotics 持續維護
+- **活躍度訊號**：Ionic (Jan 2026 發布 gz-sim 9)；Jetty LTS 持續開發；下一版 Kura 預計 Aug 2026
+- **2026-01-31 補強**：新增 Ionic 版本（2024-09 ~ 2026-09）和 Kura 預告（2026-08 ~ 2028-09）；完整 release 表見 gazebosim.org/docs/ionic/releases
 - **與我們的關聯（一句話）**：ROS 生態系統的標準模擬器，開發機器人前必須掌握
 - **Link(s)**：https://gazebosim.org/
 
@@ -55,10 +56,11 @@
   - 龐大生態系統：數千個現成套件
   - 活躍社群：discourse.ros.org、ROSCon 年會
 - **弱項/缺口（≤3，可觀察）**：
-  - ROS 1 將於 2026-05-31 EOL，仍有大量舊專案需遷移
+  - ⚠️ ROS 1 將於 **2025-05-31 EOL**（僅剩 4 個月！），仍有大量舊專案需遷移
   - 安裝配置複雜，對初學者不友善
   - 中文資源有限（Wiki 有 15 語言但中文覆蓋率低）
-- **活躍度訊號**：ROSCon 2025 錄影已發布，Kilted Kaiju 最新短期版本
+- **活躍度訊號**：ROS 2 下載量達 80%+；Kilted Kaiju 短期版本；Jazzy LTS 至 2029；Rolling 持續更新
+- **2026-01-31 補強**：修正 ROS 1 EOL 日期為 2025-05-31（非 2026）；根據 ROS blog 12/16/2024，EOL 後無安全更新、bug 修復、binaries 更新但仍託管
 - **與我們的關聯（一句話）**：任何嚴肅的機器人專案都應考慮 ROS，它是產業與學術界的共同語言
 - **Link(s)**：https://www.ros.org/ | https://docs.ros.org/
 
