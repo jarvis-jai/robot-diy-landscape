@@ -1,10 +1,10 @@
 {
-  "last_focus": "creators",
+  "last_focus": "chinese_ecosystem",
   "next_focus_candidates": [
-    "chinese_ecosystem",
     "communities",
     "platforms",
-    "learning"
+    "learning",
+    "hardware"
   ],
   "focus_history": [
     {
@@ -53,6 +53,12 @@
       "date": "2026-01-30",
       "focus": "creators",
       "entries_added": 8,
+      "result": "ALLOW"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "chinese_ecosystem",
+      "entries_added": 11,
       "result": "ALLOW"
     }
   ]
