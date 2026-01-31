@@ -410,4 +410,144 @@
 
 ---
 
-*條目數：19 / 目標：15 ✅*
+### AS5600 Magnetic Encoder
+
+- **Name**：AS5600
+- **Type**：Sensor / Component
+- **Primary language**：English
+- **一句話定位**：ams OSRAM 的低成本 12-bit 磁性旋轉位置感測器，是 DIY 機器人馬達控制的首選編碼器
+- **強項（≤3）**：
+  - 極低價格（模組 $3-5），無接觸式磁性感測，壽命長
+  - 12-bit 解析度（4096 位置），I2C 和類比輸出，支援增量模式
+  - 大量開源庫支援（Arduino、ESP32、STM32、MicroPython）
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要精確的磁鐵對準（軸向磁化）
+  - 高速應用需注意磁場干擾
+  - 原廠文檔以英文為主，中文資源有限
+- **活躍度訊號**：GitHub as5600 topic 有 20+ repos，Seeed Studio、libdriver 等持續維護 Arduino 庫
+- **與我們的關聯（一句話）**：SimpleFOC 等開源馬達控制專案的標準配件，性價比極高的位置反饋方案
+- **Link(s)**：https://ams-osram.com/products/sensors/position-sensors/ams-as5600-magnetic-rotary-position-sensor | https://github.com/Seeed-Studio/Seeed_Arduino_AS5600
+
+---
+
+### mjbots moteus
+
+- **Name**：mjbots moteus
+- **Type**：Open Source Hardware / Motor Controller
+- **Primary language**：English
+- **一句話定位**：高性能開源 BLDC 伺服馬達控制器，專為機器人腿部和關節設計
+- **強項（≤3）**：
+  - 高功率密度（r4.11: 900W@30V，n1: 2kW@36V），支援 FOC 控制
+  - 完全開源（硬體 + 韌體），Apache 2.0 授權，CAN-FD 5Mbps 通訊
+  - 產品線豐富：c1（小型 250W）、r4.11（通用）、n1/x1（高功率）
+- **弱項/缺口（≤3，可觀察）**：
+  - 價格較高（$70-160 視型號），入門門檻高
+  - 需要理解 CAN-FD 協議和馬達控制原理
+  - 社群規模較 ODrive 小
+- **活躍度訊號**：GitHub 持續更新，Discord 社群活躍，被多個研究機器人採用（如 Stanford Pupper）
+- **與我們的關聯（一句話）**：追求極致性能的 DIY 腿式機器人首選馬達控制器
+- **Link(s)**：https://mjbots.com | https://github.com/mjbots/moteus
+
+---
+
+### Tinymovr
+
+- **Name**：Tinymovr
+- **Type**：Motor Controller / Kit
+- **Primary language**：English
+- **一句話定位**：將任何 gimbal 馬達轉為伺服馬達的緊湊型 BLDC 控制器，專為 Embodied AI 設計
+- **強項（≤3）**：
+  - 緊湊設計：M5.2（38×38mm）和 R5.3 兩種版本，可直接安裝在馬達上
+  - 免焊接入門套件（Starter Kit），降低入門門檻
+  - 專為學習型控制（backdrivability）優化，適合 AI 機器人研究
+- **弱項/缺口（≤3，可觀察）**：
+  - 價格較高（~$90 起），較 SimpleFOC 方案貴
+  - 主要針對 gimbal 馬達，大功率應用有限
+  - 閉源韌體（僅軟體開源）
+- **活躍度訊號**：2026 年更新 Embodied AI 方向，參加 PCIM 2024 展覽
+- **與我們的關聯（一句話）**：AI 驅動機器人研究的即插即用馬達控制方案
+- **Link(s)**：https://tinymovr.com | https://github.com/tinymovr
+
+---
+
+### Open Dynamic Robot Initiative (ODRI)
+
+- **Name**：Open Dynamic Robot Initiative
+- **Type**：Open Source Project / Hardware Designs
+- **Primary language**：English
+- **一句話定位**：Max Planck 和 NYU 合作的開源機器人硬體計畫，提供完整的腿式機器人設計
+- **強項（≤3）**：
+  - 完整的開源設計：機械（Solo8/12、Bolt）、電子（µDriver、Master Board）、韌體
+  - 研究級品質：用於多篇頂會論文（arXiv 2019）
+  - 活躍社群：Discord、Discourse 論壇、YouTube 頻道
+- **弱項/缺口（≤3，可觀察）**：
+  - 入門門檻高：需要 CNC 加工和 PCB 製造能力
+  - 成本較高（完整 Solo12 約 $3000-5000）
+  - 文檔以研究人員為主要對象
+- **活躍度訊號**：GitHub 1.3K+ stars，346 commits，持續維護
+- **與我們的關聯（一句話）**：想自製研究級腿式機器人的終極參考設計
+- **Link(s)**：https://open-dynamic-robot-initiative.github.io | https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware
+
+---
+
+### TB6612FNG Motor Driver
+
+- **Name**：TB6612FNG
+- **Type**：Component / Motor Driver IC
+- **Primary language**：English
+- **一句話定位**：東芝的低成本雙路 DC 馬達驅動 IC，是 L298N 的現代替代方案
+- **強項（≤3）**：
+  - 極低價格（模組 $2-5），體積小（SOP24 封裝或分線板）
+  - 高效率 MOSFET 設計（無需散熱片），支援 2.7-5.5V 邏輯電平
+  - 雙 H 橋設計，每路 1.2A 持續 / 3.2A 峰值，PWM 控制
+- **弱項/缺口（≤3，可觀察）**：
+  - 最大電壓 15V，不適合高壓應用
+  - 電流限制較低，不適合大型馬達
+  - 無內建電流感測（需外接）
+- **活躍度訊號**：SparkFun 維護 Arduino 庫，廣泛用於 ESP32/Arduino 機器人專案
+- **與我們的關聯（一句話）**：入門級差速驅動機器人的標準馬達驅動方案
+- **Link(s)**：https://toshiba.semicon-storage.com/info/TB6612FNG | https://github.com/sparkfun/SparkFun_TB6612FNG_Arduino_Library
+
+---
+
+### SimpleFOC Shield / Mini
+
+- **Name**：SimpleFOC Shield / Mini
+- **Type**：Open Source Hardware / Motor Driver
+- **Primary language**：English
+- **一句話定位**：專為 SimpleFOC 庫設計的開源 BLDC 馬達驅動板，Arduino 堆疊相容
+- **強項（≤3）**：
+  - 完全開源（EasyEDA 設計），可自行製造（JLCPCB ~$10-15）或購買（$15-30）
+  - DRV8313 基礎，8-35V 輸入，2A 持續 / 3A 峰值電流
+  - Shield 可堆疊（雙馬達），Mini 極致小型（26×21mm）
+- **弱項/缺口（≤3，可觀察）**：
+  - 專為 gimbal 馬達設計（內阻 >10Ω），不適合低阻抗馬達
+  - Shield 版本較大，Mini 無電流感測
+  - 需配合 SimpleFOC 庫使用
+- **活躍度訊號**：SimpleFOC 社群活躍，社群設計了更多變體
+- **與我們的關聯（一句話）**：學習 FOC 馬達控制的最佳入門硬體
+- **Link(s)**：https://docs.simplefoc.com/boards | https://simplefoc.com/shop
+
+---
+
+### GelSight Mini
+
+- **Name**：GelSight Mini
+- **Type**：Sensor / Research Hardware
+- **Primary language**：English
+- **一句話定位**：MIT 衍生公司的視覺型觸覺感測器，可測量 3D 表面形狀和接觸力
+- **強項（≤3）**：
+  - 亞微米級 3D 表面測量能力，優於傳統力感測器
+  - 可測量紋理、形狀、滑動、力分佈
+  - 研究社群活躍：awesome-tactile-sensing、PyTouch、多篇 ICRA/RSS 論文
+- **弱項/缺口（≤3，可觀察）**：
+  - 價格較高（Mini $295 起），主要面向研究市場
+  - 需要 USB 相機介面和圖像處理能力
+  - 彈性體有壽命限制，需定期更換
+- **活躍度訊號**：GelSight 公司持續發布新產品，學術界廣泛使用
+- **與我們的關聯（一句話）**：想為機器人抓手增加觸覺感知能力的研究級解決方案
+- **Link(s)**：https://www.gelsight.com | https://github.com/gelsight | https://github.com/vocdex/awesome-tactile-sensing
+
+---
+
+*條目數：26 / 目標：15 ✅*

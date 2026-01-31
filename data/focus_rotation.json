@@ -1,11 +1,11 @@
 {
-  "last_focus": "toolchains",
+  "last_focus": "hardware_motor_control",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
     "gaps 深化 (補充更多佐證)",
-    "hardware (傳感器補強)",
-    "communities (非英語論壇)"
+    "communities (非英語論壇)",
+    "kits (教育套件)"
   ],
   "focus_history": [
     {
@@ -294,6 +294,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 42: Added 8 ROS 2 core tools: BehaviorTree.CPP (Nav2 behavior trees), slam_toolbox (SLAM), Foxglove (observability), robot_localization (sensor fusion), ros2_control (hardware abstraction), PlotJuggler (data viz), RViz 2 (3D viz), rosbag2 (data recording). Toolchains now at 38/10. Discovered via GitHub topics behavior-tree."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "hardware_motor_control",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 43: Added 8 entries for motor control hardware/software: SimpleFOC Library (toolchains), AS5600 magnetic encoder, mjbots moteus, Tinymovr, ODRI, TB6612FNG, SimpleFOC Shield/Mini, GelSight Mini (hardware). Hardware now at 26/15, Toolchains at 39/10."
     }
   ]
 }

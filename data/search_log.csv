@@ -112,3 +112,11 @@ ros2_control GitHub,web_fetch-direct,2026-01-31,na,hardware abstraction - 802 st
 PlotJuggler GitHub,web_fetch-direct,2026-01-31,na,v3.15 - time series viz - ROS CSV PX4 - MPL-2.0 - Gold Sponsors
 RViz 2 GitHub,web_fetch-direct,2026-01-31,na,ROS 2 official - 3D viz - pluggable transform library
 rosbag2 GitHub,web_fetch-direct,2026-01-31,na,ROS 2 data recording - SQLite3 MCAP - snapshot mode - services
+force-torque-sensor GitHub topic,web_fetch-github,2026-01-31,na,14 repos - ATI ROS2 KWR75 calibration tools
+tactile-sensing GitHub topic,web_fetch-github,2026-01-31,na,7 repos - FusionSense SimTacLS - research focus
+gelsight GitHub topic,web_fetch-github,2026-01-31,na,5 repos - awesome-tactile-sensing digit-depth - vocdex
+as5600 GitHub topic,web_fetch-github,2026-01-31,na,20 repos - Seeed Arduino libdriver esp-idf MicroPython
+SimpleFOC Arduino-FOC,web_fetch-direct,2026-01-31,na,JOSS paper - v2.3.5 - multi-platform FOC library
+mjbots moteus GitHub,web_fetch-direct,2026-01-31,na,Open source BLDC - r4.11 c1 n1 x1 - CAN-FD 5Mbps
+tinymovr motor controller,web_fetch-direct,2026-01-31,na,Gimbal servo - M5.2 R5.3 kits - Embodied AI
+ODRI open robot actuator hardware,web_fetch-direct,2026-01-31,na,Max Planck NYU - Solo8/12 Bolt TriFinger - 1.3K stars

@@ -227,3 +227,14 @@ https://control.ros.org/,ros2_control docs,Docs,2026-01-31,2026-01-31,active,ros
 https://github.com/facontidavide/PlotJuggler,PlotJuggler,Tool,2026-01-31,2026-01-31,active,Time series visualization - ROS 1/2 CSV PX4 - v3.15
 https://github.com/ros2/rviz,RViz 2,Tool,2026-01-31,2026-01-31,active,ROS 2 3D robot visualization - official
 https://github.com/ros2/rosbag2,rosbag2,Tool,2026-01-31,2026-01-31,active,ROS 2 data recording and playback - SQLite3 MCAP
+https://ams-osram.com/products/sensors/position-sensors/ams-as5600-magnetic-rotary-position-sensor,AS5600 Magnetic Encoder,Sensor,2026-01-31,2026-01-31,active,12-bit magnetic encoder $3-5 - AS5600 topic 20+ repos
+https://mjbots.com,mjbots moteus,Motor Controller,2026-01-31,2026-01-31,active,High-performance BLDC controller - r4.11 900W c1 250W n1 2kW - Apache 2.0
+https://github.com/mjbots/moteus,mjbots moteus GitHub,Open Source,2026-01-31,2026-01-31,active,Open source BLDC servo controller - STM32G4 CAN-FD
+https://tinymovr.com,Tinymovr,Motor Controller,2026-01-31,2026-01-31,active,Gimbal motor servo controller - M5.2 R5.3 - Embodied AI focus
+https://open-dynamic-robot-initiative.github.io,Open Dynamic Robot Initiative,Open Source Project,2026-01-31,2026-01-31,active,Max Planck + NYU open robot hardware - Solo8/12 Bolt TriFinger - 1.3K stars
+https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware,ODRI Hardware GitHub,Open Source,2026-01-31,2026-01-31,active,Quadruped Biped actuator designs - µDriver Master Board - BSD-3
+https://github.com/sparkfun/SparkFun_TB6612FNG_Arduino_Library,TB6612FNG Arduino Library,Library,2026-01-31,2026-01-31,active,Dual DC motor driver IC - SparkFun maintained
+https://docs.simplefoc.com,SimpleFOC Documentation,Docs,2026-01-31,2026-01-31,active,FOC motor control library docs - Arduino STM32 ESP32 Teensy
+https://github.com/simplefoc/Arduino-FOC,SimpleFOC GitHub,Framework,2026-01-31,2026-01-31,active,Cross-platform BLDC/Stepper FOC - JOSS 2022 paper - v2.3.5
+https://www.gelsight.com,GelSight,Sensor Company,2026-01-31,2026-01-31,active,Vision-based tactile sensing - Mini $295+ - Research grade
+https://github.com/vocdex/awesome-tactile-sensing,awesome-tactile-sensing,Curated List,2026-01-31,2026-01-31,active,Tactile sensing papers and repos - GelSight DIGIT TacTip

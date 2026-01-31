@@ -792,4 +792,24 @@
 
 ---
 
-*條目數：38 / 目標：10 ✅*
+### SimpleFOC Library
+
+- **Name**：SimpleFOClibrary
+- **Type**：Framework / Library
+- **Primary language**：English
+- **一句話定位**：跨平台的開源 Field Oriented Control (FOC) 庫，讓 Arduino 也能做專業的 BLDC/Stepper 馬達控制
+- **強項（≤3）**：
+  - 跨平台支援：Arduino UNO/MEGA/DUE、STM32、ESP32、Teensy、RP2040/RP2350
+  - 感測器靈活：支援編碼器、Hall、磁性（AS5600/AS5047）、無感測器模式
+  - 完整生態系：SimpleFOCStudio GUI 調參、社群驅動板（Shield/Mini）、JOSS 論文發表
+- **弱項/缺口（≤3，可觀察）**：
+  - 專注低功率應用（gimbal 馬達），高功率需其他方案
+  - 學習曲線：需理解 FOC 原理才能調參
+  - 官方驅動板限 3A 電流，大馬達需第三方硬體
+- **活躍度訊號**：v2.3.5 於 2026 年發布，GitHub 活躍（持續 CI），JOSS 2022 論文被引用，Discord 社群 2000+ 成員
+- **與我們的關聯（一句話）**：DIY 機器人進階馬達控制的黃金標準，從 hobby 到研究的最佳入門
+- **Link(s)**：https://docs.simplefoc.com | https://github.com/simplefoc/Arduino-FOC | https://community.simplefoc.com
+
+---
+
+*條目數：39 / 目標：10 ✅*

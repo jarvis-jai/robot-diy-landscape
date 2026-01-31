@@ -10,8 +10,8 @@
 |------|------|------|------|
 | communities.md | ≥15 | 25 | ✅ |
 | platforms.md | ≥15 | 24 | ✅ |
-| toolchains.md | ≥10 | 38 | ✅ |
-| hardware.md | ≥15 | 19 | ✅ |
+| toolchains.md | ≥10 | 39 | ✅ |
+| hardware.md | ≥15 | 26 | ✅ |
 | kits.md | ≥10 | 18 | ✅ |
 | learning.md | ≥15 | 29 | ✅ |
 | commerce.md | ≥10 | 24 | ✅ |
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 42 輪 toolchains — 新增 8 個 ROS 2 核心工具：BehaviorTree.CPP slam_toolbox Foxglove robot_localization ros2_control PlotJuggler RViz2 rosbag2）*
+*最後更新：2026-01-31 （第 43 輪 hardware_motor_control — 新增 8 個馬達控制硬體/軟體：SimpleFOC Library, AS5600 磁性編碼器, mjbots moteus, Tinymovr, ODRI, TB6612FNG, SimpleFOC Shield/Mini, GelSight Mini）*
