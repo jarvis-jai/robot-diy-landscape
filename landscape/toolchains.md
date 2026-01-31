@@ -314,15 +314,17 @@
 - **一句話定位**：Hugging Face 的開源機器人學習框架，提供模型、數據集和工具，降低機器人學習門檻
 - **強項（≤3）**：
   - 統一的 LeRobotDataset 格式（Parquet + MP4），與 HuggingFace Hub 整合
-  - 支援多種硬體（SO-100、Koch、OMX、Unitree G1 等）
-  - 實現最先進策略（ACT、Diffusion、VQ-BeT、VLA 模型）
+  - 支援多種硬體（SO-100/101、Koch、OMX、Unitree G1、Earth Rover 等）
+  - 實現最先進策略（ACT、Diffusion、VQ-BeT、VLA、X-VLA 等）
 - **弱項/缺口（≤3，可觀察）**：
   - 需要一定的 Python 和深度學習基礎
   - 硬體整合仍在快速迭代中
   - 中文教程為社群貢獻，非官方維護
-- **活躍度訊號**：GitHub 活躍開發，Discord 社群活躍，有同濟子豪兄的中文教程
+- **活躍度訊號**：v0.4.3 於 2026-01-22 發布，GitHub 活躍開發，Discord 社群活躍，有同濟子豪兄的中文教程
 - **與我們的關聯（一句話）**：機器人模仿學習和強化學習的民主化工具，降低 AI 機器人門檻
 - **Link(s)**：https://github.com/huggingface/lerobot | https://huggingface.co/docs/lerobot/
+
+> **補強 2026-01-31**：v0.4.3 新增 Unitree G1 人形機器人支援、X-VLA（Vision-Language-Action）策略、Earth Rover Mini Plus 整合、OMX 機器人支援、MuJoCo 環境整合。新增第三方策略插件機制（pip install lerobot_policy_xxx），支援可變圖像尺寸的 Pi0/Pi0.5 模型。生態系統持續擴張中。
 
 ---
 

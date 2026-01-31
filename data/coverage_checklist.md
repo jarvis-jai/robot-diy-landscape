@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 19 輪 gaps 深化 — +6 landscape entries, toolchains 13→17, hardware 17→19）*
+*最後更新：2026-01-31 （第 20 輪補強既有條目 — Jetson Thor / LeRobot v0.4.3 / SPIKE EOL 細節）*

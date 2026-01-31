@@ -73,14 +73,16 @@
 - **強項（≤3）**：
   - 符合教育標準的完整課程（5 個單元，涵蓋數據、設計、編程）
   - 支援從積木式編程到 Python 的無縫過渡
-  - FIRST LEGO League 官方競賽兼容平台
+  - FIRST LEGO League 官方競賽兼容平台（至 2027-2028 賽季）
 - **弱項/缺口（≤3，可觀察）**：
   - 價格較高（$429.95），針對機構而非個人
-  - 將於 2026 年 6 月 30 日停產
+  - 將於 2026 年 6 月 30 日停產銷售
   - 生態系相對封閉，擴展性不如開放硬體平台
-- **活躍度訊號**：全球數萬所學校採用，LEGO Education 核心產品線
-- **與我們的關聯（一句話）**：教育市場的領導者，但停產計劃顯示需關注後繼產品動態
+- **活躍度訊號**：全球數萬所學校採用；停產後 App 支援至 2031 年 6 月 30 日
+- **與我們的關聯（一句話）**：教育市場的領導者，需關注後繼產品動態
 - **Link(s)**：https://education.lego.com/en-us/products/lego-education-spike-prime-set/45678/
+
+> **補強 2026-01-31**：LEGO Education 宣布整個 SPIKE 產品線（包含 Essential 和 Prime）將於 2026-06-30 停止銷售。SPIKE App 將持續支援至 2031-06-30（維護 5 年）。FIRST LEGO League 將支援 SPIKE 至 2027-2028 賽季，之後需使用新產品「LEGO Education Computer Science & AI」。後繼產品線：(1) LEGO Education Computer Science & AI（程式設計/AI）、(2) LEGO Education Science（科學教育）。現有用戶可繼續使用，但新採購需評估後繼方案。
 
 ---
 

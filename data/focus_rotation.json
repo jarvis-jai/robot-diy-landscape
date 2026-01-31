@@ -1,8 +1,8 @@
 {
-  "last_focus": "gaps_deepening",
+  "last_focus": "補強既有條目",
   "next_focus_candidates": [
-    "補強既有條目",
-    "Wedge 驗證準備"
+    "Wedge 驗證準備",
+    "新類別探索"
   ],
   "focus_history": [
     {
@@ -126,6 +126,13 @@
       "gaps_updated": 4,
       "result": "ALLOW",
       "note": "Added 6 new landscape entries (Nav2, LeRobot, Isaac Lab, Newton Physics, Thor, SO-ARM100). Updated gaps #3, #5, #6, #9 with new evidence/counterevidence. Gap #6 信心度 中→低, Gap #9 信心度 中→低."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "補強既有條目",
+      "entries_updated": 3,
+      "result": "ALLOW",
+      "note": "Reinforced 3 entries: (1) NVIDIA Jetson - added Jetson Thor Series (Blackwell arch, 2070 TFLOPS); (2) LeRobot - updated to v0.4.3, added Unitree G1, X-VLA, Earth Rover Mini Plus; (3) LEGO SPIKE Prime - updated EOL details, successor products info. Round 20 = meta_status update."
     }
   ]
 }

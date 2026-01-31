@@ -92,15 +92,17 @@
 - **一句話定位**：NVIDIA 的 AI 邊緣計算平台，專為機器人、無人機、智慧相機設計
 - **強項（≤3）**：
   - 強大的 AI/ML 推論能力（支援 CUDA、TensorRT）
-  - 完整的軟體生態（JetPack SDK、Isaac ROS）
-  - 產品線豐富（Orin Nano ~$249 到 AGX 系列）
+  - 完整的軟體生態（JetPack SDK、Isaac ROS、VPI 視覺處理介面）
+  - 產品線豐富（Orin Nano ~$249 到 AGX 系列，新增 Thor 系列）
 - **弱項/缺口（≤3，可觀察）**：
   - 功耗較 MCU 高（Orin Nano ~7-15W）
   - 學習曲線較陡（需熟悉 Linux、CUDA）
   - 入門價格較高
-- **活躍度訊號**：2024-12 發布 Orin Nano Super（70% 性能提升），文檔持續更新
+- **活躍度訊號**：2024-12 發布 Orin Nano Super（70% 性能提升），2025 年發布 Jetson Thor 系列（Blackwell 架構，最高 2070 TFLOPS）
 - **與我們的關聯（一句話）**：AI 驅動機器人專案的首選運算平台
 - **Link(s)**：https://developer.nvidia.com/embedded | https://www.jetson-ai-lab.com
+
+> **補強 2026-01-31**：新增 Jetson Thor 系列資訊。Thor 系列採用 NVIDIA Blackwell 架構 GPU，內建專用加速器（PVA 可編程視覺加速器、OFA 光流加速器、VIC 視頻影像合成器），針對機器人視覺感知優化。Thor T5000 可支援 8 個立體相機 30FPS 運行，比 Orin AGX 64GB 快約 10 倍，適合多感測器融合的進階機器人應用。
 
 ---
 
