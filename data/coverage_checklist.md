@@ -36,11 +36,11 @@
 
 ## Gaps 與 Wedges
 
-- [x] gaps_hypotheses.md：至少 10 條假說 → **目前 7 條（70%）**
+- [x] gaps_hypotheses.md：至少 10 條假說 → **✅ 目前 10 條（100%）**
 - [x] 每條假說 ≥2 個佐證來源 → **✅ 全部達標（每條 3-4 個佐證）**
 - [ ] opportunity_wedges.md：至少 3 個 wedge 提案
 
-目前：假說 7 條 / wedge 0 個
+目前：假說 10 條 ✅ / wedge 0 個
 
 ---
 
@@ -68,4 +68,4 @@
 
 ---
 
-*最後更新：2026-01-31 23:30 (第16輪 creators - +4 創作者，creators 達標；+2 gap hypotheses)*
+*最後更新：2026-01-31 23:35 (第17輪 gaps - +3 gap hypotheses，gaps 達標 10/10)*

@@ -1,7 +1,6 @@
 {
-  "last_focus": "creators",
+  "last_focus": "gaps",
   "next_focus_candidates": [
-    "gaps",
     "wedges"
   ],
   "focus_history": [
@@ -104,6 +103,13 @@
       "gaps_added": 2,
       "result": "ALLOW",
       "note": "Added 4 creators (MateoTechLab FABRI Build Some Stuff LeeCuriosity) + 2 gap hypotheses - creators now at 12/10 達標"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "gaps",
+      "gaps_added": 3,
+      "result": "ALLOW",
+      "note": "Added 3 gap hypotheses (#8 cost barriers, #9 sim-to-real, #10 community fragmentation) - gaps now at 10/10 達標"
     }
   ]
 }

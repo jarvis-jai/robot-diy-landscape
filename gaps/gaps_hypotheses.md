@@ -119,18 +119,65 @@
 
 ---
 
-## 綜合觀察
+### Gap Hypothesis #8：專業硬體成本門檻對發展中市場形成進入障礙
 
-從以上七條假說可以看出幾個共同主題：
-
-1. **語言障礙**：#1、#4、#7 都指向非英語資源的缺乏，語言/地區不平衡是系統性問題
-2. **複雜度階梯斷裂**：#2 指出入門與進階之間的「中間地帶空白」
-3. **整合教程稀缺**：#3 和 #5 都是關於「將多個技術整合到完整系統」的教程缺乏
-4. **開源可持續性**：#6 揭示開源專案的長期維護挑戰
-
-這些觀察可能指向潛在的市場切入點（見 opportunity_wedges.md）。
+- **推論**：機器人 DIY 的進階硬體（高性能馬達控制器、AI 運算平台、精密感測器）價格集中在 $200-$500 區間，對北美/西歐以外的愛好者形成顯著經濟門檻，加上國際運費、關稅和供應鏈問題，實際取得成本更高。
+- **目標使用者**：亞洲（除日韓新）、拉丁美洲、東歐、中東等地的 DIY 機器人愛好者
+- **佐證 1**：[ODrive Robotics](../landscape/hardware.md#odrive-robotics) - 高性能 BLDC 馬達控制器「價格較高（ODrive Pro ~$199, S1 ~$99）」、「無中文文檔」
+- **佐證 2**：[NVIDIA Jetson](../landscape/hardware.md#nvidia-jetson) - AI 平台「入門價格較高」，Orin Nano ~$249 起
+- **佐證 3**：[DYNAMIXEL](../landscape/hardware.md#dynamixel-robotis) - 智能舵機「價格較高（MX-28 ~$300+）」
+- **佐證 4**：[Seeed Studio](../landscape/commerce.md#seeed-studio-矽遞科技) - 中國製造商提供替代方案，但「中國倉庫農曆新年期間延遲」、「部分高端模組價格不低」
+- **反證/風險**：ESP32（$5-15）、Raspberry Pi Pico（$4）等入門硬體價格極低；Waveshare、DFRobot 提供高性價比替代品；淘寶/速賣通降低了中國以外的取得成本
+- **信心度**：中
+- **相關 landscape 條目**：hardware.md#odrive-robotics, hardware.md#nvidia-jetson, hardware.md#dynamixel, commerce.md#seeed-studio, commerce.md#thinkrobotics
 
 ---
 
-*假說數：7 / 目標：10*
-*最後更新：2026-01-31（第 16 輪 creators + gaps）*
+### Gap Hypothesis #9：模擬環境到實機部署的系統化過渡教程缺乏
+
+- **推論**：機器人模擬器（Gazebo、Webots、Isaac Sim）已經成熟，許多學習者可以在模擬中完成專案，但從模擬到實機部署的完整過渡教程嚴重不足——感測器校準、機械公差處理、電源管理、通訊延遲等「現實世界問題」幾乎沒有系統化指南。
+- **目標使用者**：已在模擬器中完成專案、想要在實體機器人上部署的 DIY 愛好者
+- **佐證 1**：[Gazebo](../landscape/toolchains.md#gazebo) - 成熟的模擬平台「Jetty LTS 2025-2030」，但未提及 sim-to-real 教程
+- **佐證 2**：[SLAMTEC RPLIDAR](../landscape/hardware.md#slamtec-rplidar) - 有「完整 SDK 支援 ROS/ROS2」，但實際整合教程分散於不同來源
+- **佐證 3**：[Intel RealSense D400](../landscape/hardware.md#intel-realsense-d400-series) - 主流深度相機，但「LiDAR 和 Tracking 產品線已於 2024 年 5 月停產」——生態系變動增加整合難度
+- **佐證 4**：[Hiwonder IM10A IMU](../landscape/hardware.md#hiwonder-im10a-imu-module) - 有 ROS 支援但「文檔主要透過 Google Drive 分享，不夠系統化」
+- **反證/風險**：NVIDIA Isaac Sim 有 Domain Randomization 功能縮小 sim-to-real gap；Automatic Addison 和 Articulated Robotics 有部分實機整合教程
+- **信心度**：中
+- **相關 landscape 條目**：toolchains.md#gazebo, toolchains.md#nvidia-isaac-sim, hardware.md#slamtec-rplidar, hardware.md#intel-realsense-d400, hardware.md#hiwonder-im10a
+
+---
+
+### Gap Hypothesis #10：社群碎片化導致新手導航困難與知識孤島
+
+- **推論**：機器人 DIY 社群高度碎片化——不同平台（Reddit、Discord、Discourse、專門論壇）、不同規則（r/robotics 禁止初學者問題）、不同語言圈——導致新手不知從何開始，有價值的討論和解答分散在無法互通的知識孤島中。
+- **目標使用者**：剛進入機器人 DIY 領域、不知道去哪尋求幫助和學習的新手
+- **佐證 1**：[r/robotics](../landscape/communities.md#rrobotics) - Reddit 最大機器人社群（315K 成員），但「禁止初學者問題，需轉至 r/AskRobotics」
+- **佐證 2**：[r/AskRobotics](../landscape/communities.md#raskrobotics) - 專門的問答社群，但「成員數較少（10K），回覆速度可能較慢」
+- **佐證 3**：[Arduino.Taipei](../landscape/chinese_ecosystem.md#arduinotaipei) - 台灣最大 Arduino 社群，但「Facebook 平台限制，歷史帖文不易搜尋」、「無獨立論壇或網站」
+- **佐證 4**：[Chief Delphi](../landscape/communities.md#chief-delphi) - FRC 社群核心論壇，但「專注 FIRST 賽事，對純 DIY 愛好者可能過於競賽導向」
+- **反證/風險**：Reddit Wiki 和 Awesome Lists 嘗試整合資源；r/arduino 明確標榜新手友善；Open Robotics Discord 提供統一的即時交流管道
+- **信心度**：高
+- **相關 landscape 條目**：communities.md#rrobotics, communities.md#raskrobotics, communities.md#chief-delphi, chinese_ecosystem.md#arduinotaipei, communities.md#hackaday
+
+---
+
+## 綜合觀察
+
+從以上十條假說可以看出幾個共同主題：
+
+1. **語言障礙**：#1、#4、#7 都指向非英語資源的缺乏，語言/地區不平衡是系統性問題
+2. **複雜度階梯斷裂**：#2 指出入門與進階之間的「中間地帶空白」
+3. **整合教程稀缺**：#3、#5、#9 都是關於「將多個技術整合到完整系統」的教程缺乏，尤其是 sim-to-real 過渡
+4. **開源可持續性**：#6 揭示開源專案的長期維護挑戰
+5. **可及性障礙**：#8 揭示經濟門檻，#10 揭示社群導航困難——都是「進入障礙」
+
+這些觀察指向幾個潛在的市場切入點（見 opportunity_wedges.md）：
+- **中文圈進階教程**：填補 #1、#4 的語言缺口
+- **階梯式學習產品**：解決 #2 的過渡鴻溝
+- **整合型教程服務**：解決 #3、#5、#9 的碎片化問題
+- **新手導航入口**：解決 #10 的社群碎片化
+
+---
+
+*假說數：10 / 目標：10 ✅*
+*最後更新：2026-01-31（第 17 輪 gaps）*
