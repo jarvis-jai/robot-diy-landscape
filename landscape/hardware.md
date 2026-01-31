@@ -550,4 +550,166 @@
 
 ---
 
-*條目數：26 / 目標：15 ✅*
+---
+
+### Mini Pupper
+
+- **Name**：Mini Pupper
+- **Type**：Open Source Kit / Platform
+- **Primary language**：English / Chinese / Japanese
+- **一句話定位**：Stanford Pupper 啟發的低成本開源四足機器人套件，專為 ROS 和 AI 教育設計
+- **強項（≤3）**：
+  - 完整的教育生態：ROS1/ROS2、SLAM 導航、強化學習、生成式 AI（ChatGPT/Claude/Gemini）
+  - 價格合理（Mini Pupper 2 約 $500-600），支援 Raspberry Pi 5
+  - 活躍社群：Discord、Facebook 群組，多語言文檔（英/中/日）
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 Raspberry Pi（增加總成本）
+  - 入門學習曲線（需理解 Linux、Python）
+  - 主要面向教育市場，非工業級
+- **活躍度訊號**：ROSCon 2022 工作坊，Hackaday Prize 獲獎，持續發布新版本（AI kit 2026）
+- **與我們的關聯（一句話）**：ROS2 教育和四足機器人入門的最佳開源套件之一
+- **Link(s)**：https://mangdang.store | https://minipupperdocs.readthedocs.io | https://github.com/mangdangroboticsclub
+
+---
+
+### Stanford Pupper / Pupper v3
+
+- **Name**：Stanford Pupper
+- **Type**：Open Source Project / Kit
+- **Primary language**：English
+- **一句話定位**：Stanford 機器人俱樂部開發的開源四足機器人，是多個衍生專案的原型
+- **強項（≤3）**：
+  - Pupper v3 正在開發：400W GIM4305 無刷馬達、RL 運動策略、Luxonis 深度相機
+  - 詳細文檔和組裝指南（pupper.readthedocs.io）
+  - 約 $1000 BOM，研究級性能
+- **弱項/缺口（≤3，可觀察）**：
+  - v1 已停止維護（EOL 公告），需等待 v3 正式發布
+  - 需要自行採購和組裝零件
+  - 較高的入門門檻（ROS、RL 知識）
+- **活躍度訊號**：v3 開發中，Google Groups 社群活躍，2024 年發布 EOL 公告
+- **與我們的關聯（一句話）**：開源四足機器人生態系統的重要起點，Mini Pupper 等專案的靈感來源
+- **Link(s)**：https://github.com/stanfordroboticsclub/StanfordQuadruped | https://stanfordstudentrobotics.org/pupper
+
+---
+
+### OpenArm
+
+- **Name**：OpenArm
+- **Type**：Open Source Hardware / Research Platform
+- **Primary language**：English
+- **一句話定位**：完全開源的 7DOF 人形手臂，專為物理 AI 研究和接觸豐富環境部署設計
+- **強項（≤3）**：
+  - 高度可逆驅動和順應性，適合安全人機互動
+  - 完整開源生態：硬體（CERN-OHL-S-2.0）、ROS2、Isaac Lab 模擬、遙操作
+  - 價格合理：完整雙臂系統 $6,500，有全球認證製造商
+- **弱項/缺口（≤3，可觀察）**：
+  - 較新的專案，社群仍在成長中
+  - 需要一定的機械和軟體整合能力
+  - 主要面向研究市場，非商業生產線
+- **活躍度訊號**：2025/2026 年活躍開發，Discord 社群活躍，多個 GitHub repos 持續更新
+- **與我們的關聯（一句話）**：想要進行機器人學習和遙操作研究的開源人形手臂首選
+- **Link(s)**：https://openarm.dev | https://docs.openarm.dev | https://github.com/enactic/openarm
+
+---
+
+### MEVIUS
+
+- **Name**：MEVIUS
+- **Type**：Open Source Project / Research Platform
+- **Primary language**：English / Japanese
+- **一句話定位**：通過電商採購鈑金焊接和加工零件構建的四足機器人，arXiv 論文支持
+- **強項（≤3）**：
+  - 獨特的製造方法：使用電商服務（鈑金焊接、CNC）而非完全 3D 列印
+  - 使用 CubeMars AK70-10 馬達（70Nm），研究級性能
+  - 完整文檔：Google Drive 設計文件、ROS 支援、強化學習訓練
+- **弱項/缺口（≤3，可觀察）**：
+  - 較高成本（CubeMars 馬達約 $150-200/個）
+  - 需要理解 CAN 協議和馬達控制
+  - 主要為研究專案，組裝需要專業知識
+- **活躍度訊號**：IEEE Humanoid Robots 2024 論文，GitHub 活躍維護，YouTube 演示影片
+- **與我們的關聯（一句話）**：展示如何利用現代製造服務構建研究級四足機器人
+- **Link(s)**：https://github.com/haraduka/mevius | https://arxiv.org/abs/2409.14721 | https://haraduka.github.io/mevius-hardware
+
+---
+
+### Asimov v0
+
+- **Name**：Asimov v0
+- **Type**：Open Source Hardware / Bipedal Legs
+- **Primary language**：English
+- **一句話定位**：開源雙足機器人腿設計，使用現成組件，兼容低批量製造
+- **強項（≤3）**：
+  - 12 DOF 致動（每腿 6 DOF），關節式腳趾，RSU 踝關節機構
+  - 兼容 MJF 3D 列印，使用 Encos 馬達（120Nm 峰值扭矩）
+  - 完整規格文檔，適合研究和開發
+- **弱項/缺口（≤3，可觀察）**：
+  - 較新的專案（v0），仍在開發中
+  - 需要專業馬達（Encos），成本較高
+  - 目前只有腿部設計，非完整人形機器人
+- **活躍度訊號**：2026 年 1 月活躍更新，Discord 社群，支持開發中
+- **與我們的關聯（一句話）**：想要構建人形機器人下半身的開源參考設計
+- **Link(s)**：https://asimov.inc | https://github.com/asimovinc/asimov-v0 | https://discord.gg/HzDfGN7kUw
+
+---
+
+### SpotMicro
+
+- **Name**：SpotMicro
+- **Type**：Open Source Project / Community Build
+- **Primary language**：English / Korean
+- **一句話定位**：開源 3D 列印四足機器人，靈感來自 Boston Dynamics Spot，活躍社群維護
+- **強項（≤3）**：
+  - 低成本入門（約 $200-400 硬體），使用標準伺服馬達（MG996R/PDI-HV5523MG）
+  - 活躍社群：Slack、GitLab、Thingiverse 群組，多版本設計
+  - 支援 ROS Kinetic/Melodic、PyBullet 模擬、SLAM 導航、強化學習
+- **弱項/缺口（≤3，可觀察）**：
+  - 原作者 KDY0523 服兵役期間暫停開發
+  - ROS Kinetic 已過時，需遷移至 ROS 2
+  - 伺服馬達扭矩有限，步態穩定性受限
+- **活躍度訊號**：社群持續維護（mike4192 版本），GitLab 和 ReadTheDocs 活躍
+- **與我們的關聯（一句話）**：最低成本入門四足機器人的社群開源選擇
+- **Link(s)**：https://spotmicroai.readthedocs.io | https://github.com/mike4192/spotMicro | https://gitlab.com/custom_robots/spotmicroai
+
+---
+
+### Humanoid-Gym
+
+- **Name**：Humanoid-Gym
+- **Type**：Framework / Simulation Platform
+- **Primary language**：English / Chinese
+- **一句話定位**：基於 NVIDIA Isaac Gym 的人形機器人強化學習框架，強調零樣本 Sim2Real 遷移
+- **強項（≤3）**：
+  - 經過實機驗證：RobotEra XBot-S (1.2m) 和 XBot-L (1.65m) 零樣本遷移成功
+  - 內建 Sim2Sim 支援（Isaac Gym → MuJoCo），驗證政策穩健性
+  - RSS 2024 最佳論文候選：Denoising World Model Learning
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 NVIDIA GPU 和 Isaac Gym 許可證
+  - 學習曲線陡峭（RL、物理模擬、ROS 整合）
+  - 主要面向研究人員，非入門級
+- **活躍度訊號**：2024-2026 持續更新，arXiv 論文，Twitter 活躍發布進度
+- **與我們的關聯（一句話）**：想要訓練人形機器人運動策略的開源強化學習框架
+- **Link(s)**：https://github.com/roboterax/humanoid-gym | https://sites.google.com/view/humanoid-gym | https://arxiv.org/abs/2404.05695
+
+---
+
+### Awesome Quadrupedal Robots
+
+- **Name**：Awesome Quadrupedal Robots
+- **Type**：Curated List / Resource
+- **Primary language**：English
+- **一句話定位**：四足機器人領域的綜合資源列表，涵蓋平台、論文、課程、開源專案
+- **強項（≤3）**：
+  - 全面覆蓋：商業平台（ANYmal、Spot、Unitree）和開源平台（Solo、Pupper、SpotMicro）
+  - 按年份分類的論文列表（2023-2025），超過 100 篇
+  - 包含模擬環境、控制算法、教程連結
+- **弱項/缺口（≤3，可觀察）**：
+  - 主要聚焦四足，不涵蓋雙足或手臂
+  - 論文列表需持續更新
+  - 無詳細評價或比較分析
+- **活躍度訊號**：2026 年 1 月更新，GitHub 活躍，Discussion 功能開放
+- **與我們的關聯（一句話）**：四足機器人研究和開發的一站式資源入口
+- **Link(s)**：https://github.com/curieuxjy/Awesome_Quadrupedal_Robots
+
+---
+
+*條目數：34 / 目標：15 ✅*

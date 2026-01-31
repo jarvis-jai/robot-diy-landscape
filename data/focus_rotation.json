@@ -1,11 +1,11 @@
 {
-  "last_focus": "learning_creators_2025",
+  "last_focus": "hardware_quadruped_humanoid",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
     "gaps 深化 (補充更多佐證)",
     "toolchains (補強)",
-    "hardware (補強)"
+    "chinese_ecosystem (補強)"
   ],
   "focus_history": [
     {
@@ -322,6 +322,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 46: Added 5 learning (NVIDIA Robotics Learning Path, HuggingFace LeRobot Tutorial, roboticsjobs.co.uk guide, Embodied AI Workshop, NVIDIA Omniverse Sim-to-Real) + 3 creators (Kevin Wood 52.8K, Nikodem Bartnik Isaac Sim, The Construct Jazzy 2025). Learning now at 34/15, Creators at 31/10. Meta status update (every 5 rounds). Addresses Gap #9 (sim-to-real)."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "hardware_quadruped_humanoid",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 47: Added 8 open-source quadruped/humanoid hardware entries: Mini Pupper (MangDang, ROS2), Stanford Pupper v3 ($1000 BOM), OpenArm (7DOF $6500 bimanual), MEVIUS (sheet metal quadruped), Asimov v0 (12DOF bipedal), SpotMicro (community $200-400), Humanoid-Gym (Isaac Gym RL), Awesome Quadrupedal Robots (curated list). Hardware now at 34/15."
     }
   ]
 }
