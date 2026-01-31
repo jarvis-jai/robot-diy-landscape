@@ -92,17 +92,45 @@
 
 ---
 
+### Gap Hypothesis #6：開源機器人手臂專案的長期可維護性挑戰
+
+- **推論**：開源機器人手臂專案（尤其是 3D 列印設計）面臨嚴重的長期可維護性問題——個人維護者的專案經常停滯更新，商業支援缺乏，新進者難以判斷哪些專案仍然可用且有社群支持。
+- **目標使用者**：想要 DIY 機器人手臂的愛好者，需要選擇可靠的開源專案
+- **佐證 1**：[BCN3D Moveo](../landscape/hardware.md#bcn3d-moveo) - 經典開源機器人手臂，但「2016 年發布後無重大更新」、「GitHub 最後更新 2018 年」、「無商業支援，需自行維護」
+- **佐證 2**：[ARCTOS Robotics](../landscape/hardware.md#arctos-robotics) - 現代替代方案但「需要 200×200mm 以上的 3D 列印機」、「精度受限於 3D 列印結構」，且需要購買套件（$231+）才有商業支援
+- **佐證 3**：[Chris Annin - AR4](../landscape/creators.md#chris-annin-anninrobotics) - 高品質開源專案但依賴個人維護者，「頻道訂閱數相對較少（37.3K）」，社群支持有限
+- **反證/風險**：ARCTOS 和 AR4 都有活躍的 Discord 社群和持續更新；商業套件模式正在填補支援缺口
+- **信心度**：中
+- **相關 landscape 條目**：hardware.md#bcn3d-moveo, hardware.md#arctos-robotics, creators.md#chris-annin
+
+---
+
+### Gap Hypothesis #7：創作者生態的語言/地區嚴重不平衡
+
+- **推論**：機器人 DIY 創作者生態高度集中於英語圈（尤其美國/英國），其他語言圈（西班牙語、中文、日語等）的高品質創作者難以被國際社群發現，導致知識傳播的地理屏障和學習者的語言限制。
+- **目標使用者**：非英語母語的 DIY 愛好者，尤其是偏好母語學習的初學者
+- **佐證 1**：[creators.md 條目分析](../landscape/creators.md) - 新增前 8 個條目中，7 個為英語創作者，僅稚暉君代表中文圈
+- **佐證 2**：[太極創客](../landscape/chinese_ecosystem.md#太極創客) - 中文圈最完整的入門平台，但「偏向入門級別，缺乏進階機器人項目」，且「無英文介面」——反映語言隔閡雙向存在
+- **佐證 3**：[FABRI creator](../landscape/creators.md#fabri-creator)（本輪新增）- 西班牙語創作者擁有 3.18 萬訂閱和 59 萬觀看的熱門影片，但在英語主導的搜尋結果中難以被發現
+- **佐證 4**：[Arduino.Taipei](../landscape/chinese_ecosystem.md#arduinotaipei) - 台灣最大 Arduino 社群（4.7 萬成員），但「Facebook 平台限制，歷史帖文不易搜尋」——平台選擇也影響可發現性
+- **反證/風險**：YouTube 自動翻譯字幕、AI 翻譯工具正在降低語言障礙；部分創作者開始製作雙語內容
+- **信心度**：高
+- **相關 landscape 條目**：creators.md（整體）, chinese_ecosystem.md#太極創客, chinese_ecosystem.md#arduinotaipei, creators.md#fabri-creator
+
+---
+
 ## 綜合觀察
 
-從以上五條假說可以看出幾個共同主題：
+從以上七條假說可以看出幾個共同主題：
 
-1. **語言障礙**：#1 和 #4 都指向非英語資源的缺乏，中文圈（尤其繁體中文）的進階資源嚴重不足
+1. **語言障礙**：#1、#4、#7 都指向非英語資源的缺乏，語言/地區不平衡是系統性問題
 2. **複雜度階梯斷裂**：#2 指出入門與進階之間的「中間地帶空白」
 3. **整合教程稀缺**：#3 和 #5 都是關於「將多個技術整合到完整系統」的教程缺乏
+4. **開源可持續性**：#6 揭示開源專案的長期維護挑戰
 
 這些觀察可能指向潛在的市場切入點（見 opportunity_wedges.md）。
 
 ---
 
-*假說數：5 / 目標：10*
-*最後更新：2026-01-31（第 14 輪 gaps）*
+*假說數：7 / 目標：10*
+*最後更新：2026-01-31（第 16 輪 creators + gaps）*

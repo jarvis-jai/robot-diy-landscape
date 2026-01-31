@@ -1,8 +1,8 @@
 {
-  "last_focus": "commerce",
+  "last_focus": "creators",
   "next_focus_candidates": [
-    "creators",
-    "gaps"
+    "gaps",
+    "wedges"
   ],
   "focus_history": [
     {
@@ -96,6 +96,14 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Added 8 international retailers - PiShop UCTRONICS CanaKit Pimoroni ThePiHut CoreElectronics Botland GoTronic"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "creators",
+      "entries_added": 4,
+      "gaps_added": 2,
+      "result": "ALLOW",
+      "note": "Added 4 creators (MateoTechLab FABRI Build Some Stuff LeeCuriosity) + 2 gap hypotheses - creators now at 12/10 達標"
     }
   ]
 }

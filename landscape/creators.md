@@ -184,4 +184,84 @@
 
 ---
 
-*條目數：8 / 目標：10*
+### MateoTechLab
+
+- **Name**：Mateo Jarquin (MateoTechLab)
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：學生工程師創作者，專注開源機器人專案、3D 列印和 AI 整合
+- **強項（≤3）**：
+  1. 完整開源專案（GitHub + 3D 模型 + Arduino/Python 程式碼）
+  2. 高品質製作影片（JARVIS holographic display、robotic hand、desk robot）
+  3. 活躍社群（Discord Lab Chat、ARK-STEM 應用程式）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 頻道規模較小（22K 訂閱）
+  2. 影片數量有限（27 部）
+  3. 專案成本較高（需要 3D 列印機和電子零件）
+- **活躍度訊號**：2.21 萬訂閱者、27 部影片、最近更新 1 個月內、觀看次數達 19 萬
+- **與我們的關聯（一句話）**：年輕創作者的開源機器人專案範本，適合進階愛好者
+- **Link(s)**：https://www.youtube.com/@MateoTechLab / https://discord.gg/AzzMkVH5Rm
+
+---
+
+### FABRI creator
+
+- **Name**：Fabrizio (FABRI creator)
+- **Type**：YouTube + Website
+- **Primary language**：Spanish / English
+- **一句話定位**：西班牙語創作者，專注 Arduino 機器人手臂和 3D 列印專案，提供完整配套網站
+- **強項（≤3）**：
+  1. 高品質機器人手臂教學（儲存/播放/匯出/匯入位置功能）
+  2. 配套網站（fabricreator.com）提供套件、3D 模型和教程
+  3. 雙語內容（西班牙語 + 英文），覆蓋更廣泛受眾
+- **弱項/缺口（≤3，可觀察）**：
+  1. 主要為西班牙語內容，英語影片較少
+  2. 更新頻率中等
+  3. 無互動社群（如 Discord）
+- **活躍度訊號**：3.18 萬訂閱者、119 部影片、熱門影片達 59 萬觀看（Robotic Arm with Arduino）
+- **與我們的關聯（一句話）**：西班牙語圈機器人教學的主要資源，機器人手臂專案的優質參考
+- **Link(s)**：https://www.youtube.com/@FABRIcreator / https://fabricreator.com
+
+---
+
+### Build Some Stuff
+
+- **Name**：Kelton (Build Some Stuff)
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：工程師創客，專注 3D 列印機器人手臂、平衡機器人和創意機械時鐘
+- **強項（≤3）**：
+  1. 完全開源設計（零支撐 3D 列印、Arduino 控制器）
+  2. 詳細的兩部分教學影片（設計 + 組裝）
+  3. 高品質製作（熱門影片達 62 萬觀看）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 影片數量有限（22 部）
+  2. 更新頻率不固定
+  3. 訂閱數較少（20K）相較內容品質
+- **活躍度訊號**：1.99 萬訂閱者、22 部影片、最近更新 3 週前（self-balancing robot）
+- **與我們的關聯（一句話）**：3D 列印機器人專案的高品質教學資源
+- **Link(s)**：https://www.youtube.com/@buildsomestuff / https://www.patreon.com/BuildSomeStuff
+
+---
+
+### Lee Curiosity
+
+- **Name**：Lee (Lee Curiosity)
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：機械工程師創客，專注 3D 列印 RC 車、機器人手臂和電子專案
+- **強項（≤3）**：
+  1. 完整的 3D 設計檔案（Cults3D 販售）
+  2. 實用性強的專案（RC 車、機器人手臂）
+  3. 詳細的零件清單和組裝教學
+- **弱項/缺口（≤3，可觀察）**：
+  1. 訂閱數較少（5K）
+  2. 影片觀看次數波動較大
+  3. 商業模式（付費 3D 模型）可能阻礙部分愛好者
+- **活躍度訊號**：5130 訂閱者、117 部影片、熱門影片達 10 萬觀看（3D Printed RC Car）
+- **與我們的關聯（一句話）**：機械工程師視角的 3D 列印機器人專案
+- **Link(s)**：https://www.youtube.com/@LeeCuriosity / https://cults3d.com/en/users/lee3d999/3d-models
+
+---
+
+*條目數：12 / 目標：10 ✅*
