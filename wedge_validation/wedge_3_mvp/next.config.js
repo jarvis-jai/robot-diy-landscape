@@ -2,15 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   
-  // i18n 配置
-  i18n: {
-    locales: ['en', 'zh-TW'],
-    defaultLocale: 'en',
-    localeDetection: true,
-  },
-  
-  // 輸出靜態站點（適合 Vercel 免費方案）
-  // output: 'export',  // 啟用後可純靜態導出
+  // Note: i18n 移除 - 改用客戶端語言切換（更簡單的靜態部署）
   
   // 圖片優化
   images: {

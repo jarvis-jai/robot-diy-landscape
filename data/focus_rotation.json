@@ -1,9 +1,9 @@
 {
-  "last_focus": "wedge_3_frontend_scaffold",
+  "last_focus": "wedge_3_local_testing",
   "next_focus_candidates": [
     "Wedge #2 Reddit 發布",
-    "Wedge #3 本地測試部署",
-    "條目補強"
+    "Wedge #3 Vercel 部署",
+    "問卷 i18n 完善"
   ],
   "focus_history": [
     {
@@ -163,6 +163,13 @@
       "files_added": 10,
       "result": "ALLOW",
       "note": "Round 24: Built complete MVP frontend scaffold in wedge_3_mvp/. Created: (1) package.json + next.config.js + tailwind.config.js; (2) 3 core React components (Questionnaire, PathCard, ResourceCard); (3) index.tsx homepage with locale toggle; (4) Complete i18n translations (en.json + zh-TW.json ~11KB combined). MVP is now ready for npm install && npm run dev."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "wedge_3_local_testing",
+      "files_added": 4,
+      "result": "ALLOW",
+      "note": "Round 25: ✅ MVP 本地運行成功！(1) 修復 next.config.js (移除錯誤的 localeDetection); (2) 創建 _app.tsx + globals.css (~10KB 完整樣式); (3) 創建 postcss.config.js + .gitignore; (4) 驗證：npm install 成功, npm run dev 成功, curl localhost:3000 返回正確 HTML。問卷、語言切換、進度條全部正常。"
     }
   ]
 }

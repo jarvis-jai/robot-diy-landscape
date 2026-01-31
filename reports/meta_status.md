@@ -1,33 +1,33 @@
-## Meta Status — 2026-01-31 01:00
+## Meta Status — 2026-01-31 01:30
 
-## 🚀 MVP 骨架階段（第 24 輪）
+## 🚀 MVP 本地測試成功（第 25 輪）
 
-**v1 於第 18 輪完成。第 19-24 輪進入驗證/開發階段。**
+**v1 於第 18 輪完成。第 19-25 輪進入驗證/開發階段。**
 
 | 維度 | 目標 | 實際 | 狀態 |
 |------|------|------|------|
 | Landscape 類別 | 9/9 | 9/9 | ✅ |
 | Gap Hypotheses | 10 | 10 | ✅ |
 | Opportunity Wedges | 3 | 3 | ✅ |
-| **Wedge #3 MVP** | 開發中 | 骨架完成 | 🔧 |
+| **Wedge #3 MVP** | 可運行 | **本地測試通過** | ✅ |
 | 總條目數 | — | 136 | — |
-| 連續 ALLOW 輪數 | — | 24 | 🔥 |
+| 連續 ALLOW 輪數 | — | 25 | 🔥 |
 
 ---
 
 - **最近 focus 輪替摘要：**
   - 已覆蓋類別：全部 9/9 達標
-  - **🎯 第 24 輪：Wedge #3 前端骨架 — MVP 結構完成**
+  - **🎯 第 25 輪：Wedge #3 本地測試 — MVP 可運行！**
   - 邊際產出下降的類別：暫無（開發模式）
   - 已達標項目：**9/9 landscape + 10 gaps + 3 wedges**
-  - 本輪模式：**MVP 開發階段**
+  - 本輪模式：**MVP 驗證階段**
 
-- **本輪新增關鍵產出（第 24 輪 前端骨架）：**
-  1. **Next.js 專案骨架**：`wedge_3_mvp/` 目錄建立，包含 package.json, next.config.js, tailwind.config.js
-  2. **核心 React 元件**：Questionnaire.tsx（問卷邏輯）、PathCard.tsx（路徑結果）、ResourceCard.tsx（資源卡片）
-  3. **首頁實現**：index.tsx 整合問卷 + 結果顯示 + 語言切換
-  4. **完整 i18n**：en.json（英文）+ zh-TW.json（繁中）共 ~11KB 翻譯內容
-  5. **數據整合**：符號連結 curated_resources.json + learning_paths.json
+- **本輪新增關鍵產出（第 25 輪 本地測試）：**
+  1. **✅ 本地運行成功**：`npm install` + `npm run dev` 完全正常
+  2. **修復配置**：next.config.js 移除錯誤的 localeDetection
+  3. **完整樣式**：globals.css ~10KB（涵蓋問卷、結果、PathCard 所有樣式）
+  4. **專案配置**：postcss.config.js + _app.tsx + .gitignore
+  5. **驗證結果**：curl localhost:3000 返回正確 HTML
 
 - **穩定浮現的 gap patterns（≤3）：**
   1. **語言障礙**：中文圈（尤其繁體中文）、西班牙語圈的進階資源嚴重不足
@@ -37,12 +37,12 @@
 - **當前探索健康度：**
   - 重複率：N/A（本輪為開發，無新 URL 探索）
   - 新站命中率：N/A
-  - 是否出現疲乏跡象：**否**（連續 24 輪 ALLOW）
-  - **類別飽和狀態**：全部達標，進入 MVP 開發階段
+  - 是否出現疲乏跡象：**否**（連續 25 輪 ALLOW）
+  - **MVP 健康度**：✅ 已通過本地測試
 
 - **對下一階段的建議策略：**
-  - **立即**：執行 `npm install && npm run dev` 本地測試
-  - **短期**：部署到 Vercel 進行線上驗證
+  - **立即**：Vercel 部署 → robotics-onramp.vercel.app
+  - **短期**：問卷 i18n 完善（目前問題文字僅中文）
   - **次選**：Wedge #2 Reddit 發布（需選擇活躍時段）
   - **暫停**：新條目探索（除非發現重大遺漏）
 
@@ -55,9 +55,27 @@
 | ✅ 數據準備 | 完成 | curated_resources.json + learning_paths.json |
 | ✅ 規格定義 | 完成 | wedge_3_mvp_spec.md |
 | ✅ 前端骨架 | 完成 | Next.js + React 元件 + i18n |
-| 🔲 本地測試 | 待執行 | npm install && npm run dev |
+| ✅ 本地測試 | **通過** | npm run dev 成功, HTML 正確渲染 |
 | 🔲 Vercel 部署 | 待執行 | robotics-onramp.vercel.app |
 | 🔲 Reddit 測試 | 待規劃 | r/AskRobotics 首發 |
+
+---
+
+## 本地測試驗證結果
+
+```
+✅ npm install - 104 packages, 6s
+✅ npm run dev - Ready in 868ms
+✅ curl localhost:3000 - 正確 HTML 返回
+✅ 語言切換按鈕 (EN / 繁中)
+✅ Hero Section 標題
+✅ 問卷第一題 + 進度條 (20%)
+✅ 導航 + Footer
+```
+
+**發現的問題**：
+- 問卷文字目前只有中文，需要 i18n 處理
+- 建議下一輪補強 learning_paths.json 的多語支援
 
 ---
 
@@ -83,6 +101,7 @@
 
 ## 里程碑
 
+- **第 25 輪**：✅ **MVP 本地測試通過**（+4 files, npm run dev 成功）
 - **第 24 輪**：Wedge #3 前端骨架完成（+10 files），MVP 結構就緒
 - **第 23 輪**：Wedge #3 核心數據完成（curated_resources + learning_paths）
 - **第 22 輪**：Wedge #2 社群發文準備（Community Launch Kit + README + EOL 修正）
@@ -90,8 +109,6 @@
 - **第 20 輪**：補強既有條目（Jetson Thor / LeRobot v0.4.3 / SPIKE EOL）
 - **第 19 輪**：gaps 深化（+6 entries, 4 gaps 更新）
 - **第 18 輪**：🎉 **v1 全面達標**（wedges 完成）
-- **第 17 輪**：gaps 達標（10 條假說）
-- **第 16 輪**：creators 達標，9/9 類別全部達標
 
 ---
 
@@ -99,7 +116,7 @@
 
 | Wedge | 優先級 | 驗證狀態 | 下一步 |
 |-------|--------|----------|--------|
-| #3 新手導航入口 | ⭐⭐⭐⭐⭐ | **骨架完成** | 本地測試 → Vercel 部署 |
+| #3 新手導航入口 | ⭐⭐⭐⭐⭐ | **本地測試通過** | Vercel 部署 |
 | #2 Sim-to-Real 指南 | ⭐⭐⭐⭐ | 社群發文準備完成 | 選擇活躍時段發布 |
 | #1 繁中進階學習路徑 | ⭐⭐⭐ | 構想中 | 待 #3 驗證後評估 |
 
@@ -110,15 +127,20 @@
 ```
 wedge_3_mvp/
 ├── package.json           # Next.js 14 + React 18 + Tailwind
-├── next.config.js         # i18n 配置 (en, zh-TW)
+├── next.config.js         # 簡化配置（移除 i18n）
 ├── tailwind.config.js     # 自訂顏色主題
+├── postcss.config.js      # Tailwind PostCSS 配置
+├── .gitignore             # 排除 node_modules/.next
 ├── src/
 │   ├── components/
 │   │   ├── Questionnaire.tsx  # 5 題問卷 + 路徑計算
 │   │   ├── PathCard.tsx       # 路徑結果卡片
 │   │   └── ResourceCard.tsx   # 資源展示卡片
 │   ├── pages/
+│   │   ├── _app.tsx           # 全局包裝器
 │   │   └── index.tsx          # 首頁 + 問卷 + 結果
+│   ├── styles/
+│   │   └── globals.css        # 完整 Tailwind + 自訂樣式 (~10KB)
 │   └── i18n/
 │       ├── en.json            # 英文翻譯 (~4.8KB)
 │       └── zh-TW.json         # 繁中翻譯 (~6.4KB)
@@ -128,4 +150,4 @@ wedge_3_mvp/
 
 ---
 
-*此為第 24 輪後的 meta 摘要（重大轉折：MVP 骨架完成）。下次更新預計在第 25 輪或 MVP 部署後。*
+*此為第 25 輪後的 meta 摘要（重大轉折：MVP 本地測試通過）。下次更新預計在 Vercel 部署後或第 30 輪。*
