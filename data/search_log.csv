@@ -9,3 +9,6 @@ robot DIY hardware microcontroller boards comparison ESP32 Arduino STM32 Raspber
 open source robot arm project hardware bcn3d moveo niryo arctos,browser-google,2026-01-30,na,found BCN3D Moveo ARCTOS SCUTTLE
 NVIDIA Jetson robot development board Orin Nano 2024 documentation,browser-google,2026-01-30,na,found NVIDIA developer docs DroneBot Workshop
 robot motor controller driver Pololu servo stepper ODrive VESC,browser-google,2026-01-30,na,found Pololu ODrive VESC ThinkRobotics RobotShop
+robotics software tools simulation ROS Arduino PlatformIO MicroROS gazebo,browser-google,2026-01-30,na,found Gazebo ThinkRobotics Articulated Robotics YouTube
+robotics toolchains CAD PCB design FreeCAD KiCad OpenSCAD,web-fetch,2026-01-30,na,found FreeCAD OpenSCAD KiCad MicroPython CircuitPython
+robot simulation NVIDIA Isaac MoveIt Webots physics engine,web-fetch,2026-01-30,na,found NVIDIA Isaac Sim MoveIt Webots Cyberbotics

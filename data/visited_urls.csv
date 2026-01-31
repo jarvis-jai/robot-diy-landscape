@@ -34,3 +34,16 @@ https://luxonis.com,Luxonis OAK,AI Camera,2026-01-30,2026-01-30,active,AI depth 
 https://github.com/BCN3D/BCN3D-Moveo,BCN3D Moveo,Open Source Robot Arm,2026-01-30,2026-01-30,active,Open source 3D printed robot arm - GitHub 3.1K stars
 https://arctosrobotics.com,ARCTOS Robotics,Open Source Robot Arm,2026-01-30,2026-01-30,active,Modern 6-axis 3D printed robot arm - ROS2 support
 https://www.scuttlerobot.org,SCUTTLE Robot,Open Source Mobile Robot,2026-01-30,2026-01-30,active,Modular mobile robot platform - Texas A&M origin
+https://gazebosim.org/,Gazebo,Simulation Platform,2026-01-30,2026-01-30,active,Open source robot simulator - Jetty LTS 2025-2030
+https://www.ros.org/,ROS,Framework,2026-01-30,2026-01-30,active,Robot Operating System - Jazzy LTS Kilted Kaiju
+https://platformio.org/,PlatformIO,IDE,2026-01-30,2026-01-30,active,Cross-platform embedded development - 1000+ boards
+https://micro.ros.org/,micro-ROS,Framework,2026-01-30,2026-01-30,active,ROS 2 for microcontrollers - FreeRTOS Zephyr NuttX
+https://moveit.ai/,MoveIt,Motion Planning,2026-01-30,2026-01-30,active,ROS motion planning framework - 150+ robots supported
+https://wokwi.com/,Wokwi,Online Simulator,2026-01-30,2026-01-30,active,ESP32 Arduino online simulator - browser-based
+https://cyberbotics.com/,Webots,Simulation Platform,2026-01-30,2026-01-30,active,Open source robot simulator - since 1998
+https://www.freecad.org/,FreeCAD,CAD Software,2026-01-30,2026-01-30,active,Open source parametric 3D CAD - v1.0 released
+https://openscad.org/,OpenSCAD,CAD Software,2026-01-30,2026-01-30,active,Programmatic 3D CAD - script-based modeling
+https://www.kicad.org/,KiCad,EDA Software,2026-01-30,2026-01-30,active,Open source schematic and PCB design
+https://developer.nvidia.com/isaac/sim,NVIDIA Isaac Sim,Simulation Platform,2026-01-30,2026-01-30,active,AI-driven robot simulation - Omniverse based
+https://circuitpython.org/,CircuitPython,Programming Language,2026-01-30,2026-01-30,active,Adafruit microcontroller Python - 600+ boards
+https://micropython.org/,MicroPython,Programming Language,2026-01-30,2026-01-30,active,Lean Python 3 for microcontrollers - 256k code 16k RAM

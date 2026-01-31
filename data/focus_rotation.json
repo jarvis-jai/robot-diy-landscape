@@ -1,10 +1,10 @@
 {
-  "last_focus": "hardware",
+  "last_focus": "toolchains",
   "next_focus_candidates": [
-    "toolchains",
     "commerce",
     "kits",
-    "creators"
+    "creators",
+    "chinese_ecosystem"
   ],
   "focus_history": [
     {
@@ -29,6 +29,12 @@
       "date": "2026-01-30",
       "focus": "hardware",
       "entries_added": 9,
+      "result": "ALLOW"
+    },
+    {
+      "date": "2026-01-30",
+      "focus": "toolchains",
+      "entries_added": 13,
       "result": "ALLOW"
     }
   ]

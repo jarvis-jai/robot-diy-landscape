@@ -9,9 +9,9 @@ https://www.reddit.com/r/AskElectronics/,discovered,communities,medium,2026-01-3
 https://www.adafruit.com/,discovered,commerce,high,2026-01-30,,pending,Major robotics parts retailer
 https://www.sparkfun.com/,discovered,commerce,high,2026-01-30,,pending,Major robotics parts retailer
 https://www.seeedstudio.com/,discovered,commerce,high,2026-01-30,,pending,Robotics parts retailer - strong in Asia
-https://www.ros.org/,discovered,toolchains,high,2026-01-30,,pending,ROS official site
-https://gazebosim.org/,discovered,toolchains,high,2026-01-30,,pending,Robot simulation platform
-https://www.wokwi.com/,discovered,toolchains,medium,2026-01-30,,pending,Arduino online simulator
+https://www.ros.org/,discovered,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - ROS framework
+https://gazebosim.org/,discovered,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - robot simulation
+https://www.wokwi.com/,discovered,toolchains,medium,2026-01-30,2026-01-30,done,Added to toolchains.md - online simulator
 https://create.arduino.cc/,discovered,platforms,medium,2026-01-30,2026-01-30,done,Redirects to app.arduino.cc - Added to platforms.md
 https://wiki.ros.org/,discovered,learning,high,2026-01-30,2026-01-30,done,Added to learning.md
 https://docs.ros.org/,discovered,learning,high,2026-01-30,2026-01-30,done,Added to learning.md
@@ -51,3 +51,18 @@ https://emanual.robotis.com,discovered,learning,high,2026-01-30,,pending,DYNAMIX
 https://www.interbotix.com,discovered,hardware,medium,2026-01-30,,pending,Trossen Robotics - robot arm kits
 https://www.waveshare.com,discovered,commerce,medium,2026-01-30,,pending,Electronics modules retailer - strong in Asia
 https://www.dfrobot.com,discovered,commerce,medium,2026-01-30,,pending,DFRobot - robotics components China-based
+https://platformio.org/,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - embedded IDE
+https://micro.ros.org/,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - micro-ROS framework
+https://moveit.ai/,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - motion planning
+https://cyberbotics.com/,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - Webots simulator
+https://www.freecad.org/,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - open source CAD
+https://openscad.org/,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - programmatic CAD
+https://www.kicad.org/,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - EDA software
+https://developer.nvidia.com/isaac/sim,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - Isaac Sim
+https://circuitpython.org/,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - Adafruit Python
+https://micropython.org/,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - lean Python
+https://mujoco.org/,discovered,toolchains,high,2026-01-30,,pending,MuJoCo physics engine - now open source
+https://drake.mit.edu/,discovered,toolchains,high,2026-01-30,,pending,Drake robotics toolbox - MIT
+https://www.easyeda.com/,discovered,toolchains,medium,2026-01-30,,pending,Online EDA tool - PCB design
+https://fritzing.org/,discovered,toolchains,medium,2026-01-30,,pending,Fritzing - circuit documentation
+https://tinkercad.com/,discovered,toolchains,medium,2026-01-30,,pending,Tinkercad - beginner 3D and circuits
