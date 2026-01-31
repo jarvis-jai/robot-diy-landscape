@@ -1,61 +1,32 @@
-## Meta Status — 2026-01-30 21:50
+## Meta Status — 2026-01-30 21:55
 
-- 最近 focus 輪替摘要：
-  - 已覆蓋類別：communities (10/15)、platforms (8/15)、learning (8/15)、hardware (9/15)、**toolchains (13/10 ✅)**、**commerce (8/10)**
-  - 邊際產出下降的類別：無（各類別首輪覆蓋）
-  - 仍高度未知的類別：kits (0/10)、creators (0/10)、chinese_ecosystem (0/10)
+- **最近 focus 輪替摘要：**
+  - 已覆蓋類別：communities (10), platforms (8), learning (8), hardware (9), toolchains (13), commerce (8), kits (10)
+  - 邊際產出下降的類別：暫無（皆為首次覆蓋）
+  - 仍高度未知的類別：creators, chinese_ecosystem（皆 0 個條目）
 
-- 本週新增關鍵事實（≤5）：
-  - **commerce 類別首輪完成**：8 個電商/零件商覆蓋（Adafruit、SparkFun、RobotShop、Seeed、DFRobot、Waveshare、The Robot MarketPlace、ThinkRobotics）
-  - 中國開源硬體雙雄：Seeed Studio 與 DFRobot 皆 2008 年成立，為全球前三大開源硬體商
-  - Adafruit 極高評價：Google 4.9/5（8297 則評論），M/WBE 認證，CircuitPython 生態完整
-  - 戰鬥機器人專業市場：The Robot MarketPlace 經營 20+ 年，專注 AmpFlow/FingerTech 高功率零件
-  - 全球電商格局清晰：北美（Adafruit/SparkFun/RobotShop）、中國（Seeed/DFRobot/Waveshare）、印度（ThinkRobotics）
+- **本週新增關鍵事實（≤5）：**
+  1. Makeblock mBot 被多個評測站評為「最佳入門套件」，15 分鐘組裝 + Scratch/Arduino 雙軌教學
+  2. LEGO Education SPIKE Prime 將於 2026-06-30 停產，市場可能出現空缺
+  3. TurtleBot 4 由 Open Robotics + Clearpath 合作，是 ROS 學習的事實標準平台
+  4. 四足機器人（如 Petoi Bittle）比輪式機器人更具吸引力，但價格門檻較高（$269+）
+  5. 中國製造商（DFRobot、Seeed、Waveshare）在套件市場佔有重要份額，但主要服務國際市場
 
-- 穩定浮現的 gap patterns（≤3）：
-  - **中文資源缺口**：56/56 英文資源，0 中文原生資源
-  - **初學者到專業級銜接門檻**：Adafruit/SparkFun 教學生態完整，但高端零件（Jetson、專業手臂）入門曲線陡峭
-  - **地區性供應鏈差異**：北美免運費門檻 $100、中國農曆新年物流延遲、國際關稅成本
+- **穩定浮現的 gap patterns（≤3）：**
+  1. **入門 → 進階的斷層**：mBot ($90) 到 Ultimate 2.0 ($350) 間缺乏中間價位選項
+  2. **中文資源缺乏**：所有主流套件的教程和文檔以英文為主，中文 DIY 社群未被系統性覆蓋
+  3. **教育 vs 創客的定位模糊**：多數套件同時面向課堂和個人，導致功能和價格妥協
 
-- 當前探索健康度：
-  - 重複率：0%（無 visited_urls 重複）
-  - 新站命中率：100%（56/56 新增成功）
-  - 是否出現疲乏跡象：否
-  - **toolchains 類別已達標**，commerce 接近達標（8/10）
+- **當前探索健康度：**
+  - 重複率：低（首輪覆蓋）
+  - 新站命中率：高（>90% 為新發現）
+  - 是否出現疲乏跡象：否（7 輪皆 ALLOW）
 
-- 對下一輪的建議策略：
-  - 建議下輪 focus **kits** 或 **creators**（兩者皆 0）
-  - **優先開始 chinese_ecosystem**（中文缺口是明確 gap）
-  - 考慮從已累積的 56 個事實中萃取 gap hypothesis
-  - commerce 再補 2 個即達標，可暫緩
+- **對下一輪的建議策略：**
+  - 建議轉向 **creators** 類別，探索 YouTube 教學者生態（已有 backlog：DroneBot Workshop、Paul McWhorter、Chris Annin）
+  - 或轉向 **chinese_ecosystem**，開始覆蓋中文資源（太極創客、稚暉君、奇果派等）
+  - 可開始從已累積的 66 個條目中萃取 gap hypothesis（建議下下輪開始）
 
 ---
 
-### 六輪累計統計
-
-| 輪次 | Focus | 新增條目 | 結果 |
-|------|-------|----------|------|
-| 1 | communities | 10 | ALLOW |
-| 2 | platforms | 8 | ALLOW |
-| 3 | learning | 8 | ALLOW |
-| 4 | hardware | 9 | ALLOW |
-| 5 | toolchains | 13 | ALLOW |
-| 6 | commerce | 8 | ALLOW |
-
-**總計**：56 個條目，6 輪全部 ALLOW，1 個類別達標（toolchains）
-
----
-
-### 類別覆蓋進度視覺化
-
-```
-communities     ████████░░░░░░░ 10/15 (67%)
-platforms       ████████░░░░░░░  8/15 (53%)
-learning        ████████░░░░░░░  8/15 (53%)
-hardware        █████████░░░░░░  9/15 (60%)
-toolchains      █████████████░░ 13/10 (130%) ✅
-kits            ░░░░░░░░░░░░░░░  0/10 (0%)
-commerce        ████████░░░░░░░  8/10 (80%)
-creators        ░░░░░░░░░░░░░░░  0/10 (0%)
-chinese_eco     ░░░░░░░░░░░░░░░  0/10 (0%)
-```
+*此為第 7 輪後的 meta 摘要，下次更新預計在第 10 輪或出現重大轉折時。*

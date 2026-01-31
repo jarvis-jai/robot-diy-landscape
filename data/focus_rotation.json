@@ -1,10 +1,10 @@
 {
-  "last_focus": "commerce",
+  "last_focus": "kits",
   "next_focus_candidates": [
-    "kits",
     "creators",
     "chinese_ecosystem",
-    "communities"
+    "communities",
+    "platforms"
   ],
   "focus_history": [
     {
@@ -41,6 +41,12 @@
       "date": "2026-01-30",
       "focus": "commerce",
       "entries_added": 8,
+      "result": "ALLOW"
+    },
+    {
+      "date": "2026-01-30",
+      "focus": "kits",
+      "entries_added": 10,
       "result": "ALLOW"
     }
   ]
