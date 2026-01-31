@@ -204,4 +204,166 @@
 
 ---
 
-*條目數：9 / 目標：15*
+---
+
+### SLAMTEC RPLIDAR
+
+- **Name**：SLAMTEC RPLIDAR
+- **Type**：Marketplace / Docs
+- **Primary language**：English / Chinese
+- **一句話定位**：專為服務機器人設計的 360 度雷射雷達感測器系列，是 DIY 機器人導航的標準選擇
+- **強項（≤3）**：
+  - 產品線豐富（A1 入門款 ~$105，A2 主流款 ~$320，A3 高階款 25m 範圍）
+  - OPTMAG 無接觸傳動技術，壽命達 5 年以上
+  - 完整 SDK 支援 ROS/ROS2、Arduino、Raspberry Pi
+- **弱項/缺口（≤3，可觀察）**：
+  - A1 入門款在強光戶外環境性能受限
+  - 需要穩定供電（5V 2A）
+  - 機械旋轉結構，相比固態 LiDAR 體積較大
+- **活躍度訊號**：2025 年持續發布新產品（Aurora S、S3 SL-Dtof），GitHub SDK 活躍維護
+- **與我們的關聯（一句話）**：DIY 移動機器人 SLAM 導航的首選 LiDAR
+- **Link(s)**：https://www.slamtec.com | https://github.com/slamtec
+
+---
+
+### Intel RealSense D400 Series
+
+- **Name**：Intel RealSense D400
+- **Type**：Marketplace / Docs
+- **Primary language**：English
+- **一句話定位**：Intel 的立體深度相機系列，廣泛用於機器人視覺、3D 掃描、手勢識別
+- **強項（≤3）**：
+  - 成熟的 SDK（librealsense），支援 Python/C++/ROS/ROS2
+  - 產品線覆蓋多種需求（D435 通用、D455 長距離、D457 工業級 IP65）
+  - 深度 + RGB + IMU 整合，適合視覺 SLAM
+- **弱項/缺口（≤3，可觀察）**：
+  - LiDAR 和 Tracking 產品線已於 2024 年 5 月停產（L515、T265）
+  - 戶外強光環境深度精度下降
+  - 價格較高（D435 ~$350，D455 ~$500）
+- **活躍度訊號**：librealsense GitHub 11K+ stars，D457 工業版本 2022 年發布
+- **與我們的關聯（一句話）**：機器人 RGB-D 視覺感知的主流選擇
+- **Link(s)**：https://www.intelrealsense.com | https://github.com/IntelRealSense/librealsense
+
+---
+
+### Hiwonder IM10A IMU Module
+
+- **Name**：Hiwonder IM10A
+- **Type**：Marketplace / Docs
+- **Primary language**：English / Chinese
+- **一句話定位**：10 軸 AHRS 慣性導航模組，專為 ROS 機器人設計，支援多種通訊介面
+- **強項（≤3）**：
+  - 10 軸感測器（3 軸陀螺儀 + 3 軸加速度計 + 3 軸磁力計 + 氣壓計）
+  - 支援 USB/UART/I2C 通訊，兼容 Raspberry Pi、STM32、Jetson
+  - 提供 ROS1/ROS2 package 與完整教學文件
+- **弱項/缺口（≤3，可觀察）**：
+  - 價格中等（$79.99 起）
+  - 需校準磁力計以獲得準確航向
+  - 文檔主要透過 Google Drive 分享，不夠系統化
+- **活躍度訊號**：產品持續銷售，Q&A 區活躍回覆 ROS2 相關問題
+- **與我們的關聯（一句話）**：DIY 機器人姿態感測的性價比選擇
+- **Link(s)**：https://www.hiwonder.com/products/imu-module
+
+---
+
+### Benewake TFmini Series
+
+- **Name**：Benewake TFmini
+- **Type**：Marketplace / Docs
+- **Primary language**：English / Chinese
+- **一句話定位**：小型低成本 ToF 雷射測距感測器，適用於無人機、機器人避障、液位偵測
+- **強項（≤3）**：
+  - 極致小型化與低功耗（TFmini-S 僅 5g，功耗 <1W）
+  - 產品線豐富（TFmini-S $40、TFmini Plus $50、TFmini-i $72 帶 CAN/RS485）
+  - 高幀率（最高 1000Hz），適合動態場景
+- **弱項/缺口（≤3，可觀察）**：
+  - 單點測距，非 360 度掃描
+  - 戶外範圍較短（室內 12m，戶外 7m）
+  - FOV 僅 2 度，需配合雲台或多感測器使用
+- **活躍度訊號**：Arduino/PX4/ArduPilot 官方支援，DroneBot Workshop 有教學文章
+- **與我們的關聯（一句話）**：低成本機器人避障與測距的入門選擇
+- **Link(s)**：https://en.benewake.com | https://ozrobotics.com/product-tag/diy-robot-lidar-sensor/
+
+---
+
+### Raspberry Pi Pico / RP2040
+
+- **Name**：Raspberry Pi Pico
+- **Type**：Marketplace / Docs
+- **Primary language**：English
+- **一句話定位**：Raspberry Pi 基金會的首款微控制器開發板，基於自研 RP2040 晶片
+- **強項（≤3）**：
+  - 極低價格（Pico $4，Pico W 帶 Wi-Fi $6）
+  - 雙核 ARM Cortex-M0+ @ 133MHz，264KB RAM
+  - 獨特的 PIO（Programmable I/O）功能，支援自定義協議
+- **弱項/缺口（≤3，可觀察）**：
+  - 無內建 Wi-Fi/藍牙（需 Pico W 版本）
+  - Flash 僅 2MB，較 ESP32 少
+  - ROS/micro-ROS 支援不如 ESP32 成熟
+- **活躍度訊號**：2024 年發布 RP2350（Pico 2），MicroPython/CircuitPython 官方支援
+- **與我們的關聯（一句話）**：入門級機器人控制器的超低成本選擇
+- **Link(s)**：https://www.raspberrypi.com/products/raspberry-pi-pico/ | https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
+
+---
+
+### ESP32 (Espressif Systems)
+
+- **Name**：ESP32
+- **Type**：Docs / Marketplace
+- **Primary language**：English / Chinese
+- **一句話定位**：Espressif 的高性價比 Wi-Fi + 藍牙 SoC，是 IoT 和機器人專案的熱門選擇
+- **強項（≤3）**：
+  - 內建 Wi-Fi + 藍牙，價格極低（開發板 $5-15）
+  - 520KB SRAM，雙核 240MHz，豐富的 GPIO
+  - 生態系龐大：ESP-IDF、Arduino、MicroPython、micro-ROS
+- **弱項/缺口（≤3，可觀察）**：
+  - 功耗較 STM32 高（深度睡眠仍需 ~10μA）
+  - ADC 精度較差（非線性）
+  - 學習曲線：ESP-IDF 較 Arduino 複雜
+- **活躍度訊號**：2025 年持續發布新型號（ESP32-C6、S3），GitHub esp-idf 13K+ stars
+- **與我們的關聯（一句話）**：需要無線連接的 DIY 機器人首選控制器
+- **Link(s)**：https://www.espressif.com/en/products/socs/esp32 | https://docs.espressif.com
+
+---
+
+### STM32 (STMicroelectronics)
+
+- **Name**：STM32
+- **Type**：Docs / Marketplace
+- **Primary language**：English
+- **一句話定位**：ST 的 ARM Cortex-M 微控制器系列，廣泛用於工業和專業機器人應用
+- **強項（≤3）**：
+  - 產品線極廣（從 Cortex-M0 到 M7，價格 $1-20）
+  - 工業級可靠性，完整的開發工具鏈（STM32CubeIDE、CubeMX）
+  - 豐富的周邊：ADC、DAC、定時器、CAN、FDCAN
+- **弱項/缺口（≤3，可觀察）**：
+  - 入門門檻較高（需理解 HAL/LL 層）
+  - 無內建 Wi-Fi/藍牙（需外接模組）
+  - 官方開發板（Nucleo、Discovery）價格較 ESP32/Pico 高
+- **活躍度訊號**：STM32CubeIDE 持續更新，Nucleo 板廣泛用於機器人教育
+- **與我們的關聯（一句話）**：需要即時控制和工業可靠性的機器人進階選擇
+- **Link(s)**：https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html | https://github.com/STMicroelectronics
+
+---
+
+### Arduino Nano 33 BLE Sense
+
+- **Name**：Arduino Nano 33 BLE Sense
+- **Type**：Marketplace / Docs
+- **Primary language**：English
+- **一句話定位**：Arduino 的進階開發板，整合 BLE 和多種感測器，適合 TinyML 和機器人感知
+- **強項（≤3）**：
+  - 內建 9 軸 IMU、溫濕度、氣壓、光線、麥克風、手勢感測器
+  - 支援 TensorFlow Lite for Microcontrollers，適合邊緣 AI
+  - nRF52840 晶片，支援 BLE 5.0
+- **弱項/缺口（≤3，可觀察）**：
+  - 無 Wi-Fi（需配合其他模組）
+  - 價格較高（~$35）
+  - 3.3V 邏輯電平，部分周邊需電平轉換
+- **活躍度訊號**：2023 年發布 Rev2 版本，Arduino ML 文檔持續更新
+- **與我們的關聯（一句話）**：適合感測器融合和邊緣 AI 的機器人開發板
+- **Link(s)**：https://store.arduino.cc/products/arduino-nano-33-ble-sense | https://docs.arduino.cc/hardware/nano-33-ble-sense
+
+---
+
+*條目數：17 / 目標：15 ✅*

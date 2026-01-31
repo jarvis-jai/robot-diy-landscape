@@ -109,3 +109,11 @@ https://docs.luxonis.com/,Luxonis Documentation,Docs,2026-01-31,2026-01-31,activ
 https://emanual.robotis.com/,ROBOTIS e-Manual,Docs,2026-01-31,2026-01-31,active,TurtleBot3 DYNAMIXEL documentation - ROS 2 support
 https://www.nvidia.com/en-us/training/,NVIDIA DLI,Training Platform,2026-01-31,2026-01-31,active,Robotics Fundamentals learning path - certification
 https://articulatedrobotics.xyz/,Articulated Robotics,Tutorial Site,2026-01-31,2026-01-31,active,Josh Newans ROS tutorials - YouTube and Discourse community
+https://www.slamtec.com/,SLAMTEC RPLIDAR,LiDAR Sensor,2026-01-31,2026-01-31,active,360-degree LiDAR A1/A2/A3 series - OPTMAG 5yr life
+https://www.intelrealsense.com/,Intel RealSense D400,Depth Camera,2026-01-31,2026-01-31,active,RGB-D camera D435/D455/D457 - LiDAR discontinued 2024-05
+https://www.hiwonder.com/products/imu-module,Hiwonder IM10A IMU,IMU Sensor,2026-01-31,2026-01-31,active,10-axis AHRS ROS1/ROS2 support - USB/UART/I2C
+https://en.benewake.com/,Benewake TFmini,ToF Sensor,2026-01-31,2026-01-31,active,Mini LiDAR TFmini-S/Plus/i - 12m range 1000Hz
+https://www.raspberrypi.com/products/raspberry-pi-pico/,Raspberry Pi Pico,Microcontroller,2026-01-31,2026-01-31,active,RP2040 dual-core $4 - PIO programmable I/O
+https://www.espressif.com/,ESP32,Microcontroller,2026-01-31,2026-01-31,active,Wi-Fi+BT SoC - ESP-IDF Arduino MicroPython micro-ROS
+https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html,STM32,Microcontroller,2026-01-31,2026-01-31,active,ARM Cortex-M industrial MCU - CubeIDE/CubeMX
+https://store.arduino.cc/products/arduino-nano-33-ble-sense,Arduino Nano 33 BLE Sense,Microcontroller,2026-01-31,2026-01-31,active,nRF52840 BLE5 - 9-axis IMU + sensors - TinyML

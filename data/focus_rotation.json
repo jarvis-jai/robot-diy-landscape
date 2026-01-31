@@ -1,7 +1,6 @@
 {
-  "last_focus": "learning",
+  "last_focus": "hardware",
   "next_focus_candidates": [
-    "hardware",
     "commerce",
     "creators",
     "gaps"
@@ -77,6 +76,12 @@
       "date": "2026-01-31",
       "focus": "learning",
       "entries_added": 9,
+      "result": "ALLOW"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "hardware",
+      "entries_added": 8,
       "result": "ALLOW"
     }
   ]
