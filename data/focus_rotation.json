@@ -1,11 +1,11 @@
 {
-  "last_focus": "platforms_i18n",
+  "last_focus": "commerce_international",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
     "gaps 深化 (補充更多佐證)",
     "creators (非英語創作者)",
-    "commerce (拉美/亞洲零售商)"
+    "toolchains (新增模擬器/框架)"
   ],
   "focus_history": [
     {
@@ -273,6 +273,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 39: Added 8 international platforms: Fablab Taipei (繁中), Prometec (西語), Luis Llamas (西語), Switch Science (日語), Device Plus (日語), Elektor Magazine (歐洲多語), Naylamp Mechatronics (秘魯/拉美), Hardware Libre (西語). Addresses Gap #4 #7 (語言/地區不平衡). Platforms now at 24/15."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "commerce_international",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 40: Added 8 international retailers - Cytron (Malaysia), AG Electrónica (Mexico), Steren (LatAm), Robocraze (India), DeviceMart (Korea), Electromanía (Peru), Makerlab (Philippines), Tiendatec (Spain). Addresses Gap #7 #8 (language/region + cost barriers). Commerce now at 24/10. Meta status update (every 5 rounds)."
     }
   ]
 }

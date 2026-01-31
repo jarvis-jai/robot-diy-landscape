@@ -14,7 +14,7 @@
 | hardware.md | ≥15 | 19 | ✅ |
 | kits.md | ≥10 | 18 | ✅ |
 | learning.md | ≥15 | 29 | ✅ |
-| commerce.md | ≥10 | 16 | ✅ |
+| commerce.md | ≥10 | 24 | ✅ |
 | creators.md | ≥10 | 20 | ✅ |
 | chinese_ecosystem.md | ≥10 | 19 | ✅ |
 

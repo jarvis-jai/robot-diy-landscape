@@ -344,4 +344,166 @@
 
 ---
 
-*條目數：16 / 目標：10* ✅
+### Cytron Technologies
+
+- **Name**：Cytron Technologies
+- **Type**：Marketplace / Manufacturer
+- **Primary language**：English（有馬來文、泰文、越南文）
+- **一句話定位**：馬來西亞電子與機器人公司，專注工業 Raspberry Pi 方案與馬達驅動器，全球 70+ 國分銷網絡
+- **強項（≤3）**：
+  1. 自有馬達驅動器產品線：被全球創客和工程師信賴的穩定可靠驅動方案
+  2. 工業 Raspberry Pi 解決方案：Milesight、Teltonika 4G/5G 路由器、NVIDIA Jetson
+  3. 全球分銷網絡：70+ 國家的分銷商（新加坡、泰國、越南、韓國、印度、日本、美國、歐洲等）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 主要服務馬來西亞/東南亞市場
+  2. 網站內容較工業導向（非純 DIY）
+  3. 部分高端工業模組價格較高
+- **活躍度訊號**：2026 活躍更新（工業 IoT 方案推廣）；分銷商遍布全球主要市場
+- **與我們的關聯（一句話）**：東南亞市場的工業級機器人零件與 Raspberry Pi 方案來源
+- **Link(s)**：https://www.cytron.io/ / https://my.cytron.io/
+
+---
+
+### AG Electrónica
+
+- **Name**：AG Electrónica
+- **Type**：Marketplace / Retailer
+- **Primary language**：Spanish
+- **一句話定位**：墨西哥電子公司，提供從零組件到 PCB 打樣、3D 列印的完整製造服務
+- **強項（≤3）**：
+  1. 完整製造服務：PCB 原型/量產、3D 列印設計、Pick and Place（42,000 元件/小時）、線束組裝
+  2. 專業設備租賃與維修服務
+  3. 官方 Raspberry Pi 代理：Benewake 感測器、ESP32 解決方案
+- **弱項/缺口（≤3，可觀察）**：
+  1. 純西班牙語介面（無英文）
+  2. 主要服務墨西哥市場
+  3. 網站內容偏向服務而非零售產品目錄
+- **活躍度訊號**：2026-01 持續發布部落格（Raspberry Pi 2026 趨勢、ESP32+Benewake 教程）；有 AGPlus 會員訂閱服務
+- **與我們的關聯（一句話）**：墨西哥市場的一站式電子製造與 Maker 服務提供商
+- **Link(s)**：https://agelectronica.com/
+
+---
+
+### Steren
+
+- **Name**：Steren
+- **Type**：Marketplace / Retailer
+- **Primary language**：Spanish
+- **一句話定位**：墨西哥電子零售巨頭（1956 年成立），600+ 門市遍布拉美，Smart Home 與電子配件全線覆蓋
+- **強項（≤3）**：
+  1. 最大規模：600+ 門市 + 10,500+ 銷售點遍布墨西哥
+  2. 拉美擴張：瓜地馬拉、宏都拉斯、薩爾瓦多、巴拿馬、哥斯大黎加、厄瓜多、哥倫比亞、多明尼加
+  3. 嚴格品質：中國與墨西哥雙重品管、ISO 9001:2015 認證、Great Place to Work 認證
+- **弱項/缺口（≤3，可觀察）**：
+  1. 純西班牙語（無英文介面）
+  2. 偏向消費電子（非純 Maker/機器人專門）
+  3. 主要服務拉美市場
+- **活躍度訊號**：70+ 年歷史（1956）；企業社會責任認證；持續拉美擴張（即將進入尼加拉瓜、秘魯、阿根廷）
+- **與我們的關聯（一句話）**：拉丁美洲最大電子零售網絡，覆蓋範圍無人能及
+- **Link(s)**：https://www.steren.com.mx/
+
+---
+
+### Robocraze
+
+- **Name**：Robocraze
+- **Type**：Marketplace / Retailer
+- **Primary language**：English
+- **一句話定位**：印度最受歡迎的機器人與 DIY 商店，STEM 套件、AI 硬體、完整電子零件一站購足
+- **強項（≤3）**：
+  1. 印度本土優勢：Pan-India 免運（₹500+）、COD 貨到付款、GST 發票
+  2. 完整分類：STEM Kits（學校/大學）、AI 硬體（Jetson）、Arduino、Raspberry Pi、電子零件、無人機套件
+  3. 專業支援：專屬技術支援團隊、iOS/Android App（RCAPP 額外 5% 折扣）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 主要服務印度市場
+  2. 部分產品需批量購買優惠（30% off bulk）
+  3. 國際配送選項有限
+- **活躍度訊號**：官方 Arduino/Raspberry Pi 經銷商；有 iOS/Android App；持續發布新品
+- **與我們的關聯（一句話）**：印度市場的機器人與 STEM 教育套件首選電商
+- **Link(s)**：https://robocraze.com/
+
+---
+
+### DeviceMart (디바이스마트)
+
+- **Name**：DeviceMart (디바이스마트)
+- **Type**：Marketplace / Retailer
+- **Primary language**：Korean
+- **一句話定位**：韓國最大電子零件專門商城，從 Arduino、Raspberry Pi 到專業工具、機器人一應俱全
+- **強項（≤3）**：
+  1. 韓國本土最大：電子零件、開發板、工具、機器人全品類覆蓋
+  2. 實體店面：首爾九老區門市（九老站 2 號出口）
+  3. 多元聯絡方式：電話、KakaoTalk 客服
+- **弱項/缺口（≤3，可觀察）**：
+  1. 純韓語介面（無英文）
+  2. 主要服務韓國市場
+  3. 國際配送資訊不明確
+- **活躍度訊號**：持續營運；每月第三週四延長營業時間；有完整線上購物系統
+- **與我們的關聯（一句話）**：韓國市場的電子零件與機器人一站式購物管道
+- **Link(s)**：https://www.devicemart.co.kr/
+
+---
+
+### Electromanía Perú
+
+- **Name**：Electromanía Perú
+- **Type**：Marketplace / Retailer
+- **Primary language**：Spanish
+- **一句話定位**：秘魯電子與機器人熱情商店，從零件到課程的完整生態
+- **強項（≤3）**：
+  1. 完整產品線：IC、馬達、感測器、Raspberry Pi、Arduino、無人機、3D 列印機
+  2. 線上課程服務：提供電子與機器人培訓
+  3. 秘魯本地服務：Lima 本地配送與支援
+- **弱項/缺口（≤3，可觀察）**：
+  1. 純西班牙語（無英文）
+  2. 網站較簡陋（內容較少）
+  3. 產品目錄不如大型電商完整
+- **活躍度訊號**：Cytron 官方分銷商；提供線上課程服務
+- **與我們的關聯（一句話）**：秘魯市場的電子與機器人入門級管道
+- **Link(s)**：https://www.electromania.pe/
+
+---
+
+### Makerlab Electronics Philippines
+
+- **Name**：Makerlab Electronics
+- **Type**：Marketplace / Retailer
+- **Primary language**：English
+- **一句話定位**：菲律賓 Maker 電商，專注 3D 列印機、Raspberry Pi、NVIDIA Jetson 與 DIY 套件
+- **強項（≤3）**：
+  1. 3D 列印機專業：Bambu Lab（A1、P1S、P2）、Elegoo、Creality 全線代理
+  2. 高端硬體：NVIDIA Jetson Orin Nano Developer Kit、Raspberry Pi 5
+  3. 自有套件：Makerlab Upgraded Starter Kit for UNO R3（含 PDF 教學）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 主要服務菲律賓市場
+  2. 部分熱門產品顯示 Sold Out（庫存壓力）
+  3. 網站產品描述較簡略
+- **活躍度訊號**：持續更新產品（Bambu P2 等 2025/2026 新品）；有 Shopify 電商平台；馬尼拉實體門市
+- **與我們的關聯（一句話）**：菲律賓市場的 3D 列印與 Maker 硬體首選
+- **Link(s)**：https://www.makerlab-electronics.com/
+
+---
+
+### Tiendatec
+
+- **Name**：Tiendatec
+- **Type**：Marketplace / Retailer
+- **Primary language**：Spanish
+- **一句話定位**：西班牙官方 Raspberry Pi 代理商，專注 Maker 與智能家居（Home Assistant）生態
+- **強項（≤3）**：
+  1. 官方 Raspberry Pi 5 經銷商：Pi 5 全系列、Pico 2、Compute Module
+  2. Maker Zone 專區：機器人套件（GeekClub）、LoRaWAN、GNSS 模組
+  3. 智能家居專區：Home Assistant Yellow Hub、Shelly、Zigbee/Thread
+- **弱項/缺口（≤3，可觀察）**：
+  1. 主要服務西班牙/西語區市場
+  2. 部分產品無庫存（Sin stock）
+  3. 價格為歐元計價
+- **活躍度訊號**：持續更新新品（2026-01 有多款新品上架）；Pineberry Pi 系列 15% 折扣；GeekClub 機器人套件 20% 折扣
+- **與我們的關聯（一句話）**：西班牙市場的官方 Raspberry Pi 與 Maker 商店
+- **Link(s)**：https://www.tiendatec.es/
+
+---
+
+*條目數：24 / 目標：10* ✅
+
+*最後更新：2026-01-31（第 40 輪 commerce 拉美/亞洲擴展 — 新增 8 個國際零售商：Cytron 馬來西亞、AG Electrónica 墨西哥、Steren 拉美、Robocraze 印度、DeviceMart 韓國、Electromanía 秘魯、Makerlab 菲律賓、Tiendatec 西班牙）*
