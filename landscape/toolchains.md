@@ -812,4 +812,164 @@
 
 ---
 
-*條目數：39 / 目標：10 ✅*
+### mjlab
+
+- **Name**：mjlab
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：結合 Isaac Lab API 與 MuJoCo-Warp 物理引擎的輕量級 GPU 加速機器人學習框架（2026 年 1 月發布）
+- **強項（≤3）**：
+  - 結合 Isaac Lab 成熟 API 與 MuJoCo-Warp 高效能物理：兩者優點兼得
+  - 多 GPU 訓練支援：--gpu-ids 0 1 輕鬆擴展
+  - 極簡安裝：uvx --from mjlab demo 即可運行 Unitree G1 示範
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 NVIDIA GPU（MuJoCo Warp 依賴）
+  - macOS 僅支援 evaluation（顯著較慢）
+  - 2026 年新發布，生態系統仍在建立
+- **活躍度訊號**：arXiv:2601.22074（2026-01），Kevin Zakka（Berkeley/Pieter Abbeel）主導，GitHub 活躍，Colab 支援
+- **與我們的關聯（一句話）**：2026 年最新 GPU 加速機器人學習框架，Isaac Lab 用戶的 MuJoCo 替代方案
+- **Link(s)**：https://github.com/mujocolab/mjlab | https://mujocolab.github.io/mjlab/
+
+---
+
+### MuJoCo Warp (MJWarp)
+
+- **Name**：MuJoCo Warp (MJWarp)
+- **Type**：Physics Engine
+- **Primary language**：English
+- **一句話定位**：MuJoCo 的 GPU 優化版本，專為 NVIDIA 硬體設計，Google DeepMind 與 NVIDIA 聯合維護
+- **強項（≤3）**：
+  - GPU 加速：利用 NVIDIA Warp 避開 MuJoCo MJX (JAX) 的許多「sharp bits」
+  - 整合生態系：與 MJX、Newton、mjlab、MuJoCo Playground 無縫協作
+  - 功能完整：支援 Forward/Inverse dynamics、所有傳動、所有約束類型
+- **弱項/缺口（≤3，可觀察）**：
+  - Beta 階段：性能優化、文檔、測試仍在進行
+  - CUDA 12.4+ 最低要求
+  - 尚無 Warp 可微分（differentiability）支援
+- **活躍度訊號**：2026 年 1 月持續更新，Google DeepMind + NVIDIA 聯合維護，已被 mjlab/Newton/Playground 採用
+- **與我們的關聯（一句話）**：MuJoCo 生態系的 GPU 加速核心，大規模 RL 訓練的新標準
+- **Link(s)**：https://github.com/google-deepmind/mujoco_warp | https://mujoco.readthedocs.io/en/latest/mjwarp/index.html
+
+---
+
+### MuJoCo Playground
+
+- **Name**：MuJoCo Playground
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：Google DeepMind 官方的 GPU 加速機器人學習與 sim-to-real 環境套件
+- **強項（≤3）**：
+  - 豐富環境：dm_control 經典控制 + 四足/雙足運動 + 靈巧操作
+  - 雙引擎支援：MuJoCo MJX (JAX) 和 MuJoCo Warp 可一鍵切換
+  - 視覺環境：透過 Madrona-MJX 支援 vision-based 任務
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 Python 3.10+
+  - CUDA 12 jax 安裝較複雜
+  - Madrona-MJX 視覺環境需額外設置
+- **活躍度訊號**：2025 年發布，pip install playground，Google Colab 教程，持續更新
+- **與我們的關聯（一句話）**：Google DeepMind 官方機器人學習環境，從經典控制到 sim-to-real 的一站式方案
+- **Link(s)**：https://github.com/google-deepmind/mujoco_playground | https://playground.mujoco.org/
+
+---
+
+### Nimble Physics
+
+- **Name**：Nimble Physics (nimblephysics)
+- **Type**：Physics Engine / ML Framework
+- **Primary language**：English
+- **一句話定位**：Stanford 開發的可微分物理引擎，專為生物力學和深度學習設計，可作為 PyTorch 非線性函數使用
+- **強項（≤3）**：
+  - 可微分物理：nimble.timestep(state, controls) 是有效的 PyTorch 函數
+  - 分析性反向傳播：即使透過接觸和摩擦也能計算梯度
+  - DART 相容：從 DART 物理引擎 fork，許多 DART 模擬可直接移植
+- **弱項/缺口（≤3，可觀察）**：
+  - Beta 軟體：仍在積極開發
+  - Arm64 Mac 需手動編譯（僅 Python 3.9 有預編譯）
+  - 專注生物力學，通用機器人場景較少範例
+- **活躍度訊號**：arXiv:2103.16021 論文，2025 年 9 月更新，Stanford 維護
+- **與我們的關聯（一句話）**：將物理引擎融入神經網路的開創性工具，適合需要可微分模擬的研究者
+- **Link(s)**：https://github.com/keenon/nimblephysics | https://nimblephysics.org/
+
+---
+
+### Jolt Physics
+
+- **Name**：Jolt Physics
+- **Type**：Physics Engine
+- **Primary language**：English
+- **一句話定位**：多核心友好的剛體物理和碰撞檢測庫，被《地平線 西之絕境》和《死亡擱淺 2》採用
+- **強項（≤3）**：
+  - 遊戲級性能：多執行緒設計，Horizon Forbidden West / Death Stranding 2 驗證
+  - 確定性模擬：可透過複製輸入來遠端重現模擬
+  - 功能全面：剛體、軟體、布料、車輛、角色控制器、GPU 毛髮模擬
+- **弱項/缺口（≤3，可觀察）**：
+  - 主要面向遊戲/VR，機器人場景文檔較少
+  - 不使用 RTTI/exceptions，需適應其 C++ 風格
+  - 無 Python binding（需透過 JoltPhysics.js 或自行封裝）
+- **活躍度訊號**：2026 年 1 月持續更新，GDC 2022 演講，多平台支援（Windows/Linux/macOS/iOS/Android/WebAssembly）
+- **與我們的關聯（一句話）**：遊戲產業驗證的高性能物理引擎，適合需要極致效能的機器人模擬
+- **Link(s)**：https://github.com/jrouwe/JoltPhysics | https://jrouwe.github.io/JoltPhysics/
+
+---
+
+### Project Chrono
+
+- **Name**：Project Chrono
+- **Type**：Simulation Platform
+- **Primary language**：English
+- **一句話定位**：高性能 C++ 多物理與多體動力學模擬庫，支援機器人、車輛、流固耦合與顆粒動力學
+- **強項（≤3）**：
+  - 多物理覆蓋：剛體 DAE + 變形體 PDE + 顆粒動力學 DVI + 流固耦合
+  - 機器人與自駕整合：ROS2 介面、感測器模擬（相機、LiDAR、GPS、IMU）
+  - 多語言 API：C++ 核心 + Python (PyChrono) + C# binding
+- **弱項/缺口（≤3，可觀察）**：
+  - 學習曲線陡峭：功能龐大需要時間掌握
+  - 相比 MuJoCo/Isaac 在 RL 社群知名度較低
+  - 文檔分散在多個模組
+- **活躍度訊號**：v9.0.1 發布，BSD License，Google Groups 論壇活躍，學術和產業廣泛使用
+- **與我們的關聯（一句話）**：學術界的多物理模擬重鎮，適合需要超越剛體動力學的進階研究
+- **Link(s)**：https://github.com/projectchrono/chrono | https://projectchrono.org/
+
+---
+
+### ProtoMotions
+
+- **Name**：ProtoMotions 3
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：NVIDIA 的 GPU 加速人形機器人訓練框架，專注於大規模動作學習與 sim-to-real
+- **強項（≤3）**：
+  - 大規模訓練：40+ 小時 AMASS 人類動作數據集，4 顆 A100 只需 12 小時
+  - 多模擬器支援：Isaac Gym、Newton (MuJoCo Warp)、Genesis 一鍵切換
+  - 一鍵重定向：透過 PyRoki 將 AMASS 動作轉移到任意機器人（H1、G1 等）
+- **弱項/缺口（≤3，可觀察）**：
+  - 專注人形機器人，其他類型機器人需自行適配
+  - 需要高端 GPU（A100 級別最佳）
+  - 動作合成模型不包含在開源中
+- **活躍度訊號**：2025 年發布，NVIDIA NVlabs 維護，Apache 2.0，持續更新支援 Newton
+- **與我們的關聯（一句話）**：人形機器人動作學習的頂級工具，從動畫到實體機器人的橋樑
+- **Link(s)**：https://github.com/NVlabs/ProtoMotions | https://protomotions.github.io/
+
+---
+
+### Tinkercad
+
+- **Name**：Tinkercad
+- **Type**：Online Tool
+- **Primary language**：English（多語言介面）
+- **一句話定位**：Autodesk 的免費線上 3D 設計和電路模擬工具，專為初學者和教育設計
+- **強項（≤3）**：
+  - 零門檻入門：瀏覽器即用，無需安裝，直覺拖放介面
+  - 電路模擬整合：Arduino 模擬器可直接測試程式碼
+  - 教育生態：Codeblocks 視覺化程式設計、LEGO 積木設計
+- **弱項/缺口（≤3，可觀察）**：
+  - 功能有限：無法取代專業 CAD（FreeCAD、Fusion 360）
+  - 需要網路連線
+  - 匯出格式有限制（免費版）
+- **活躍度訊號**：Autodesk 維護，教育界廣泛採用，持續更新
+- **與我們的關聯（一句話）**：機器人 DIY 入門的最佳起點，從 3D 設計到電路模擬的一站式學習工具
+- **Link(s)**：https://www.tinkercad.com/
+
+---
+
+*條目數：47 / 目標：10 ✅*

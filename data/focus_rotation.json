@@ -1,13 +1,13 @@
 {
-  "last_focus": "chinese_ecosystem",
+  "last_focus": "toolchains",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
-    "toolchains (補強)",
     "kits (補強)",
     "creators (補強)",
     "platforms (補強)",
-    "hardware (補強)"
+    "hardware (補強)",
+    "gaps_deepening (Gap #1 #2 #7 仍高信心度)"
   ],
   "focus_history": [
     {
@@ -394,6 +394,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 56: Added 8 high-value Chinese resources - Embodied-AI-Guide (11.6K stars), LeRobotTutorial-CN (111 stars), lerobot-zh (35 docs), every-embodied (347 stars Datawhale), Mycobot_Tutorials (145 stars), d2l-ros2 (883 stars 魚香ROS), Roboto_origin (601 stars 人形機器人), foc-wheel-legged-robot (1.5K stars 輪腿). Addresses Gap #1 #2. chinese_ecosystem now at 36/10."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "toolchains",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 57: Added 8 cutting-edge simulation/physics tools - mjlab (arXiv:2601.22074 Isaac Lab + MuJoCo-Warp), MuJoCo Warp (DeepMind+NVIDIA GPU physics), MuJoCo Playground (GPU-accelerated robot learning), Nimble Physics (Stanford differentiable), Jolt Physics (Horizon/Death Stranding), Project Chrono (multi-physics ROS2), ProtoMotions (NVIDIA humanoid training), Tinkercad (education). Toolchains now at 47/10."
     }
   ]
 }

@@ -340,3 +340,11 @@ https://github.com/TommyZihao/Mycobot_Tutorials,同濟子豪兄 Mycobot 教程,O
 https://github.com/fishros/d2l-ros2,d2l-ros2 動手學 ROS2,Open Source Tutorial,2026-01-31,2026-01-31,active,883 stars - 魚香 ROS 21 章完整 ROS2 Humble 課程 - Nav2 MoveIt2 實體機器人
 https://github.com/Roboparty/roboto_origin,Roboto Origin 蘿博頭人形機器人,Open Source Hardware,2026-01-31,2026-01-31,active,601 stars - 全開源 DIY 人形機器人 - Isaac Lab ROS2 Humble - 淘寶嘉立創可 DIY
 https://github.com/Skythinker616/foc-wheel-legged-robot,FOC 輪腿機器人,Open Source Hardware,2026-01-31,2026-01-31,active,1.5K stars - 完整輪腿機器人 - STM32 FOC ESP32 MATLAB 仿真 - 成本 550 元
+https://github.com/mujocolab/mjlab,mjlab,Framework,2026-01-31,2026-01-31,active,Isaac Lab API + MuJoCo-Warp - arXiv:2601.22074 - GPU accelerated robot learning
+https://github.com/google-deepmind/mujoco_warp,MuJoCo Warp,Physics Engine,2026-01-31,2026-01-31,active,GPU-optimized MuJoCo - DeepMind + NVIDIA - CUDA 12.4+ - Beta
+https://github.com/google-deepmind/mujoco_playground,MuJoCo Playground,Framework,2026-01-31,2026-01-31,active,GPU-accelerated robot learning environments - pip install playground
+https://github.com/keenon/nimblephysics,Nimble Physics,Physics Engine,2026-01-31,2026-01-31,active,Stanford differentiable physics - PyTorch integration - biomechanics
+https://github.com/jrouwe/JoltPhysics,Jolt Physics,Physics Engine,2026-01-31,2026-01-31,active,Multi-core physics - Horizon Forbidden West - Death Stranding 2
+https://github.com/projectchrono/chrono,Project Chrono,Simulation Platform,2026-01-31,2026-01-31,active,Multi-physics C++ library - ROS2 - sensors - v9.0.1 - BSD License
+https://github.com/NVlabs/ProtoMotions,ProtoMotions 3,Framework,2026-01-31,2026-01-31,active,NVIDIA GPU humanoid training - AMASS dataset - sim-to-real
+https://www.tinkercad.com/,Tinkercad,Online Tool,2026-01-31,2026-01-31,active,Autodesk free 3D design + Arduino simulator - education focus

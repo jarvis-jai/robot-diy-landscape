@@ -183,3 +183,12 @@ lerobot 中文 tutorial,github-search,2026-01-31,na,Round 56: Found CSCSX/LeRobo
 datawhalechina every-embodied,github-direct,2026-01-31,na,Round 56: Found zero-to-hero embodied AI course (347 stars) 14 chapters Datawhale community
 ROS2 教程 chinese,github-search,2026-01-31,na,Round 56: Found fishros/d2l-ros2 (883 stars) - 動手學 ROS2 21 chapters
 机器人 开源 hardware,github-search,2026-01-31,na,Round 56: Found foc-wheel-legged-robot (1.5K stars) Roboto_origin (601 stars humanoid)
+robotics simulation framework 2025 2026 new open source,web_fetch-github-topics,2026-01-31,na,Round 57: Found mjlab (arXiv:2601.22074) MuJoCo Warp MuJoCo Playground via robotics-simulation topic
+physics-simulation GitHub topic,web_fetch-github-topics,2026-01-31,na,Round 57: Found Jolt Physics Chrono Nimble ProtoMotions - 3018 repos in topic
+GitHub mujocolab/mjlab,web_fetch-direct,2026-01-31,na,Round 57: Kevin Zakka (Berkeley) Isaac Lab API + MuJoCo-Warp - Apache 2.0
+GitHub google-deepmind/mujoco_warp,web_fetch-direct,2026-01-31,na,Round 57: GPU-optimized MuJoCo - CUDA 12.4+ - DeepMind + NVIDIA - Beta
+GitHub google-deepmind/mujoco_playground,web_fetch-direct,2026-01-31,na,Round 57: GPU-accelerated environments - pip install playground - vision via Madrona-MJX
+GitHub keenon/nimblephysics,web_fetch-direct,2026-01-31,na,Round 57: Stanford differentiable physics - PyTorch - arXiv:2103.16021
+GitHub jrouwe/JoltPhysics,web_fetch-direct,2026-01-31,na,Round 57: Multi-core physics - Horizon/Death Stranding - GDC 2022
+GitHub projectchrono/chrono,web_fetch-direct,2026-01-31,na,Round 57: Multi-physics C++ - ROS2 - BSD - v9.0.1
+GitHub NVlabs/ProtoMotions,web_fetch-direct,2026-01-31,na,Round 57: NVIDIA humanoid training - AMASS 40+hrs - Apache 2.0

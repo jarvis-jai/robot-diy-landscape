@@ -10,7 +10,7 @@
 |------|------|------|------|
 | communities.md | ≥15 | 33 | ✅ |
 | platforms.md | ≥15 | 32 | ✅ |
-| toolchains.md | ≥10 | 39 | ✅ |
+| toolchains.md | ≥10 | 47 | ✅ |
 | hardware.md | ≥15 | 42 | ✅ |
 | kits.md | ≥10 | 34 | ✅ |
 | learning.md | ≥15 | 43 | ✅ |
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 56 輪 chinese_ecosystem 2026 更新 — 新增 8 個高價值中文資源：Embodied-AI-Guide (11.6K stars)、LeRobotTutorial-CN (111 stars)、lerobot-zh (35 docs)、every-embodied (347 stars Datawhale)、Mycobot教程 (145 stars)、d2l-ros2 (883 stars 魚香ROS)、Roboto Origin (601 stars 人形機器人)、FOC輪腿 (1.5K stars)。chinese_ecosystem 達 36 條目。填補 Gap #1 #2。連續 56 輪 ALLOW！🔥）*
+*最後更新：2026-01-31 （第 57 輪 toolchains 補強 — 新增 8 個前沿模擬/物理工具：mjlab (arXiv:2601.22074 Isaac Lab + MuJoCo-Warp)、MuJoCo Warp (DeepMind+NVIDIA GPU 物理)、MuJoCo Playground (GPU 加速機器人學習)、Nimble Physics (Stanford 可微分)、Jolt Physics (Horizon/Death Stranding)、Project Chrono (多物理 ROS2)、ProtoMotions (NVIDIA 人形機器人)、Tinkercad (教育)。toolchains 達 47 條目。連續 57 輪 ALLOW！🔥）*

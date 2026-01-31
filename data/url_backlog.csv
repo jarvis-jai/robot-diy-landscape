@@ -65,7 +65,7 @@ https://mujoco.org/,discovered,toolchains,high,2026-01-30,2026-01-31,done,MuJoCo
 https://drake.mit.edu/,discovered,toolchains,high,2026-01-30,2026-01-31,done,Drake robotics toolbox - MIT
 https://www.easyeda.com/,discovered,toolchains,medium,2026-01-30,2026-01-31,done,Online EDA tool - PCB design
 https://fritzing.org/,discovered,toolchains,medium,2026-01-30,,pending,Fritzing - circuit documentation
-https://tinkercad.com/,discovered,toolchains,medium,2026-01-30,,pending,Tinkercad - beginner 3D and circuits
+https://tinkercad.com/,discovered,toolchains,medium,2026-01-30,2026-01-31,done,Added to toolchains.md Round 57
 https://www.makeblock.com/,google-search,kits,high,2026-01-30,2026-01-30,done,Added to kits.md - mBot Ultimate 2.0
 https://education.lego.com/,google-search,kits,high,2026-01-30,2026-01-30,done,Added to kits.md - SPIKE Prime
 https://sphero.com/,google-search,kits,high,2026-01-30,2026-01-30,done,Added to kits.md - ball robots
