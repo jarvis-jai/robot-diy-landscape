@@ -16,7 +16,7 @@
 | learning.md | ≥15 | 34 | ✅ |
 | commerce.md | ≥10 | 24 | ✅ |
 | creators.md | ≥10 | 31 | ✅ |
-| chinese_ecosystem.md | ≥10 | 19 | ✅ |
+| chinese_ecosystem.md | ≥10 | 28 | ✅ |
 
 狀態圖例：
 - ⬜ 未開始
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 46 輪 learning_creators_2025 — 新增 5 learning + 3 creators：NVIDIA Robotics Learning Path, HuggingFace LeRobot Tutorial, roboticsjobs.co.uk guide, Embodied AI Workshop, NVIDIA Omniverse Sim-to-Real, Kevin Wood, Nikodem Bartnik, The Construct Jazzy 2025）*
+*最後更新：2026-01-31 （第 48 輪 chinese_ecosystem — 新增 9 個條目：香港 4 個（MakerBay、蒲窩仝匠、MakerSpace.hk、Inno Space）+ 台灣 ROS2 培訓 2 個（中華行動數位、艾鍗學院）+ 繁中 YouTube 創作者 3 個（黃信惠、旭豐老師、佑來認真教））*
