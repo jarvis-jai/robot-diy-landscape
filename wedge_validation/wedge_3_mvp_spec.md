@@ -206,8 +206,11 @@ MVP 內容直接基於本 repo 的 landscape 條目：
 
 1. [x] ✅ 確認 4 條典型學習路徑（輪式/機械臂/無人機/探索）→ `wedge_3_learning_paths.json`
 2. [x] ✅ 從 landscape 精選 30 個 curated 資源 → `wedge_3_curated_resources.json`
-3. [ ] 設計問卷 UI 原型（Figma 或直接 code）
-4. [ ] 建立 Next.js 專案骨架
+3. [x] ✅ 設計問卷 UI 原型 → `wedge_3_mvp/src/components/Questionnaire.tsx`
+4. [x] ✅ 建立 Next.js 專案骨架 → `wedge_3_mvp/`
+5. [x] ✅ 繁中/英文 i18n 翻譯 → `wedge_3_mvp/src/i18n/{en,zh-TW}.json`
+6. [ ] 本地測試 `npm install && npm run dev`
+7. [ ] 部署到 Vercel
 
 ### 資料檔案完成（2026-01-31 Round 23）
 

@@ -1,30 +1,33 @@
-## Meta Status — 2026-01-31 05:10
+## Meta Status — 2026-01-31 01:00
 
-## 🎉 V1 達標 + v1.1 補強階段（第 20 輪）
+## 🚀 MVP 骨架階段（第 24 輪）
 
-**v1 於第 18 輪完成。第 19-20 輪進入補強/深化階段。**
+**v1 於第 18 輪完成。第 19-24 輪進入驗證/開發階段。**
 
 | 維度 | 目標 | 實際 | 狀態 |
 |------|------|------|------|
 | Landscape 類別 | 9/9 | 9/9 | ✅ |
 | Gap Hypotheses | 10 | 10 | ✅ |
 | Opportunity Wedges | 3 | 3 | ✅ |
+| **Wedge #3 MVP** | 開發中 | 骨架完成 | 🔧 |
 | 總條目數 | — | 136 | — |
-| 連續 ALLOW 輪數 | — | 20 | 🔥 |
+| 連續 ALLOW 輪數 | — | 24 | 🔥 |
 
 ---
 
 - **最近 focus 輪替摘要：**
   - 已覆蓋類別：全部 9/9 達標
-  - **🎯 第 20 輪：補強既有條目 — 3 個條目更新**
-  - 邊際產出下降的類別：暫無（補強模式）
+  - **🎯 第 24 輪：Wedge #3 前端骨架 — MVP 結構完成**
+  - 邊際產出下降的類別：暫無（開發模式）
   - 已達標項目：**9/9 landscape + 10 gaps + 3 wedges**
-  - 本輪模式：**v1.1 補強階段**
+  - 本輪模式：**MVP 開發階段**
 
-- **本輪新增關鍵產出（第 20 輪 補強）：**
-  1. **NVIDIA Jetson**：新增 Jetson Thor Series 資訊（Blackwell 架構，最高 2070 TFLOPS，專用視覺加速器）
-  2. **LeRobot**：更新至 v0.4.3，新增 Unitree G1、X-VLA 策略、Earth Rover Mini Plus、OMX 機器人支援
-  3. **LEGO SPIKE Prime**：更新停產細節（2026-06-30），App 支援至 2031，後繼產品「Computer Science & AI」和「Science」
+- **本輪新增關鍵產出（第 24 輪 前端骨架）：**
+  1. **Next.js 專案骨架**：`wedge_3_mvp/` 目錄建立，包含 package.json, next.config.js, tailwind.config.js
+  2. **核心 React 元件**：Questionnaire.tsx（問卷邏輯）、PathCard.tsx（路徑結果）、ResourceCard.tsx（資源卡片）
+  3. **首頁實現**：index.tsx 整合問卷 + 結果顯示 + 語言切換
+  4. **完整 i18n**：en.json（英文）+ zh-TW.json（繁中）共 ~11KB 翻譯內容
+  5. **數據整合**：符號連結 curated_resources.json + learning_paths.json
 
 - **穩定浮現的 gap patterns（≤3）：**
   1. **語言障礙**：中文圈（尤其繁體中文）、西班牙語圈的進階資源嚴重不足
@@ -32,17 +35,29 @@
   3. **可及性障礙**：經濟門檻（專業硬體 $200-500）+ 社群碎片化（新手導航困難）
 
 - **當前探索健康度：**
-  - 重複率：N/A（本輪為補強，無新 URL 探索）
+  - 重複率：N/A（本輪為開發，無新 URL 探索）
   - 新站命中率：N/A
-  - 是否出現疲乏跡象：**否**（連續 20 輪 ALLOW）
-  - **類別飽和狀態**：全部達標，持續補強/驗證
+  - 是否出現疲乏跡象：**否**（連續 24 輪 ALLOW）
+  - **類別飽和狀態**：全部達標，進入 MVP 開發階段
 
 - **對下一階段的建議策略：**
-  - **優先**：執行 Wedge 驗證計畫（見 opportunity_wedges.md 後續驗證計畫）
-    - 短期：Wedge #3 MVP 規格定義 + Wedge #2 Sim-to-Real Checklist 初版
-    - 中期：Wedge #3 MVP 上線 + Wedge #2 首篇文章 Reddit 測試
-  - **次選**：繼續條目補強（追蹤產品更新、版本變化）
+  - **立即**：執行 `npm install && npm run dev` 本地測試
+  - **短期**：部署到 Vercel 進行線上驗證
+  - **次選**：Wedge #2 Reddit 發布（需選擇活躍時段）
   - **暫停**：新條目探索（除非發現重大遺漏）
+
+---
+
+## Wedge #3 MVP 開發進度
+
+| 階段 | 狀態 | 說明 |
+|------|------|------|
+| ✅ 數據準備 | 完成 | curated_resources.json + learning_paths.json |
+| ✅ 規格定義 | 完成 | wedge_3_mvp_spec.md |
+| ✅ 前端骨架 | 完成 | Next.js + React 元件 + i18n |
+| 🔲 本地測試 | 待執行 | npm install && npm run dev |
+| 🔲 Vercel 部署 | 待執行 | robotics-onramp.vercel.app |
+| 🔲 Reddit 測試 | 待規劃 | r/AskRobotics 首發 |
 
 ---
 
@@ -52,11 +67,11 @@
 |------|------|------|------|------|
 | communities | ≥15 | 18 | ✅ | — |
 | platforms | ≥15 | 16 | ✅ | — |
-| toolchains | ≥10 | 17 | ✅ | LeRobot 補強 |
+| toolchains | ≥10 | 17 | ✅ | — |
 | chinese_ecosystem | ≥10 | 11 | ✅ | — |
-| kits | ≥10 | 10 | ✅ | SPIKE Prime 補強 |
+| kits | ≥10 | 10 | ✅ | — |
 | learning | ≥15 | 17 | ✅ | — |
-| hardware | ≥15 | 19 | ✅ | Jetson 補強 |
+| hardware | ≥15 | 19 | ✅ | — |
 | commerce | ≥10 | 16 | ✅ | — |
 | creators | ≥10 | 12 | ✅ | — |
 | **gaps** | ≥10 | 10 | ✅ | — |
@@ -68,18 +83,15 @@
 
 ## 里程碑
 
-- **第 20 輪**：補強既有條目（+3 更新），Jetson Thor / LeRobot v0.4.3 / SPIKE EOL 細節
-- **第 19 輪**：gaps 深化（+6 entries, 4 gaps 更新），Gap #6/#9 信心度降低
-- **第 18 輪**：wedges 達標（+3），**🎉 v1 全面達標** ⭐⭐⭐⭐⭐
-- **第 17 輪**：gaps 達標（+3），Gap Hypotheses 達 10 條
-- **第 16 輪**：creators 達標（+4），9/9 類別全部達標
-- **第 15 輪**：commerce 達標（+8 國際零售商）
-- **第 14 輪**：Gap Hypotheses 階段啟動
-- **第 13 輪**：hardware 達標
-- **第 12 輪**：learning 達標，突破 110 條目總數
-- **第 11 輪**：communities 達標，突破 100 條目總數
-- **第 10 輪**：platforms 達標
-- **第 9 輪**：chinese_ecosystem 達標
+- **第 24 輪**：Wedge #3 前端骨架完成（+10 files），MVP 結構就緒
+- **第 23 輪**：Wedge #3 核心數據完成（curated_resources + learning_paths）
+- **第 22 輪**：Wedge #2 社群發文準備（Community Launch Kit + README + EOL 修正）
+- **第 21 輪**：Wedge 驗證啟動（MVP spec + Sim-to-Real Checklist）
+- **第 20 輪**：補強既有條目（Jetson Thor / LeRobot v0.4.3 / SPIKE EOL）
+- **第 19 輪**：gaps 深化（+6 entries, 4 gaps 更新）
+- **第 18 輪**：🎉 **v1 全面達標**（wedges 完成）
+- **第 17 輪**：gaps 達標（10 條假說）
+- **第 16 輪**：creators 達標，9/9 類別全部達標
 
 ---
 
@@ -87,19 +99,33 @@
 
 | Wedge | 優先級 | 驗證狀態 | 下一步 |
 |-------|--------|----------|--------|
-| #3 新手導航入口 | ⭐⭐⭐⭐⭐ | 構想中 | MVP 規格定義 |
-| #2 Sim-to-Real 指南 | ⭐⭐⭐⭐ | 構想中 | Checklist 初版草稿 |
+| #3 新手導航入口 | ⭐⭐⭐⭐⭐ | **骨架完成** | 本地測試 → Vercel 部署 |
+| #2 Sim-to-Real 指南 | ⭐⭐⭐⭐ | 社群發文準備完成 | 選擇活躍時段發布 |
 | #1 繁中進階學習路徑 | ⭐⭐⭐ | 構想中 | 待 #3 驗證後評估 |
 
 ---
 
-## v1 完成後的研究方向（非急迫）
+## MVP 技術架構
 
-1. **持續補強**：追蹤產品更新、版本變化、新產品發布
-2. **Wedge 驗證**：按優先級執行 MVP 驗證計畫
-3. **Gap 深化**：剩餘中信心度 gaps (#3, #8) 補充佐證
-4. **競品分析**：對 Wedge 相關的既有產品做更深入分析
+```
+wedge_3_mvp/
+├── package.json           # Next.js 14 + React 18 + Tailwind
+├── next.config.js         # i18n 配置 (en, zh-TW)
+├── tailwind.config.js     # 自訂顏色主題
+├── src/
+│   ├── components/
+│   │   ├── Questionnaire.tsx  # 5 題問卷 + 路徑計算
+│   │   ├── PathCard.tsx       # 路徑結果卡片
+│   │   └── ResourceCard.tsx   # 資源展示卡片
+│   ├── pages/
+│   │   └── index.tsx          # 首頁 + 問卷 + 結果
+│   └── i18n/
+│       ├── en.json            # 英文翻譯 (~4.8KB)
+│       └── zh-TW.json         # 繁中翻譯 (~6.4KB)
+├── wedge_3_curated_resources.json → (symlink)
+└── wedge_3_learning_paths.json → (symlink)
+```
 
 ---
 
-*此為第 20 輪後的 meta 摘要（每 5 輪強制更新）。下次更新預計在第 25 輪或有重大發現時。*
+*此為第 24 輪後的 meta 摘要（重大轉折：MVP 骨架完成）。下次更新預計在第 25 輪或 MVP 部署後。*

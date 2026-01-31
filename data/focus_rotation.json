@@ -1,8 +1,8 @@
 {
-  "last_focus": "wedge_3_mvp_data",
+  "last_focus": "wedge_3_frontend_scaffold",
   "next_focus_candidates": [
     "Wedge #2 Reddit 發布",
-    "Wedge #3 前端開發",
+    "Wedge #3 本地測試部署",
     "條目補強"
   ],
   "focus_history": [
@@ -156,6 +156,13 @@
       "files_added": 2,
       "result": "ALLOW",
       "note": "Round 23: Created Wedge #3 MVP core data files: (1) wedge_3_curated_resources.json (30 curated resources across 5 categories: learning 8, commerce 6, tools 6, communities 5, kits 5); (2) wedge_3_learning_paths.json (4 complete learning paths: wheeled, arm, drone, unsure - with 5 questions logic and step-by-step recommendations)."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "wedge_3_frontend_scaffold",
+      "files_added": 10,
+      "result": "ALLOW",
+      "note": "Round 24: Built complete MVP frontend scaffold in wedge_3_mvp/. Created: (1) package.json + next.config.js + tailwind.config.js; (2) 3 core React components (Questionnaire, PathCard, ResourceCard); (3) index.tsx homepage with locale toggle; (4) Complete i18n translations (en.json + zh-TW.json ~11KB combined). MVP is now ready for npm install && npm run dev."
     }
   ]
 }

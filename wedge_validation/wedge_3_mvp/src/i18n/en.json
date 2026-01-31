@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "language": "en",
+    "name": "English",
+    "version": "1.0",
+    "created": "2026-01-31"
+  },
+  
+  "common": {
+    "siteName": "Robotics DIY Onramp",
+    "tagline": "Get your personalized robotics DIY learning path in 5 minutes",
+    "startQuiz": "Start Quiz",
+    "viewResources": "View Resources",
+    "joinCommunity": "Join Community",
+    "learnMore": "Learn More",
+    "backToTop": "Back to Top",
+    "step": "Step",
+    "week": "week",
+    "free": "Free",
+    "paid": "Paid",
+    "freemium": "Freemium"
+  },
+
+  "nav": {
+    "home": "Home",
+    "resources": "Resources",
+    "communities": "Communities",
+    "about": "About"
+  },
+
+  "hero": {
+    "title": "Don't know where to start with robotics?",
+    "subtitle": "Answer 5 simple questions and get your personalized learning path",
+    "cta": "Find My Path"
+  },
+
+  "questionnaire": {
+    "title": "Find Your Learning Path",
+    "progress": "Question {{current}} / {{total}}",
+    "next": "Next",
+    "prev": "Previous",
+    "submit": "See Results",
+    
+    "questions": {
+      "experience": {
+        "question": "What's your programming experience?",
+        "options": {
+          "none": "None",
+          "basic": "Basic (learned Python)",
+          "intermediate": "Intermediate (built projects)",
+          "professional": "Professional"
+        }
+      },
+      "goal": {
+        "question": "What's your goal?",
+        "options": {
+          "hobby": "Hobby / Fun",
+          "skills": "Learn skills",
+          "career": "Career change",
+          "research": "Academic research"
+        }
+      },
+      "type": {
+        "question": "What type of robot do you want to build?",
+        "options": {
+          "wheeled": "Wheeled / Mobile",
+          "arm": "Robot Arm",
+          "drone": "Drone / UAV",
+          "unsure": "Not sure yet"
+        }
+      },
+      "budget": {
+        "question": "What's your budget?",
+        "options": {
+          "low": "< $100",
+          "medium": "$100 - $300",
+          "high": "$300 - $500",
+          "pro": "$500+"
+        }
+      },
+      "style": {
+        "question": "How do you prefer to learn?",
+        "options": {
+          "video": "Video tutorials",
+          "text": "Written guides",
+          "project": "Hands-on projects",
+          "course": "Online courses"
+        }
+      }
+    }
+  },
+
+  "result": {
+    "title": "Your Recommended Path",
+    "subtitle": "Based on your answers, we recommend the following learning path",
+    "estimatedTime": "Estimated Time",
+    "estimatedBudget": "Estimated Budget",
+    "startHere": "Start Here",
+    "alternativePath": "Alternative Path",
+    "saveResult": "Save Result",
+    "shareResult": "Share",
+    "startOver": "Start Over"
+  },
+
+  "paths": {
+    "wheeled": {
+      "name": "Wheeled Mobile Robot",
+      "description": "From smart cars to autonomous navigation robots",
+      "emoji": "🚗"
+    },
+    "arm": {
+      "name": "Robot Arm",
+      "description": "From servo arms to industrial-grade open source arms",
+      "emoji": "🦾"
+    },
+    "drone": {
+      "name": "Drone / UAV",
+      "description": "From beginner quads to autonomous flight",
+      "emoji": "🚁"
+    },
+    "unsure": {
+      "name": "Exploration Path",
+      "description": "Not sure what to build? This path helps you explore",
+      "emoji": "🧭"
+    }
+  },
+
+  "resources": {
+    "title": "Resource Map",
+    "subtitle": "30 curated resources to kickstart your robotics DIY journey",
+    "categories": {
+      "learning": {
+        "name": "🎓 Learning",
+        "description": "Courses, tutorials, YouTube channels"
+      },
+      "commerce": {
+        "name": "🛒 Hardware",
+        "description": "Recommended retailers by region"
+      },
+      "tools": {
+        "name": "🧰 Tools",
+        "description": "IDEs, simulators, frameworks"
+      },
+      "communities": {
+        "name": "💬 Communities",
+        "description": "Discord, Reddit, forums"
+      },
+      "kits": {
+        "name": "📦 Kits",
+        "description": "Recommended by budget and type"
+      }
+    },
+    "filters": {
+      "all": "All",
+      "beginnerFriendly": "Beginner Friendly",
+      "chinese": "Chinese Resources",
+      "free": "Free"
+    },
+    "labels": {
+      "beginnerFriendly": "Beginner Friendly",
+      "price": "Price",
+      "language": "Language",
+      "region": "Region",
+      "lastUpdated": "Last Verified"
+    }
+  },
+
+  "communities": {
+    "title": "Community Guide",
+    "subtitle": "Find the right community for your robotics journey",
+    "sections": {
+      "reddit": {
+        "title": "Reddit Communities",
+        "description": "Topic-based discussions, great for questions and inspiration"
+      },
+      "discord": {
+        "title": "Discord Servers",
+        "description": "Real-time chat, quick help"
+      },
+      "forums": {
+        "title": "Traditional Forums",
+        "description": "Rich historical resources, search-friendly"
+      },
+      "chinese": {
+        "title": "Chinese Communities",
+        "description": "Traditional/Simplified Chinese resources"
+      }
+    },
+    "labels": {
+      "members": "Members",
+      "activity": "Activity",
+      "newbieFriendly": "Newbie Friendly"
+    },
+    "warnings": {
+      "title": "⚠️ Heads Up for Newbies",
+      "r_robotics": "r/robotics does NOT allow beginner questions. Go to r/AskRobotics instead",
+      "r_arduino": "r/arduino prohibits 'do my project for me' requests"
+    },
+    "tips": {
+      "title": "💡 Community Tips",
+      "tip1": "Search before asking to avoid duplicate questions",
+      "tip2": "Provide enough context (code, error messages, hardware specs)",
+      "tip3": "Be specific in your title, don't just say 'Help!'"
+    }
+  },
+
+  "about": {
+    "title": "About",
+    "mission": {
+      "title": "Mission",
+      "description": "Lower the barrier to robotics DIY and help everyone find their learning path"
+    },
+    "methodology": {
+      "title": "Data Source",
+      "description": "All recommendations come from systematic landscape research covering English and Chinese ecosystems"
+    },
+    "contribute": {
+      "title": "Contribute",
+      "description": "Found an error or want to suggest a resource? Open an issue or PR on GitHub"
+    }
+  },
+
+  "footer": {
+    "madeWith": "Made with ❤️",
+    "dataSource": "Data: robot-diy-landscape",
+    "github": "GitHub",
+    "feedback": "Feedback"
+  }
+}
