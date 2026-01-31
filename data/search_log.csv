@@ -1,1 +1,3 @@
 query,engine,date,top_results_hash,notes
+robotics DIY community forum Discord Reddit,browser-google,2026-01-30,na,browser used - web_search API unavailable (no Brave key)
+reddit robotics subreddits about.json,web_fetch-reddit-api,2026-01-30,na,direct Reddit API access via about.json endpoints

@@ -1,1 +1,11 @@
 url,name,type,first_seen_date,last_checked_date,status,notes
+https://reddit.com/r/robotics,r/robotics,Reddit,2026-01-30,2026-01-30,active,315139 members - English robotics community
+https://reddit.com/r/arduino,r/arduino,Reddit,2026-01-30,2026-01-30,active,745709 members - Arduino community
+https://reddit.com/r/raspberry_pi,r/raspberry_pi,Reddit,2026-01-30,2026-01-30,active,3250689 members - Raspberry Pi community
+https://reddit.com/r/ROS,r/ROS,Reddit,2026-01-30,2026-01-30,active,34620 members - ROS community
+https://reddit.com/r/diydrones,r/diydrones,Reddit,2026-01-30,2026-01-30,active,75812 members - DIY drones/UAV community
+https://reddit.com/r/esp32,r/esp32,Reddit,2026-01-30,2026-01-30,active,165430 members - ESP32 microcontroller community
+https://reddit.com/r/AskRobotics,r/AskRobotics,Reddit,2026-01-30,2026-01-30,active,10303 members - Robotics Q&A community
+https://reddit.com/r/MobileRobots,r/MobileRobots,Reddit,2026-01-30,2026-01-30,active,5781 members - Mobile robots community
+https://discourse.ros.org/,ROS Discourse,Forum,2026-01-30,2026-01-30,active,Official ROS forum redirects to discourse.openrobotics.org
+https://forum.arduino.cc/,Arduino Forum,Forum,2026-01-30,2026-01-30,active,Official Arduino forum
