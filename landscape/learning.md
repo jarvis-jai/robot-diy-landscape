@@ -889,4 +889,164 @@
 
 ---
 
-*條目數：43 / 目標：15 ✅*
+### Robot Learning: A Tutorial (fracapuano)
+
+- **Name**：Robot Learning: A Tutorial
+- **Type**：Open Tutorial / arXiv Paper Companion
+- **Primary language**：English
+- **一句話定位**：完整的機器人學習教程，從 LeRobot 數據集到 VLA 模型的全方位覆蓋
+- **強項（≤3）**：
+  - 技術棧最新：涵蓋 ACT、Diffusion Policy、Flow Matching、PI0、SmolVLA、GR00T、PI05
+  - 實作導向：每章配有 LeRobot 程式碼範例
+  - 開源協作：CC-BY-NC-SA 授權，社群可貢獻新章節
+- **弱項/缺口（≤3，可觀察）**：
+  - 部分章節標記為待社群貢獻
+  - 需要深度學習背景
+  - 無中文版本
+- **活躍度訊號**：GitHub 451⭐；2025-10 arXiv 論文（arXiv:2510.12403）
+- **與我們的關聯（一句話）**：2025-2026 年機器人學習入門最佳教程，直接填補 Gap #1 #3
+- **Link(s)**：https://github.com/fracapuano/robot-learning-tutorial | https://arxiv.org/abs/2510.12403
+
+---
+
+### 蘑菇書 EasyRL (Datawhale)
+
+- **Name**：蘑菇書 EasyRL - 強化學習中文教程
+- **Type**：Open Textbook / Course
+- **Primary language**：Chinese (Simplified)
+- **一句話定位**：Datawhale 製作的中文強化學習入門教程，基於李宏毅、周博磊等老師課程
+- **強項（≤3）**：
+  - 中文最佳：人民郵電出版社紙質書 + 免費線上版 + PDF 下載
+  - 內容完整：12 章涵蓋 MDP、Q-learning、策略梯度、PPO、DQN、Actor-Critic
+  - 配套代碼：每章有 Jupyter Notebook 實作
+- **弱項/缺口（≤3，可觀察）**：
+  - 以 RL 理論為主，機器人應用較少
+  - 部分內容基於舊版課程
+  - 無英文版本
+- **活躍度訊號**：GitHub 13,587⭐ 2,205 forks；2026-01-31 更新；京東/當當可購買
+- **與我們的關聯（一句話）**：中文強化學習入門的首選教程，直接填補 Gap #1 #4
+- **Link(s)**：https://github.com/datawhalechina/easy-rl | https://datawhalechina.github.io/easy-rl/
+
+---
+
+### RoboVerse
+
+- **Name**：RoboVerse - Unified Platform, Dataset and Benchmark
+- **Type**：Simulation Platform / Benchmark
+- **Primary language**：English
+- **一句話定位**：整合多模擬器的統一機器人學習平台，RSS 2025 接收
+- **強項（≤3）**：
+  - 模擬器整合：Isaac Lab、MuJoCo、SAPIEN、Genesis、PyBullet、CoppeliaSim 統一 API
+  - 數據整合：RLBench、ManiSkill、LIBERO、Meta-World、robosuite 等 15+ 數據集
+  - 學術前沿：RSS 2025 接收；Berkeley/Tsinghua/CMU 聯合開發
+- **弱項/缺口（≤3，可觀察）**：
+  - 活躍開發中，API 可能有變動
+  - 需要較強計算資源
+  - 無中文文件
+- **活躍度訊號**：GitHub 1,598⭐；2026-01-31 更新；Discord 活躍社群
+- **與我們的關聯（一句話）**：2025 年機器人學習研究的統一入口平台
+- **Link(s)**：https://github.com/RoboVerseOrg/RoboVerse | https://roboverse.wiki | https://arxiv.org/abs/2504.18904
+
+---
+
+### LIBERO
+
+- **Name**：LIBERO - Lifelong Robot Learning Benchmark
+- **Type**：Benchmark / Dataset
+- **Primary language**：English
+- **一句話定位**：UT Austin 終身機器人學習基準，130 任務 4 套件測試知識遷移
+- **強項（≤3）**：
+  - 任務多樣：LIBERO-Spatial、LIBERO-Object、LIBERO-Goal、LIBERO-100 四套件
+  - 人類演示：高品質遙操數據，HuggingFace 可下載
+  - 評估完整：5 研究主題 × 3 網絡架構 × 3 終身學習算法
+- **弱項/缺口（≤3，可觀察）**：
+  - 只支援稀疏獎勵（IL 導向）
+  - 依賴 MuJoCo/robosuite
+  - 無中文文件
+- **活躍度訊號**：GitHub 1,439⭐；HuggingFace 數據集；LIBERO-project.github.io
+- **與我們的關聯（一句話）**：研究多任務/終身學習的標準化基準
+- **Link(s)**：https://github.com/Lifelong-Robot-Learning/LIBERO | https://libero-project.github.io | https://arxiv.org/pdf/2306.03310.pdf
+
+---
+
+### RoboCasa
+
+- **Name**：RoboCasa - Large-Scale Everyday Tasks Simulation
+- **Type**：Simulation Framework / Dataset
+- **Primary language**：English
+- **一句話定位**：大規模家用機器人任務模擬框架，RSS 2024 發表
+- **強項（≤3）**：
+  - 資產豐富：2,500+ 物件（含 AI 生成）、多種廚房佈局和風格
+  - 任務多樣：日常家務任務模擬
+  - 生態整合：基於 robosuite v1.5，支援多種遙操設備和光線追蹤渲染
+- **弱項/缺口（≤3，可觀察）**：
+  - 資產下載約 5GB
+  - 主要聚焦廚房場景
+  - 無中文文件
+- **活躍度訊號**：GitHub 1,090⭐；v0.2 2024-10-31 發布；robocasa.ai 官網
+- **與我們的關聯（一句話）**：家用機器人研究的大規模模擬環境
+- **Link(s)**：https://github.com/robocasa/robocasa | https://robocasa.ai | https://robocasa.ai/assets/robocasa_rss24.pdf
+
+---
+
+### Rofunc
+
+- **Name**：Rofunc - Robot Learning from Demonstration Package
+- **Type**：Framework / Library
+- **Primary language**：English
+- **一句話定位**：完整的機器人學習演示工具包，涵蓋數據收集、預處理、IL/RL/LfD 算法、規劃控制
+- **強項（≤3）**：
+  - 流程完整：演示收集→數據處理→學習→部署的全流程支援
+  - 算法多樣：IL、RL、LfD 多種算法整合
+  - 模擬整合：IsaacGym 和 OmniIsaacGym 評估環境
+- **弱項/缺口（≤3，可觀察）**：
+  - 文件主要英文
+  - 需要 NVIDIA GPU
+  - 活躍開發中，API 有變動
+- **活躍度訊號**：GitHub 696⭐；ReadTheDocs 完整文件；HuggingFace 模型
+- **與我們的關聯（一句話）**：LfD 研究者的全流程 Python 工具包
+- **Link(s)**：https://github.com/Skylark0924/Rofunc | https://rofunc.readthedocs.io/
+
+---
+
+### Awesome Robotics Manipulation
+
+- **Name**：Awesome Robotics Manipulation
+- **Type**：Curated List / Survey
+- **Primary language**：English
+- **一句話定位**：機器人操控論文綜合列表，配合 arXiv survey 論文
+- **強項（≤3）**：
+  - 覆蓋全面：非學習控制方法 + 學習方法（模仿/強化/多模態）
+  - 學術支撐：配合 arXiv:2510.10903 survey 論文
+  - 持續更新：社群貢獻歡迎
+- **弱項/缺口（≤3，可觀察）**：
+  - 以論文列表為主，深度解釋較少
+  - 需要較強研究背景才能有效利用
+  - 無中文版本
+- **活躍度訊號**：GitHub 837⭐；2025-12 更新；西安交大團隊維護
+- **與我們的關聯（一句話）**：機器人操控研究的論文導航地圖
+- **Link(s)**：https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation | https://arxiv.org/abs/2510.10903
+
+---
+
+### ReinFlow
+
+- **Name**：ReinFlow - Fine-tuning Flow Policy with RL
+- **Type**：Research Framework / NeurIPS Paper
+- **Primary language**：English
+- **一句話定位**：NeurIPS 2025 論文實作，用強化學習微調 Flow Matching 策略
+- **強項（≤3）**：
+  - 頂會認可：NeurIPS 2025 正式接收
+  - VLA 支援：支援 pi0、pi0.5、GR00T 等 VLA 模型微調
+  - 開源完整：代碼、checkpoint、訓練指標全公開（WandB）
+- **弱項/缺口（≤3，可觀察）**：
+  - 研究前沿，需要深度學習背景
+  - 依賴 LIBERO/MetaWorld/ManiSkill 環境
+  - 無中文版本
+- **活躍度訊號**：GitHub 241⭐；NeurIPS 2025 Poster；arXiv:2505.22094
+- **與我們的關聯（一句話）**：Flow Policy + RL 微調的前沿參考實作
+- **Link(s)**：https://github.com/ReinFlow/ReinFlow | https://reinflow.github.io/ | https://arxiv.org/abs/2505.22094
+
+---
+
+*條目數：51 / 目標：15 ✅*

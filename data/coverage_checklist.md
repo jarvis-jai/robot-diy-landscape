@@ -13,7 +13,7 @@
 | toolchains.md | ≥10 | 47 | ✅ |
 | hardware.md | ≥15 | 50 | ✅ |
 | kits.md | ≥10 | 34 | ✅ |
-| learning.md | ≥15 | 43 | ✅ |
+| learning.md | ≥15 | 51 | ✅ |
 | commerce.md | ≥10 | 32 | ✅ |
 | creators.md | ≥10 | 39 | ✅ |
 | chinese_ecosystem.md | ≥10 | 36 | ✅ |
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 60 輪 hardware — 新增 8 個開源機器人硬體平台：zeroth-bot (人形機器人 $350 sim2real)、HOPEJr (人形手臂 LeRobot)、Poppy Humanoid (Inria 研究)、EvoArm (機械手臂)、Gravis (移動機器人)、Eleo (伴侶機器人)、OpenCatEsp32 (四足)、Lidarbot (ROS2 Nav2)。hardware 達 50 條目。連續 2 輪 SKIP 後恢復 ALLOW！💪）*
+*最後更新：2026-01-31 （第 61 輪 learning — 新增 8 個機器人學習資源：robot-learning-tutorial (451⭐ LeRobot VLA 教程)、蘑菇書 EasyRL (13.6K⭐ 中文 RL)、RoboVerse (1.6K⭐ RSS 2025)、LIBERO (1.4K⭐ 終身學習)、RoboCasa (1.1K⭐ RSS 2024)、Rofunc (696⭐ LfD)、Awesome-Robotics-Manipulation (837⭐)、ReinFlow (241⭐ NeurIPS 2025)。learning 達 51 條目。）*

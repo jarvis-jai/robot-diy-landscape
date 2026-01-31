@@ -217,3 +217,5 @@ GitHub topics bipedal-robot,web_fetch-github-topics,2026-01-31,na,Round 60: Foun
 GitHub topics mobile-robot,web_fetch-github-topics,2026-01-31,na,Round 60: Found 106 repos - PybulletRobotics local-planning-benchmark lidarbot SMARTmBOT DelyBot
 GitHub topics diy-robot,web_fetch-github-topics,2026-01-31,na,Round 60: Found 6 repos - linorobot2 lidarbot diyrobot papaya-pathfinder AVBR-v1 Robot_Scara_G431
 GitHub topics robot-kit,web_fetch-github-topics,2026-01-31,na,Round 60: Found 4 repos - OpenCat OpenCatEsp32 RaspberryPi-4WD-Car coder-carsite
+GitHub topics robot-learning,web_fetch-github-topics,2026-01-31,na,Round 61: Found 158 repos - IsaacLab ManiSkill robosuite LIBERO awesome-isaac-gym RoboCasa UniVLA SimplerEnv go2_omniverse Rofunc RoboHive Dobb-E TidyBot++ robot-learning-tutorial ReinFlow
+GitHub topics imitation-learning,web_fetch-github-topics,2026-01-31,na,Round 61: Found 533 repos - easy-rl CARLA tianshou mobile-aloha DI-engine act-plus-plus openarm imitation RoboVerse transfuser LIBERO Awesome-CARLA diffusion-literature awesome-decision-transformer Diffusion-Planner Awesome-Robotics-Manipulation humanplus
