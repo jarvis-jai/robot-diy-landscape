@@ -141,8 +141,10 @@ export default function PathCard({ path, budgetTier, resources, communities, tra
     <div className="path-card">
       {/* Header - Using i18n translated name/description */}
       <div className="path-header">
-        <span className="path-emoji">{path.emoji}</span>
-        <h1 className="path-name">{pathName}</h1>
+        <div className="path-header-top">
+          <span className="path-emoji">{path.emoji}</span>
+          <h1 className="path-name">{pathName}</h1>
+        </div>
         <p className="path-description">{pathDescription}</p>
       </div>
       

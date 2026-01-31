@@ -1,9 +1,9 @@
 {
-  "last_focus": "wedge_3_steps_i18n",
+  "last_focus": "responsive_polish",
   "next_focus_candidates": [
     "Wedge #3 Vercel 部署",
     "Wedge #2 Reddit 發布",
-    "Polish UI / Responsive 測試"
+    "SEO 與 meta tags 優化"
   ],
   "focus_history": [
     {
@@ -184,6 +184,13 @@
       "files_modified": 3,
       "result": "ALLOW",
       "note": "Round 27: ✅ 步驟詳情 i18n 完成！(1) en.json +steps block (17 步驟完整翻譯: wheeled 5, arm 5, drone 4, unsure 3 - 含 title/goals/hardware/reason); (2) PathCard.tsx 重構使用 stepTranslation 獲取翻譯; (3) zh-TW.json +stepLabels。Build 成功。英文使用者現在看到完整英文步驟。"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "responsive_polish",
+      "files_modified": 2,
+      "result": "ALLOW",
+      "note": "Round 28: ✅ 響應式設計全面強化！(1) PathCard.tsx 修復 .path-header 結構; (2) globals.css 添加 4 個響應式斷點 (768px/640px/480px/touch) + accessibility focus states + smooth scrolling。Build 成功。手機/平板體驗大幅提升。"
     }
   ]
 }

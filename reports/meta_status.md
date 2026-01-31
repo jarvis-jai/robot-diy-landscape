@@ -1,33 +1,33 @@
-## Meta Status — 2026-01-31 01:40
+## Meta Status — 2026-01-31 01:55
 
-## 🌍 步驟詳情 i18n 完成（第 27 輪）
+## 📱 響應式設計完成（第 28 輪）
 
-**v1 於第 18 輪完成。第 19-27 輪進入驗證/開發階段。**
+**v1 於第 18 輪完成。第 19-28 輪進入驗證/開發階段。**
 
 | 維度 | 目標 | 實際 | 狀態 |
 |------|------|------|------|
 | Landscape 類別 | 9/9 | 9/9 | ✅ |
 | Gap Hypotheses | 10 | 10 | ✅ |
 | Opportunity Wedges | 3 | 3 | ✅ |
-| **Wedge #3 MVP** | 完整 i18n | **步驟翻譯完成** | ✅ |
+| **Wedge #3 MVP** | Production Ready | **i18n ✅ + Responsive ✅** | ✅ |
 | 總條目數 | — | 136 | — |
-| 連續 ALLOW 輪數 | — | 27 | 🔥 |
+| 連續 ALLOW 輪數 | — | 28 | 🔥 |
 
 ---
 
 - **最近 focus 輪替摘要：**
   - 已覆蓋類別：全部 9/9 達標
-  - **🎯 第 27 輪：步驟詳情 i18n 完成 — 17 個步驟全部有英文翻譯！**
+  - **🎯 第 28 輪：響應式設計全面強化 — 手機/平板體驗大幅提升！**
   - 邊際產出下降的類別：暫無（開發模式）
   - 已達標項目：**9/9 landscape + 10 gaps + 3 wedges**
-  - 本輪模式：**MVP 品質完善階段**
+  - 本輪模式：**MVP 發布前 Polish**
 
-- **本輪新增關鍵產出（第 27 輪 Steps i18n）：**
-  1. **✅ en.json +steps block** — 17 個步驟完整翻譯（wheeled 5, arm 5, drone 4, unsure 3）
-  2. **✅ 翻譯內容** — title, goals[], hardware, reason 全部覆蓋
-  3. **✅ PathCard.tsx 重構** — 新增 getStepTranslation/getTranslatedHardware/getTranslatedReason helpers
-  4. **✅ stepLabels** — 兩語言檔案都添加了一致的標籤定義
-  5. **驗證結果** — `npm run build` 成功，無 TypeScript 錯誤
+- **本輪新增關鍵產出（第 28 輪 Responsive Polish）：**
+  1. **✅ PathCard.tsx 結構修復** — 分離 .path-header-top，emoji/title 和 description 正確佈局
+  2. **✅ 4 個響應式斷點** — Tablet (768px), Mobile (640px), Small Mobile (480px), Touch devices
+  3. **✅ 手機堆疊佈局** — .path-summary, .path-actions, .step-card 在小屏幕自動堆疊
+  4. **✅ Accessibility 增強** — :focus-visible states, smooth scrolling, font smoothing
+  5. **✅ Touch-friendly** — 按鈕 min-height 48px, 連結 44px touch target
 
 - **穩定浮現的 gap patterns（≤3）：**
   1. **語言障礙**：中文圈（尤其繁體中文）、西班牙語圈的進階資源嚴重不足
@@ -37,12 +37,12 @@
 - **當前探索健康度：**
   - 重複率：N/A（本輪為開發，無新 URL 探索）
   - 新站命中率：N/A
-  - 是否出現疲乏跡象：**否**（連續 27 輪 ALLOW）
-  - **MVP 健康度**：✅ i18n 架構完整
+  - 是否出現疲乏跡象：**否**（連續 28 輪 ALLOW）
+  - **MVP 健康度**：✅ i18n + Responsive 皆完成
 
 - **對下一階段的建議策略：**
   - **立即**：Vercel 部署 → robotics-onramp.vercel.app（需人類操作登入）
-  - **短期**：Responsive 測試 / UI 微調
+  - **短期**：SEO 與 meta tags 優化 / Open Graph 設定
   - **次選**：Wedge #2 Reddit 發布（需選擇活躍時段）
   - **暫停**：新條目探索（除非發現重大遺漏）
 
@@ -57,7 +57,8 @@
 | ✅ 前端骨架 | 完成 | Next.js + React 元件 + i18n |
 | ✅ 本地測試 | 通過 | npm run dev 成功, HTML 正確渲染 |
 | ✅ 問卷 i18n | 完成 | 問題/選項/路徑名稱使用翻譯檔 |
-| ✅ 步驟詳情 i18n | **完成** | 17 步驟 title/goals/hardware 全部翻譯 |
+| ✅ 步驟詳情 i18n | 完成 | 17 步驟 title/goals/hardware 全部翻譯 |
+| ✅ 響應式設計 | **完成** | 4 斷點 + touch-friendly + accessibility |
 | 🔲 Vercel 部署 | 待執行 | 需人類登入 Vercel 帳號 |
 | 🔲 Reddit 測試 | 待規劃 | r/AskRobotics 首發 |
 
@@ -104,7 +105,8 @@
 
 ## 里程碑
 
-- **第 27 輪**：✅ **步驟詳情 i18n 完成**（17 步驟全面翻譯 - i18n 覆蓋率 100%）
+- **第 28 輪**：✅ **響應式設計完成**（4 斷點 + touch-friendly + accessibility - MVP 發布就緒）
+- **第 27 輪**：步驟詳情 i18n 完成（17 步驟全面翻譯 - i18n 覆蓋率 100%）
 - **第 26 輪**：問卷 i18n 完善（問題/選項/路徑名稱翻譯正常）
 - **第 25 輪**：MVP 本地測試通過（+4 files, npm run dev 成功）
 - **第 24 輪**：Wedge #3 前端骨架完成（+10 files），MVP 結構就緒
@@ -121,7 +123,7 @@
 
 | Wedge | 優先級 | 驗證狀態 | 下一步 |
 |-------|--------|----------|--------|
-| #3 新手導航入口 | ⭐⭐⭐⭐⭐ | **i18n 100% 完成** | Vercel 部署（需人類登入） |
+| #3 新手導航入口 | ⭐⭐⭐⭐⭐ | **MVP 發布就緒** | Vercel 部署（需人類登入） |
 | #2 Sim-to-Real 指南 | ⭐⭐⭐⭐ | 社群發文準備完成 | 選擇活躍時段發布 |
 | #1 繁中進階學習路徑 | ⭐⭐⭐ | 構想中 | 待 #3 驗證後評估 |
 
@@ -155,4 +157,4 @@ wedge_3_mvp/
 
 ---
 
-*此為第 27 輪後的 meta 摘要（i18n 覆蓋率達 100%）。下次更新預計在 Vercel 部署後或第 30 輪。*
+*此為第 28 輪後的 meta 摘要（MVP 發布就緒：i18n + Responsive 皆完成）。下次更新預計在 Vercel 部署後或第 30 輪。*
