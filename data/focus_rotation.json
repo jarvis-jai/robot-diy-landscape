@@ -1,5 +1,5 @@
 {
-  "last_focus": "communities",
+  "last_focus": "creators",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
@@ -244,6 +244,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 35: Added 7 communities (Robotics Stack Exchange, RobotShop Community, ESP32 Forum, EEVblog Forum, All About Circuits, SparkFun Community, element14 Community) + 1 learning (Random Nerd Tutorials). Communities now at 25/15. Meta status update (every 5 rounds)."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "creators",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 36: Added 8 top-tier YouTube creators: Stuff Made Here (4.72M), Simone Giertz (2.81M), Mark Rober (72.4M), Michael Reeves (7.69M), William Osman (3.03M), Hacksmith Industries (15.4M), SmarterEveryDay (11.7M), Colin Furze (13.2M). Creators now at 20/10."
     }
   ]
 }

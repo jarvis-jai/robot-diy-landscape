@@ -264,4 +264,164 @@
 
 ---
 
-*條目數：12 / 目標：10 ✅*
+### Stuff Made Here (Shane Wighton)
+
+- **Name**：Shane Wighton (Stuff Made Here)
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：前 Formlabs 工程師，專注高複雜度機械工程與自動化專案，影片平均觀看次數達 900 萬
+- **強項（≤3）**：
+  1. 頂級工程專案（自動瞄準籃球框、機器人理髮機、自動撞球杆）
+  2. 高度技術深度（機械設計、電腦視覺、控制系統）
+  3. 極高品質製作與敘事（每支影片平均觀看 900 萬次）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 專案極度複雜，非初學者能複製
+  2. 無開源設計，偏娛樂導向
+  3. 更新頻率低（每 1-2 個月一支）
+- **活躍度訊號**：4.72M 訂閱者、336M 總觀看、10th Streamy Awards 技術類提名
+- **與我們的關聯（一句話）**：展示工程創意的頂級範本，激發進階愛好者的靈感來源
+- **Link(s)**：https://www.youtube.com/@StuffMadeHere
+
+---
+
+### Simone Giertz
+
+- **Name**：Simone Giertz
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：瑞典裔美國發明家，以「無用機器人女王」聞名，後轉型製作實用創意專案
+- **強項（≤3）**：
+  1. 獨特幽默風格（無用機器人系列成為 maker 文化經典）
+  2. 高影響力專案（Truckla Tesla 改裝皮卡獲 Tesla 官方認可）
+  3. 商業化成功（Every Day Calendar、Yetch Store 產品線）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 近期內容偏生活/居家改造，機器人專案減少
+  2. 無教學內容，偏娛樂導向
+  3. 更新頻率不固定
+- **活躍度訊號**：2.81M 訂閱者、195.8M 總觀看、TED Talk 演講者、Adam Savage 合作者
+- **與我們的關聯（一句話）**：展示 maker 文化的多樣性，證明「失敗」也能成為創意來源
+- **Link(s)**：https://www.youtube.com/@simonegiertz / https://simonegiertz.com
+
+---
+
+### Mark Rober
+
+- **Name**：Mark Rober
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：前 NASA/Apple 工程師，專注科普娛樂與創意工程專案，YouTube 工程類頂流
+- **強項（≤3）**：
+  1. 頂級製作品質（閃光炸彈系列、松鼠障礙賽達 1 億+ 觀看）
+  2. NASA 專業背景（Curiosity 火星車工程師）
+  3. 教育影響力（CrunchLabs 訂閱盒、Jimmy Kimmel 客座主持）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 無技術教學內容，純娛樂導向
+  2. 專案無法複製（需專業設備和團隊）
+  3. 內容偏向科普而非 DIY 機器人
+- **活躍度訊號**：72.4M 訂閱者、15.2B 總觀看、全球 top 50 YouTuber
+- **與我們的關聯（一句話）**：STEM 教育推廣的頂級範本，展示工程師職涯可能性
+- **Link(s)**：https://www.youtube.com/@MarkRober / https://crunchlabs.com
+
+---
+
+### Michael Reeves
+
+- **Name**：Michael Reeves
+- **Type**：YouTube + Twitch
+- **Primary language**：English
+- **一句話定位**：「comedy-tech」創作者，以荒誕機器人專案聞名（射雷射眼機器人、會咒罵的 Roomba）
+- **強項（≤3）**：
+  1. 獨特幽默風格（結合程式設計與喜劇）
+  2. 病毒式傳播力（每支影片平均數千萬觀看）
+  3. 程式設計深度（自學 coding，展示軟體控制硬體能力）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 更新極度緩慢（一年 2-3 支影片）
+  2. 無教學內容，純娛樂導向
+  3. 專案偏搞笑，技術深度有限
+- **活躍度訊號**：7.69M 訂閱者、492.5M 總觀看、OfflineTV 成員、11th Streamy Awards 獲獎
+- **與我們的關聯（一句話）**：展示程式設計與硬體結合的創意可能性，吸引年輕族群關注 STEM
+- **Link(s)**：https://www.youtube.com/@MichaelReeves
+
+---
+
+### William Osman
+
+- **Name**：William Osman
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：機電工程師轉型 YouTuber，雷射切割專家，Open Sauce 創客大會創辦人
+- **強項（≤3）**：
+  1. 開創性社群貢獻（創辦 Open Sauce 取代 Maker Faire 成為頂級創客大會）
+  2. 豐富合作網絡（Simone Giertz、Mark Rober、Michael Reeves 室友）
+  3. 實用技術展示（雷射切割、蛋落競賽、自製 X 光機）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 專案品質參差（自稱「可疑品質、可疑完整性」）
+  2. 偏娛樂導向，教學深度有限
+  3. 更新頻率中等
+- **活躍度訊號**：3.03M 訂閱者、472M 總觀看、Open Sauce 創辦人、VidCon 2021 特邀創作者
+- **與我們的關聯（一句話）**：maker 社群領袖，Open Sauce 是接觸頂級創客的絕佳平台
+- **Link(s)**：https://www.youtube.com/@williamosman / https://opensauce.com
+
+---
+
+### Hacksmith Industries (James Hobson)
+
+- **Name**：James Hobson (Hacksmith Industries)
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：加拿大工程師，專注將虛構科幻道具「Make It Real」，光劍、鋼鐵人裝甲製作者
+- **強項（≤3）**：
+  1. 頂級「科幻成真」專案（可運作光劍獲金氏世界紀錄、曼達洛人裝甲）
+  2. 完整專業團隊與設施（Kitchener 工作室、CNC、焊接、3D 列印）
+  3. 持續商業合作（Smarter Alloys、Tesla Cybertruck 複製等）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 專案需專業設備，無法 DIY 複製
+  2. 偏娛樂導向，教學深度有限
+  3. 安全風險高（4000°F 光劍、液態氧實驗）
+- **活躍度訊號**：15.4M 訂閱者、3.05B 總觀看、2 項金氏世界紀錄、TEDxKC 演講者
+- **與我們的關聯（一句話）**：展示工程夢想的極限，激發想像力的頂級 maker 內容
+- **Link(s)**：https://www.youtube.com/@hacksmith / https://hacksmith.com
+
+---
+
+### SmarterEveryDay (Destin Sandlin)
+
+- **Name**：Destin Sandlin (SmarterEveryDay)
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：前 NASA 飛彈測試工程師，專注深度科學探索與工程教育，採訪過歐巴馬總統
+- **強項（≤3）**：
+  1. 專業工程背景（NASA 飛彈測試工程師、阿拉巴馬大學航太工程碩士）
+  2. 深度科學探索（潛艇內部、高速攝影、反向騎車等經典科普）
+  3. 高品質敘事（與 Mark Rober 風格相似但更學術導向）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 偏純科學，機器人/DIY 專案較少
+  2. 教學深度有限，偏「好奇心驅動」探索
+  3. 無開源專案或設計分享
+- **活躍度訊號**：11.7M 訂閱者、1.23B 總觀看、白宮採訪者、No Dumb Questions Podcast 主持人
+- **與我們的關聯（一句話）**：展示工程思維與科學方法的頂級教育資源
+- **Link(s)**：https://www.youtube.com/@SmarterEveryDay / https://smartereveryday.com
+
+---
+
+### Colin Furze
+
+- **Name**：Colin Furze
+- **Type**：YouTube
+- **Primary language**：English
+- **一句話定位**：英國水管工轉型發明家，以瘋狂 DIY 專案聞名（地下碉堡、火焰噴射器、世界紀錄機車）
+- **強項（≤3）**：
+  1. 極致創意專案（71 mph 電動代步車、hoverbike、Hulkbuster 裝甲與 James Bruton 合作）
+  2. 多項金氏世界紀錄持有者
+  3. 頂級娛樂性與製作品質（1.84B 總觀看）
+- **弱項/缺口（≤3，可觀察）**：
+  1. 專案極度危險，無法複製（曾因火焰噴射器被捕）
+  2. 無教學內容，純娛樂導向
+  3. 專案偏機械/建造，電子/程式較少
+- **活躍度訊號**：13.2M 訂閱者、1.84B 總觀看、英國電視節目主持人、金氏世界紀錄持有者
+- **與我們的關聯（一句話）**：展示 maker 精神極限的標杆，證明「水管工也能成為發明家」
+- **Link(s)**：https://www.youtube.com/@colinfurze
+
+---
+
+*條目數：20 / 目標：10 ✅*

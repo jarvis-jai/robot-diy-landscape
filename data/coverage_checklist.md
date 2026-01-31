@@ -15,7 +15,7 @@
 | kits.md | ≥10 | 18 | ✅ |
 | learning.md | ≥15 | 26 | ✅ |
 | commerce.md | ≥10 | 16 | ✅ |
-| creators.md | ≥10 | 12 | ✅ |
+| creators.md | ≥10 | 20 | ✅ |
 | chinese_ecosystem.md | ≥10 | 11 | ✅ |
 
 狀態圖例：
@@ -30,7 +30,7 @@
 - [x] 英文資源 ≥30 個
 - [x] 中文資源 ≥10 個
 
-目前：英文 107 / 中文 11
+目前：英文 115 / 中文 11
 
 ---
 
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 22 輪 Wedge #2 社群發文準備 — Community Launch Kit / README 草稿 / ROS EOL 日期修正）*
+*最後更新：2026-01-31 （第 36 輪 Creators 補強 — 新增 8 個頂級 YouTube 創作者）*
