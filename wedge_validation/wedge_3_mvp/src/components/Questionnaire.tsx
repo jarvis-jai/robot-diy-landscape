@@ -12,9 +12,13 @@
  * Props:
  * - questions: 來自 wedge_3_learning_paths.json 的問題陣列
  * - paths: 來自 wedge_3_learning_paths.json 的路徑定義
- * - resources: 來自 wedge_3_curated_resources.json 的資源
+ * - translations: i18n 翻譯物件
  * - locale: 'en' | 'zh-TW'
  * - onComplete: (pathId: string, answers: Answers) => void
+ * 
+ * i18n Support (2026-01-31):
+ * - Question text: translations.questionnaire.questions[questionId].question
+ * - Option labels: translations.questionnaire.questions[questionId].options[optionValue]
  */
 
 import React, { useState } from 'react';
@@ -42,20 +46,41 @@ interface Answers {
   style: string;
 }
 
+interface QuestionnaireTranslations {
+  questions: Record<string, {
+    question: string;
+    options: Record<string, string>;
+  }>;
+  progress?: string;
+  prev?: string;
+  next?: string;
+  submit?: string;
+}
+
+interface Translations {
+  questionnaire: QuestionnaireTranslations;
+  [key: string]: any;
+}
+
 interface Props {
   questions: Question[];
   paths: Record<string, any>;
+  translations: Translations;
   locale: 'en' | 'zh-TW';
   onComplete: (pathId: string, answers: Answers) => void;
 }
 
-export default function Questionnaire({ questions, paths, locale, onComplete }: Props) {
+export default function Questionnaire({ questions, paths, translations, locale, onComplete }: Props) {
   const [currentStep, setCurrentStep] = useState(0);
   const [answers, setAnswers] = useState<Partial<Answers>>({});
   
   const currentQuestion = questions[currentStep];
   const totalSteps = questions.length;
   const isLastStep = currentStep === totalSteps - 1;
+  
+  // Get translated text for current question
+  const qTranslation = translations.questionnaire.questions[currentQuestion.id];
+  const questionText = qTranslation?.question || currentQuestion.text;
   
   const handleSelect = (value: string) => {
     const newAnswers = {
@@ -79,6 +104,12 @@ export default function Questionnaire({ questions, paths, locale, onComplete }: 
     }
   };
   
+  // Get translated option label
+  const getOptionLabel = (option: QuestionOption): string => {
+    const optionTranslation = qTranslation?.options[option.value];
+    return optionTranslation || option.label;
+  };
+  
   return (
     <div className="questionnaire">
       {/* Progress Bar */}
@@ -97,10 +128,10 @@ export default function Questionnaire({ questions, paths, locale, onComplete }: 
         }
       </p>
       
-      {/* Question */}
-      <h2 className="question-text">{currentQuestion.text}</h2>
+      {/* Question - Now uses i18n translated text */}
+      <h2 className="question-text">{questionText}</h2>
       
-      {/* Options */}
+      {/* Options - Now uses i18n translated labels */}
       <div className="options-grid">
         {currentQuestion.options.map((option) => (
           <button
@@ -108,7 +139,7 @@ export default function Questionnaire({ questions, paths, locale, onComplete }: 
             className={`option-button ${answers[currentQuestion.id as keyof Answers] === option.value ? 'selected' : ''}`}
             onClick={() => handleSelect(option.value)}
           >
-            {option.label}
+            {getOptionLabel(option)}
           </button>
         ))}
       </div>
@@ -116,7 +147,7 @@ export default function Questionnaire({ questions, paths, locale, onComplete }: 
       {/* Navigation */}
       {currentStep > 0 && (
         <button className="back-button" onClick={handleBack}>
-          {locale === 'zh-TW' ? '← 上一題' : '← Previous'}
+          {translations.questionnaire.prev || (locale === 'zh-TW' ? '← 上一題' : '← Previous')}
         </button>
       )}
     </div>

@@ -1,9 +1,9 @@
 {
-  "last_focus": "wedge_3_local_testing",
+  "last_focus": "wedge_3_i18n_fix",
   "next_focus_candidates": [
-    "Wedge #2 Reddit 發布",
     "Wedge #3 Vercel 部署",
-    "問卷 i18n 完善"
+    "Wedge #2 Reddit 發布",
+    "步驟詳情 i18n（進階）"
   ],
   "focus_history": [
     {
@@ -170,6 +170,13 @@
       "files_added": 4,
       "result": "ALLOW",
       "note": "Round 25: ✅ MVP 本地運行成功！(1) 修復 next.config.js (移除錯誤的 localeDetection); (2) 創建 _app.tsx + globals.css (~10KB 完整樣式); (3) 創建 postcss.config.js + .gitignore; (4) 驗證：npm install 成功, npm run dev 成功, curl localhost:3000 返回正確 HTML。問卷、語言切換、進度條全部正常。"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "wedge_3_i18n_fix",
+      "files_modified": 3,
+      "result": "ALLOW",
+      "note": "Round 26: ✅ 問卷 i18n 完善！(1) Questionnaire.tsx 改用 translations prop 獲取問題與選項翻譯; (2) PathCard.tsx 改用 translations 獲取路徑名稱/描述; (3) index.tsx 傳入翻譯物件。Build 成功, dev 測試顯示英文問卷正常。步驟詳情翻譯待後續處理。"
     }
   ]
 }

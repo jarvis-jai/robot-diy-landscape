@@ -124,6 +124,7 @@ export default function Home() {
           <Questionnaire
             questions={learningPaths.questions}
             paths={learningPaths.paths}
+            translations={t}
             locale={locale}
             onComplete={handleQuestionnaireComplete}
           />
@@ -134,25 +135,30 @@ export default function Home() {
               budgetTier={answers ? getBudgetTier(answers.budget) : 2}
               resources={resourcesMap}
               communities={communitiesMap}
+              translations={t}
               locale={locale}
             />
             
-            {/* Alternative Paths */}
+            {/* Alternative Paths - Using i18n translated names */}
             <div className="alternative-paths">
               <h3>{t.result.alternativePath}</h3>
               <div className="path-thumbnails">
                 {Object.entries(learningPaths.paths)
                   .filter(([id]) => id !== selectedPath)
-                  .map(([id, path]: [string, any]) => (
-                    <button
-                      key={id}
-                      className="path-thumbnail"
-                      onClick={() => setSelectedPath(id)}
-                    >
-                      <span className="thumbnail-emoji">{path.emoji}</span>
-                      <span className="thumbnail-name">{path.name}</span>
-                    </button>
-                  ))
+                  .map(([id, path]: [string, any]) => {
+                    const pathTranslation = t.paths[id as keyof typeof t.paths];
+                    const translatedName = pathTranslation?.name || path.name;
+                    return (
+                      <button
+                        key={id}
+                        className="path-thumbnail"
+                        onClick={() => setSelectedPath(id)}
+                      >
+                        <span className="thumbnail-emoji">{path.emoji}</span>
+                        <span className="thumbnail-name">{translatedName}</span>
+                      </button>
+                    );
+                  })
                 }
               </div>
             </div>

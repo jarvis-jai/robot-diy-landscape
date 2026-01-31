@@ -22,10 +22,13 @@ interface Step {
   step: number;
   title: string;
   duration: string;
-  budget: Record<string, any>;
-  resources: string[];
-  goals: string[];
+  budget?: Record<string, any>;
+  resources?: string[];
+  goals?: string[];
   communities?: string[];
+  description?: string;
+  redirect?: Record<string, string>;
+  options?: any[];
 }
 
 interface Path {
@@ -47,23 +50,52 @@ interface Resource {
   beginnerFriendly: number;
 }
 
+interface PathTranslation {
+  name: string;
+  description: string;
+  emoji?: string;
+}
+
+interface Translations {
+  paths: Record<string, PathTranslation>;
+  result: {
+    estimatedTime: string;
+    estimatedBudget: string;
+    saveResult: string;
+    shareResult: string;
+    startOver: string;
+    [key: string]: string;
+  };
+  common: {
+    week: string;
+    [key: string]: string;
+  };
+  [key: string]: any;
+}
+
 interface Props {
   path: Path;
   budgetTier: number;
   resources: Record<string, Resource>;
   communities: Record<string, any>;
+  translations: Translations;
   locale: 'en' | 'zh-TW';
 }
 
-export default function PathCard({ path, budgetTier, resources, communities, locale }: Props) {
+export default function PathCard({ path, budgetTier, resources, communities, translations, locale }: Props) {
   const budgetTierKey = `tier${budgetTier}`;
+  
+  // Get translated path info
+  const pathTranslation = translations.paths[path.id];
+  const pathName = pathTranslation?.name || path.name;
+  const pathDescription = pathTranslation?.description || path.description;
   
   // 計算總預算和總時間
   let totalBudget = 0;
   let totalWeeks = 0;
   
   path.steps.forEach(step => {
-    const stepBudget = step.budget[budgetTierKey];
+    const stepBudget = step.budget?.[budgetTierKey];
     if (!stepBudget?.skip) {
       totalBudget += stepBudget?.cost || 0;
       const weeks = parseInt(step.duration) || 0;
@@ -73,26 +105,26 @@ export default function PathCard({ path, budgetTier, resources, communities, loc
   
   return (
     <div className="path-card">
-      {/* Header */}
+      {/* Header - Using i18n translated name/description */}
       <div className="path-header">
         <span className="path-emoji">{path.emoji}</span>
-        <h1 className="path-name">{path.name}</h1>
-        <p className="path-description">{path.description}</p>
+        <h1 className="path-name">{pathName}</h1>
+        <p className="path-description">{pathDescription}</p>
       </div>
       
-      {/* Summary */}
+      {/* Summary - Using i18n translations */}
       <div className="path-summary">
         <div className="summary-item">
           <span className="summary-label">
-            {locale === 'zh-TW' ? '預估時間' : 'Est. Time'}
+            {translations.result?.estimatedTime || (locale === 'zh-TW' ? '預估時間' : 'Est. Time')}
           </span>
           <span className="summary-value">
-            ~{totalWeeks} {locale === 'zh-TW' ? '週' : 'weeks'}
+            ~{totalWeeks} {translations.common?.week || (locale === 'zh-TW' ? '週' : 'weeks')}s
           </span>
         </div>
         <div className="summary-item">
           <span className="summary-label">
-            {locale === 'zh-TW' ? '預估預算' : 'Est. Budget'}
+            {translations.result?.estimatedBudget || (locale === 'zh-TW' ? '預估預算' : 'Est. Budget')}
           </span>
           <span className="summary-value">~${totalBudget}</span>
         </div>
@@ -101,7 +133,7 @@ export default function PathCard({ path, budgetTier, resources, communities, loc
       {/* Steps */}
       <div className="path-steps">
         {path.steps.map((step, index) => {
-          const stepBudget = step.budget[budgetTierKey];
+          const stepBudget = step.budget?.[budgetTierKey];
           
           // 跳過超出預算的步驟
           if (stepBudget?.skip) {
@@ -113,6 +145,19 @@ export default function PathCard({ path, budgetTier, resources, communities, loc
                   <p className="step-skip-reason">
                     {stepBudget.reason || (locale === 'zh-TW' ? '超出預算' : 'Over budget')}
                   </p>
+                </div>
+              </div>
+            );
+          }
+          
+          // Handle special steps (like redirect steps in 'unsure' path)
+          if (step.redirect) {
+            return (
+              <div key={step.step} className="step-card redirect">
+                <div className="step-number">{step.step}</div>
+                <div className="step-content">
+                  <h3 className="step-title">{step.title}</h3>
+                  {step.description && <p className="step-description">{step.description}</p>}
                 </div>
               </div>
             );
@@ -135,17 +180,19 @@ export default function PathCard({ path, budgetTier, resources, communities, loc
                 )}
                 
                 {/* Goals */}
-                <div className="step-goals">
-                  <strong>🎯 {locale === 'zh-TW' ? '目標' : 'Goals'}:</strong>
-                  <ul>
-                    {step.goals.map((goal, i) => (
-                      <li key={i}>{goal}</li>
-                    ))}
-                  </ul>
-                </div>
+                {step.goals && step.goals.length > 0 && (
+                  <div className="step-goals">
+                    <strong>🎯 {locale === 'zh-TW' ? '目標' : 'Goals'}:</strong>
+                    <ul>
+                      {step.goals.map((goal, i) => (
+                        <li key={i}>{goal}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
                 
                 {/* Resources */}
-                {step.resources.length > 0 && (
+                {step.resources && step.resources.length > 0 && (
                   <div className="step-resources">
                     <strong>📚 {locale === 'zh-TW' ? '資源' : 'Resources'}:</strong>
                     <div className="resource-links">
@@ -198,16 +245,16 @@ export default function PathCard({ path, budgetTier, resources, communities, loc
         })}
       </div>
       
-      {/* Actions */}
+      {/* Actions - Using i18n translations */}
       <div className="path-actions">
         <button className="action-button primary">
-          {locale === 'zh-TW' ? '儲存結果' : 'Save Result'}
+          {translations.result?.saveResult || (locale === 'zh-TW' ? '儲存結果' : 'Save Result')}
         </button>
         <button className="action-button secondary">
-          {locale === 'zh-TW' ? '分享' : 'Share'}
+          {translations.result?.shareResult || (locale === 'zh-TW' ? '分享' : 'Share')}
         </button>
         <button className="action-button tertiary">
-          {locale === 'zh-TW' ? '重新測驗' : 'Start Over'}
+          {translations.result?.startOver || (locale === 'zh-TW' ? '重新測驗' : 'Start Over')}
         </button>
       </div>
     </div>
