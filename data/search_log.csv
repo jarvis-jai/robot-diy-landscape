@@ -203,3 +203,17 @@ GitHub topics ros2-chinese,web_fetch-github,2026-01-31,na,Topic empty - no publi
 GitHub topics robotics-tutorial,web_fetch-github,2026-01-31,na,Topic empty - no public repositories yet
 GitHub topics intermediate-robotics,web_fetch-github,2026-01-31,na,Topic empty - no public repositories yet
 GitHub trending Chinese weekly,web_fetch-github,2026-01-31,na,Rate limited - partial page load
+GitHub lerobot tutorial search,web_fetch-github,2026-01-31,na,Round 59: Found robot-learning-tutorial (fracapuano 451 stars arXiv:2510.12403) Lerobot-MujoCo-VLA-Tutorial (13 stars)
+Embodied-AI-Guide exploration,web_fetch-direct,2026-01-31,na,Round 59: Found Lumina community lumina-embodied.ai RoboTwin 2.0 CVPR 2025 50 tasks
+Lumina community exploration,web_fetch-direct,2026-01-31,na,Round 59: Found Talks Workshops Isaac Sim 百講 series - 中文具身智能社區
+Awesome-Embodied-AI-Job exploration,web_fetch-direct,2026-01-31,na,Round 59: Found 具身智能招賢榜 - PhD RA intern full-time listings
+humanoid robot open source GitHub search,web_fetch-github,2026-01-31,na,Round 59: Found zeroth-bot (747) HOPEJr (746) Poppy (861) PLEN2 (328) - not chinese_ecosystem focus
+GetIoT ROS2 教程,web_fetch-direct,2026-01-31,na,Round 59: Found getiot.tech/ros2 中文 ROS2 入門教程 - Apache 2.0 - only 2 stars
+GitHub topics humanoid-robot,web_fetch-github-topics,2026-01-31,na,Round 60: Found 194 repos - humanoid-gym OpenArm PHC RoboCasa TienKung-Lab InterMimic HoloMotion IHMC-ORS WholebodyVLA awesome-rl-for-legged-locomotion
+GitHub topics open-source-robotics,web_fetch-github-topics,2026-01-31,na,Round 60: Limited results - 1 repo only
+GitHub topics 3d-printed-robot,web_fetch-github-topics,2026-01-31,na,Round 60: Found Papaya Pathfinder Gravis - 2 repos total
+GitHub topics robot-arm,web_fetch-github-topics,2026-01-31,na,Round 60: Found 237 repos - openarm Thor ruckig handeye-calib Mars-Rover abr_control MeArm EvoArm BowlerStudio
+GitHub topics bipedal-robot,web_fetch-github-topics,2026-01-31,na,Round 60: Found 1 repo (NeoStepX) - limited
+GitHub topics mobile-robot,web_fetch-github-topics,2026-01-31,na,Round 60: Found 106 repos - PybulletRobotics local-planning-benchmark lidarbot SMARTmBOT DelyBot
+GitHub topics diy-robot,web_fetch-github-topics,2026-01-31,na,Round 60: Found 6 repos - linorobot2 lidarbot diyrobot papaya-pathfinder AVBR-v1 Robot_Scara_G431
+GitHub topics robot-kit,web_fetch-github-topics,2026-01-31,na,Round 60: Found 4 repos - OpenCat OpenCatEsp32 RaspberryPi-4WD-Car coder-carsite

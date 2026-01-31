@@ -1,14 +1,12 @@
 {
-  "last_focus": "gaps_deepening",
+  "last_focus": "hardware",
   "next_focus_candidates": [
+    "learning (new: robot-learning-tutorial, awesome-rl-for-legged-locomotion)",
+    "toolchains (new: RoboTwin 2.0, HoloMotion, TienKung-Lab, IHMC-ORS)",
+    "chinese_ecosystem (new: Lumina Awesome-Job)",
+    "gaps_deepening (pending: refine Gap #1 #2 #7)",
     "人類操作：Vercel 部署執行",
-    "Wedge #2 Reddit 發布",
-    "kits (補強)",
-    "creators (補強)",
-    "platforms (補強)",
-    "hardware (補強)",
-    "communities (補強)",
-    "commerce (補強)"
+    "Wedge #2 Reddit 發布"
   ],
   "focus_history": [
     {
@@ -408,9 +406,24 @@
       "focus": "gaps_deepening",
       "result": "SKIP",
       "note": "Round 58: Attempted to find new evidence for Gap #1 #2 #7 (still high confidence). Resource limitations: (1) Brave Search API unavailable; (2) GitHub API rate limited; (3) Chrome browser not connected. Found d2l-ros2 v2 details (21 chapters, MoveIt2/Nav2/ROS2-Control/MicroROS) - potentially significant counterevidence for Gap #1 but entry already exists. Did not meet COMMIT_POLICY threshold (need ≥8 new entries OR ≥2 gaps OR ≥3 reinforcements)."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "chinese_ecosystem",
+      "result": "SKIP",
+      "note": "Round 59: Found 4 new chinese_ecosystem candidates (Lumina, Awesome-Job, GetIoT ROS2, RoboTwin 2.0) + 4 hardware candidates (zeroth-bot, HOPEJr, Poppy, robot-learning-tutorial). Not enough for 8 entry threshold. Brave API unavailable. Added 8 URLs to backlog for next round."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "hardware",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 60: Added 8 open-source robot hardware platforms - zeroth-bot (humanoid $350 sim2real 747 stars), HOPEJr (humanoid arm LeRobot 746 stars), Poppy Humanoid (Inria research $8K 861 stars), EvoArm (3+2DOF robot arm), Gravis (mobile robot RPLidar), Eleo (French companion robot), OpenCatEsp32 (quadruped 159 stars), Lidarbot (ROS2 Humble Nav2 SLAM). Hardware now at 50/15. Consecutive SKIP streak broken (was 2)."
     }
   ],
   "saturation_notes": {
-    "gaps_deepening": "Round 58 SKIP due to resource constraints (no web_search API, GitHub rate limit, browser disconnected). Gap #1 #2 #7 remain high confidence. d2l-ros2 v2 is strong counterevidence but already captured in Round 56."
+    "gaps_deepening": "Round 58 SKIP due to resource constraints (no web_search API, GitHub rate limit, browser disconnected). Gap #1 #2 #7 remain high confidence. d2l-ros2 v2 is strong counterevidence but already captured in Round 56.",
+    "chinese_ecosystem": "Round 59 SKIP: Found high-quality candidates but only 4 for this category. Backlog enriched with 8 new URLs. Recommend switching to hardware or learning for next round to process backlog.",
+    "hardware": "Round 60 ALLOW: Processed backlog candidates successfully. Humanoid platforms (zeroth-bot, HOPEJr, Poppy) represent emerging open-source alternatives to commercial systems."
   }
 }

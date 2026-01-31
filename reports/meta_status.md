@@ -1,8 +1,8 @@
-## Meta Status — 2026-01-31 07:45
+## Meta Status — 2026-01-31 08:48
 
-## 🎯 第 55 輪：Commerce 德國/日本/土耳其擴展
+## 🎯 第 60 輪：Hardware 開源人形機器人平台
 
-**v1 於第 18 輪完成。第 19-55 輪持續驗證/開發/補強。**
+**v1 於第 18 輪完成。第 19-60 輪持續驗證/開發/補強。**
 
 | 維度 | 目標 | 實際 | 狀態 |
 |------|------|------|------|
@@ -10,49 +10,51 @@
 | Gap Hypotheses | 10 | 10 | ✅ |
 | Opportunity Wedges | 3 | 3 | ✅ |
 | **Wedge #3 MVP** | Production Ready | **✅ 部署就緒** | ✅ |
-| 總條目數 | — | **~314** | — |
-| 連續 ALLOW 輪數 | — | **55** | 🔥🎉 |
+| 總條目數 | — | **~322** | — |
+| 連續 ALLOW 輪數 | — | **58** (扣除 2 次 SKIP) | 💪 |
 
 ---
 
 - **最近 focus 輪替摘要：**
   - 已覆蓋類別：全部 9/9 達標（超額完成）
-  - **🎯 第 55 輪：Commerce 國際擴展 — 德國/日本/土耳其市場**
-  - 邊際產出下降的類別：communities（33）、toolchains（39）、learning（43）— 高度飽和
-  - 本輪模式：**國際零售商補強**
+  - **🎯 第 60 輪：Hardware 開源人形機器人平台 — 中斷連續 2 輪 SKIP**
+  - 邊際產出下降的類別：communities（33）、toolchains（47）、learning（43）— 高度飽和
+  - 本輪模式：**開源人形機器人硬體探索**
 
-- **本輪關鍵新增（第 55 輪 Commerce 擴展）：**
-  1. **德國市場 5 家**：BerryBase（20K+ 產品）、Conrad Electronic（10M+ 產品）、EXP-Tech（IoT/LiDAR）、AZ-Delivery（微電子）、Antratek（嵌入式）
-  2. **日本市場 2 家**：秋月電子（秋葉原老店）、千石電商（多門市）
-  3. **土耳其市場 1 家**：Robotistan（土耳其 Maker 市場領導者，2010 年成立）
+- **本輪關鍵新增（第 60 輪 Hardware 人形機器人）：**
+  1. **人形機器人平台 3 個**：zeroth-bot（$350 sim2real 747⭐）、HOPEJr（LeRobot 整合 746⭐）、Poppy Humanoid（Inria 研究 $8K 861⭐）
+  2. **機械手臂 1 個**：EvoArm（3+2DOF 3D 列印）
+  3. **移動機器人 2 個**：Gravis（RPLidar 移動機器人 WIP）、Lidarbot（ROS2 Humble Nav2 SLAM）
+  4. **伴侶機器人 1 個**：Eleo（法文桌面伴侶機器人）
+  5. **四足機器人 1 個**：OpenCatEsp32（ESP32 版本 Petoi 框架 159⭐）
 
 - **穩定浮現的 gap patterns（≤3）：**
   1. **語言障礙仍存在**：中文/繁中進階資源不足（Gap #1、#4 維持高信心度）
-  2. **工具層面缺口已縮小**：#3 #5 #9 工具支援已成熟，剩餘缺口在 DIY 入門教程
-  3. **國際覆蓋持續擴展**：本輪補齊德日土市場後，主要市場已涵蓋
+  2. **開源人形機器人興起**：zeroth-bot/HOPEJr 代表新一代低成本開源人形平台
+  3. **Sim-to-Real 工具成熟**：K-Sim Gym、Isaac Lab、LeRobot 整合降低入門門檻
 
 - **當前探索健康度：**
   - 重複率：低（本輪 8 個新 URL 全部為新發現）
   - 新站命中率：高（100%）
-  - 是否出現疲乏跡象：**否**（連續 55 輪 ALLOW 🔥）
-  - **Commerce 健康度**：從 24 → 32 條目，國際覆蓋更完整
+  - 是否出現疲乏跡象：**否**（從連續 2 輪 SKIP 恢復）
+  - **Hardware 健康度**：從 42 → 50 條目，人形機器人覆蓋更完整
 
 - **對下一階段的建議策略：**
   - **立即（需人類操作）**：執行 Vercel 部署 + Wedge #2 Reddit 發布
-  - **短期可選**：toolchains/kits/creators 補強、chinese_ecosystem 更新
-  - **觀察**：LeRobot 和 Isaac Lab 持續演進值得追蹤
+  - **短期可選**：toolchains（HoloMotion、TienKung-Lab、IHMC-ORS）、learning（robot-learning-tutorial、awesome-rl-for-legged-locomotion）
+  - **觀察**：zeroth-bot V1.0（計劃 2025-06）、HoloMotion v2.0 路線圖
 
 ---
 
-## 最近 5 輪摘要（第 51-55 輪）
+## 最近 5 輪摘要（第 56-60 輪）
 
 | 輪次 | Focus | 產出 | 狀態 |
 |------|-------|------|------|
-| 55 | commerce | +8 國際零售商（德國 5 + 日本 2 + 土耳其 1） | ✅ ALLOW |
-| 54 | learning | +9 cutting-edge learning resources | ✅ ALLOW |
-| 53 | hardware | +8 DIY robot hardware platforms | ✅ ALLOW |
-| 52 | creators | +8 international/beginner-focused creators | ✅ ALLOW |
-| 51 | kits | +8 international kits | ✅ ALLOW |
+| 60 | hardware | +8 開源機器人硬體（人形 3 + 手臂 1 + 移動 2 + 伴侶 1 + 四足 1） | ✅ ALLOW |
+| 59 | chinese_ecosystem | 發現候選但不足門檻 | ⏭️ SKIP |
+| 58 | gaps_deepening | 資源限制（無 API/瀏覽器） | ⏭️ SKIP |
+| 57 | toolchains | +8 前沿模擬/物理工具 | ✅ ALLOW |
+| 56 | chinese_ecosystem | +8 高價值中文資源 | ✅ ALLOW |
 
 ---
 
@@ -62,26 +64,26 @@
 |------|------|------|------|------|
 | communities | ≥15 | 33 | ✅ | 高度飽和 |
 | platforms | ≥15 | 32 | ✅ | 高度飽和 |
-| toolchains | ≥10 | 39 | ✅ | 高度飽和 |
-| chinese_ecosystem | ≥10 | 28 | ✅ | — |
+| toolchains | ≥10 | 47 | ✅ | 高度飽和 |
+| chinese_ecosystem | ≥10 | 36 | ✅ | — |
 | kits | ≥10 | 34 | ✅ | — |
 | learning | ≥15 | 43 | ✅ | 高度飽和 |
-| hardware | ≥15 | 42 | ✅ | — |
-| commerce | ≥10 | **32** | ✅ | **+8 Round 55** |
+| hardware | ≥15 | **50** | ✅ | **+8 Round 60** |
+| commerce | ≥10 | 32 | ✅ | — |
 | creators | ≥10 | 39 | ✅ | — |
 | **gaps** | ≥10 | 10 | ✅ | — |
 | **wedges** | ≥3 | 3 | ✅ | — |
 
-**總條目數：~314 / 達標類別：9/9 ✅ / Gap Hypotheses：10/10 ✅ / Wedges：3/3 ✅**
+**總條目數：~322 / 達標類別：9/9 ✅ / Gap Hypotheses：10/10 ✅ / Wedges：3/3 ✅**
 
 ---
 
-## 📊 第 55 輪飽和度評估
+## 📊 第 60 輪飽和度評估
 
 ### 當前狀態
-- **連續 ALLOW 輪數**：55 輪 🔥🎉
-- **探索模式輪數**：37 輪（第 19-55 輪）
-- **本輪成果**：8 個新國際零售商（德國 5 + 日本 2 + 土耳其 1）
+- **總 ALLOW 輪數**：58 輪（60 輪中 58 輪 ALLOW）
+- **探索模式輪數**：42 輪（第 19-60 輪）
+- **本輪成果**：8 個開源機器人硬體平台（人形機器人重點）
 - **剩餘待辦事項**：
   - Vercel 部署（需人類執行）
   - Reddit 發布（需人類選擇時機）
@@ -90,29 +92,21 @@
 - ✅ 所有 landscape 類別已超額達標
 - ✅ Gaps 和 Wedges 已達標
 - ✅ MVP 功能開發已完成
-- ⚠️ **多個類別達高度飽和**：communities 33、toolchains 39、learning 43、hardware 42、creators 39
-- ⚠️ Commerce 32 條目（涵蓋：北美、歐洲、亞洲、拉美、中東）
+- ⚠️ **多個類別達高度飽和**：communities 33、toolchains 47、learning 43、hardware 50、creators 39
+- ⚠️ **Hardware 現為最大類別**（50 條目）
 - ⏳ 剩餘工作需人類參與
 
-### 國際市場覆蓋（Commerce）
+### 開源人形機器人生態
 
-| 地區 | 涵蓋商店數 | 主要代表 |
-|------|-----------|----------|
-| 北美 | 6 | Adafruit, SparkFun, RobotShop, PiShop.us, CanaKit |
-| 英國 | 2 | Pimoroni, The Pi Hut |
-| 德國 | 5 | BerryBase, Conrad, EXP-Tech, AZ-Delivery, Antratek |
-| 法國 | 1 | GoTronic |
-| 波蘭 | 1 | Botland |
-| 西班牙 | 1 | Tiendatec |
-| 中國 | 3 | Seeed Studio, DFRobot, Waveshare |
-| 日本 | 2 | 秋月電子, 千石電商 |
-| 韓國 | 1 | DeviceMart |
-| 台灣 | — | (在 chinese_ecosystem) |
-| 馬來西亞 | 1 | Cytron |
-| 印度 | 2 | ThinkRobotics, Robocraze |
-| 菲律賓 | 1 | Makerlab |
-| 墨西哥/拉美 | 3 | AG Electrónica, Steren, Electromanía |
-| 土耳其 | 1 | Robotistan |
+本輪發現展示了開源人形機器人的快速發展：
+
+| 平台 | 成本 | 特色 | Stars |
+|------|------|------|-------|
+| zeroth-bot | $350 | Sim2Real RL, K-Scale Labs | 747 |
+| HOPEJr | DIY | LeRobot 整合, 靈巧手 | 746 |
+| Poppy Humanoid | $8K+ | Inria 研究背景, 25 DYNAMIXEL | 861 |
+
+這些平台代表了從研究級（Poppy）到入門級（zeroth-bot）的完整譜系。
 
 ---
 
@@ -127,8 +121,8 @@
 | #5 | 感測器 ROS 2 整合教程 | **低** | Nav2 1.0.0 + ros2_control |
 | #6 | 開源手臂長期可維護性 | 低 | Thor + SO-ARM 模式成功 |
 | #7 | 創作者語言/地區不平衡 | 高 | 英語圈仍主導 |
-| #8 | 成本門檻對發展中市場 | 中 | ESP32 等降低入門門檻 |
-| #9 | Sim-to-Real 過渡教程 | **低** | LeRobot v0.4.3 + Isaac Lab |
+| #8 | 成本門檻對發展中市場 | 中 | zeroth-bot $350 降低門檻 |
+| #9 | Sim-to-Real 過渡教程 | **低** | K-Sim Gym + Isaac Lab |
 | #10 | 社群碎片化新手導航難 | 高 | Wedge #3 解決中 |
 
 ---
@@ -143,17 +137,24 @@
 
 ---
 
+## 下一輪候選方向
+
+1. **learning**：robot-learning-tutorial (451⭐)、awesome-rl-for-legged-locomotion — 機器人學習教程補強
+2. **toolchains**：HoloMotion (Horizon)、TienKung-Lab (IsaacLab)、IHMC-ORS (Java) — 人形控制框架
+3. **chinese_ecosystem**：Lumina 社區、Awesome-Embodied-AI-Job — 中文具身智能資源
+4. **gaps_deepening**：為 Gap #1 #2 #7 尋找更多證據
+
+---
+
 ## 里程碑
 
-- **第 55 輪**：🌍 Commerce 國際化完成（德國 5 + 日本 2 + 土耳其 1）— 連續 55 輪 ALLOW
-- **第 54 輪**：Learning 2026 前沿資源（ICLR 2026 論文）
-- **第 53 輪**：Hardware DIY 平台擴展
-- **第 52 輪**：Creators 國際化/入門友善
-- **第 51 輪**：Kits 國際化
+- **第 60 輪**：💪 Hardware 開源人形機器人（zeroth-bot + HOPEJr + Poppy）— 從連續 2 輪 SKIP 恢復
+- **第 57 輪**：Toolchains 前沿模擬工具（MuJoCo Warp/Playground）
+- **第 56 輪**：Chinese Ecosystem 具身智能教程
+- **第 55 輪**：Commerce 國際化完成（德國 5 + 日本 2 + 土耳其 1）
 - **第 50 輪**：🎉 連續 50 輪 ALLOW 里程碑
-- **第 40 輪**：Commerce 國際化 + Meta 更新
 - **第 18 輪**：🎉 v1 全面達標
 
 ---
 
-*此為第 55 輪後的 meta 摘要。下次更新預計在第 60 輪或有重大進展時。*
+*此為第 60 輪後的 meta 摘要。下次更新預計在第 65 輪或有重大進展時。*

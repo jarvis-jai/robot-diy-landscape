@@ -11,7 +11,7 @@
 | communities.md | ≥15 | 33 | ✅ |
 | platforms.md | ≥15 | 32 | ✅ |
 | toolchains.md | ≥10 | 47 | ✅ |
-| hardware.md | ≥15 | 42 | ✅ |
+| hardware.md | ≥15 | 50 | ✅ |
 | kits.md | ≥10 | 34 | ✅ |
 | learning.md | ≥15 | 43 | ✅ |
 | commerce.md | ≥10 | 32 | ✅ |
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 57 輪 toolchains 補強 — 新增 8 個前沿模擬/物理工具：mjlab (arXiv:2601.22074 Isaac Lab + MuJoCo-Warp)、MuJoCo Warp (DeepMind+NVIDIA GPU 物理)、MuJoCo Playground (GPU 加速機器人學習)、Nimble Physics (Stanford 可微分)、Jolt Physics (Horizon/Death Stranding)、Project Chrono (多物理 ROS2)、ProtoMotions (NVIDIA 人形機器人)、Tinkercad (教育)。toolchains 達 47 條目。連續 57 輪 ALLOW！🔥）*
+*最後更新：2026-01-31 （第 60 輪 hardware — 新增 8 個開源機器人硬體平台：zeroth-bot (人形機器人 $350 sim2real)、HOPEJr (人形手臂 LeRobot)、Poppy Humanoid (Inria 研究)、EvoArm (機械手臂)、Gravis (移動機器人)、Eleo (伴侶機器人)、OpenCatEsp32 (四足)、Lidarbot (ROS2 Nav2)。hardware 達 50 條目。連續 2 輪 SKIP 後恢復 ALLOW！💪）*

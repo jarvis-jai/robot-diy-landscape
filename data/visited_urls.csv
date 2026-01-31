@@ -348,3 +348,11 @@ https://github.com/jrouwe/JoltPhysics,Jolt Physics,Physics Engine,2026-01-31,202
 https://github.com/projectchrono/chrono,Project Chrono,Simulation Platform,2026-01-31,2026-01-31,active,Multi-physics C++ library - ROS2 - sensors - v9.0.1 - BSD License
 https://github.com/NVlabs/ProtoMotions,ProtoMotions 3,Framework,2026-01-31,2026-01-31,active,NVIDIA GPU humanoid training - AMASS dataset - sim-to-real
 https://www.tinkercad.com/,Tinkercad,Online Tool,2026-01-31,2026-01-31,active,Autodesk free 3D design + Arduino simulator - education focus
+https://github.com/zeroth-robotics/zeroth-bot,zeroth-bot,Open Source Hardware,2026-01-31,2026-01-31,active,3D-printed humanoid $350 BoM - sim2real RL - K-Scale Labs - MIT License - 747 stars
+https://github.com/TheRobotStudio/HOPEJr,HOPEJr,Open Source Hardware,2026-01-31,2026-01-31,active,DIY humanoid robot arm with dexterous hands - LeRobot integration - 746 stars
+https://github.com/poppy-project/poppy-humanoid,Poppy Humanoid,Open Source Hardware,2026-01-31,2026-01-31,active,Classic 3D printed humanoid - Inria research - 25 DYNAMIXEL servos - $8000-9000 - 861 stars
+https://github.com/AliShug/EvoArm,EvoArm,Open Source Hardware,2026-01-31,2026-01-31,active,3D-printable 3+2DOF robot arm - DYNAMIXEL servos - CC-BY-SA 3.0
+https://github.com/dimitarbez/Gravis,Gravis,Open Source Hardware,2026-01-31,2026-01-31,active,Open-source mobile robot - RPLidar A1 RPi4 Arduino Mega - WIP project
+https://github.com/Deadier/Eleo,Eleo (Emo),Open Source Hardware,2026-01-31,2026-01-31,active,French companion robot - RPi LCD touch sensors voice - 3D printed
+https://github.com/PetoiCamp/OpenCatEsp32-Quadruped-Robot,OpenCatEsp32,Open Source Hardware,2026-01-31,2026-01-31,active,ESP32 quadruped robot framework - Petoi - MIT License - 159 stars
+https://github.com/TheNoobInventor/lidarbot,Lidarbot,Open Source Hardware,2026-01-31,2026-01-31,active,ROS2 Humble differential drive - RPLidar A1 - Nav2 SLAM - ros2_control

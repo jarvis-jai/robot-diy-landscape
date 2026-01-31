@@ -872,4 +872,164 @@
 
 ---
 
-*條目數：42 / 目標：15 ✅*
+### zeroth-bot
+
+- **Name**：zeroth-bot (Zeroth-01)
+- **Type**：Open Source Hardware / Humanoid Platform
+- **Primary language**：English
+- **一句話定位**：$350 起步的 3D 列印開源人形機器人平台，專為 sim-to-real RL 研究設計
+- **強項（≤3）**：
+  - 極低成本：BoM $350 起步，完全 3D 列印，Feetech 伺服馬達
+  - 端到端解決方案：KOS-ZBot 作業系統、K-Sim Gym RL 訓練、MuJoCo/URDF 模型
+  - 活躍開源社群：Discord 社群活躍，K-Scale Labs 支持，V1.0 計劃 2025-06 發布
+- **弱項/缺口（≤3，可觀察）**：
+  - 目前為 Public Beta 狀態，預期會有 breaking changes
+  - 基本功能（行走、視覺、語音）尚在開發中
+  - 需要自行 3D 列印和組裝
+- **活躍度訊號**：GitHub 747+ stars，Discord 活躍，2026-01 持續更新
+- **與我們的關聯（一句話）**：預算有限但想探索人形機器人 RL 研究的首選平台
+- **Link(s)**：https://github.com/zeroth-robotics/zeroth-bot | https://docs.kscale.dev/docs/zeroth-01 | https://discord.gg/G6KP76uha5
+
+---
+
+### HOPEJr
+
+- **Name**：HOPEJr
+- **Type**：Open Source Hardware / Humanoid Arm
+- **Primary language**：English
+- **一句話定位**：開源 DIY 人形機器人手臂，配備靈巧手，支援 LeRobot 和遙操作
+- **強項（≤3）**：
+  - LeRobot 整合：完整軟體整合，支援錄製、訓練、推論
+  - 遙操作系統：外骨骼控制系統，1:1 關節映射
+  - 簡化組裝：無需焊接，客製 PCB 便於連接
+- **弱項/缺口（≤3，可觀察）**：
+  - 專案仍在積極開發中（84 commits）
+  - 文檔分散在 Humanoid/ 和 Arm/ 目錄中
+  - 需要 3D 列印和組裝技能
+- **活躍度訊號**：GitHub 746+ stars，92 forks，Rob Knight 和 Martino Russi (HuggingFace) 開發
+- **與我們的關聯（一句話）**：想要將 LeRobot 用於實體機器人手臂的開發者首選
+- **Link(s)**：https://github.com/TheRobotStudio/HOPEJr
+
+---
+
+### Poppy Humanoid
+
+- **Name**：Poppy Humanoid
+- **Type**：Open Source Hardware / Humanoid Platform
+- **Primary language**：English / French
+- **一句話定位**：經典開源 3D 列印人形機器人，Inria 研究背景，專為研究與教育設計
+- **強項（≤3）**：
+  - 學術背景：ERC Grant Explorer 資助，Inria Bordeaux 開發，具身認知研究
+  - 完整生態：25 個 DYNAMIXEL 致動器、Raspberry Pi 控制、Python SDK
+  - 跨領域應用：工程、認知科學、心理學、生物學、動畫、設計
+- **弱項/缺口（≤3，可觀察）**：
+  - 成本較高：$8000-9000，主要是 DYNAMIXEL 馬達成本
+  - 組裝需約 7 小時（有經驗者）
+  - 專案相對成熟，更新較緩慢
+- **活躍度訊號**：GitHub 861+ stars，forum.poppy-project.org 活躍，Poppy Station 非營利組織維護
+- **與我們的關聯（一句話）**：想要深入研究人形機器人和具身認知的研究者參考平台
+- **Link(s)**：https://github.com/poppy-project/poppy-humanoid | https://www.poppy-project.org | https://forum.poppy-project.org
+
+---
+
+### EvoArm
+
+- **Name**：EvoArm
+- **Type**：Open Source Hardware / Robot Arm
+- **Primary language**：English
+- **一句話定位**：開源 3D 列印 3+2DOF 桌面機器人手臂，使用 DYNAMIXEL 智慧伺服馬達
+- **強項（≤3）**：
+  - 完整運動學：Python PyGame 逆運動學應用，線性插值和碰撞檢測
+  - 基於 LiteArm i2 設計，改良強化
+  - 使用 DYNAMIXEL AX-12/18A 串列控制，Arduino Mega 介面
+- **弱項/缺口（≤3，可觀察）**：
+  - 專案較舊（2019 年），可能需要更新至現代框架
+  - UI 應用大小固定，較小螢幕可能無法使用
+  - 需要理解 DYNAMIXEL 串列通訊協議
+- **活躍度訊號**：GitHub 保存完整 STL 和原始碼，基於 CC-BY-SA 3.0 授權
+- **與我們的關聯（一句話）**：想要學習機器人手臂運動學的入門選擇
+- **Link(s)**：https://github.com/AliShug/EvoArm
+
+---
+
+### Gravis
+
+- **Name**：Gravis
+- **Type**：Open Source Hardware / Mobile Robot
+- **Primary language**：English
+- **一句話定位**：開源移動機器人，目標是以低成本實現進階功能，大部分零件可 3D 列印
+- **強項（≤3）**：
+  - 完整感測器：RPLidar A1 (SLAM)、MPU6050 (IMU)、DHT22、Raspberry Pi Camera
+  - 標準化零件：Raspberry Pi 4、Arduino Mega、L298N 馬達驅動、易於採購
+  - 音訊互動：PAM8610 擴音器、AIYIMA 喇叭、語音辨識
+- **弱項/缺口（≤3，可觀察）**：
+  - 專案仍在開發中 (🚧 Project in Development)
+  - 文檔尚不完整，組裝指南待更新
+  - 主要使用英文，無中文支援
+- **活躍度訊號**：Reddit r/makingrobots 社群連結，GitHub 開放貢獻
+- **與我們的關聯（一句話）**：想要構建具備 SLAM 和語音功能移動機器人的參考設計
+- **Link(s)**：https://github.com/dimitarbez/Gravis
+
+---
+
+### Eleo (Emo)
+
+- **Name**：Eleo (Emo)
+- **Type**：Open Source Hardware / Companion Robot
+- **Primary language**：French
+- **一句話定位**：開源互動式陪伴機器人，使用物理動作、語音回應和 LCD 表情
+- **強項（≤3）**：
+  - 豐富互動：觸覺感測、振動偵測、語音辨識、情感回應（哭泣、生氣、快樂）
+  - 內建遊戲：Left or Right、Dance to the Beat、Shooting Game、Parrot Mode、Puppet Mode
+  - 3D 列印設計：PLA 列印，M3 螺絲組裝，詳細零件清單
+- **弱項/缺口（≤3，可觀察）**：
+  - 文檔主要為法文
+  - 基於 CodersCafeTech/Emo fork，需參考原始專案
+  - 電池續航約 1.5 小時，充電 30 分鐘
+- **活躍度訊號**：2025-08 更新，Python 實作，SSH 遠端設定指南
+- **與我們的關聯（一句話）**：想要構建互動式桌面陪伴機器人的參考設計
+- **Link(s)**：https://github.com/Deadier/Eleo | https://github.com/CodersCafeTech/Emo
+
+---
+
+### OpenCat ESP32
+
+- **Name**：OpenCat ESP32
+- **Type**：Open Source Hardware / Quadruped Framework
+- **Primary language**：English
+- **一句話定位**：ESP32 版本的開源四足機器人框架，適合 STEM 教育和 DIY 套件開發
+- **強項（≤3）**：
+  - ESP32 架構：相較於 Arduino/RPi 版本，更易於 IoT 和 AI 整合
+  - Petoi 生態：與 Bittle/Nybble 硬體相容，成熟的商業化套件支援
+  - MIT 授權：完全開源，適合商業化和教育用途
+- **弱項/缺口（≤3，可觀察）**：
+  - 相較於 Arduino 版本，Stars 較少 (159 vs 900+)
+  - 需要搭配 Petoi 硬體（Bittle 等）
+  - 文檔可能需要參考原版 OpenCat
+- **活躍度訊號**：2026-01 持續更新，55 forks，積極開發中
+- **與我們的關聯（一句話）**：想要使用 ESP32 構建四足機器人的現代化選擇
+- **Link(s)**：https://github.com/PetoiCamp/OpenCatEsp32-Quadruped-Robot
+
+---
+
+### Lidarbot
+
+- **Name**：Lidarbot
+- **Type**：Open Source Hardware / Mobile Robot
+- **Primary language**：English
+- **一句話定位**：ROS2 Humble 差速驅動機器人，配備 RPLidar A1 和 Nav2 導航堆疊
+- **強項（≤3）**：
+  - 完整 ROS2 整合：ros2_control、slam_toolbox、Nav2、robot_localization (EKF)
+  - 詳細教程：論文預印本、完整零件清單、接線圖、影片示範
+  - 硬體抽象：Waveshare Motor Driver HAT 和 MPU6050 的 ros2_control 硬體元件
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要較多硬體零件（RPi4、RPlidar、馬達驅動、IMU 等）
+  - 需要熟悉 ROS2 和 Linux
+  - 部分 3D 列印零件需自行製作
+- **活躍度訊號**：2025-08 更新，ResearchGate 預印本，GitHub README 詳盡
+- **與我們的關聯（一句話）**：想要學習 ROS2 移動機器人完整堆疊（SLAM、Nav2、ros2_control）的實作參考
+- **Link(s)**：https://github.com/TheNoobInventor/lidarbot | http://dx.doi.org/10.13140/RG.2.2.15748.54408
+
+---
+
+*條目數：50 / 目標：15 ✅*
