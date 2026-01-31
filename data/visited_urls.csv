@@ -135,3 +135,11 @@ https://github.com/newton-physics,Newton Physics,Simulation Engine,2026-01-31,20
 https://docs.nav2.org/,Nav2,Framework,2026-01-31,2026-01-31,active,ROS 2 official navigation stack - 100+ companies - Jazzy Kilted LTS
 https://github.com/isaac-sim/IsaacLab,Isaac Lab,Framework,2026-01-31,2026-01-31,active,GPU accelerated robot learning - sim-to-real focus - BSD-3 license
 https://github.com/TheRobotStudio/SO-ARM100,SO-ARM100/SO-101,Open Source Project,2026-01-31,2026-01-31,active,Standard Open robot arm - LeRobot integration - Seeed Studio vendor
+https://mujoco.org/,MuJoCo,Physics Engine,2026-01-31,2026-01-31,active,DeepMind physics simulator - GitHub 12K stars - Apache 2.0
+https://drake.mit.edu/,Drake,Robotics Toolbox,2026-01-31,2026-01-31,active,MIT/TRI model-based robotics toolbox - C++/Python
+https://pybullet.org/,PyBullet/Bullet Physics,Physics Engine,2026-01-31,2026-01-31,active,Open source physics engine - VR/games/robotics
+https://github.com/google/brax,Brax,Differentiable Physics,2026-01-31,2026-01-31,active,Google JAX differentiable physics - brax/training only maintained
+https://www.coppeliarobotics.com/,CoppeliaSim,Simulation Platform,2026-01-31,2026-01-31,active,V-REP successor - 5 physics engines - V4.10.0
+https://gymnasium.farama.org/,Gymnasium,RL API Standard,2026-01-31,2026-01-31,active,OpenAI Gym successor - Farama Foundation - 11K stars
+https://www.easyeda.com/,EasyEDA,EDA Software,2026-01-31,2026-01-31,active,Cloud EDA with JLCPCB integration - 13 years development
+https://carla.org/,CARLA,Simulation Platform,2026-01-31,2026-01-31,active,Open source autonomous driving simulator - 14K stars - MIT

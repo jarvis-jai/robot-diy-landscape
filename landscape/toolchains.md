@@ -370,4 +370,166 @@
 
 ---
 
-*條目數：17 / 目標：10 ✅*
+---
+
+### MuJoCo
+
+- **Name**：MuJoCo (Multi-Joint dynamics with Contact)
+- **Type**：Physics Engine / Simulation Platform
+- **Primary language**：English
+- **一句話定位**：DeepMind 維護的高性能物理模擬器，是機器人學習領域的事實標準引擎
+- **強項（≤3）**：
+  - 速度與精度的最佳平衡，支援 GPU 加速（MJX/JAX 版本）
+  - Apache 2.0 開源（2022 年後），GitHub 12K+ stars
+  - MuJoCo Playground 提供 170+ 現成訓練環境
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要理解 MJCF 模型格式（XML 描述）
+  - 無中文文檔
+  - 視覺化能力較專業遊戲引擎弱
+- **活躍度訊號**：GitHub 100+ 貢獻者、890K 下載、5.1K 依賴專案；28.01.2026 最新更新
+- **與我們的關聯（一句話）**：機器人強化學習的核心引擎，幾乎所有現代 RL 論文都使用它
+- **Link(s)**：https://mujoco.org/ | https://github.com/google-deepmind/mujoco
+
+---
+
+### Drake
+
+- **Name**：Drake
+- **Type**：Robotics Toolbox
+- **Primary language**：English
+- **一句話定位**：MIT/TRI 聯合開發的模型導向機器人設計與驗證工具箱，專注於最佳化與控制
+- **強項（≤3）**：
+  - C++/Python 雙介面，強調數學嚴謹性（解析梯度、多項式結構、不確定性量化）
+  - 複雜動力學模擬（摩擦、接觸、空氣動力學）
+  - 與 MIT 機器人課程（6.800/6.8210）深度整合
+- **弱項/缺口（≤3，可觀察）**：
+  - 學習曲線較陡，需要控制理論背景
+  - ROS 2 整合為「非官方」（unsupported）
+  - 無中文文檔
+- **活躍度訊號**：Toyota Research Institute 核心資助，有 Deepnote 線上教學、Gallery 範例集
+- **與我們的關聯（一句話）**：進階機器人學習者的控制與最佳化參考框架，學術品質保證
+- **Link(s)**：https://drake.mit.edu/ | https://github.com/RobotLocomotion/drake
+
+---
+
+### PyBullet / Bullet Physics
+
+- **Name**：PyBullet / Bullet Physics
+- **Type**：Physics Engine
+- **Primary language**：English
+- **一句話定位**：廣泛使用的開源物理引擎，VR/遊戲/機器人通用，PyBullet 提供 Python 介面
+- **強項（≤3）**：
+  - 剛體動力學與軟體（布料、繩索）模擬
+  - OpenAI Gym 環境整合，大量 RL 範例
+  - 輕量級，適合快速原型驗證
+- **弱項/缺口（≤3，可觀察）**：
+  - 相比 MuJoCo 在機器人學習精度較低
+  - 開發活躍度下降（⚠️ Brax 官方建議改用 MJX）
+  - 文檔分散，無統一入口
+- **活躍度訊號**：PyBullet 3.22 版本，SourceForge 分發
+- **與我們的關聯（一句話）**：入門 RL 模擬的經典選擇，大量舊專案和教學使用它
+- **Link(s)**：https://pybullet.org/ | https://github.com/bulletphysics/bullet3
+
+---
+
+### Brax
+
+- **Name**：Brax
+- **Type**：Differentiable Physics Engine
+- **Primary language**：English
+- **一句話定位**：Google 基於 JAX 的可微分物理引擎，專為大規模並行訓練設計
+- **強項（≤3）**：
+  - 百萬級物理步/秒，支援 TPU/GPU 加速
+  - 可微分模擬支援解析策略梯度
+  - 一套 API 支援四種物理管線（MJX、Generalized、Positional、Spring）
+- **弱項/缺口（≤3，可觀察）**：
+  - ⚠️ 0.13.0 版後僅維護 brax/training，brax/envs 被棄用
+  - 官方建議環境改用 MuJoCo Playground
+  - 物理模擬部分建議改用 MJX 或 MuJoCo Warp
+- **活躍度訊號**：NeurIPS 2021 論文，v0.14.0 版本
+- **與我們的關聯（一句話）**：了解可微分模擬的歷史，但新專案應考慮 MJX
+- **Link(s)**：https://github.com/google/brax
+
+---
+
+### CoppeliaSim
+
+- **Name**：CoppeliaSim (前身 V-REP)
+- **Type**：Simulation Platform
+- **Primary language**：English
+- **一句話定位**：分散式控制架構的機器人模擬器，支援 5 種物理引擎與多種程式語言
+- **強項（≤3）**：
+  - 支援 MuJoCo、Bullet、ODE、Newton、Vortex 五種物理引擎可切換比較
+  - Python/Lua/Java/MATLAB/C++/Rust 多語言 API
+  - 完整的逆運動學與路徑規劃（OMPL 整合）
+- **弱項/缺口（≤3，可觀察）**：
+  - 教育版免費，商業版需付費授權
+  - 社群規模較 Gazebo 小
+  - 無中文文檔
+- **活躍度訊號**：V4.10.0 最新版本（2026-01），GitHub 持續更新
+- **與我們的關聯（一句話）**：多物理引擎比較的理想平台，教育與原型開發的優選
+- **Link(s)**：https://www.coppeliarobotics.com/ | https://github.com/CoppeliaRobotics/
+
+---
+
+### Gymnasium (OpenAI Gym)
+
+- **Name**：Gymnasium (前身 OpenAI Gym)
+- **Type**：API Standard / Environment Library
+- **Primary language**：English
+- **一句話定位**：強化學習環境的 API 標準，提供統一介面讓 RL 演算法與各種模擬器互動
+- **強項（≤3）**：
+  - 事實標準：幾乎所有 RL 函式庫都支援 Gymnasium API
+  - Farama Foundation 維護，GitHub 11K+ stars
+  - 豐富的官方與第三方環境（MuJoCo、Atari、Box2D 等）
+- **弱項/缺口（≤3，可觀察）**：
+  - 本身不包含物理引擎（需搭配 MuJoCo/PyBullet 等）
+  - 從 Gym 遷移到 Gymnasium 需適應 API 變更
+  - 無中文文檔
+- **活躍度訊號**：取代已停維的 OpenAI Gym，持續活躍開發
+- **與我們的關聯（一句話）**：RL 開發的必備知識，理解環境-代理介面的標準
+- **Link(s)**：https://gymnasium.farama.org/ | https://github.com/Farama-Foundation/Gymnasium
+
+---
+
+### EasyEDA
+
+- **Name**：EasyEDA
+- **Type**：EDA Software (Online)
+- **Primary language**：English / 中文
+- **一句話定位**：全球首個整合完整供應鏈的雲端 EDA 軟體，從設計到 PCB 製造一站式服務
+- **強項（≤3）**：
+  - 雲端/桌面雙版本，無需安裝即可開始設計
+  - 與 JLCPCB 整合，一鍵下單製造
+  - 海量元件庫（符號、封裝、3D 模型）含即時庫存與價格
+- **弱項/缺口（≤3，可觀察）**：
+  - 進階功能需付費（企業版、本地私有部署）
+  - 資料安全依賴 AWS 雲端
+  - 專業 PCB 設計師可能偏好傳統 EDA
+- **活躍度訊號**：13 年開發歷史，LCEDA 立創開源硬件平台整合
+- **與我們的關聯（一句話）**：中國開發者的 PCB 設計首選，降低從設計到製造的門檻
+- **Link(s)**：https://www.easyeda.com/ | https://lceda.cn/
+
+---
+
+### CARLA
+
+- **Name**：CARLA
+- **Type**：Simulation Platform
+- **Primary language**：English
+- **一句話定位**：開源自動駕駛研究模擬器，提供城市環境、多種天氣、感測器模擬
+- **強項（≤3）**：
+  - GitHub 14K+ stars，自動駕駛研究領域標準
+  - 基於 Unreal Engine，高視覺真實度
+  - 支援多感測器（RGB、深度、LiDAR、RADAR）與多車模擬
+- **弱項/缺口（≤3，可觀察）**：
+  - 硬體需求高（推薦 RTX GPU）
+  - 安裝配置較複雜（Unreal Engine 依賴）
+  - 專注自動駕駛，非通用機器人模擬
+- **活躍度訊號**：MIT 授權，活躍社群，持續開發
+- **與我們的關聯（一句話）**：自動駕駛 AI 開發的入門平台，學術與產業廣泛使用
+- **Link(s)**：https://carla.org/ | https://github.com/carla-simulator/carla
+
+---
+
+*條目數：25 / 目標：10 ✅*

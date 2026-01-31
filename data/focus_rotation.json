@@ -1,8 +1,9 @@
 {
-  "last_focus": "vercel_deploy_prep",
+  "last_focus": "toolchains",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
-    "Wedge #2 Reddit 發布"
+    "Wedge #2 Reddit 發布",
+    "communities (探索 Robotics Stack Exchange)"
   ],
   "focus_history": [
     {
@@ -214,6 +215,13 @@
       "files_modified": 1,
       "result": "ALLOW",
       "note": "Round 31: ✅ Vercel 部署準備！(1) 修復 symlinks 問題：創建 data/ 目錄，複製 curated_resources.json + learning_paths.json (29KB); (2) 更新 index.tsx import 路徑; (3) 創建 docs/DEPLOY_GUIDE.md (2KB); (4) 創建 vercel.json (1KB, 含安全頭和緩存策略); (5) Build 驗證成功。MVP 現在可以直接部署到 Vercel。"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "toolchains",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 32: Added 8 major physics/simulation tools: MuJoCo (12K stars), Drake (MIT/TRI), PyBullet, Brax, CoppeliaSim, Gymnasium (11K stars), EasyEDA, CARLA (14K stars). Discovered via best-of-robot-simulators repo (170 projects ranked)."
     }
   ]
 }

@@ -10,7 +10,7 @@
 |------|------|------|------|
 | communities.md | ≥15 | 18 | ✅ |
 | platforms.md | ≥15 | 16 | ✅ |
-| toolchains.md | ≥10 | 17 | ✅ |
+| toolchains.md | ≥10 | 25 | ✅ |
 | hardware.md | ≥15 | 19 | ✅ |
 | kits.md | ≥10 | 10 | ✅ |
 | learning.md | ≥15 | 17 | ✅ |
