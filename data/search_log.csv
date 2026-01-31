@@ -171,3 +171,7 @@ GitHub topics robot-hardware diy-robot mobile-robot robot-arm,web_fetch-github,2
 open source robot hardware ESP32 2025 2026,web_fetch-github,2026-01-31,na,Round 53: found Papaya Pathfinder - ESP32 rocker-bogie rover - Updated Jan 2026
 low-cost robot arm educational DIY 2024 2025,web_fetch-github,2026-01-31,na,Round 53: found NURO Arm ($250) MeArm - educational platforms
 servo motor BLDC controller open source,web_fetch-github,2026-01-31,na,Round 53: found SPIN Servo Drive ($30 atopile) STMBL (320V 2kW AC servo)
+GitHub topics robotics-education robot-learning,web_fetch-github,2026-01-31,na,Round 54: discovered robosuite XLeRobot EmbodiChain VITA RoboManipBaselines AirGym CQU_mobile_robot_course
+GitHub topics robotics-tutorial,web_fetch-github,2026-01-31,na,Round 54: topic empty - no public repos
+awesome-isaac-gym exploration,web_fetch-direct,2026-01-31,na,Round 54: comprehensive Isaac Gym resources curated list
+ICLR 2026 robot learning papers,web_fetch-github,2026-01-31,na,Round 54: found VITA (flow matching) EmbodiChain Sim2Real VLA

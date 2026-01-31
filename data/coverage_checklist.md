@@ -13,7 +13,7 @@
 | toolchains.md | ≥10 | 39 | ✅ |
 | hardware.md | ≥15 | 42 | ✅ |
 | kits.md | ≥10 | 34 | ✅ |
-| learning.md | ≥15 | 34 | ✅ |
+| learning.md | ≥15 | 43 | ✅ |
 | commerce.md | ≥10 | 24 | ✅ |
 | creators.md | ≥10 | 39 | ✅ |
 | chinese_ecosystem.md | ≥10 | 28 | ✅ |
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 53 輪 hardware 補強 — 新增 8 個 DIY 機器人硬體條目：linorobot2 ROS2 移動機器人、Papaya Pathfinder ESP32 探測車、MeArm 激光切割手臂、NURO Arm $250 教育平台、SPIN Servo $30 BLDC 驅動、STMBL 320V AC 伺服、SMARTmBOT Purdue ROS2、Mars Rover 6WD 3D 列印。Hardware 達 42 條目。連續 53 輪 ALLOW！）*
+*最後更新：2026-01-31 （第 54 輪 learning 2026 更新 — 新增 9 個前沿學習資源：robosuite (Stanford/UT/NVIDIA 基準)、XLeRobot (Mac 友好)、awesome-isaac-gym、RoboManipBaselines (AIST)、VITA (ICLR 2026)、Isaac Lab + GR00T 雲端指南 (中英)、AirGym (四旋翼 RL)、EmbodiChain (ICLR 2026)、重慶大學 ROS 2 課程 (中文)。Learning 達 43 條目。連續 54 輪 ALLOW！）*

@@ -315,3 +315,12 @@ https://github.com/atopile/spin-servo-drive,SPIN Servo Drive,Open Source Hardwar
 https://github.com/rene-dev/stmbl,STMBL,Open Source Hardware,2026-01-31,2026-01-31,active,AC servo driver for CNC/robots - 320V 2kW - STM32F4 - GPLv3
 https://github.com/SMARTlab-Purdue/SMARTmBOT,SMARTmBOT,Open Source Project,2026-01-31,2026-01-31,active,Purdue ROS2 mobile robot platform - swarm robotics - NSF funded
 https://github.com/jakkra/Mars-Rover,Mars Rover jakkra,Open Source Project,2026-01-31,2026-01-31,active,3D printed Curiosity/Perseverance rover - 6WD - 6DOF arm - ESP32 LoRa
+https://github.com/ARISE-Initiative/robosuite,robosuite,Framework,2026-01-31,2026-01-31,active,Stanford/UT/NVIDIA robot learning benchmark - v1.5 humanoid support
+https://github.com/Minko82/xlerobot,XLeRobot,Framework,2026-01-31,2026-01-31,active,LeRobot Mac/Linux friendly fork - SO-100 calibration guide
+https://github.com/robotlearning123/awesome-isaac-gym,Awesome Isaac Gym,Curated List,2026-01-31,2026-01-31,active,Isaac Gym resources - papers tools tutorials
+https://github.com/isri-aist/RoboManipBaselines,RoboManipBaselines,Framework,2026-01-31,2026-01-31,active,AIST imitation learning baselines - arXiv:2509.17057
+https://github.com/ucd-dare/VITA,VITA,Research Paper,2026-01-31,2026-01-31,active,ICLR 2026 flow matching policy - UC Davis
+https://github.com/sunnyspot114514/isaaclab-groot-cloud-guide,Isaac Lab + GR00T Cloud Guide,Tutorial,2026-01-31,2026-01-31,active,Cloud deployment guide - Chinese/English - 2026-01 verified
+https://github.com/emNavi/AirGym,AirGym,Framework,2026-01-31,2026-01-31,active,Quadrotor RL on IsaacGym - v0.5.1 - Sim2Real toolkit
+https://github.com/DexForce/EmbodiChain,EmbodiChain,Platform,2026-01-31,2026-01-31,active,GPU embodied AI platform - ICLR 2026 Sim2Real VLA
+https://github.com/MrDynimate/CQU_mobile_robot_course,CQU Mobile Robot Course,Tutorial,2026-01-31,2026-01-31,active,Chongqing University ROS 2 Humble course - Chinese

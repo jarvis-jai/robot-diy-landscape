@@ -709,4 +709,184 @@
 
 ---
 
-*條目數：34 / 目標：15 ✅*
+### robosuite
+
+- **Name**：robosuite - A Modular Simulation Framework and Benchmark for Robot Learning
+- **Type**：Simulation Framework / Benchmark
+- **Primary language**：English
+- **一句話定位**：Stanford/UT Austin/NVIDIA 聯合開發的模組化機器人學習模擬框架，MuJoCo 驅動
+- **強項（≤3）**：
+  - 頂尖學術團隊：Stanford SVL、UT Austin RPL、NVIDIA GEAR 共同維護
+  - v1.5 新功能：人形機器人支援、全身控制器、光線追蹤渲染
+  - 完整生態系統：配套 robomimic（示範數據）、多種遙控設備支援
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 MuJoCo 和深度學習背景
+  - 文件主要英文
+  - 硬體要求較高（GPU 推薦）
+- **活躍度訊號**：v1.5 2024-10-28 發布；GitHub 活躍更新至 2026-01-31
+- **與我們的關聯（一句話）**：RL/IL 研究者必備的標準化機器人操控學習環境
+- **Link(s)**：https://robosuite.ai/ | https://github.com/ARISE-Initiative/robosuite
+
+---
+
+### XLeRobot
+
+- **Name**：XLeRobot - Making AI for Robotics more accessible
+- **Type**：Framework / Tutorial
+- **Primary language**：English
+- **一句話定位**：HuggingFace LeRobot 的 Mac/Linux 友好版本，提供詳細的設置指南
+- **強項（≤3）**：
+  - Mac 原生支援：針對 Mac (M-series) 優化，彌補官方 LeRobot 對非 Linux 系統的不足
+  - Windows WSL 指南：完整的 WSL Ubuntu 配置教程
+  - 校準流程清晰：SO-100 機械臂的 udev 規則和校準步驟詳盡
+- **弱項/缺口（≤3，可觀察）**：
+  - 仍依賴 LeRobot 主線，非獨立專案
+  - 文件主要英文
+  - 需要 SO-100/SO-101 硬體
+- **活躍度訊號**：2026-01-30 更新；活躍 GitHub Discussions
+- **與我們的關聯（一句話）**：Mac 用戶入門 LeRobot 的最佳起點，降低硬體和系統門檻
+- **Link(s)**：https://github.com/Minko82/xlerobot | https://xlerobot.readthedocs.io/
+
+---
+
+### Awesome Isaac Gym
+
+- **Name**：Awesome NVIDIA Isaac Gym
+- **Type**：Curated List / Meta Resource
+- **Primary language**：English
+- **一句話定位**：Isaac Gym 生態系統的策展資源列表，涵蓋論文、工具、教程
+- **強項（≤3）**：
+  - 內容全面：含 RSS 2021 Workshop 教程、多所大學研究資源
+  - 論文分類清晰：操控、移動、模擬學習等分類
+  - 持續更新：追蹤 Isaac Lab、HumanoidVerse 等最新發展
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要 Isaac Gym/Sim 背景才能有效使用
+  - 部分連結可能過時
+  - 無中文版本
+- **活躍度訊號**：2026-01-30 更新；HumanoidVerse、Isaac Lab 2024 資源納入
+- **與我們的關聯（一句話）**：進入 NVIDIA Isaac Gym 生態的導航地圖
+- **Link(s)**：https://github.com/robotlearning123/awesome-isaac-gym
+
+---
+
+### RoboManipBaselines
+
+- **Name**：RoboManipBaselines - Unified Imitation Learning Framework
+- **Type**：Framework / Benchmark
+- **Primary language**：English
+- **一句話定位**：日本 AIST 開發的機器人操控模仿學習基線框架，整合多種策略架構
+- **強項（≤3）**：
+  - 策略多樣性：MLP、SARNN、ACT、MT-ACT、Diffusion Policy、3D Diffusion、Flow Policy、ManiFlow
+  - 真實/模擬統一：支援 MuJoCo 環境和真實機器人部署
+  - 學術支撐：arXiv:2509.17057 論文 (2025)
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要較強的深度學習背景
+  - 依賴 SpaceMouse 等遙控設備收集數據
+  - 文件主要英文
+- **活躍度訊號**：2026-01-29 更新；BSD 2-Clause 授權
+- **與我們的關聯（一句話）**：快速對比不同模仿學習策略的標準化平台
+- **Link(s)**：https://github.com/isri-aist/RoboManipBaselines | https://isri-aist.github.io/RoboManipBaselines-ProjectPage
+
+---
+
+### VITA (Vision-to-Action Flow Matching)
+
+- **Name**：VITA - Vision-to-Action Flow Matching Policy
+- **Type**：Research Paper Implementation / Framework
+- **Primary language**：English
+- **一句話定位**：ICLR 2026 論文實作，無噪聲 Flow Matching 視覺動作策略學習
+- **強項（≤3）**：
+  - 頂會認可：ICLR 2026 正式接收論文
+  - 技術創新：跳過傳統擴散的噪聲條件，直接映射潛在圖像到潛在動作
+  - 開源完整：含 LeRobot 格式數據、AV-ALOHA/Robomimic 環境整合
+- **弱項/缺口（≤3，可觀察）**：
+  - 研究前沿，需要深度學習/強化學習背景
+  - 依賴 WandB 追蹤實驗
+  - 無中文版本
+- **活躍度訊號**：ICLR 2026 接收；ArXiv V3 2025-12；已整合至 RoboVerse
+- **與我們的關聯（一句話）**：2026 年視覺動作策略學習的前沿參考實作
+- **Link(s)**：https://github.com/ucd-dare/VITA | https://ucd-dare.github.io/VITA/ | https://arxiv.org/abs/2507.13231
+
+---
+
+### Isaac Lab + GR00T Cloud Guide
+
+- **Name**：Isaac Lab + GR00T Cloud Deployment Guide
+- **Type**：Deployment Tutorial
+- **Primary language**：Chinese / English
+- **一句話定位**：Isaac Lab 和 NVIDIA GR00T 的雲端 GPU 部署實戰教程
+- **強項（≤3）**：
+  - 全程驗證：2026 年 1 月阿里雲 A10 實測可複現
+  - 成本透明：約 $4 USD 完成整個教程
+  - 中英雙語：同時提供簡體中文和英文文件
+- **弱項/缺口（≤3，可觀察）**：
+  - 偏向阿里雲環境，其他雲可能需調整
+  - 需要 NVIDIA NGC 帳號
+  - 軟體版本敏感（CUDA 12.2、Isaac Sim 4.2.0）
+- **活躍度訊號**：2026-01-17 更新；中文教程完整
+- **與我們的關聯（一句話）**：無本地 GPU 用戶部署 Isaac Lab + GR00T 的實用指南，填補 Gap #9
+- **Link(s)**：https://github.com/sunnyspot114514/isaaclab-groot-cloud-guide
+
+---
+
+### AirGym
+
+- **Name**：AirGym - High-Performance Quadrotor Deep RL Platform
+- **Type**：Simulation Framework / Sim2Real Toolkit
+- **Primary language**：English
+- **一句話定位**：基於 IsaacGym 的高性能四旋翼無人機深度強化學習平台，含完整 Sim-to-Real 工具鏈
+- **強項（≤3）**：
+  - Sim2Real 完整流程：AirGym（模擬）→ rlPx4Controller → AirGym-Real → control_for_gym（MAVROS）
+  - PX4 邏輯對齊：飛控邏輯與開源 PX4 嚴格一致，提升遷移成功率
+  - 多種控制模式：位置、速度、推力姿態、單轉子推力等
+- **弱項/缺口（≤3，可觀察）**：
+  - 專注四旋翼，不適用於其他機器人類型
+  - 需要 NVIDIA Isaac Gym 環境
+  - 文件主要英文
+- **活躍度訊號**：v0.5.1 2025-09-27 發布；活躍更新至 2026-01
+- **與我們的關聯（一句話）**：無人機研究者的 Sim2Real 最佳實踐參考，對應 Gap #9
+- **Link(s)**：https://github.com/emNavi/AirGym | https://emnavi.tech/AirGym/
+
+---
+
+### EmbodiChain
+
+- **Name**：EmbodiChain - GPU-Accelerated Embodied AI Platform
+- **Type**：Framework / Platform
+- **Primary language**：English
+- **一句話定位**：端到端 GPU 加速 Embodied AI 平台，整合模擬、數據管線、訓練工作流
+- **強項（≤3）**：
+  - 全流程統一：高保真物理模擬 + 數據收集 + 策略訓練 + 部署
+  - 學術認可：ICLR 2026 論文 Sim2Real VLA (Zero-Shot Generalization)
+  - 模組化設計：易於擴展新機器人、環境、學習算法
+- **弱項/缺口（≤3，可觀察）**：
+  - Alpha 階段，功能持續開發中
+  - 需要高端 GPU 和深度學習經驗
+  - 無中文文件
+- **活躍度訊號**：2026-01-30 更新；Roadmap 公開；ICLR 2026 論文
+- **與我們的關聯（一句話）**：2026 年 Embodied AI 研究的新興統一平台
+- **Link(s)**：https://github.com/DexForce/EmbodiChain | https://dexforce.github.io/EmbodiChain/
+
+---
+
+### 重慶大學移動機器人課程 (CQU Mobile Robot Course)
+
+- **Name**：CQU 移動機器人課程作業
+- **Type**：University Course / Tutorial
+- **Primary language**：Chinese (Simplified)
+- **一句話定位**：重慶大學《移動機器人技術》課程實踐作業，完整 ROS 2 Humble 自主導航開發流程
+- **強項（≤3）**：
+  - 中文完整：簡體中文詳細說明，適合中文使用者
+  - 實戰導向：4 個漸進式專案（運動控制→視覺處理→SLAM→導航）
+  - 環境現代：Ubuntu 22.04 + ROS 2 Humble + Gazebo Fortress
+- **弱項/缺口（≤3，可觀察）**：
+  - 課程作業性質，深度有限
+  - 依賴 wpr_simulation2 套件
+  - 無英文版本
+- **活躍度訊號**：2025-05-18 最後更新；MIT License
+- **與我們的關聯（一句話）**：中文使用者學習 ROS 2 導航的實用參考，填補 Gap #1 和 #4
+- **Link(s)**：https://github.com/MrDynimate/CQU_mobile_robot_course
+
+---
+
+*條目數：43 / 目標：15 ✅*
