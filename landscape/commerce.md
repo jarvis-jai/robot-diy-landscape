@@ -184,4 +184,164 @@
 
 ---
 
-*條目數：8 / 目標：10*
+### PiShop.us
+
+- **Name**：PiShop.us
+- **Type**：Marketplace / Retailer
+- **Primary language**：English
+- **一句話定位**：美國專門的 Raspberry Pi 零售商，提供完整的 Pi 生態系統產品和套件
+- **強項（≤3）**：
+  - Raspberry Pi 完整產品線：Pi 5 全系列（1GB-16GB）、Pi 500、Pico 2 W
+  - 自有套件品牌：Budget Kit、Starter Kit、AI HAT+ 2 Starter Kit（$299.95）
+  - 企業服務：專門的商業與工業客戶支援
+- **弱項/缺口（≤3，可觀察）**：
+  - 無中文介面
+  - 僅專注 Raspberry Pi 生態（產品範圍有限）
+  - 主要服務美國市場
+- **活躍度訊號**：持續更新產品（2026-01 有 AI HAT+ 2、Pi 5 1GB 新品）；Express 快速配送服務；SSL 安全支付
+- **與我們的關聯（一句話）**：美國市場購買 Raspberry Pi 套件的專業管道
+- **Link(s)**：https://www.pishop.us/
+
+---
+
+### UCTRONICS (Arducam)
+
+- **Name**：UCTRONICS
+- **Type**：Marketplace / Manufacturer
+- **Primary language**：English
+- **一句話定位**：專注嵌入式相機模組的製造商與零售商，服務 Raspberry Pi、Arduino、Jetson 生態
+- **強項（≤3）**：
+  - 相機模組專業：64MP 自動對焦、Pivariety 系列、DepthAI OAK 相機、全球快門
+  - 多平台支援：Raspberry Pi、Jetson Nano/NX、Arduino SPI、STM32、Renesas
+  - 機架與集群解決方案：專業伺服器機架、Pi/Jetson Cluster 方案
+- **弱項/缺口（≤3，可觀察）**：
+  - 無中文介面
+  - 專注相機生態（其他機器人零件較少）
+  - 部分高端相機價格較高
+- **活躍度訊號**：持續更新產品（2026 有全球快門 USB2 UVC 相機等新品）；19" 伺服器機架解決方案活躍
+- **與我們的關聯（一句話）**：為機器人視覺專案選擇相機模組的專業來源
+- **Link(s)**：https://www.uctronics.com/
+
+---
+
+### CanaKit
+
+- **Name**：CanaKit
+- **Type**：Marketplace / Retailer
+- **Primary language**：English
+- **一句話定位**：北美領先的 Raspberry Pi 套件與配件零售商，專注入門級套件
+- **強項（≤3）**：
+  - Raspberry Pi 套件完整：新手套件、進階套件、專業配件
+  - 快速配送：Express 服務可用
+  - 企業客戶服務：服務商業與工業客戶
+- **弱項/缺口（≤3，可觀察）**：
+  - 無中文介面
+  - 專注 Raspberry Pi 生態（產品範圍有限）
+  - 主要服務北美市場
+- **活躍度訊號**：持續營運；SSL 安全支付；企業服務支援
+- **與我們的關聯（一句話）**：北美購買 Raspberry Pi 入門套件的知名管道
+- **Link(s)**：https://www.canakit.com/
+
+---
+
+### Pimoroni
+
+- **Name**：Pimoroni
+- **Type**：Marketplace / Manufacturer
+- **Primary language**：English
+- **一句話定位**：英國 Sheffield 的 Maker 商店，專注 Raspberry Pi 和 MicroPython 生態，自有產品線豐富
+- **強項（≤3）**：
+  - 自有產品線：Pico LiPo 系列、Enviro 系列、Display 模組、Breakout Garden
+  - 12 年歷史（2013 年成立）：Maker 社群深耕
+  - MicroPython 專精：Pimoroni Pico 系列、RP2040/RP2350 開發板
+- **弱項/缺口（≤3，可觀察）**：
+  - GBP 計價（非美元，國際買家需注意匯率）
+  - 國際運費較高（從英國出貨）
+  - 部分產品偶爾缺貨
+- **活躍度訊號**：2026-01 有 12 週年生日特賣（1000 項折扣）；持續更新自有產品線
+- **與我們的關聯（一句話）**：英國/歐洲市場的 Raspberry Pi Pico 和 MicroPython 專家
+- **Link(s)**：https://shop.pimoroni.com/
+
+---
+
+### The Pi Hut
+
+- **Name**：The Pi Hut
+- **Type**：Marketplace / Retailer
+- **Primary language**：English
+- **一句話定位**：英國最大的 Raspberry Pi 專門店，自 2012 年起服務 Maker 社群
+- **強項（≤3）**：
+  - 品牌齊全：代理 Raspberry Pi、Arduino、micro:bit、Adafruit、SparkFun、Waveshare、M5Stack、Pololu、Argon40、DFRobot、HiFiBerry 等 20+ 品牌
+  - Home Assistant 專區：Shelly、Nabu Casa 智能家居產品
+  - 5 星客服：優質客戶服務（reviews.io 高評價）；14 天無條件退貨
+- **弱項/缺口（≤3，可觀察）**：
+  - 無中文介面
+  - 從英國出貨（國際運費）
+  - 價格可能高於直接從中國購買
+- **活躍度訊號**：持續營運自 2012 年；下午 2 點前訂單當日出貨；次日送達選項可用
+- **與我們的關聯（一句話）**：英國/歐洲市場一站式 Maker 商店，品牌齊全
+- **Link(s)**：https://thepihut.com/
+
+---
+
+### Core Electronics
+
+- **Name**：Core Electronics
+- **Type**：Marketplace / Retailer
+- **Primary language**：English
+- **一句話定位**：澳洲領先的電子零件與 Maker 商店，結合零售與豐富教學內容
+- **強項（≤3）**：
+  - 教學內容豐富：YouTube 視頻教程、詳細指南（Arduino Uno Q、Raspberry Pi AI HAT 比較等）
+  - 品牌齊全：Pimoroni、Bambu Lab、Arduino、Raspberry Pi 等
+  - 澳洲本地配送優勢
+- **弱項/缺口（≤3，可觀察）**：
+  - 無中文介面
+  - 主要服務澳洲市場（國際運費）
+  - 部分產品可能比其他市場貴（澳洲定價）
+- **活躍度訊號**：持續更新內容（2026-01 有 xTool P3、Arduino Uno Q 等新品教程）；客戶評價活躍（2026-01 有多則新評論）
+- **與我們的關聯（一句話）**：澳洲市場的 Maker 商店，教學內容是一大亮點
+- **Link(s)**：https://core-electronics.com.au/
+
+---
+
+### Botland
+
+- **Name**：Botland
+- **Type**：Marketplace / Retailer
+- **Primary language**：English（有波蘭文）
+- **一句話定位**：波蘭的電子與機器人商店，服務歐洲 Maker 與機器人愛好者
+- **強項（≤3）**：
+  - 產品齊全：Raspberry Pi、Arduino、M5Stack、3D 列印機（Prusa、Elegoo、Creality、Snapmaker）
+  - 歐洲配送優勢：EU 地區快速配送（24 小時內出貨）
+  - 教育機器人：Lego、Dobot、教育機器人專區
+- **弱項/缺口（≤3，可觀察）**：
+  - 主要服務歐洲市場
+  - 網站導航較複雜（分類層級多）
+  - 部分產品需預購（2-3 個月等待）
+- **活躍度訊號**：持續更新產品（2026-01 有 Snapmaker U1、Elegoo Neptune 4 Pro 等新品）；有 B2B 服務
+- **與我們的關聯（一句話）**：歐洲市場的機器人與電子商店，涵蓋從入門到專業
+- **Link(s)**：https://botland.store/
+
+---
+
+### GoTronic
+
+- **Name**：GoTronic
+- **Type**：Marketplace / Retailer
+- **Primary language**：French
+- **一句話定位**：法國電子與機器人商店，自 2001 年起服務法語區 Maker
+- **強項（≤3）**：
+  - 25 年歷史（2001 年成立）：法國 Maker 生態深耕
+  - 新品更新快：ESP32-C6、DFRobot FireBeetle、Arduino Nesso N1、HUSKYLENS 2 等
+  - 法語支援：完整法語介面與客服
+- **弱項/缺口（≤3，可觀察）**：
+  - 主要服務法語區市場
+  - 無英文介面（法語優先）
+  - 國際運費（從法國出貨）
+- **活躍度訊號**：持續更新產品（2026-01 有多款新品）；有 Qwiic/Stemma QT 生態產品
+- **與我們的關聯（一句話）**：法語區市場的電子與機器人專業商店
+- **Link(s)**：https://www.gotronic.fr/
+
+---
+
+*條目數：16 / 目標：10* ✅

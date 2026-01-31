@@ -1,7 +1,6 @@
 {
-  "last_focus": "gaps",
+  "last_focus": "commerce",
   "next_focus_candidates": [
-    "commerce",
     "creators",
     "gaps"
   ],
@@ -90,6 +89,13 @@
       "entries_added": 5,
       "result": "ALLOW",
       "note": "First gaps round - 5 gap hypotheses with 3-4 evidence each"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "commerce",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Added 8 international retailers - PiShop UCTRONICS CanaKit Pimoroni ThePiHut CoreElectronics Botland GoTronic"
     }
   ]
 }
