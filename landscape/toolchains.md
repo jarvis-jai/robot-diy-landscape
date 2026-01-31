@@ -632,4 +632,164 @@
 
 ---
 
-*條目數：30 / 目標：10 ✅*
+### BehaviorTree.CPP
+
+- **Name**：BehaviorTree.CPP
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：C++17 行為樹框架，是 ROS 2 Nav2 導航堆棧的核心決策引擎
+- **強項（≤3）**：
+  - 非同步動作為一等公民，支援多動作並行執行（正交性）
+  - 使用 XML DSL 定義樹結構，可在執行時動態載入
+  - 有 Groot2 GUI 編輯器，支援即時監控、斷點、錯誤注入
+- **弱項/缺口（≤3，可觀察）**：
+  - Groot2 PRO 版本需付費（無限節點、黑板視覺化、斷點功能）
+  - 需要理解行為樹概念，有一定學習曲線
+  - 無中文文檔
+- **活躍度訊號**：v4.8 版本，GitHub 活躍維護，2019-2025 持續開發，MIT 授權
+- **與我們的關聯（一句話）**：Nav2 的行為樹引擎，機器人複雜行為邏輯的標準實現方式
+- **Link(s)**：https://github.com/BehaviorTree/BehaviorTree.CPP | https://www.behaviortree.dev/
+
+---
+
+### slam_toolbox
+
+- **Name**：slam_toolbox
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：ROS 2 的 2D SLAM 標準庫，支援終身建圖、定位模式和多機器人協作
+- **強項（≤3）**：
+  - 支援終身建圖（lifelong mapping）：可持續更新和改進已有地圖
+  - 基於優化的定位模式：可替代 AMCL，使用 pose-graph 實現彈性定位
+  - 已驗證用於大規模環境：同步模式可處理 200,000 平方呎空間
+- **弱項/缺口（≤3，可觀察）**：
+  - 定位模式需要較多調優，非即開即用
+  - 對里程計品質要求高
+  - 無中文文檔
+- **活躍度訊號**：JOSS 2021 論文，Nav2 官方教程推薦，Steve Macenski（Nav2 作者）維護
+- **與我們的關聯（一句話）**：ROS 2 移動機器人 SLAM 的首選，從快速建圖到終身維護的完整方案
+- **Link(s)**：https://github.com/SteveMacenski/slam_toolbox
+
+---
+
+### Foxglove
+
+- **Name**：Foxglove
+- **Type**：Tool / Platform
+- **Primary language**：English
+- **一句話定位**：機器人可視化和可觀察性平台，專為收集、分析和學習多模態機器人數據而設計
+- **強項（≤3）**：
+  - 20+ 可自訂面板：支援影像、點雲、時序、日誌等多模態數據
+  - 支援即時串流、匯入和雲端存儲，不受數據格式限制
+  - 被 Shield AI、Wayve、Dexterity、Simbe 等領先機器人公司採用
+- **弱項/缺口（≤3，可觀察）**：
+  - 進階功能（數據管理、協作）需付費訂閱
+  - 開源 studio 倉庫已歸檔（2024-07），轉為商業平台
+  - 無中文介面
+- **活躍度訊號**：商業平台持續運營，有 SDK、Agent、CLI、API 文檔，活躍的客戶案例
+- **與我們的關聯（一句話）**：現代機器人開發的專業可視化工具，從調試到生產的全流程觀察
+- **Link(s)**：https://foxglove.dev/ | https://docs.foxglove.dev/
+
+---
+
+### robot_localization
+
+- **Name**：robot_localization
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：Charles River Analytics 開發的非線性狀態估計包，專為 ROS 機器人感測器融合設計
+- **強項（≤3）**：
+  - 支援擴展卡爾曼濾波（EKF）和無跡卡爾曼濾波（UKF）
+  - 可融合任意數量的 IMU、里程計、GPS 等感測器
+  - GitHub 1.8K+ stars，996 forks，長期維護（2014 年至今）
+- **弱項/缺口（≤3，可觀察）**：
+  - 配置參數眾多，初學者需花時間理解協方差矩陣設定
+  - 需要對卡爾曼濾波有基本理解
+  - 無中文文檔
+- **活躍度訊號**：rolling-devel 分支持續更新，ROS Wiki 有完整文檔
+- **與我們的關聯（一句話）**：ROS 感測器融合的標準方案，讓多源感測器數據產生可靠的位姿估計
+- **Link(s)**：https://github.com/cra-ros-pkg/robot_localization | http://wiki.ros.org/robot_localization
+
+---
+
+### ros2_control
+
+- **Name**：ros2_control
+- **Type**：Framework
+- **Primary language**：English
+- **一句話定位**：ROS 2 的通用控制框架，提供硬體抽象層和即時控制器管理
+- **強項（≤3）**：
+  - 硬體抽象：統一的介面支援任何機器人硬體
+  - 支援多種 ROS 2 版本：Humble、Jazzy、Kilted、Rolling
+  - 有完整的控制器庫（ros2_controllers）和文檔（control.ros.org）
+- **弱項/缺口（≤3，可觀察）**：
+  - 學習曲線陡峭：需要理解 URDF、xacro、硬體介面概念
+  - 配置檔案較複雜
+  - 無中文文檔
+- **活躍度訊號**：GitHub 802 stars，400 forks，多家企業和機構貢獻，Apache 2.0 授權
+- **與我們的關聯（一句話）**：從模擬到實機的硬體控制標準，實現軟硬體解耦的關鍵框架
+- **Link(s)**：https://github.com/ros-controls/ros2_control | https://control.ros.org/
+
+---
+
+### PlotJuggler
+
+- **Name**：PlotJuggler
+- **Type**：Tool
+- **Primary language**：English
+- **一句話定位**：時序數據可視化工具，支援 ROS 1/2、CSV、PX4 ULog 等多種數據源
+- **強項（≤3）**：
+  - 支援數千時序和數百萬數據點的快速 OpenGL 渲染
+  - 內建變換編輯器：微分、移動平均、積分等，還支援 Lua 腳本自訂函數
+  - 多平台支援：Linux AppImage、macOS、Windows、Snap、Debian 包
+- **弱項/缺口（≤3，可觀察）**：
+  - ROS 插件需額外安裝（plotjuggler-ros-plugins）
+  - 高級功能需理解內部架構
+  - 無中文介面
+- **活躍度訊號**：v3.15 版本，有 Gold Sponsor（Greenzie、Intermodalics、Ark Electron），MPL-2.0 授權
+- **與我們的關聯（一句話）**：機器人數據分析和調試的瑞士刀，從 rosbag 到即時串流的全覆蓋
+- **Link(s)**：https://github.com/facontidavide/PlotJuggler
+
+---
+
+### RViz 2
+
+- **Name**：RViz 2
+- **Type**：Tool
+- **Primary language**：English
+- **一句話定位**：ROS 2 的 3D 機器人可視化工具，可視化機器人模型、感測器數據和規劃結果
+- **強項（≤3）**：
+  - 豐富的顯示類型：TF、RobotModel、PointCloud、Map、MarkerArray 等 30+ 種
+  - 支援插件擴展：自訂 Display、Panel、Tool、ViewController
+  - 可插拔的座標轉換庫：除 tf2 外可使用自訂轉換插件
+- **弱項/缺口（≤3，可觀察）**：
+  - 相比 Foxglove 功能較基礎，無雲端協作
+  - 需要 ROS 2 環境才能運行
+  - 無中文介面
+- **活躍度訊號**：ROS 2 官方維護，Humble/Jazzy/Kilted/Rolling 全版本支援
+- **與我們的關聯（一句話）**：ROS 開發者的標準可視化工具，調試機器人感知和規劃的必備
+- **Link(s)**：https://github.com/ros2/rviz | http://wiki.ros.org/rviz
+
+---
+
+### rosbag2
+
+- **Name**：rosbag2
+- **Type**：Tool
+- **Primary language**：English
+- **一句話定位**：ROS 2 的數據記錄和回放工具，是 ROS 1 rosbag 的繼承者
+- **強項（≤3）**：
+  - 支援多種存儲格式：SQLite3（預設）、MCAP（推薦，有索引壓縮）
+  - 靈活的記錄選項：按大小/時間分割、壓縮、快照模式
+  - 可透過服務遠端控制：暫停、繼續、分割、快照
+- **弱項/缺口（≤3，可觀察）**：
+  - MCAP 壓縮需額外配置
+  - 大型 bag 檔案處理需注意效能
+  - 無中文文檔
+- **活躍度訊號**：ROS 2 官方維護，ros-$ROS_DISTRO-rosbag2 包隨 ros-base 安裝
+- **與我們的關聯（一句話）**：機器人數據收集和重現的核心工具，從調試到訓練數據的基礎設施
+- **Link(s)**：https://github.com/ros2/rosbag2
+
+---
+
+*條目數：38 / 目標：10 ✅*

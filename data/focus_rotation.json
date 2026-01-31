@@ -1,11 +1,11 @@
 {
-  "last_focus": "creators_international",
+  "last_focus": "toolchains",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
     "gaps 深化 (補充更多佐證)",
-    "toolchains (新增模擬器/框架)",
-    "hardware (傳感器補強)"
+    "hardware (傳感器補強)",
+    "communities (非英語論壇)"
   ],
   "focus_history": [
     {
@@ -287,6 +287,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 41: Added 8 international/non-English creators: ElectroBOOM (Iranian-Canadian 8.65M), Andreas Spiess (Swiss IoT), bitluni (German ESP32), HomoFaciens (German CNC), Electronoobs (Spanish Arduino), Akiyuki (Japanese LEGO), thang010146 (Vietnamese mechanics), Teaching Tech (Australian 3D printing). Creators now at 28/10. Addresses Gap #4 #7 language diversity."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "toolchains",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 42: Added 8 ROS 2 core tools: BehaviorTree.CPP (Nav2 behavior trees), slam_toolbox (SLAM), Foxglove (observability), robot_localization (sensor fusion), ros2_control (hardware abstraction), PlotJuggler (data viz), RViz 2 (3D viz), rosbag2 (data recording). Toolchains now at 38/10. Discovered via GitHub topics behavior-tree."
     }
   ]
 }

@@ -10,7 +10,7 @@
 |------|------|------|------|
 | communities.md | ≥15 | 25 | ✅ |
 | platforms.md | ≥15 | 24 | ✅ |
-| toolchains.md | ≥10 | 30 | ✅ |
+| toolchains.md | ≥10 | 38 | ✅ |
 | hardware.md | ≥15 | 19 | ✅ |
 | kits.md | ≥10 | 18 | ✅ |
 | learning.md | ≥15 | 29 | ✅ |
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 41 輪 creators_international — 新增 8 個國際創作者：伊朗裔加拿大1 瑞士1 德國2 西班牙1 日本1 越南1 澳洲1）*
+*最後更新：2026-01-31 （第 42 輪 toolchains — 新增 8 個 ROS 2 核心工具：BehaviorTree.CPP slam_toolbox Foxglove robot_localization ros2_control PlotJuggler RViz2 rosbag2）*

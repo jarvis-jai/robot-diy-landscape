@@ -100,3 +100,15 @@ Philippines maker electronics 3D printer,web_fetch-direct,2026-01-31,na,found Ma
 Spain Raspberry Pi official retailer maker,web_fetch-direct,2026-01-31,na,found Tiendatec - official Pi 5 retailer Home Assistant
 robotics DIY YouTuber Germany Japan Korean French 2024 2025,web_fetch-multi,2026-01-31,na,found ElectroBOOM Wikipedia bitluni GitHub Andreas Spiess GitHub HomoFaciens site Electronoobs site Akiyuki channel thang010146 channel Teaching Tech site - international creators
 international electronics maker YouTuber non-English German Spanish Japanese,web_fetch-github-direct,2026-01-31,na,discovered 8 non-English/international creators via GitHub profiles Wikipedia and direct channel exploration
+robot-testing GitHub topic,web_fetch-github,2026-01-31,na,topic exists but no public repos yet
+ros-testing GitHub topic,web_fetch-github,2026-01-31,na,topic exists but no public repos yet
+behavior-tree GitHub topic,web_fetch-github,2026-01-31,na,245 repos - found BehaviorTree.CPP awesome-ros-deliberation
+robot-visualization GitHub topic,web_fetch-github,2026-01-31,na,only 1 repo - limited
+BehaviorTree.CPP GitHub,web_fetch-direct,2026-01-31,na,v4.8 C++17 - Nav2 core - Groot2 IDE - MIT
+slam_toolbox GitHub,web_fetch-direct,2026-01-31,na,Steve Macenski - JOSS 2021 - lifelong mapping - 200K sqft
+foxglove.dev,web_fetch-direct,2026-01-31,na,observability platform - Shield AI Wayve Dexterity - SDK Agent CLI API
+robot_localization GitHub,web_fetch-direct,2026-01-31,na,CRA - EKF/UKF - 1.8K stars 996 forks - 2014 to present
+ros2_control GitHub,web_fetch-direct,2026-01-31,na,hardware abstraction - 802 stars - control.ros.org - Apache 2.0
+PlotJuggler GitHub,web_fetch-direct,2026-01-31,na,v3.15 - time series viz - ROS CSV PX4 - MPL-2.0 - Gold Sponsors
+RViz 2 GitHub,web_fetch-direct,2026-01-31,na,ROS 2 official - 3D viz - pluggable transform library
+rosbag2 GitHub,web_fetch-direct,2026-01-31,na,ROS 2 data recording - SQLite3 MCAP - snapshot mode - services
