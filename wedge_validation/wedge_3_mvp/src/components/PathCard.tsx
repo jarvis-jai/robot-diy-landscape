@@ -56,8 +56,24 @@ interface PathTranslation {
   emoji?: string;
 }
 
+interface StepTranslation {
+  title?: string;
+  goals?: string[];
+  description?: string;
+  budget?: Record<string, { hardware?: string | null; reason?: string }>;
+  options?: Array<{ type: string; description: string }>;
+}
+
 interface Translations {
   paths: Record<string, PathTranslation>;
+  steps?: Record<string, Record<string, StepTranslation>>;
+  stepLabels?: {
+    overBudget: string;
+    hardware: string;
+    goals: string;
+    resources: string;
+    communities: string;
+  };
   result: {
     estimatedTime: string;
     estimatedBudget: string;
@@ -89,6 +105,24 @@ export default function PathCard({ path, budgetTier, resources, communities, tra
   const pathTranslation = translations.paths[path.id];
   const pathName = pathTranslation?.name || path.name;
   const pathDescription = pathTranslation?.description || path.description;
+  
+  // Helper to get step translations
+  const getStepTranslation = (stepNum: number): StepTranslation | undefined => {
+    return translations.steps?.[path.id]?.[stepNum.toString()];
+  };
+  
+  // Helper to get translated hardware text
+  const getTranslatedHardware = (stepNum: number, tierKey: string, originalHardware: string): string => {
+    const stepTrans = getStepTranslation(stepNum);
+    return stepTrans?.budget?.[tierKey]?.hardware || originalHardware;
+  };
+  
+  // Helper to get translated skip reason
+  const getTranslatedReason = (stepNum: number, tierKey: string, originalReason: string): string => {
+    const stepTrans = getStepTranslation(stepNum);
+    return stepTrans?.budget?.[tierKey]?.reason || originalReason || 
+           (translations.stepLabels?.overBudget || (locale === 'zh-TW' ? '超出預算' : 'Over budget'));
+  };
   
   // 計算總預算和總時間
   let totalBudget = 0;
@@ -134,17 +168,31 @@ export default function PathCard({ path, budgetTier, resources, communities, tra
       <div className="path-steps">
         {path.steps.map((step, index) => {
           const stepBudget = step.budget?.[budgetTierKey];
+          const stepTrans = getStepTranslation(step.step);
+          
+          // Get translated step content
+          const stepTitle = stepTrans?.title || step.title;
+          const stepGoals = stepTrans?.goals || step.goals;
+          const stepDescription = stepTrans?.description || step.description;
+          
+          // Get labels
+          const labels = translations.stepLabels || {
+            hardware: locale === 'zh-TW' ? '硬體' : 'Hardware',
+            goals: locale === 'zh-TW' ? '目標' : 'Goals',
+            resources: locale === 'zh-TW' ? '資源' : 'Resources',
+            communities: locale === 'zh-TW' ? '社群' : 'Communities',
+            overBudget: locale === 'zh-TW' ? '超出預算' : 'Over budget'
+          };
           
           // 跳過超出預算的步驟
           if (stepBudget?.skip) {
+            const skipReason = getTranslatedReason(step.step, budgetTierKey, stepBudget.reason);
             return (
               <div key={step.step} className="step-card skipped">
                 <div className="step-number">{step.step}</div>
                 <div className="step-content">
-                  <h3 className="step-title">{step.title}</h3>
-                  <p className="step-skip-reason">
-                    {stepBudget.reason || (locale === 'zh-TW' ? '超出預算' : 'Over budget')}
-                  </p>
+                  <h3 className="step-title">{stepTitle}</h3>
+                  <p className="step-skip-reason">{skipReason}</p>
                 </div>
               </div>
             );
@@ -156,35 +204,39 @@ export default function PathCard({ path, budgetTier, resources, communities, tra
               <div key={step.step} className="step-card redirect">
                 <div className="step-number">{step.step}</div>
                 <div className="step-content">
-                  <h3 className="step-title">{step.title}</h3>
-                  {step.description && <p className="step-description">{step.description}</p>}
+                  <h3 className="step-title">{stepTitle}</h3>
+                  {stepDescription && <p className="step-description">{stepDescription}</p>}
                 </div>
               </div>
             );
           }
           
+          // Get translated hardware
+          const hardwareText = stepBudget?.hardware ? 
+            getTranslatedHardware(step.step, budgetTierKey, stepBudget.hardware) : null;
+          
           return (
             <div key={step.step} className="step-card">
               <div className="step-number">{step.step}</div>
               <div className="step-content">
-                <h3 className="step-title">{step.title}</h3>
+                <h3 className="step-title">{stepTitle}</h3>
                 <p className="step-duration">⏱️ {step.duration}</p>
                 
                 {/* Hardware */}
-                {stepBudget?.hardware && (
+                {hardwareText && (
                   <div className="step-hardware">
-                    <strong>🔧 {locale === 'zh-TW' ? '硬體' : 'Hardware'}:</strong>
-                    <span>{stepBudget.hardware}</span>
+                    <strong>🔧 {labels.hardware}:</strong>
+                    <span>{hardwareText}</span>
                     {stepBudget.cost > 0 && <span className="cost">~${stepBudget.cost}</span>}
                   </div>
                 )}
                 
                 {/* Goals */}
-                {step.goals && step.goals.length > 0 && (
+                {stepGoals && stepGoals.length > 0 && (
                   <div className="step-goals">
-                    <strong>🎯 {locale === 'zh-TW' ? '目標' : 'Goals'}:</strong>
+                    <strong>🎯 {labels.goals}:</strong>
                     <ul>
-                      {step.goals.map((goal, i) => (
+                      {stepGoals.map((goal, i) => (
                         <li key={i}>{goal}</li>
                       ))}
                     </ul>
@@ -194,7 +246,7 @@ export default function PathCard({ path, budgetTier, resources, communities, tra
                 {/* Resources */}
                 {step.resources && step.resources.length > 0 && (
                   <div className="step-resources">
-                    <strong>📚 {locale === 'zh-TW' ? '資源' : 'Resources'}:</strong>
+                    <strong>📚 {labels.resources}:</strong>
                     <div className="resource-links">
                       {step.resources.map(resourceId => {
                         const resource = resources[resourceId];
@@ -219,7 +271,7 @@ export default function PathCard({ path, budgetTier, resources, communities, tra
                 {/* Communities */}
                 {step.communities && step.communities.length > 0 && (
                   <div className="step-communities">
-                    <strong>💬 {locale === 'zh-TW' ? '社群' : 'Communities'}:</strong>
+                    <strong>💬 {labels.communities}:</strong>
                     <div className="community-links">
                       {step.communities.map(communityId => {
                         const community = communities[communityId];

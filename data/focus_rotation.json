@@ -1,9 +1,9 @@
 {
-  "last_focus": "wedge_3_i18n_fix",
+  "last_focus": "wedge_3_steps_i18n",
   "next_focus_candidates": [
     "Wedge #3 Vercel 部署",
     "Wedge #2 Reddit 發布",
-    "步驟詳情 i18n（進階）"
+    "Polish UI / Responsive 測試"
   ],
   "focus_history": [
     {
@@ -177,6 +177,13 @@
       "files_modified": 3,
       "result": "ALLOW",
       "note": "Round 26: ✅ 問卷 i18n 完善！(1) Questionnaire.tsx 改用 translations prop 獲取問題與選項翻譯; (2) PathCard.tsx 改用 translations 獲取路徑名稱/描述; (3) index.tsx 傳入翻譯物件。Build 成功, dev 測試顯示英文問卷正常。步驟詳情翻譯待後續處理。"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "wedge_3_steps_i18n",
+      "files_modified": 3,
+      "result": "ALLOW",
+      "note": "Round 27: ✅ 步驟詳情 i18n 完成！(1) en.json +steps block (17 步驟完整翻譯: wheeled 5, arm 5, drone 4, unsure 3 - 含 title/goals/hardware/reason); (2) PathCard.tsx 重構使用 stepTranslation 獲取翻譯; (3) zh-TW.json +stepLabels。Build 成功。英文使用者現在看到完整英文步驟。"
     }
   ]
 }

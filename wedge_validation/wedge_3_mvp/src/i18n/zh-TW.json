@@ -225,5 +225,13 @@
     "dataSource": "資料來源：robot-diy-landscape",
     "github": "GitHub",
     "feedback": "回饋意見"
+  },
+
+  "stepLabels": {
+    "overBudget": "超出預算",
+    "hardware": "硬體",
+    "goals": "目標",
+    "resources": "資源",
+    "communities": "社群"
   }
 }

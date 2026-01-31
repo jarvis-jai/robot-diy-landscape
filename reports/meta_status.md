@@ -1,33 +1,33 @@
-## Meta Status — 2026-01-31 01:30
+## Meta Status — 2026-01-31 01:40
 
-## 🌐 問卷 i18n 完善（第 26 輪）
+## 🌍 步驟詳情 i18n 完成（第 27 輪）
 
-**v1 於第 18 輪完成。第 19-26 輪進入驗證/開發階段。**
+**v1 於第 18 輪完成。第 19-27 輪進入驗證/開發階段。**
 
 | 維度 | 目標 | 實際 | 狀態 |
 |------|------|------|------|
 | Landscape 類別 | 9/9 | 9/9 | ✅ |
 | Gap Hypotheses | 10 | 10 | ✅ |
 | Opportunity Wedges | 3 | 3 | ✅ |
-| **Wedge #3 MVP** | 可運行 | **i18n 完善** | ✅ |
+| **Wedge #3 MVP** | 完整 i18n | **步驟翻譯完成** | ✅ |
 | 總條目數 | — | 136 | — |
-| 連續 ALLOW 輪數 | — | 26 | 🔥 |
+| 連續 ALLOW 輪數 | — | 27 | 🔥 |
 
 ---
 
 - **最近 focus 輪替摘要：**
   - 已覆蓋類別：全部 9/9 達標
-  - **🎯 第 26 輪：問卷 i18n 完善 — 問卷現在正確顯示多語言！**
+  - **🎯 第 27 輪：步驟詳情 i18n 完成 — 17 個步驟全部有英文翻譯！**
   - 邊際產出下降的類別：暫無（開發模式）
   - 已達標項目：**9/9 landscape + 10 gaps + 3 wedges**
-  - 本輪模式：**MVP 品質提升階段**
+  - 本輪模式：**MVP 品質完善階段**
 
-- **本輪新增關鍵產出（第 26 輪 i18n 修復）：**
-  1. **✅ Questionnaire.tsx** — 使用 translations prop 獲取問題與選項翻譯
-  2. **✅ PathCard.tsx** — 使用 translations 獲取路徑名稱/描述
-  3. **✅ index.tsx** — 傳入翻譯物件給子元件
-  4. **TypeScript 修復** — Step 類型改為 optional 以支援 unsure 路徑的特殊結構
-  5. **驗證結果** — Build 成功，英文問卷正確顯示
+- **本輪新增關鍵產出（第 27 輪 Steps i18n）：**
+  1. **✅ en.json +steps block** — 17 個步驟完整翻譯（wheeled 5, arm 5, drone 4, unsure 3）
+  2. **✅ 翻譯內容** — title, goals[], hardware, reason 全部覆蓋
+  3. **✅ PathCard.tsx 重構** — 新增 getStepTranslation/getTranslatedHardware/getTranslatedReason helpers
+  4. **✅ stepLabels** — 兩語言檔案都添加了一致的標籤定義
+  5. **驗證結果** — `npm run build` 成功，無 TypeScript 錯誤
 
 - **穩定浮現的 gap patterns（≤3）：**
   1. **語言障礙**：中文圈（尤其繁體中文）、西班牙語圈的進階資源嚴重不足
@@ -37,12 +37,12 @@
 - **當前探索健康度：**
   - 重複率：N/A（本輪為開發，無新 URL 探索）
   - 新站命中率：N/A
-  - 是否出現疲乏跡象：**否**（連續 26 輪 ALLOW）
-  - **MVP 健康度**：✅ i18n 架構完善
+  - 是否出現疲乏跡象：**否**（連續 27 輪 ALLOW）
+  - **MVP 健康度**：✅ i18n 架構完整
 
 - **對下一階段的建議策略：**
   - **立即**：Vercel 部署 → robotics-onramp.vercel.app（需人類操作登入）
-  - **短期**：步驟詳情 i18n（learning_paths.json 內的 step.title/goals）
+  - **短期**：Responsive 測試 / UI 微調
   - **次選**：Wedge #2 Reddit 發布（需選擇活躍時段）
   - **暫停**：新條目探索（除非發現重大遺漏）
 
@@ -56,8 +56,8 @@
 | ✅ 規格定義 | 完成 | wedge_3_mvp_spec.md |
 | ✅ 前端骨架 | 完成 | Next.js + React 元件 + i18n |
 | ✅ 本地測試 | 通過 | npm run dev 成功, HTML 正確渲染 |
-| ✅ 問卷 i18n | **完成** | 問題/選項/路徑名稱使用翻譯檔 |
-| 🔲 步驟詳情 i18n | 待執行 | step.title, step.goals 需翻譯 |
+| ✅ 問卷 i18n | 完成 | 問題/選項/路徑名稱使用翻譯檔 |
+| ✅ 步驟詳情 i18n | **完成** | 17 步驟 title/goals/hardware 全部翻譯 |
 | 🔲 Vercel 部署 | 待執行 | 需人類登入 Vercel 帳號 |
 | 🔲 Reddit 測試 | 待規劃 | r/AskRobotics 首發 |
 
@@ -68,12 +68,17 @@
 | 元素 | EN | zh-TW | 備註 |
 |------|-----|-------|------|
 | Hero 標題/副標 | ✅ | ✅ | |
-| 問卷問題文字 | ✅ | ✅ | 第 26 輪修復 |
-| 問卷選項標籤 | ✅ | ✅ | 第 26 輪修復 |
-| 路徑名稱/描述 | ✅ | ✅ | 第 26 輪修復 |
-| 步驟標題 | 🔲 | ✅ | 僅中文 |
-| 步驟目標 | 🔲 | ✅ | 僅中文 |
+| 問卷問題文字 | ✅ | ✅ | 第 26 輪 |
+| 問卷選項標籤 | ✅ | ✅ | 第 26 輪 |
+| 路徑名稱/描述 | ✅ | ✅ | 第 26 輪 |
+| 步驟標題 | ✅ | ✅ | **第 27 輪** |
+| 步驟目標 | ✅ | ✅ | **第 27 輪** |
+| 步驟硬體 | ✅ | ✅ | **第 27 輪** |
+| 步驟跳過原因 | ✅ | ✅ | **第 27 輪** |
 | UI 按鈕/標籤 | ✅ | ✅ | |
+| stepLabels | ✅ | ✅ | **第 27 輪** |
+
+**i18n 覆蓋率：100%** 🎉
 
 ---
 
@@ -99,7 +104,8 @@
 
 ## 里程碑
 
-- **第 26 輪**：✅ **問卷 i18n 完善**（問題/選項/路徑名稱翻譯正常）
+- **第 27 輪**：✅ **步驟詳情 i18n 完成**（17 步驟全面翻譯 - i18n 覆蓋率 100%）
+- **第 26 輪**：問卷 i18n 完善（問題/選項/路徑名稱翻譯正常）
 - **第 25 輪**：MVP 本地測試通過（+4 files, npm run dev 成功）
 - **第 24 輪**：Wedge #3 前端骨架完成（+10 files），MVP 結構就緒
 - **第 23 輪**：Wedge #3 核心數據完成（curated_resources + learning_paths）
@@ -115,7 +121,7 @@
 
 | Wedge | 優先級 | 驗證狀態 | 下一步 |
 |-------|--------|----------|--------|
-| #3 新手導航入口 | ⭐⭐⭐⭐⭐ | **i18n 完善** | Vercel 部署（需人類登入） |
+| #3 新手導航入口 | ⭐⭐⭐⭐⭐ | **i18n 100% 完成** | Vercel 部署（需人類登入） |
 | #2 Sim-to-Real 指南 | ⭐⭐⭐⭐ | 社群發文準備完成 | 選擇活躍時段發布 |
 | #1 繁中進階學習路徑 | ⭐⭐⭐ | 構想中 | 待 #3 驗證後評估 |
 
@@ -133,20 +139,20 @@ wedge_3_mvp/
 ├── src/
 │   ├── components/
 │   │   ├── Questionnaire.tsx  # 5 題問卷 + i18n 支援 ✅
-│   │   ├── PathCard.tsx       # 路徑結果卡片 + i18n 支援 ✅
+│   │   ├── PathCard.tsx       # 路徑結果卡片 + 步驟 i18n ✅
 │   │   └── ResourceCard.tsx   # 資源展示卡片
 │   ├── pages/
 │   │   ├── _app.tsx           # 全局包裝器
-│   │   └── index.tsx          # 首頁 + 傳入翻譯物件 ✅
+│   │   └── index.tsx          # 首頁 + 傳入翻譯物件
 │   ├── styles/
 │   │   └── globals.css        # 完整 Tailwind + 自訂樣式
 │   └── i18n/
-│       ├── en.json            # 英文翻譯 (~4.8KB)
-│       └── zh-TW.json         # 繁中翻譯 (~6.4KB)
+│       ├── en.json            # 英文翻譯 (~8KB - 含 steps)
+│       └── zh-TW.json         # 繁中翻譯 (~6.5KB)
 ├── wedge_3_curated_resources.json → (symlink)
 └── wedge_3_learning_paths.json → (symlink)
 ```
 
 ---
 
-*此為第 26 輪後的 meta 摘要（重大改進：問卷 i18n 完善）。下次更新預計在 Vercel 部署後或第 30 輪。*
+*此為第 27 輪後的 meta 摘要（i18n 覆蓋率達 100%）。下次更新預計在 Vercel 部署後或第 30 輪。*

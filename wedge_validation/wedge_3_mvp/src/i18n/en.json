@@ -225,5 +225,193 @@
     "dataSource": "Data: robot-diy-landscape",
     "github": "GitHub",
     "feedback": "Feedback"
+  },
+
+  "steps": {
+    "wheeled": {
+      "1": {
+        "title": "Arduino Basics",
+        "goals": ["LED and button control", "Basic motor driving", "Sensor reading"],
+        "budget": {
+          "tier1": { "hardware": "Arduino Uno Kit" },
+          "tier2": { "hardware": "Elegoo Smart Car V3" },
+          "tier3": { "hardware": "Elegoo Smart Car V3 + Sensor Extension" },
+          "tier4": { "hardware": "Arduino + Custom Parts" }
+        }
+      },
+      "2": {
+        "title": "Smart Car Project",
+        "goals": ["Obstacle avoidance", "Line following", "Remote control"],
+        "budget": {
+          "tier1": { "hardware": "(Use Step 1 hardware)" },
+          "tier2": { "hardware": "Ultrasonic + IR modules" },
+          "tier3": { "hardware": "Ultrasonic + IR + Bluetooth module" },
+          "tier4": { "hardware": "Complete sensor kit" }
+        }
+      },
+      "3": {
+        "title": "Raspberry Pi Advanced",
+        "goals": ["Linux basics", "Python control", "Basic computer vision"],
+        "budget": {
+          "tier1": { "hardware": null, "reason": "Budget limit, can stop at Step 2" },
+          "tier2": { "hardware": "Raspberry Pi Zero 2 W" },
+          "tier3": { "hardware": "Raspberry Pi 4 2GB + Camera" },
+          "tier4": { "hardware": "Raspberry Pi 5 + AI HAT" }
+        }
+      },
+      "4": {
+        "title": "ROS 2 Introduction",
+        "goals": ["ROS 2 concepts", "Gazebo simulation", "Basic SLAM"],
+        "budget": {
+          "tier1": { "hardware": null },
+          "tier2": { "hardware": null, "reason": "Requires more hardware investment" },
+          "tier3": { "hardware": "(Use Step 3 hardware + Gazebo simulation)" },
+          "tier4": { "hardware": "TurtleBot3 or DIY ROS car" }
+        }
+      },
+      "5": {
+        "title": "Autonomous Navigation Project",
+        "goals": ["Nav2 navigation", "Path planning", "Real robot deployment"],
+        "budget": {
+          "tier1": { "hardware": null },
+          "tier2": { "hardware": null },
+          "tier3": { "hardware": null, "reason": "Requires LiDAR and other sensors" },
+          "tier4": { "hardware": "LiDAR + Depth Camera" }
+        }
+      }
+    },
+    "arm": {
+      "1": {
+        "title": "Arduino & Servo Basics",
+        "goals": ["Servo control principles", "PWM signals", "Single-axis motion"],
+        "budget": {
+          "tier1": { "hardware": "Arduino + SG90 Servos" },
+          "tier2": { "hardware": "Arduino + MG996R Servo Set" },
+          "tier3": { "hardware": "Arduino + Metal Servo Set" },
+          "tier4": { "hardware": "Pro Dev Board + High-Torque Servos" }
+        }
+      },
+      "2": {
+        "title": "3-4 Axis Arm Project",
+        "goals": ["Multi-axis coordinated control", "Basic inverse kinematics", "Position playback"],
+        "budget": {
+          "tier1": { "hardware": "3D printed or wooden arm" },
+          "tier2": { "hardware": "Acrylic 4-DOF Arm Kit" },
+          "tier3": { "hardware": "DFRobot 5-DOF Arm" },
+          "tier4": { "hardware": "DFRobot 6-DOF 25kg Arm" }
+        }
+      },
+      "3": {
+        "title": "Advanced Control & Python",
+        "goals": ["Python control interface", "Basic computer vision", "GUI control"],
+        "budget": {
+          "tier1": { "hardware": null },
+          "tier2": { "hardware": "Raspberry Pi Zero 2 W" },
+          "tier3": { "hardware": "Raspberry Pi 4" },
+          "tier4": { "hardware": "Raspberry Pi 5 + Camera" }
+        }
+      },
+      "4": {
+        "title": "MoveIt & ROS 2",
+        "goals": ["URDF modeling", "MoveIt configuration", "Motion planning"],
+        "budget": {
+          "tier1": { "hardware": null },
+          "tier2": { "hardware": null },
+          "tier3": { "hardware": "(Simulation-focused)" },
+          "tier4": { "hardware": "Thor or SO-ARM100 Open Source Arm" }
+        }
+      },
+      "5": {
+        "title": "Industrial-Grade Open Source Arm",
+        "goals": ["AR4 assembly", "ROS 2 integration", "Vision-based grasping"],
+        "budget": {
+          "tier1": { "hardware": null },
+          "tier2": { "hardware": null },
+          "tier3": { "hardware": null },
+          "tier4": { "hardware": "AR4 MK4 Parts" }
+        }
+      }
+    },
+    "drone": {
+      "1": {
+        "title": "Flight Principles & Simulation",
+        "goals": ["Quadcopter flight principles", "Simulator practice", "Remote control skills"],
+        "budget": {
+          "tier1": { "hardware": "Simulator only" },
+          "tier2": { "hardware": "Simulator + Controller" },
+          "tier3": { "hardware": "Simulator + Pro Controller" },
+          "tier4": { "hardware": "Simulator + Pro Equipment" }
+        }
+      },
+      "2": {
+        "title": "Beginner Kit Flight",
+        "goals": ["Basic flying", "Battery management", "Maintenance"],
+        "budget": {
+          "tier1": { "hardware": "Tiny Whoop-style Micro Quad" },
+          "tier2": { "hardware": "CrazyFlie Nano" },
+          "tier3": { "hardware": "5-inch FPV Kit" },
+          "tier4": { "hardware": "Pro FPV Quad" }
+        }
+      },
+      "3": {
+        "title": "DIY Assembly",
+        "goals": ["Frame assembly", "ESC setup", "Flight controller flashing"],
+        "budget": {
+          "tier1": { "hardware": null },
+          "tier2": { "hardware": "Basic DIY Parts" },
+          "tier3": { "hardware": "Mid-range DIY Kit" },
+          "tier4": { "hardware": "High-end Parts" }
+        }
+      },
+      "4": {
+        "title": "Autonomous Flight Intro",
+        "goals": ["ArduPilot basics", "GPS navigation", "Mission planning"],
+        "budget": {
+          "tier1": { "hardware": null },
+          "tier2": { "hardware": null },
+          "tier3": { "hardware": "ArduPilot-compatible Flight Controller" },
+          "tier4": { "hardware": "Pixhawk 6C + GPS" }
+        }
+      }
+    },
+    "unsure": {
+      "1": {
+        "title": "Electronics Basics & Arduino",
+        "goals": ["Basic circuits", "Programming intro", "Sensor experience"],
+        "budget": {
+          "tier1": { "hardware": "Arduino Starter Kit" },
+          "tier2": { "hardware": "Complete Arduino Kit" },
+          "tier3": { "hardware": "Arduino + ESP32 Dual Kit" },
+          "tier4": { "hardware": "Comprehensive Electronics Kit" }
+        }
+      },
+      "2": {
+        "title": "Try Three Directions",
+        "goals": ["Complete one full project", "Confirm your interest"],
+        "budget": {
+          "tier1": { "hardware": "Choose one entry-level hardware" },
+          "tier2": { "hardware": "Choose one direction" },
+          "tier3": { "hardware": "Can try two directions" },
+          "tier4": { "hardware": "Try all three" }
+        },
+        "options": [
+          { "type": "wheeled", "description": "Wheeled: Line-following car project" },
+          { "type": "arm", "description": "Robot Arm: 3-DOF arm" },
+          { "type": "drone", "description": "Drone: Simulator experience" }
+        ]
+      },
+      "3": {
+        "title": "Choose Your Specialization",
+        "description": "Based on Step 2 experience, choose a specialized path to continue"
+      }
+    }
+  },
+
+  "stepLabels": {
+    "overBudget": "Over budget",
+    "hardware": "Hardware",
+    "goals": "Goals",
+    "resources": "Resources",
+    "communities": "Communities"
   }
 }
