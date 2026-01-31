@@ -1,10 +1,10 @@
 {
-  "last_focus": "creators",
+  "last_focus": "chinese_ecosystem",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
-    "chinese_ecosystem (探索更多繁中資源)",
-    "gaps 深化 (補充更多佐證)"
+    "gaps 深化 (補充更多佐證)",
+    "platforms (補強繁中平台資訊)"
   ],
   "focus_history": [
     {
@@ -251,6 +251,13 @@
       "entries_added": 8,
       "result": "ALLOW",
       "note": "Round 36: Added 8 top-tier YouTube creators: Stuff Made Here (4.72M), Simone Giertz (2.81M), Mark Rober (72.4M), Michael Reeves (7.69M), William Osman (3.03M), Hacksmith Industries (15.4M), SmarterEveryDay (11.7M), Colin Furze (13.2M). Creators now at 20/10."
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "chinese_ecosystem",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 37: Added 8 Traditional Chinese (Taiwan) resources: CAVEDU教育團隊/機器人王國, 傑森創工(JMaker), STEAM教育學習網, 台灣智能感測科技, iCShop, 旗標科技, 飆機器人, iT邦幫忙. chinese_ecosystem now at 19/10. Addresses Gap #4 繁中資源不足."
     }
   ]
 }

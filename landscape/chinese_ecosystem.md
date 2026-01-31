@@ -258,4 +258,172 @@
 
 ---
 
-*最後更新：2026-01-31（第 9 輪 chinese_ecosystem）*
+### CAVEDU 教育團隊 / 機器人王國
+
+- **Name**：CAVEDU 教育團隊 / 機器人王國 (RobotKingdom)
+- **Type**：Education / Commerce
+- **Region**：Taiwan
+- **Primary language**：繁體中文
+- **一句話定位**：台灣最具規模的機器人教育機構，旗下機器人王國商城提供完整的 STEAM 教具和套件
+- **強項（≤3）**：
+  - 實體教育機構（台北中正區），有完整的 STEAM/機器人課程體系
+  - 機器人王國商城提供程式教育、AI、IoT、Maker 等六大類產品
+  - 技術部落格 blog.cavedu.com 有教學資源
+- **弱項/缺口（≤3，可觀察）**：
+  - 商城網頁結構較舊，部分頁面難以瀏覽
+  - 部落格內容萃取困難（首頁內容有限）
+  - 價格偏向教育市場，可能較高
+- **活躍度訊號**：2025 年持續運營，有實體店面和服務
+- **與我們的關聯（一句話）**：台灣機器人教育和套件的權威來源，填補繁中資源缺口
+- **Link(s)**：https://www.cavedu.com | https://robotkingdom.com.tw | https://blog.cavedu.com
+
+---
+
+### 傑森創工
+
+- **Name**：傑森創工 / JMaker
+- **Type**：Commerce / Tutorial Platform
+- **Region**：Taiwan
+- **Primary language**：繁體中文
+- **一句話定位**：台灣 Arduino/樹莓派專家店，結合商店與高品質中文教學部落格
+- **強項（≤3）**：
+  - 完整的 Arduino/ESP32 實作教學（智慧車、電子秤、PM2.5 感測、藍牙遙控等）
+  - 教學內容 2026 年持續更新（ESP32-C3 Super Mini、DeepSeek AI 等新主題）
+  - 商店滿千超商免運，提供學校採購報價
+- **弱項/缺口（≤3，可觀察）**：
+  - 機器人專題偏向入門級，缺乏 ROS 等進階內容
+  - 商店規模較小，品項可能不如大型電商齊全
+  - 僅線上商城，無實體店面（但有台北倉庫自取）
+- **活躍度訊號**：2026-01 有新文章（DeepSeek 一週年、ESP32-C3 教學），持續活躍
+- **與我們的關聯（一句話）**：繁中 Arduino/ESP32 入門的優質教學資源，結合購物便利性
+- **Link(s)**：https://www.jmaker.com.tw | https://blog.jmaker.com.tw
+
+---
+
+### STEAM 教育學習網
+
+- **Name**：STEAM 教育學習網 / oxxostudio
+- **Type**：Tutorial Platform
+- **Region**：Taiwan
+- **Primary language**：繁體中文
+- **一句話定位**：高品質繁中 STEAM 教育平台，提供 Scratch、micro:bit、Python 等免費系統化教程
+- **強項（≤3）**：
+  - 超過 450 篇 Python 教學（含影像辨識、網路爬蟲）、180+ 篇 Scratch 教學、100+ 篇 micro:bit 教學
+  - 內容免費且系統化，學習路徑清晰
+  - 涵蓋 AIGC/生成式 AI 教學（ChatGPT、Midjourney 等）
+- **弱項/缺口（≤3，可觀察）**：
+  - 無專門的機器人/ROS 教程，偏向程式設計基礎
+  - 硬體實作內容主要限於 micro:bit，無 Arduino/ESP32
+  - 無社群論壇功能
+- **活躍度訊號**：2026 年網站正常運作，版權標示 2026
+- **與我們的關聯（一句話）**：繁中 Python 和 micro:bit 入門的最佳免費資源
+- **Link(s)**：https://steam.oxxostudio.tw
+
+---
+
+### 台灣智能感測科技
+
+- **Name**：台灣智能感測科技 / TaiwanSensor
+- **Type**：Commerce
+- **Region**：Taiwan
+- **Primary language**：繁體中文
+- **一句話定位**：台灣專業感測器和 IoT 零售商，提供 ESP32 開發板、工控模組和學習套件
+- **強項（≤3）**：
+  - ESP32/8266 專區、工控模組、智慧家居等多元產品線
+  - 含稅價格、超取付款、宅配物流完善
+  - 支援學校/機關報帳流程，先出貨後付款
+- **弱項/缺口（≤3，可觀察）**：
+  - 偏向感測器和工控，純機器人套件較少
+  - 網站設計較舊，商品分類可改進
+  - 教學內容有限
+- **活躍度訊號**：2026 年持續運營，有農曆年出貨公告
+- **與我們的關聯（一句話）**：台灣 IoT/感測器零件的專業來源
+- **Link(s)**：https://www.taiwansensor.com.tw
+
+---
+
+### iCShop
+
+- **Name**：iCShop
+- **Type**：Commerce
+- **Region**：Taiwan
+- **Primary language**：繁體中文
+- **一句話定位**：台灣電子材料、模組、開發板網店，支援大量採購專案報價
+- **強項（≤3）**：
+  - 電子材料、模組、開發板、工具、教學教具齊全
+  - 提供代尋代購服務
+  - 價格含稅，支援大量採購專案報價
+- **弱項/缺口（≤3，可觀察）**：
+  - 僅網路賣場，無實體店面和自取服務
+  - 網站首頁內容萃取有限
+  - 機器人專門套件可能不如專業店齊全
+- **活躍度訊號**：網站正常運作中
+- **與我們的關聯（一句話）**：台灣電子零件和開發板的便利購物選項
+- **Link(s)**：https://www.icshop.com.tw
+
+---
+
+### 旗標科技
+
+- **Name**：旗標科技 / Flag Technology
+- **Type**：Publisher
+- **Region**：Taiwan
+- **Primary language**：繁體中文
+- **一句話定位**：台灣技術圖書出版商，有專門的 Maker 創客類書籍和教具產品線
+- **強項（≤3）**：
+  - 長期出版 Arduino、Raspberry Pi、Python 等技術書籍
+  - 有 Maker 創客專區和教具產品
+  - 台灣本土技術出版的權威品牌
+- **弱項/缺口（≤3，可觀察）**：
+  - 書籍為付費內容，非免費資源
+  - 網站產品分類不夠直觀
+  - 線上教學資源有限
+- **活躍度訊號**：2026 年網站正常運作，持續出版新書
+- **與我們的關聯（一句話）**：繁中機器人/創客書籍的主要出版來源
+- **Link(s)**：https://www.flag.com.tw
+
+---
+
+### 飆機器人
+
+- **Name**：飆機器人 / PlayRobot
+- **Type**：Commerce
+- **Region**：Taiwan
+- **Primary language**：繁體中文
+- **一句話定位**：台灣機器人套件專業商店
+- **強項（≤3）**：
+  - 專注機器人套件和相關產品
+  - 有線上商城系統
+  - 繁體中文介面
+- **弱項/缺口（≤3，可觀察）**：
+  - 網站使用模板系統，首頁內容萃取有限
+  - 產品資訊需進入商城查看
+  - 教學資源不明
+- **活躍度訊號**：shop.playrobot.com 網站正常運作
+- **與我們的關聯（一句話）**：台灣專門的機器人套件購買選項
+- **Link(s)**：https://shop.playrobot.com
+
+---
+
+### iT 邦幫忙
+
+- **Name**：iT 邦幫忙
+- **Type**：Community
+- **Region**：Taiwan
+- **Primary language**：繁體中文
+- **一句話定位**：台灣最大的 IT 技術問答社群，涵蓋 Arduino、ESP32、物聯網等 Maker 相關話題
+- **強項（≤3）**：
+  - 台灣 IT 人的技術問答首選平台
+  - 有 Arduino（72 問答/32 文章）、ESP32 等標籤分類
+  - iThome 鐵人賽累積大量高品質技術文章
+- **弱項/缺口（≤3，可觀察）**：
+  - 偏向軟體/IT，硬體和機器人專題較少
+  - 問答形式，非系統化教程
+  - 需搜尋和篩選找到 Maker 相關內容
+- **活躍度訊號**：持續有新問答和文章
+- **與我們的關聯（一句話）**：繁中技術問答的補充資源，可找到 Arduino/ESP32 疑難解答
+- **Link(s)**：https://ithelp.ithome.com.tw
+
+---
+
+*最後更新：2026-01-31（第 37 輪 chinese_ecosystem — 新增 8 個繁中資源：CAVEDU、傑森創工、STEAM 教育學習網、台灣智能感測科技、iCShop、旗標科技、飆機器人、iT 邦幫忙）*
