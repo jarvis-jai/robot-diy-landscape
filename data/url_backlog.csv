@@ -6,9 +6,9 @@ https://www.reddit.com/r/3dprinting/,discovered,communities,medium,2026-01-30,,p
 https://www.reddit.com/r/functionalprint/,discovered,communities,medium,2026-01-30,,pending,Functional 3D prints - relevant for robot parts
 https://www.reddit.com/r/electronics/,discovered,communities,medium,2026-01-30,,pending,General electronics community
 https://www.reddit.com/r/AskElectronics/,discovered,communities,medium,2026-01-30,,pending,Electronics Q&A community
-https://www.adafruit.com/,discovered,commerce,high,2026-01-30,,pending,Major robotics parts retailer
-https://www.sparkfun.com/,discovered,commerce,high,2026-01-30,,pending,Major robotics parts retailer
-https://www.seeedstudio.com/,discovered,commerce,high,2026-01-30,,pending,Robotics parts retailer - strong in Asia
+https://www.adafruit.com/,discovered,commerce,high,2026-01-30,2026-01-30,done,Added to commerce.md
+https://www.sparkfun.com/,discovered,commerce,high,2026-01-30,2026-01-30,done,Added to commerce.md
+https://www.seeedstudio.com/,discovered,commerce,high,2026-01-30,2026-01-30,done,Added to commerce.md
 https://www.ros.org/,discovered,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - ROS framework
 https://gazebosim.org/,discovered,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - robot simulation
 https://www.wokwi.com/,discovered,toolchains,medium,2026-01-30,2026-01-30,done,Added to toolchains.md - online simulator
@@ -43,14 +43,14 @@ https://luxonis.com,google-search,hardware,high,2026-01-30,2026-01-30,done,Added
 https://github.com/BCN3D/BCN3D-Moveo,google-search,hardware,high,2026-01-30,2026-01-30,done,Added to hardware.md - open source robot arm
 https://arctosrobotics.com,google-search,hardware,high,2026-01-30,2026-01-30,done,Added to hardware.md - modern 6-axis robot arm
 https://www.scuttlerobot.org,google-search,hardware,high,2026-01-30,2026-01-30,done,Added to hardware.md - mobile robot platform
-https://www.robotshop.com,google-search,commerce,high,2026-01-30,,pending,Major robotics parts retailer - stepper motor controllers
+https://www.robotshop.com,google-search,commerce,high,2026-01-30,2026-01-30,done,Added to commerce.md
 https://docs.luxonis.com,discovered,learning,high,2026-01-30,,pending,Luxonis OAK documentation
 https://docs.odriverobotics.com,discovered,learning,high,2026-01-30,,pending,ODrive documentation
 https://www.jetson-ai-lab.com,discovered,learning,high,2026-01-30,,pending,Jetson AI Lab tutorials
 https://emanual.robotis.com,discovered,learning,high,2026-01-30,,pending,DYNAMIXEL documentation
 https://www.interbotix.com,discovered,hardware,medium,2026-01-30,,pending,Trossen Robotics - robot arm kits
-https://www.waveshare.com,discovered,commerce,medium,2026-01-30,,pending,Electronics modules retailer - strong in Asia
-https://www.dfrobot.com,discovered,commerce,medium,2026-01-30,,pending,DFRobot - robotics components China-based
+https://www.waveshare.com,discovered,commerce,medium,2026-01-30,2026-01-30,done,Added to commerce.md
+https://www.dfrobot.com,discovered,commerce,medium,2026-01-30,2026-01-30,done,Added to commerce.md
 https://platformio.org/,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - embedded IDE
 https://micro.ros.org/,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - micro-ROS framework
 https://moveit.ai/,google-search,toolchains,high,2026-01-30,2026-01-30,done,Added to toolchains.md - motion planning
