@@ -1,12 +1,12 @@
 {
-  "last_focus": "gaps_deepening",
+  "last_focus": "kits",
   "next_focus_candidates": [
     "人類操作：Vercel 部署執行",
     "Wedge #2 Reddit 發布",
-    "kits (國際資源補強)",
     "commerce (國際資源補強)",
     "creators (非英語圈)",
-    "toolchains (補強)"
+    "toolchains (補強)",
+    "learning (2026 更新)"
   ],
   "focus_history": [
     {
@@ -351,6 +351,13 @@
       "gaps_updated": 3,
       "result": "ALLOW",
       "note": "Round 50: Updated Gap #3 #5 #9 with new counterevidence (LeRobot v0.4.3 X-VLA, Nav2 1.0.0, Isaac Lab expansion). All three gaps confidence level lowered. 50th consecutive ALLOW milestone!"
+    },
+    {
+      "date": "2026-01-31",
+      "focus": "kits",
+      "entries_added": 8,
+      "result": "ALLOW",
+      "note": "Round 51: Added 8 international kits - Yahboom ROSMASTER X3/DOGZILLA/DOFBOT, ELECFREAKS Cutebot Pro/XGO-Rider, Keyestudio Smart Car, Adeept RaspTank, OSOYOO Mecanum. Addresses Gap #7 (language/region diversity)."
     }
   ]
 }

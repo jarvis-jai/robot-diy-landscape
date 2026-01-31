@@ -12,7 +12,7 @@
 | platforms.md | ≥15 | 32 | ✅ |
 | toolchains.md | ≥10 | 39 | ✅ |
 | hardware.md | ≥15 | 34 | ✅ |
-| kits.md | ≥10 | 26 | ✅ |
+| kits.md | ≥10 | 34 | ✅ |
 | learning.md | ≥15 | 34 | ✅ |
 | commerce.md | ≥10 | 24 | ✅ |
 | creators.md | ≥10 | 31 | ✅ |
@@ -79,4 +79,4 @@
 
 ---
 
-*最後更新：2026-01-31 （第 49 輪 platforms — 新增 8 個專案分享平台：Kitspace、OpenHardware.io、CADLAB.io、WikiFactory、Tindie、Circuit Digest、PCBWay Community、Crowd Supply。Platforms 達 32 條目）*
+*最後更新：2026-01-31 （第 51 輪 kits 國際資源補強 — 新增 8 個國際教育機器人套件：Yahboom ROSMASTER X3/DOGZILLA/DOFBOT、ELECFREAKS Cutebot Pro/XGO-Rider、Keyestudio Smart Car、Adeept RaspTank、OSOYOO Mecanum。發現 5 個深圳主要品牌，解決 Gap #7 語言/地區不平衡。Kits 達 34 條目）*

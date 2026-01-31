@@ -548,4 +548,164 @@
 
 ---
 
-*條目數：26 / 目標：10*
+### Yahboom ROSMASTER X3
+
+- **Name**：Yahboom ROSMASTER X3
+- **Type**：Educational Kit / ROS2 Mobile Robot Platform
+- **Primary language**：Chinese / English
+- **一句話定位**：深圳亞博智能的旗艦 ROS2 教學平台，支援 Jetson Orin NX SUPER / Raspberry Pi 5
+- **強項（≤3）**：
+  - 多種 AI 平台支援：Jetson NANO 4GB、Orin NX SUPER、Orin NANO SUPER、Raspberry Pi 5
+  - 麥克納姆全向移動：可側移、斜向移動，適合複雜環境導航
+  - 完整 ROS2 生態：SLAM、導航、機械臂控制課程內容完備
+- **弱項/缺口（≤3，可觀察）**：
+  - 價格較高（高端配置 $1000+）
+  - 文檔部分為中文，英文覆蓋度有限
+  - 需要一定 ROS2 基礎才能充分利用
+- **活躍度訊號**：GitHub 88 stars 36 forks，Yahboom 1800+ 學校 90+ 國家使用
+- **與我們的關聯（一句話）**：「中國 ROS2 教育機器人」的代表，展示 AI 邊緣計算的教育應用
+- **Link(s)**：https://category.yahboom.net/collections/ros-robotics, https://github.com/YahboomTechnology/ROSMASTERX3
+
+---
+
+### Yahboom DOGZILLA S1/S2
+
+- **Name**：Yahboom DOGZILLA S1/S2
+- **Type**：Educational Kit / Quadruped Robot Dog
+- **Primary language**：Chinese / English
+- **一句話定位**：Yahboom 開發的 12 DOF 四足機器狗，基於 Raspberry Pi 5 和 ROS2-HUMBLE
+- **強項（≤3）**：
+  - 12 自由度：真正的四足運動學，支援各種步態
+  - ROS2-HUMBLE 支援：完整的機器人作業系統整合
+  - 模組化設計：可擴展 AI 相機、LiDAR 等感測器
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要較強的 Linux/ROS2 基礎
+  - 舵機耐久性需注意維護
+  - 進階功能文檔仍在完善中
+- **活躍度訊號**：GitHub 47 stars 9 forks，持續更新中
+- **與我們的關聯（一句話）**：「平價 ROS2 四足機器人」，比 Unitree 等專業級產品更易入門
+- **Link(s)**：https://category.yahboom.net/, https://github.com/YahboomTechnology/DOGZILLA
+
+---
+
+### ELECFREAKS Cutebot Pro
+
+- **Name**：ELECFREAKS Cutebot Pro
+- **Type**：Educational Kit / micro:bit Smart Car
+- **Primary language**：Chinese / English
+- **一句話定位**：深圳 ELECFREAKS 為 micro:bit 設計的進階智能車套件，支援 AI 視覺和追蹤
+- **強項（≤3）**：
+  - 完全為 micro:bit 設計：即插即用，無需焊接
+  - AI 功能整合：支援人臉偵測、顏色追蹤、手勢識別
+  - MakeCode 積木編程：低門檻入口，適合 K-12 教育
+- **弱項/缺口（≤3，可觀察）**：
+  - 綁定 micro:bit 生態，進階需要轉換平台
+  - 部分進階功能需額外購買 AI 擴展模組
+  - 主要面向中國和亞洲市場
+- **活躍度訊號**：GitHub 持續更新（2025 年），learn.elecfreaks.com 完整教學
+- **與我們的關聯（一句話）**：「micro:bit 最佳夥伴」，展示 micro:bit 生態的擴展潛力
+- **Link(s)**：https://shop.elecfreaks.com/, https://github.com/elecfreaks/pxt-Cutebot-Pro
+
+---
+
+### ELECFREAKS XGO-Rider
+
+- **Name**：ELECFREAKS XGO-Rider
+- **Type**：Educational Kit / Dual-Wheel Balancing Robot
+- **Primary language**：Chinese / English
+- **一句話定位**：基於 micro:bit 的雙輪自平衡機器人，結合仿生設計和進階運動控制
+- **強項（≤3）**：
+  - 4.5KG.CM 全金屬舵機 + FOC 輪轂馬達：穩定的全向移動能力
+  - 6 軸 IMU 整合：支援進階自平衡演算法和二次開發
+  - MakeCode 積木編程：降低入門門檻，同時支援 Python 進階
+- **弱項/缺口（≤3，可觀察）**：
+  - 價格較高（進階產品定位）
+  - 需要理解基本的運動學概念
+  - 市場覆蓋度不如傳統輪式機器人
+- **活躍度訊號**：GitHub 85 stars，2025 年持續更新
+- **與我們的關聯（一句話）**：「自平衡 + micro:bit」的創新組合，展示進階運動控制的教育化
+- **Link(s)**：https://shop.elecfreaks.com/, https://github.com/elecfreaks/XGO-Rider
+
+---
+
+### Keyestudio Smart Robot Car Kit V2.0
+
+- **Name**：Keyestudio Smart Robot Car Kit V2.0
+- **Type**：Educational Kit / Arduino Smart Car
+- **Primary language**：English / Chinese
+- **一句話定位**：深圳 KEYES 公司的 Arduino 智能車套件，567 個 GitHub repos 支持的龐大教學資源庫
+- **強項（≤3）**：
+  - 性價比高：價格實惠的 Arduino 入門平台
+  - 海量資源：GitHub 567 個 repos，涵蓋各種感測器和專案
+  - 多平台支援：Arduino、Raspberry Pi、micro:bit 全覆蓋
+- **弱項/缺口（≤3，可觀察）**：
+  - 品牌知名度不如 Arduino 官方或 Elegoo
+  - 部分文檔翻譯品質參差不齊
+  - 組裝說明可能需要額外解讀
+- **活躍度訊號**：GitHub 持續更新，64 followers
+- **與我們的關聯（一句話）**：「開源教學資源庫」的代表，展示「量」取勝的內容策略
+- **Link(s)**：https://www.keyestudio.com/, https://github.com/keyestudio
+
+---
+
+### Adeept RaspTank
+
+- **Name**：Adeept RaspTank
+- **Type**：Educational Kit / Raspberry Pi Tank Robot
+- **Primary language**：English / Chinese
+- **一句話定位**：深圳 Adeept 的 Raspberry Pi WiFi 坦克機器人，支援 OpenCV 視覺和機械臂
+- **強項（≤3）**：
+  - 坦克履帶設計：越野能力強，適合複雜地形
+  - 機械臂整合：可抓取物體，擴展應用場景
+  - 完整 Python 教程：GitHub 開源代碼 + 詳細文檔
+- **弱項/缺口（≤3，可觀察）**：
+  - 組裝複雜度較高
+  - 需要 Raspberry Pi（不含在套件中）
+  - 社群規模較小
+- **活躍度訊號**：GitHub 97 stars 96 forks，2014 年成立至今持續更新
+- **與我們的關聯（一句話）**：「履帶式 + 機械臂」的整合套件，展示多功能組合的教育價值
+- **Link(s)**：https://www.adeept.com/, https://github.com/adeept/Adeept_RaspTank
+
+---
+
+### OSOYOO Mecanum Wheel Robot Car Kit
+
+- **Name**：OSOYOO Mecanum Wheel Robot Car Kit
+- **Type**：Educational Kit / Omnidirectional Robot Car
+- **Primary language**：Multilingual (EN/JP/FR/ES/DE/IT)
+- **一句話定位**：支援 6 種語言的麥克納姆輪機器人套件，Arduino Mega2560 或 Raspberry Pi 驅動
+- **強項（≤3）**：
+  - 6 語言支援：英語、日語、法語、西班牙語、德語、義大利語完整教程
+  - 麥克納姆輪全向移動：側移、斜向、原地旋轉
+  - 雙平台版本：Arduino Mega2560 版和 Raspberry Pi 版可選
+- **弱項/缺口（≤3，可觀察）**：
+  - 需要理解麥克納姆輪運動學
+  - 輪子對地面要求較高（平滑地面效果最佳）
+  - 網站結構較複雜，教程分散
+- **活躍度訊號**：官網持續更新教程，多語言社群活躍
+- **與我們的關聯（一句話）**：「多語言教育內容」的標竿，展示國際化內容策略的可行性
+- **Link(s)**：https://osoyoo.com/
+
+---
+
+### Yahboom DOFBOT AI Vision Robot Arm
+
+- **Name**：Yahboom DOFBOT
+- **Type**：Educational Kit / Jetson Nano Robot Arm
+- **Primary language**：Chinese / English
+- **一句話定位**：Yahboom 為 Jetson NANO 開發的 AI 視覺機械臂，支援物件辨識和抓取
+- **強項（≤3）**：
+  - Jetson NANO 驅動：GPU 加速的 AI 視覺處理能力
+  - 6 DOF 機械臂：靈活的關節運動，可完成複雜任務
+  - 完整 AI 課程：OpenCV、YOLO 物件偵測、顏色分類教學
+- **弱項/缺口（≤3，可觀察）**：
+  - 價格較高（Jetson NANO + 機械臂配置）
+  - 需要較強的 Python 和深度學習基礎
+  - 機械臂精度不如工業級產品
+- **活躍度訊號**：GitHub 77 stars 27 forks，600K+ 用戶基礎
+- **與我們的關聯（一句話）**：「AI 視覺 + 機械臂」的教育整合方案，展示 Jetson 生態的應用潛力
+- **Link(s)**：https://category.yahboom.net/, https://github.com/YahboomTechnology/dofbot-jetson_nano
+
+---
+
+*條目數：34 / 目標：10*
